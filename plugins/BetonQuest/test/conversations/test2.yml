@@ -1,0 +1,58 @@
+quester: "test2"
+first: "start,Day1"
+stop: "false"
+NPC_options:
+  start:
+    text: "Привет! Вы хотите начать работать  шиноби во благо Конохи?"
+    pointers: "Gotov,Net" 
+    conditions: "!StartedShinobi,!ShinobiTag"
+  predlog:
+    text: "Внеси взнос в размере 20XP (Опыта) . Для того чтобы я понял что ты намерен\
+      \ служить конохе. PS... Опыт падает с враждебных мобов.\
+      \ Ну что ты согласен ?"
+    pointers: "Da,Net" 
+  Neud:
+    text: "У вас не достаточно опыта чтобы стать Шиноби)))\
+      \ ПС... вам нужно накопить 20 XP (ОПЫТ)."
+    conditions: "!Has20"
+  Vsnos:
+    text: "Отлично ты внес взнос ."
+    events: "Vsnos,StartedShinobi,ShinobiTag"
+  Day1:
+    text: "- Хорошо, твое сегодняшнее задание таково. Принесите мне  10 пшеницы" 
+    conditions: "StartedShinobi,ShinobiTag" 
+    pointers: "Rabota,Net"
+  RabotaQ:
+    text: "Отлично ты выполнил миссию ."
+    condition: "Has10"
+    events: "Pheno"
+    
+player_options:
+  Gotov:
+    text: "Да, я готов стать шиноби Конохи"
+    pointers: "predlog"
+  Net:
+    text: "Нет"
+  Da:
+    text: "Да я согласен внести свой опыт(20xp) и работать шиноби во благо Конохи"
+    pointers: "Neud,Vsnos,"
+  Yes:
+    text: "Да говори быстрее..."
+  Rabota:
+    text: "Предоставляю материалы"
+    condition: "Has10"
+    pointers: "RabotaQ"
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+

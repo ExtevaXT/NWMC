@@ -1,0 +1,134 @@
+id: 046d71b8-ea59-3e11-bacc-f72ac2ba341e
+name: Evalone
+created: 1562957843471
+last_cast: 1563030457848
+cooldown_expiration: 0
+last_death_location: -322.37074973640085,72.0,323.3022109396988,Survival,-20.442352,42.27753
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  spellshop:
+    cast_count: 0
+    last_cast: 1563030457848
+    last_earn: 0
+    cooldown_expiration: 0
+  jutsu:
+    cast_count: 1
+    last_cast: 1562958343873
+    last_earn: 0
+    cooldown_expiration: 0
+  spshop:
+    cast_count: 0
+    last_cast: 1563030455680
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4§7Бумага Чакры
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязан к Evalone
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PQU7CUBCGp6GUUmNMMO5NZFtjAUV2kMDCRHRBWJtpO8iT9r1n3zwIF3DncTyGB/AKJt7BUsHZ/TPzz3x/AOBAYGWu1oRxRo4D7opIOwG4G5SpDz5TrjNkgvqLZWN9qKuNpAIakzVmSpIHbo4SYV+lo5o/iRTaV72btB/FtyHh9SDsUhSFMSZJuOh3MOnE2O1FVAPXGjI7bw0aayqMULIUXkl2ZKVhNMs9WinTQmldySa0RsyFiC3TVKViIUprUBodF/z5/G48VYYX28/g7Wd84kJz17onNPw++L74Oht+eOCNcmUlD9sHdHeWKQY/RyGXVfrj/xcPmBOcPlMZTSSXyIzJaqaJ0ho0HzUVyH/YuyvVbmvyaoXOSfL5AQ/gF8LYjHBwAQAA
+    wand:
+      template: jutsu
+      owner: Evalone
+      mana: 0.0
+      owner_id: 046d71b8-ea59-3e11-bacc-f72ac2ba341e
+      uses: 0
+      version: 6
+  startjugo:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 383
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Улучшенный Геном Клана Джуго
+        lore:
+        - §o§aТехники Улучшенного Генома
+        - §a Клана Джуго
+        - §3§oПривязан к Evalone
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 4/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PP1LCYBDFN0OABEcLvIAFbRwDKNjJAIUzogVSM5tkwQ/y/THZwDksbLyAF7HgCh6Cwt7Cjzi61c7O7719rwHggLsmMk4D3C2qxAOPSZoUmcDPGTNeFUvtQVVvFWVQH28w1Yqq4EpUONwBuHByWOcsJFmBNNZzvd9+flirUjQXCbQuuldJL4z6AeHlddChMAwijONg0Wtj3I6w0w2pAvUNZbnQCgBqNtlRoZJMG4NRSo4PzQFzJqKCaaITsRCWbVjSccGbzW5HE53zY/+l8+WNVi74h9MdYc5vQfy6+37f16A2kLpQfNOCcjxwp6lm8CQK9VSWP/5/cY+S4HRJtoCIz5EZ4/XUECUV8B8MZci/OQ8uJdscPxfCSFJ89hcP4AeJ450PYQEAAA==
+    wand:
+      template: startjugo
+      owner: Evalone
+      mana: 400.0
+      mana_timestamp: 1563057183172
+      owner_id: 046d71b8-ea59-3e11-bacc-f72ac2ba341e
+      version: 6
+  startearth:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 365
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Земли
+        lore:
+        - §o§aТехники Стихии Земли
+        - §3§oПривязан к Evalone
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1Pv0rDYBC/0LRNIorUXRy6Rpq2Wt0sWlCwOpTO5ZJc7Ufz/TG5tLsv4qy7u48gbuIz6DP4NaIHB8fx+xsAOOAuiYwTgLtGlXrgMUmTIRMEBWPOZHfhQV2vFeXQHK0w04rq4EpUeH4J4MLO5pyxkGQZ0ljR5df6I7RaFWkmUmh3+sfpIIpPQsKj07BHURTGmCThfNDFpBtjrx9RDZoryguhFQA0bLStUqW5NgbjjBwfWkPmXMQl01inYi4sNrBIxwVvOr26GOuC6w+fz+/7428X/M3rmrDgx93Xzkvr6a0BjaHUpeKzNlTjgTvJNIMnUahF1X773+IGJcHeHdkCIjlEZkyWE0OU1sC/NZQj/+bcqFTY1ui+FEaS4oO/eAA/rhPKxGIBAAA=
+    wand:
+      template: startearth
+      owner: Evalone
+      mana: 200.0
+      mana_timestamp: 1563057183021
+      owner_id: 046d71b8-ea59-3e11-bacc-f72ac2ba341e
+      version: 6
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 0
+properties:
+  version: 6
+classes:
+  caster:
+    mana_timestamp: 1563057184021
+    mana: 50.0
+  mage: {}
+active_class: mage
+health: 20.0

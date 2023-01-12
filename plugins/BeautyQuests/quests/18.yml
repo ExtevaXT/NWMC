@@ -1,0 +1,106 @@
+quest:
+- requirements:
+  - questID: 17
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: От наших разведчиков поступила информация, что возле Конохи собралась
+          банда разбойников
+    - id: 2
+      message:
+        sender: NPC
+        text: Твоя задача избавиться от них
+    - id: 3
+      message:
+        sender: PLAYER
+        text: Где их найти?
+    - id: 4
+      message:
+        sender: NPC
+        text: Спроси сторожа на сторожевой вышке, у него есть информация
+  manager:
+    stages:
+    - msg:
+        npc: 476
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Здравствуйте, знаете ли вы где находятся разбойники?
+        - id: 1
+          message:
+            sender: NPC
+            text: Да я их видел
+        - id: 2
+          message:
+            sender: NPC
+            text: Их логово возле этой сторожевой вышки
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Спасибо за информацию
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 476
+      order: 0
+    - mobs:
+      - bmob: PIG_ZOMBIE
+        amount: 3
+      stageType: MOBS
+      customText: null
+      text: null
+      rewards: []
+      remaining:
+        '0': []
+      order: 1
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я избавился от этих разбойников
+        - id: 1
+          message:
+            sender: NPC
+            text: Отлично, вот твоя награда
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 2
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 100
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-C №2
+  finished:
+  - '0'
+  id: 18
+  scoreboard: true
+  cancellable: false

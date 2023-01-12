@@ -1,0 +1,15 @@
+ryo2:
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Рьё
+      enchants:
+        VANISHING_CURSE: 5
+      ItemFlags:
+      - HIDE_ENCHANTS

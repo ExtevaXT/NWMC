@@ -1,0 +1,22 @@
+# This is the server motd.
+Server-MOTD:
+  Line-1: '&c&k!!&f&lＮｉｎｊａ &b&lＷｏｒｌｄ&c&k!!&r &8|                                         &9➀.➀➁'
+  Line-2: '&c&k!!&r     &c&lＭＣ     &0&k!&c&k!!&r &8|            &7&L Survival/RPG
+    сервер по Наруто'
+# The motd of the player when they join in.
+JoinGame-MOTD:
+  Enabled: true
+  # Check forum for placeholders.
+  # Supported for PlaceholderAPI placeholders.
+  Messages:
+  - '&3Добро пожаловать на Ninja World.'
+# Server icon.
+Custom-Server-Icon:
+  # Set to true will load image from motd folder.
+  Enabled: false
+  # Make sure it's 64 x 64 pixels with png format.
+  Image: server-icon.png
+# The maximum players of the server.
+Server-Maximum-Players:
+  Modify: true
+  Maximum-Players: 200

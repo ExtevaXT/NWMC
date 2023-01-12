@@ -1,0 +1,41 @@
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&4&lИнформация о техниках'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'jutsuhelp2'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+
+
+
+
+menu:
+  COMMAND: 'help'
+  NAME: '&e&lВ меню&b'
+  ID: '262'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 6
+right:
+  COMMAND: 'jutsuhelp2'
+  NAME: '&e&lВперёд&b'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 6
+  ID: '262'
+left:
+  COMMAND: 'jutsuhelp'
+  NAME: '&e&lНазад&b'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 6
+  ID: '262'

@@ -1,0 +1,5 @@
+BoneMeal:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 15

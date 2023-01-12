@@ -1,0 +1,13 @@
+goldenapplequest:
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §e§lЗолотое Яблоко
+      internal: H4sIAAAAAAAAAE2Py06DQBhGf01MkPgYbkmGmXJbdGHEtkPKIJRLYcdlCLQDNhSM8Fw+oCxdfjnnLD4ZQIaX03US4nP4qlvBJXikFbxiQyfFBiHFwFWubHQTK3ltIEU1rbqqLNPKCZZBXqMbH8aW359BGvnPOA38LgPAgwRPcS4mDr98dlB2blB1dkQ5U33d4QkJj15uBu3juXinOu1WfnjTj7P1z9XGPNFESpwm6/2p6GJ0JIHgh0Atu+jbC0XDFnFlOFIze9emYbl4ya5ltk/cMEUujgizA5Fdyo2bpCRddle2jxsWOiLrXM0LP7C393GKqcoWd3YXimmvWrW/3a4P4A8E8KHJHAEAAA==

@@ -1,0 +1,61 @@
+actions:
+  inMenu:
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    alreadyPurchased: NONE:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    onPurchasing: NONE:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    notAvailable: NONE:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    openMenu: NONE:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    onDisabling: NONE:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    changePage: NONE:1:1
+  rpgSystem:
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    onLevelUp: NONE:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    earnExp: NONE:1:1
+  abilities:
+    triple_arrow_shot:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      onShoot: NONE:1:1
+    adrenaline_boost:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      speedSound: NONE:1:1
+    arrow_tank_skin:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: NONE:1:1
+    fire_resistance:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: NONE:1:1
+    mining_luck:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: NONE:1:1
+    woodchopping_luck:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: NONE:1:1
+    pirate:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: NONE:1:1
+    legendary_protection:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: NONE:1:1
+    vampire_mode:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      onRegenerating: NONE:1:1
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      endRegeneration: NONE:1:1
+    antidote:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: NONE:1:1
+    explosive_arrow:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: NONE:1:1
+    sword_push:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: NONE:1:1
+    aggressive_mode:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      hitSound: NONE:1:1

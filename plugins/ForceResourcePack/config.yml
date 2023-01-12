@@ -1,0 +1,23 @@
+#Server-IP CANNOT be localhost, it needs to be your actual server IP
+settings:
+    server-ip: 123.123.123
+    download-port: 4000
+    download-timeout: 120
+    accept-resourcepack-timeout: 8
+kicks:
+    kick-enabled: true
+    kick-message:
+        - '&c&lPlease enable server textures!'
+        - '&aHow-to: &6&nhttp://goo.gl/NwRRb7'
+disabled:
+    movement:
+        disable: false
+        message: '&cYou cannot move until you download the resource pack!'
+    commands:
+        disable: false
+        message: '&cThis command is disabled until you download the server resource pack!'
+        disable-all-commands: false
+        disabled-commands:
+            - tpa
+            - msg
+            - login

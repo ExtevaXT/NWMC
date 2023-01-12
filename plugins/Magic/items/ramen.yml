@@ -1,0 +1,15 @@
+ramen:
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MUSHROOM_SOUP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bИчираку Рамен
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS

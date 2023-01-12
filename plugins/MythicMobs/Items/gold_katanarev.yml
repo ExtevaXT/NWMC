@@ -1,0 +1,5 @@
+gold_katanarev:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HOE
+    damage: 53

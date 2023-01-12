@@ -1,0 +1,54 @@
+cow:
+  type: cow
+  attack: false
+  projectile: false
+  contact: false
+  drowning: false
+  interact: false
+  lava: false
+  lighting-strike: false
+  magic: false
+  poison: false
+  suffocation: false
+  explode: false
+  burn: false
+  info: false
+  biomes:
+  - PLAINS
+  worlds:
+  - world
+creeper:
+  type: creeper
+  attack: false
+  projectile: false
+  contact: false
+  drowning: false
+  interact: false
+  lava: true
+  lighting-strike: true
+  magic: false
+  poison: false
+  suffocation: false
+  explode: true
+  burn: true
+  info: true
+  biomes: []
+  worlds:
+  - world
+villager:
+  type: villager
+  attack: true
+  projectile: true
+  contact: true
+  drowning: true
+  interact: true
+  lava: true
+  lighting-strike: true
+  magic: true
+  poison: true
+  suffocation: true
+  explode: true
+  burn: true
+  info: true
+  biomes: []
+  worlds: []

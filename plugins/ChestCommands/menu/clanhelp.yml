@@ -1,0 +1,275 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&4&lИнформация о кланах'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'clanhelp'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: true
+
+menu:
+  COMMAND: 'help'
+  NAME: '&e&l Назад&b'
+  ID: '262'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 6
+
+uchiha:
+  NAME: '&c&lКлан Учиха'
+  LORE:
+  - '&fУникальная Способность: &4&lШаринган'
+  - '&fМощное Додзюцу, позволяющее использовать гендзюцу,'
+  - '&fувеличивающее скорость восприятия'
+  - '&cЕсть возможность получить Мангекьё Шаринган'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+
+uzumaki:
+  NAME: '&c&lКлан Узумаки'
+  LORE:
+  - '&fУникальная Способность: &c&lХиден Клана Узумаки'
+  - '&fМощные запечатывающие техники'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+
+aburame:
+  NAME: '&8&lКлан Абураме'
+  LORE:
+  - '&fУникальная Способность: &4&8Хиден Клана Абураме'
+  - '&fПозволяет управлять насекомыми'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+
+hatake:
+  NAME: '&7&lКлан Хатаке'
+  LORE:
+  - '&fУникальная Способность: &f&lКлинок Чакры Белого Света'
+  - '&fКлинок оставляющий после удара белую полосу чакры'
+  - '&aИмеет шанс получения Шарингана'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+
+hozuki:
+  NAME: '&3&lКлан Хозуки'
+  LORE:
+  - '&fУникальная Способность: &3&lХиден Клана Хозуки'
+  - '&fПозволяет использовать Гидратацию и мощные водные техники'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+
+hyuga:
+  NAME: '&f&lКлан Хьюга'
+  LORE:
+  - '&fУникальная Способность: &f&lБьякуган'
+  - '&fМощное Додзюцу, позволяющее видеть сквозь обьекты, видеть чакру'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+
+iburi:
+  NAME: '&8&lКлан Ибури'
+  LORE:
+  - '&fУникальная Способность: &8&lУлучшеный Геном Клана Ибури'
+  - '&fПозволяет превращать своё тело в дым'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+
+inuzuka:
+  NAME: '&4&lКлан Инузука'
+  LORE:
+  - '&fУникальная Способность: &4&lХиден Клана Инузука'
+  - '&fРазличные комбинационные техники с вашим Нинкеном'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+
+jugo:
+  NAME: '&c&lКлан Джуго'
+  LORE:
+  - '&fУникальная Способность: &c&lУлучшенный Геном Клана Джуго'
+  - '&fПозволяет модифицировать своё тело, входить в Режим Мудреца'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+kaguya:
+  NAME: '&f&lКлан Кагуя'
+  LORE:
+  - '&fУникальная Способность: &f&lШикоцумьяку'
+  - '&fСпособность манипулировать структурой собственных костей'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+
+nara:
+  NAME: '&0&lКлан Нара'
+  LORE:
+  - '&fУникальная Способность: &0&lХиден Клана Нара'
+  - '&fСпособность манипулировать тенями с помощью Стихии Инь'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+
+sarutobi:
+  NAME: '&4&lКлан Сарутоби'
+  LORE:
+  - '&fУникальная Способность: &4&lХиден Клана Сарутоби'
+  - '&fМощные огненные техники'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+
+senju:
+  NAME: '&2&lКлан Сенджу'
+  LORE:
+  - '&fУникальная Способность: &2&lСтихия Дерева'
+  - '&fСпособность выращивать и манипулировать древесным материалом'
+  - '&4&lЕсть вероятность не получения Стихии Дерева'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+
+yuki:
+  NAME: '&b&lКлан Юки'
+  LORE:
+  - '&fУникальная Способность: &b&lСтихия Льда'
+  - '&fСпособность создавать и манипулировать льдом'
+  - '&4&lЕсть вероятность не получения Стихии Льда'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+
+yamanaka:
+  NAME: '&d&lКлан Яманака'
+  LORE:
+  - '&fУникальная Способность: &d&lХиден Клана Яманака'
+  - '&fСпособность манипулировать сознанием жертвы'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+
+lee:
+  NAME: '&2&lКлан Ли'
+  LORE:
+  - '&fУникальная Способность: &2&lХиден Клана Ли'
+  - '&fУсиленные техники Тайдзюцу'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+
+chinoike:
+  NAME: '&c&lКлан Чиноике'
+  LORE:
+  - '&fУникальная Способность: &c&lКецурьюган'
+  - '&fПозволяет управлять кровью и исользовать мощное гендзюцу'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+
+akimichi:
+  NAME: '&5&lКлан Акимичи'
+  LORE:
+  - '&fУникальная Способность: &5&lХиден Клана Акимичи'
+  - '&fСпособность преобразовывать калории в чакру,'
+  - '&fувеличивать свои размеры с помощью Стихии Ян'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+
+otsusuki:
+  NAME: '&7&lКлан Ооцуцуки'
+  LORE:
+  - '&fУникальная Способность: &7&lРиннеган &f/ &f&lБьякуган &f/ &4&lШаринган'
+  - '&7&lРиннеган &fдарует способности &lБога'
+  - '&f&lБьякуган &fпозволяет видеть сквозь обьекты, видеть чакру'
+  - '&4&lШаринган &fдаёт возможность использовать мощные гендзюцу,'
+  - '&fускоряет скорость воспрятия'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6184 @@
+id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+name: Exteva
+created: 1558446097361
+last_cast: 1564336846911
+cooldown_expiration: 0
+last_death_location: -323.7776547085675,70.16610926093821,-73.58244914093974,Survival,-312.3388,23.607353
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: 12
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 8.0
+  erase: true
+undo: []
+spells:
+  ak47:
+    cast_count: 0
+    last_cast: 1558540069144
+    last_earn: 0
+    cooldown_expiration: 1558540069244
+  bombtastic:
+    cast_count: 0
+    last_cast: 1558539474022
+    last_earn: 0
+    cooldown_expiration: 1558539480022
+  torch|2:
+    cast_count: 2
+    last_cast: 1558541276100
+    last_earn: 0
+    cooldown_expiration: 0
+  torch|4:
+    cast_count: 1
+    last_cast: 1558712271248
+    last_earn: 1558712271248
+    cooldown_expiration: 1558712273248
+  counterspell|2:
+    cast_count: 0
+    last_cast: 1558861909260
+    last_earn: 0
+    cooldown_expiration: 1558861919260
+  stream|3:
+    cast_count: 1
+    last_cast: 1558763157719
+    last_earn: 1558709080515
+    cooldown_expiration: 1558763162719
+  stream|2:
+    cast_count: 1
+    last_cast: 1558709084878
+    last_earn: 1558709088043
+    cooldown_expiration: 1558709089878
+  steelwall:
+    cast_count: 1
+    last_cast: 1561456645362
+    last_earn: 0
+    cooldown_expiration: 1561456647362
+  airblast:
+    cast_count: 1
+    last_cast: 1558538654902
+    last_earn: 1558538656001
+    cooldown_expiration: 0
+  bloodgentsutsu:
+    cast_count: 20
+    last_cast: 1559842854241
+    last_earn: 1559842854240
+    cooldown_expiration: 0
+  jeweller:
+    cast_count: 0
+    last_cast: 1558857636490
+    last_earn: 0
+    cooldown_expiration: 0
+  bonewound:
+    cast_count: 19
+    last_cast: 1563579962097
+    last_earn: 0
+    cooldown_expiration: 0
+  music:
+    cast_count: 2
+    last_cast: 1558859617995
+    last_earn: 1558859617994
+    cooldown_expiration: 1558859737995
+  projector:
+    cast_count: 0
+    last_cast: 1558885574499
+    last_earn: 0
+    cooldown_expiration: 1558885634499
+  fireball|3:
+    cast_count: 0
+    last_cast: 1558448500520
+    last_earn: 0
+    cooldown_expiration: 1558448510520
+  shadowneedles:
+    cast_count: 40
+    last_cast: 1560285625385
+    last_earn: 0
+    cooldown_expiration: 0
+  fireball|4:
+    cast_count: 0
+    last_cast: 1558448502017
+    last_earn: 0
+    cooldown_expiration: 1558448512017
+  farm:
+    cast_count: 1
+    last_cast: 1558764109142
+    last_earn: 0
+    cooldown_expiration: 1558764154142
+  silence:
+    cast_count: 3
+    last_cast: 1558862126272
+    last_earn: 1558862106444
+    cooldown_expiration: 1558862146272
+  superring:
+    cast_count: 6
+    last_cast: 1558885716250
+    last_earn: 0
+    cooldown_expiration: 0
+  fireball|2:
+    cast_count: 0
+    last_cast: 1558544769553
+    last_earn: 0
+    cooldown_expiration: 1558544779553
+  lightning|2:
+    cast_count: 5
+    last_cast: 1558849561116
+    last_earn: 1558849561116
+    cooldown_expiration: 1558849571116
+  rubberize:
+    cast_count: 2
+    last_cast: 1558450292640
+    last_earn: 0
+    cooldown_expiration: 0
+  lightning|3:
+    cast_count: 6
+    last_cast: 1559045230851
+    last_earn: 1559045230898
+    cooldown_expiration: 1559045240851
+  grow:
+    cast_count: 0
+    last_cast: 1558859949309
+    last_earn: 0
+    cooldown_expiration: 1558859979309
+  shrink:
+    cast_count: 0
+    last_cast: 1558711603986
+    last_earn: 0
+    cooldown_expiration: 1558711618986
+  fenixflower:
+    cast_count: 18
+    last_cast: 1563638643805
+    last_earn: 1559920060124
+    cooldown_expiration: 0
+  heal|3:
+    cast_count: 1
+    last_cast: 1558873154377
+    last_earn: 1558873159448
+    cooldown_expiration: 1558873164377
+  waterwall:
+    cast_count: 14
+    last_cast: 1561560543505
+    last_earn: 1559819332313
+    cooldown_expiration: 1561560545505
+  uzumakichainscapture:
+    cast_count: 11
+    last_cast: 1562508996574
+    last_earn: 0
+    cooldown_expiration: 0
+  tornado|2:
+    cast_count: 0
+    last_cast: 1559047799475
+    last_earn: 0
+    cooldown_expiration: 1559047809475
+  hatakesword1:
+    cast_count: 1
+    last_cast: 1560434260293
+    last_earn: 0
+    cooldown_expiration: 1560434261293
+  explosionsword:
+    cast_count: 10
+    last_cast: 1563666775409
+    last_earn: 0
+    cooldown_expiration: 1563666783409
+  goldshots:
+    cast_count: 0
+    last_cast: 1561481932186
+    last_earn: 0
+    cooldown_expiration: 0
+  poison|2:
+    cast_count: 1
+    last_cast: 1558712547276
+    last_earn: 1558712547324
+    cooldown_expiration: 1558712554276
+  poison|3:
+    cast_count: 1
+    last_cast: 1558712543567
+    last_earn: 1558707576830
+    cooldown_expiration: 1558712550567
+  superbox:
+    cast_count: 1
+    last_cast: 1559231234397
+    last_earn: 0
+    cooldown_expiration: 0
+  fenixfire:
+    cast_count: 50
+    last_cast: 1563638641143
+    last_earn: 1559920741386
+    cooldown_expiration: 0
+  byakuganrotate:
+    cast_count: 40
+    last_cast: 1563212086178
+    last_earn: 0
+    cooldown_expiration: 0
+  earthbullet:
+    cast_count: 2
+    last_cast: 1558538331198
+    last_earn: 0
+    cooldown_expiration: 1558538338198
+  sponge:
+    cast_count: 2
+    last_cast: 1559236596734
+    last_earn: 1559236601091
+    cooldown_expiration: 1559236604734
+  forest:
+    cast_count: 1
+    last_cast: 1558854216610
+    last_earn: 1558854216705
+    cooldown_expiration: 1558854246610
+  sanninmod:
+    cast_count: 2
+    last_cast: 1559550424250
+    last_earn: 1559550424250
+    cooldown_expiration: 1559550429050
+  frontlotus:
+    cast_count: 12
+    last_cast: 1562514423652
+    last_earn: 0
+    cooldown_expiration: 1562514424652
+  mindbreak:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  tp15q:
+    cast_count: 12
+    last_cast: 1563924867617
+    last_earn: 0
+    cooldown_expiration: 0
+  boomstown:
+    cast_count: 0
+    last_cast: 1559150186059
+    last_earn: 0
+    cooldown_expiration: 1559150216059
+  fastmovement:
+    cast_count: 2
+    last_cast: 1559844139933
+    last_earn: 1559844139783
+    cooldown_expiration: 1559844145933
+  virus:
+    cast_count: 0
+    last_cast: 1559218618326
+    last_earn: 0
+    cooldown_expiration: 1559218738326
+  spshop:
+    cast_count: 6
+    last_cast: 1562074877127
+    last_earn: 0
+    cooldown_expiration: 0
+  arrow_fire:
+    cast_count: 1
+    last_cast: 1560979142735
+    last_earn: 0
+    cooldown_expiration: 0
+  lacarnum:
+    cast_count: 0
+    last_cast: 1558539275657
+    last_earn: 0
+    cooldown_expiration: 1558539277657
+  bloodgenjutsu:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  avadamaxima:
+    cast_count: 1
+    last_cast: 1558539136269
+    last_earn: 0
+    cooldown_expiration: 1558539166269
+  mindtransferbase:
+    cast_count: 0
+    last_cast: 1560696214429
+    last_earn: 0
+    cooldown_expiration: 0
+  byacount:
+    cast_count: 20
+    last_cast: 1562264466544
+    last_earn: 0
+    cooldown_expiration: 1562264471544
+  senninmod:
+    cast_count: 24
+    last_cast: 1560288549415
+    last_earn: 1559848641240
+    cooldown_expiration: 1560288554215
+  birth_defender:
+    cast_count: 0
+    last_cast: 1562448548115
+    last_earn: 0
+    cooldown_expiration: 1562448553115
+  snakeblast:
+    cast_count: 4
+    last_cast: 1562456219015
+    last_earn: 0
+    cooldown_expiration: 1562456224015
+  kifll:
+    cast_count: 1
+    last_cast: 1559228303362
+    last_earn: 1559228307964
+    cooldown_expiration: 0
+  sectumsempra:
+    cast_count: 1
+    last_cast: 1558539799891
+    last_earn: 1558539799891
+    cooldown_expiration: 1558539804891
+  mine:
+    cast_count: 0
+    last_cast: 1559818997232
+    last_earn: 0
+    cooldown_expiration: 1559819007232
+  sweep:
+    cast_count: 39
+    last_cast: 1563209373278
+    last_earn: 1558709373909
+    cooldown_expiration: 1563209378278
+  chop|3:
+    cast_count: 1
+    last_cast: 1559222883485
+    last_earn: 1559222884186
+    cooldown_expiration: 1559222888485
+  superbroom:
+    cast_count: 2
+    last_cast: 1561845090901
+    last_earn: 0
+    cooldown_expiration: 0
+  goldtrack:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  spawnershop:
+    cast_count: 0
+    last_cast: 1558711610508
+    last_earn: 0
+    cooldown_expiration: 0
+  rasengan:
+    cast_count: 62
+    last_cast: 1563480333401
+    last_earn: 1559748246044
+    cooldown_expiration: 1563480334401
+  summoningautomatasnake:
+    cast_count: 3
+    last_cast: 1562500933249
+    last_earn: 0
+    cooldown_expiration: 1562500934249
+  heavencutter:
+    cast_count: 12
+    last_cast: 1564089732143
+    last_earn: 0
+    cooldown_expiration: 1564089737143
+  suction:
+    cast_count: 2
+    last_cast: 1558538655352
+    last_earn: 0
+    cooldown_expiration: 0
+  byapunch:
+    cast_count: 21
+    last_cast: 1559124846028
+    last_earn: 1559124846027
+    cooldown_expiration: 1559124847028
+  column:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  frost|4:
+    cast_count: 4
+    last_cast: 1558875809673
+    last_earn: 1558714071740
+    cooldown_expiration: 1558875816673
+  familiar:
+    cast_count: 3
+    last_cast: 1558709162116
+    last_earn: 0
+    cooldown_expiration: 0
+  kirinjutsu:
+    cast_count: 53
+    last_cast: 1559064517714
+    last_earn: 1559064520781
+    cooldown_expiration: 1559064527714
+  frost|2:
+    cast_count: 0
+    last_cast: 1558875807361
+    last_earn: 0
+    cooldown_expiration: 1558875816361
+  blood:
+    cast_count: 17
+    last_cast: 1559379164774
+    last_earn: 1559379120788
+    cooldown_expiration: 1559379165774
+  slimeacid:
+    cast_count: 26
+    last_cast: 1562441874734
+    last_earn: 0
+    cooldown_expiration: 1562441875734
+  blast:
+    cast_count: 51
+    last_cast: 1562455427191
+    last_earn: 1559924765681
+    cooldown_expiration: 1562455432191
+  firestream:
+    cast_count: 2
+    last_cast: 1558538513808
+    last_earn: 0
+    cooldown_expiration: 1558538515808
+  fireballjutsu:
+    cast_count: 58
+    last_cast: 1559817607502
+    last_earn: 1559817596649
+    cooldown_expiration: 0
+  waterprison:
+    cast_count: 17
+    last_cast: 1560982742848
+    last_earn: 1559839441887
+    cooldown_expiration: 0
+  demonstorm:
+    cast_count: 0
+    last_cast: 1561931702786
+    last_earn: 0
+    cooldown_expiration: 0
+  secure|2:
+    cast_count: 0
+    last_cast: 1558447796107
+    last_earn: 0
+    cooldown_expiration: 1558447801107
+  superlaser|3:
+    cast_count: 2
+    last_cast: 1558886319117
+    last_earn: 1558886322224
+    cooldown_expiration: 1558886329117
+  earthharden:
+    cast_count: 23
+    last_cast: 1561931863970
+    last_earn: 1559333014375
+    cooldown_expiration: 0
+  superlaser|2:
+    cast_count: 1
+    last_cast: 1558545171962
+    last_earn: 1558545175160
+    cooldown_expiration: 1558545181962
+  gasp:
+    cast_count: 1
+    last_cast: 1558859822741
+    last_earn: 1558859822740
+    cooldown_expiration: 1558859852741
+  giveitem:
+    cast_count: 5
+    last_cast: 1559232370770
+    last_earn: 0
+    cooldown_expiration: 0
+  debugger:
+    cast_count: 15
+    last_cast: 1563924745393
+    last_earn: 0
+    cooldown_expiration: 0
+  entangle:
+    cast_count: 3
+    last_cast: 1558860197347
+    last_earn: 1558860188986
+    cooldown_expiration: 1558860205347
+  glider:
+    cast_count: 1
+    last_cast: 1558859892028
+    last_earn: 0
+    cooldown_expiration: 1558859952028
+  butterflypunch:
+    cast_count: 19
+    last_cast: 1560959512455
+    last_earn: 0
+    cooldown_expiration: 0
+  stun:
+    cast_count: 0
+    last_cast: 1558709216074
+    last_earn: 0
+    cooldown_expiration: 0
+  fling:
+    cast_count: 12
+    last_cast: 1560465886935
+    last_earn: 0
+    cooldown_expiration: 1560465891935
+  deactivate:
+    cast_count: 16
+    last_cast: 1564275942645
+    last_earn: 0
+    cooldown_expiration: 0
+  randomtp:
+    cast_count: 22
+    last_cast: 1564097213004
+    last_earn: 0
+    cooldown_expiration: 0
+  ironshots:
+    cast_count: 1
+    last_cast: 1561456746239
+    last_earn: 0
+    cooldown_expiration: 0
+  arrow_blink:
+    cast_count: 3
+    last_cast: 1561894647654
+    last_earn: 1559844286418
+    cooldown_expiration: 0
+  fire_dagger:
+    cast_count: 1
+    last_cast: 1558538496218
+    last_earn: 0
+    cooldown_expiration: 1558538501218
+  arrow_grapple:
+    cast_count: 2
+    last_cast: 1558708411575
+    last_earn: 1558708388933
+    cooldown_expiration: 0
+  workbench:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  vanish:
+    cast_count: 1
+    last_cast: 1558712863568
+    last_earn: 0
+    cooldown_expiration: 1558712864568
+  arrowrain|2:
+    cast_count: 0
+    last_cast: 1558764035766
+    last_earn: 0
+    cooldown_expiration: 1558764045766
+  enchantwand:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  levitate:
+    cast_count: 13
+    last_cast: 1559305086823
+    last_earn: 0
+    cooldown_expiration: 0
+  windblast:
+    cast_count: 11
+    last_cast: 1561031332629
+    last_earn: 1559911107388
+    cooldown_expiration: 0
+  quests:
+    cast_count: 2
+    last_cast: 1558711623223
+    last_earn: 0
+    cooldown_expiration: 0
+  explosionbird:
+    cast_count: 14
+    last_cast: 1563036599747
+    last_earn: 0
+    cooldown_expiration: 1563036600747
+  count:
+    cast_count: 18
+    last_cast: 1560798732427
+    last_earn: 0
+    cooldown_expiration: 0
+  crystalprison:
+    cast_count: 1
+    last_cast: 1561456695229
+    last_earn: 0
+    cooldown_expiration: 1561456697229
+  frogliquid:
+    cast_count: 17
+    last_cast: 1562442562036
+    last_earn: 0
+    cooldown_expiration: 1562442563036
+  nuibariattack:
+    cast_count: 9
+    last_cast: 1563666368371
+    last_earn: 0
+    cooldown_expiration: 0
+  gather:
+    cast_count: 1
+    last_cast: 1558859907631
+    last_earn: 0
+    cooldown_expiration: 0
+  donatorshop:
+    cast_count: 2
+    last_cast: 1558712801030
+    last_earn: 0
+    cooldown_expiration: 0
+  uzumakichainsdamage:
+    cast_count: 26
+    last_cast: 1562509066942
+    last_earn: 0
+    cooldown_expiration: 0
+  shell:
+    cast_count: 8
+    last_cast: 1559818999284
+    last_earn: 1558875070078
+    cooldown_expiration: 1559819004284
+  earthcollapse:
+    cast_count: 17
+    last_cast: 1562624930023
+    last_earn: 1559303506844
+    cooldown_expiration: 1562624938023
+  reflectprint:
+    cast_count: 118
+    last_cast: 1562509893340
+    last_earn: 1559848611305
+    cooldown_expiration: 0
+  jugosword:
+    cast_count: 14
+    last_cast: 1560697698557
+    last_earn: 0
+    cooldown_expiration: 0
+  gravipush:
+    cast_count: 6
+    last_cast: 1561934282072
+    last_earn: 1559146704393
+    cooldown_expiration: 0
+  arrow|2:
+    cast_count: 0
+    last_cast: 1561894668520
+    last_earn: 0
+    cooldown_expiration: 1561894670520
+  gather|2:
+    cast_count: 1
+    last_cast: 1558859916932
+    last_earn: 0
+    cooldown_expiration: 1558859946932
+  hozukishot:
+    cast_count: 3
+    last_cast: 1561934755603
+    last_earn: 0
+    cooldown_expiration: 0
+  broom|2:
+    cast_count: 1
+    last_cast: 1561845530161
+    last_earn: 0
+    cooldown_expiration: 1561845543161
+  emp:
+    cast_count: 1
+    last_cast: 1559819003585
+    last_earn: 0
+    cooldown_expiration: 0
+  wingardium:
+    cast_count: 2
+    last_cast: 1558539444045
+    last_earn: 1558539442492
+    cooldown_expiration: 1558539446045
+  ketsuryuganactivate:
+    cast_count: 2
+    last_cast: 1563309971730
+    last_earn: 0
+    cooldown_expiration: 0
+  ride:
+    cast_count: 1
+    last_cast: 1558707884926
+    last_earn: 0
+    cooldown_expiration: 0
+  broom|5:
+    cast_count: 0
+    last_cast: 1561019046217
+    last_earn: 0
+    cooldown_expiration: 1561019054217
+  broom|4:
+    cast_count: 0
+    last_cast: 1561019039305
+    last_earn: 0
+    cooldown_expiration: 1561019048305
+  broom|3:
+    cast_count: 1
+    last_cast: 1561845540757
+    last_earn: 0
+    cooldown_expiration: 1561845550757
+  nightguy:
+    cast_count: 5
+    last_cast: 1562518708684
+    last_earn: 0
+    cooldown_expiration: 1562518713684
+  reducio:
+    cast_count: 0
+    last_cast: 1558539485140
+    last_earn: 0
+    cooldown_expiration: 1558539500140
+  fx:
+    cast_count: 131
+    last_cast: 1563484951860
+    last_earn: 0
+    cooldown_expiration: 1563484952860
+  undo:
+    cast_count: 53
+    last_cast: 1561578787004
+    last_earn: 0
+    cooldown_expiration: 0
+  watershark:
+    cast_count: 1
+    last_cast: 1562624658232
+    last_earn: 0
+    cooldown_expiration: 1562624663232
+  laser:
+    cast_count: 10
+    last_cast: 1559819001284
+    last_earn: 1558712604807
+    cooldown_expiration: 1559819011284
+  superalter:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  decoy:
+    cast_count: 1
+    last_cast: 1560286300469
+    last_earn: 0
+    cooldown_expiration: 1560286330469
+  snoop:
+    cast_count: 1
+    last_cast: 1558707628133
+    last_earn: 0
+    cooldown_expiration: 0
+  supergather:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  earthtoss:
+    cast_count: 3
+    last_cast: 1558538429055
+    last_earn: 0
+    cooldown_expiration: 0
+  woodspikes:
+    cast_count: 27
+    last_cast: 1560463026298
+    last_earn: 1559848667527
+    cooldown_expiration: 0
+  accio:
+    cast_count: 1
+    last_cast: 1558539375505
+    last_earn: 1558539375504
+    cooldown_expiration: 1558539377505
+  lumos|2:
+    cast_count: 1
+    last_cast: 1558539214301
+    last_earn: 0
+    cooldown_expiration: 0
+  sharinganactivate:
+    cast_count: 5
+    last_cast: 1564274909774
+    last_earn: 0
+    cooldown_expiration: 0
+  mobdeath:
+    cast_count: 7
+    last_cast: 1563053350087
+    last_earn: 0
+    cooldown_expiration: 1563053351087
+  holylight:
+    cast_count: 2
+    last_cast: 1558857228321
+    last_earn: 1558857228321
+    cooldown_expiration: 1558857258321
+  kirin:
+    cast_count: 13
+    last_cast: 1563371143138
+    last_earn: 1559224649304
+    cooldown_expiration: 1563371153138
+  masterattack:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  add_damage:
+    cast_count: 1
+    last_cast: 1558446292869
+    last_earn: 0
+    cooldown_expiration: 0
+  arrow_poison:
+    cast_count: 2
+    last_cast: 1559213570010
+    last_earn: 1559213570408
+    cooldown_expiration: 0
+  combustion|2:
+    cast_count: 1
+    last_cast: 1558538390863
+    last_earn: 0
+    cooldown_expiration: 0
+  summoningslimehuge:
+    cast_count: 31
+    last_cast: 1562623660876
+    last_earn: 0
+    cooldown_expiration: 1562623661876
+  tame:
+    cast_count: 0
+    last_cast: 1559045989957
+    last_earn: 0
+    cooldown_expiration: 1559046019957
+  kibaattack:
+    cast_count: 114
+    last_cast: 1563667641059
+    last_earn: 0
+    cooldown_expiration: 1563667641559
+  bigsmashattack:
+    cast_count: 44
+    last_cast: 1563641105822
+    last_earn: 0
+    cooldown_expiration: 1563641113822
+  glassshop:
+    cast_count: 0
+    last_cast: 1558859983213
+    last_earn: 0
+    cooldown_expiration: 0
+  spsellshop:
+    cast_count: 0
+    last_cast: 1560026306541
+    last_earn: 0
+    cooldown_expiration: 0
+  missile|4:
+    cast_count: 4
+    last_cast: 1558872527570
+    last_earn: 0
+    cooldown_expiration: 0
+  missile|2:
+    cast_count: 42
+    last_cast: 1559901720464
+    last_earn: 1559901720464
+    cooldown_expiration: 0
+  tunnel:
+    cast_count: 4
+    last_cast: 1559818869926
+    last_earn: 0
+    cooldown_expiration: 0
+  missile|3:
+    cast_count: 0
+    last_cast: 1558708311160
+    last_earn: 0
+    cooldown_expiration: 1558708312160
+  backup:
+    cast_count: 3
+    last_cast: 1559672535473
+    last_earn: 0
+    cooldown_expiration: 0
+  invincible:
+    cast_count: 2
+    last_cast: 1562508137856
+    last_earn: 0
+    cooldown_expiration: 1562508167856
+  bonespikes:
+    cast_count: 125
+    last_cast: 1559848764792
+    last_earn: 1559848737053
+    cooldown_expiration: 0
+  uzumakiblink:
+    cast_count: 74
+    last_cast: 1562511059710
+    last_earn: 1559845172109
+    cooldown_expiration: 0
+  convert:
+    cast_count: 4
+    last_cast: 1558763440121
+    last_earn: 0
+    cooldown_expiration: 0
+  tracking:
+    cast_count: 4
+    last_cast: 1559818085858
+    last_earn: 1559818081805
+    cooldown_expiration: 1559818087108
+  reducto:
+    cast_count: 2
+    last_cast: 1558539082210
+    last_earn: 1558539076159
+    cooldown_expiration: 1558539087210
+  upgrades:
+    cast_count: 4
+    last_cast: 1561583915707
+    last_earn: 0
+    cooldown_expiration: 0
+  gate4:
+    cast_count: 11
+    last_cast: 1561665725242
+    last_earn: 0
+    cooldown_expiration: 1561665725342
+  64fist:
+    cast_count: 25
+    last_cast: 1563212132345
+    last_earn: 0
+    cooldown_expiration: 0
+  claybomb:
+    cast_count: 9
+    last_cast: 1559672330104
+    last_earn: 1559672275045
+    cooldown_expiration: 0
+  boilpunch:
+    cast_count: 33
+    last_cast: 1560462956896
+    last_earn: 0
+    cooldown_expiration: 1560462957896
+  gate3:
+    cast_count: 11
+    last_cast: 1561665825698
+    last_earn: 0
+    cooldown_expiration: 1561665825798
+  gate6:
+    cast_count: 11
+    last_cast: 1561665579653
+    last_earn: 0
+    cooldown_expiration: 1561665579753
+  gate5:
+    cast_count: 5
+    last_cast: 1561665656180
+    last_earn: 0
+    cooldown_expiration: 1561665656280
+  pollinate:
+    cast_count: 2
+    last_cast: 1558860224708
+    last_earn: 1558860227702
+    cooldown_expiration: 1558860244708
+  gate8:
+    cast_count: 17
+    last_cast: 1563655751929
+    last_earn: 0
+    cooldown_expiration: 1563655752029
+  neutron|2:
+    cast_count: 4
+    last_cast: 1558789907224
+    last_earn: 0
+    cooldown_expiration: 1558789937224
+  gate7:
+    cast_count: 17
+    last_cast: 1561933110152
+    last_earn: 0
+    cooldown_expiration: 1561933110252
+  automatasnake_death:
+    cast_count: 0
+    last_cast: 1562456621924
+    last_earn: 0
+    cooldown_expiration: 0
+  superpyramid:
+    cast_count: 5
+    last_cast: 1558885738474
+    last_earn: 0
+    cooldown_expiration: 0
+  sniper_scope:
+    cast_count: 2
+    last_cast: 1558540055078
+    last_earn: 0
+    cooldown_expiration: 0
+  susano1st:
+    cast_count: 46
+    last_cast: 1561033951806
+    last_earn: 0
+    cooldown_expiration: 1561033951906
+  sagemod:
+    cast_count: 3
+    last_cast: 1561047580153
+    last_earn: 0
+    cooldown_expiration: 1561047584953
+  pickpocket:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  portal:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  gate2:
+    cast_count: 6
+    last_cast: 1561665992744
+    last_earn: 0
+    cooldown_expiration: 0
+  gate1:
+    cast_count: 8
+    last_cast: 1561666033404
+    last_earn: 0
+    cooldown_expiration: 1561666033504
+  kamikaze:
+    cast_count: 9
+    last_cast: 1560622052163
+    last_earn: 0
+    cooldown_expiration: 0
+  tendril:
+    cast_count: 13
+    last_cast: 1561247911451
+    last_earn: 1559233007556
+    cooldown_expiration: 1561247931451
+  chop:
+    cast_count: 5
+    last_cast: 1561154798020
+    last_earn: 1559222839843
+    cooldown_expiration: 1561154803020
+  bloodtouch:
+    cast_count: 75
+    last_cast: 1559224958489
+    last_earn: 0
+    cooldown_expiration: 0
+  raikiri:
+    cast_count: 5
+    last_cast: 1559747810387
+    last_earn: 1559747816743
+    cooldown_expiration: 1559747815387
+  sandshield:
+    cast_count: 8
+    last_cast: 1560173431023
+    last_earn: 1559848016395
+    cooldown_expiration: 1560173436023
+  waterultimate:
+    cast_count: 8
+    last_cast: 1561024109396
+    last_earn: 1559224622485
+    cooldown_expiration: 0
+  mindtransfer:
+    cast_count: 22
+    last_cast: 1560696120884
+    last_earn: 0
+    cooldown_expiration: 0
+  animation:
+    cast_count: 0
+    last_cast: 1562448993396
+    last_earn: 0
+    cooldown_expiration: 1562449011396
+  taijutsuevade:
+    cast_count: 8
+    last_cast: 1563655560993
+    last_earn: 0
+    cooldown_expiration: 1563655562993
+  mine|4:
+    cast_count: 0
+    last_cast: 1558859792450
+    last_earn: 0
+    cooldown_expiration: 1558859802450
+  mine|3:
+    cast_count: 0
+    last_cast: 1558859796306
+    last_earn: 0
+    cooldown_expiration: 1558859806306
+  samuraistrength:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  curse:
+    cast_count: 1
+    last_cast: 1558708082568
+    last_earn: 1558708082568
+    cooldown_expiration: 1558708088568
+  arrow|6:
+    cast_count: 1
+    last_cast: 1561894684318
+    last_earn: 0
+    cooldown_expiration: 1561894686318
+  arrow|5:
+    cast_count: 0
+    last_cast: 1561894672378
+    last_earn: 0
+    cooldown_expiration: 1561894674378
+  supershell:
+    cast_count: 3
+    last_cast: 1558711679212
+    last_earn: 0
+    cooldown_expiration: 0
+  arrow|4:
+    cast_count: 0
+    last_cast: 1561894671232
+    last_earn: 0
+    cooldown_expiration: 1561894673232
+  blessing:
+    cast_count: 3
+    last_cast: 1559818972053
+    last_earn: 1559135518174
+    cooldown_expiration: 1559819002053
+  arrow|3:
+    cast_count: 0
+    last_cast: 1561894669973
+    last_earn: 0
+    cooldown_expiration: 1561894671973
+  inuzukamod:
+    cast_count: 22
+    last_cast: 1560799762822
+    last_earn: 0
+    cooldown_expiration: 0
+  lavaharden:
+    cast_count: 3
+    last_cast: 1560243791428
+    last_earn: 1559845499760
+    cooldown_expiration: 0
+  petrify:
+    cast_count: 2
+    last_cast: 1561233257775
+    last_earn: 1558712880870
+    cooldown_expiration: 1561233267775
+  magnetshots:
+    cast_count: 2
+    last_cast: 1561248091972
+    last_earn: 0
+    cooldown_expiration: 1561248092972
+  anvil:
+    cast_count: 2
+    last_cast: 1558857250623
+    last_earn: 0
+    cooldown_expiration: 1558857270623
+  leafwind:
+    cast_count: 18
+    last_cast: 1563141077099
+    last_earn: 0
+    cooldown_expiration: 1563141082099
+  hozukimorph:
+    cast_count: 12
+    last_cast: 1561933098245
+    last_earn: 0
+    cooldown_expiration: 0
+  firewind:
+    cast_count: 4
+    last_cast: 1563638346745
+    last_earn: 0
+    cooldown_expiration: 0
+  chibakutensey:
+    cast_count: 11
+    last_cast: 1559138933670
+    last_earn: 1559138885728
+    cooldown_expiration: 1559138934670
+  disposal:
+    cast_count: 1
+    last_cast: 1558712852151
+    last_earn: 1558712852150
+    cooldown_expiration: 1558712854151
+  treejutsu:
+    cast_count: 3
+    last_cast: 1559150383047
+    last_earn: 1559150383093
+    cooldown_expiration: 1559150388047
+  controlsmenu:
+    cast_count: 0
+    last_cast: 1559906310159
+    last_earn: 0
+    cooldown_expiration: 0
+  dragonball:
+    cast_count: 0
+    last_cast: 1558888369966
+    last_earn: 0
+    cooldown_expiration: 1558888509966
+  nuke:
+    cast_count: 3
+    last_cast: 1559335240698
+    last_earn: 1559335249235
+    cooldown_expiration: 1559335300698
+  walls:
+    cast_count: 19
+    last_cast: 1559230623541
+    last_earn: 1559230626130
+    cooldown_expiration: 1559230633541
+  bonearmor:
+    cast_count: 5
+    last_cast: 1559914401065
+    last_earn: 1559914304784
+    cooldown_expiration: 0
+  blooddragon:
+    cast_count: 1
+    last_cast: 1562518693641
+    last_earn: 0
+    cooldown_expiration: 1562518698641
+  boilmod:
+    cast_count: 3
+    last_cast: 1560109683548
+    last_earn: 0
+    cooldown_expiration: 0
+  stream:
+    cast_count: 4
+    last_cast: 1558879763759
+    last_earn: 1558709077462
+    cooldown_expiration: 0
+  sphere:
+    cast_count: 3
+    last_cast: 1559236579415
+    last_earn: 0
+    cooldown_expiration: 1559236609415
+  bubble:
+    cast_count: 9
+    last_cast: 1559668419897
+    last_earn: 1559668408906
+    cooldown_expiration: 0
+  woodwall:
+    cast_count: 20
+    last_cast: 1559819317051
+    last_earn: 1559819317300
+    cooldown_expiration: 0
+  chainlightning|2:
+    cast_count: 2
+    last_cast: 1558710840840
+    last_earn: 1558710842400
+    cooldown_expiration: 1558710860840
+  insectmod:
+    cast_count: 21
+    last_cast: 1561931567491
+    last_earn: 0
+    cooldown_expiration: 0
+  wallsice:
+    cast_count: 11
+    last_cast: 1559058068009
+    last_earn: 1559058006489
+    cooldown_expiration: 1559058078009
+  homing|3:
+    cast_count: 1
+    last_cast: 1559130307172
+    last_earn: 1559130308371
+    cooldown_expiration: 1559130317172
+  map:
+    cast_count: 1
+    last_cast: 1558859752942
+    last_earn: 0
+    cooldown_expiration: 1558859757942
+  homing|4:
+    cast_count: 1
+    last_cast: 1559130310772
+    last_earn: 1559130312172
+    cooldown_expiration: 1559130320772
+  jugoheal:
+    cast_count: 0
+    last_cast: 1560697686069
+    last_earn: 0
+    cooldown_expiration: 0
+  mindcontrol:
+    cast_count: 6
+    last_cast: 1560696214429
+    last_earn: 0
+    cooldown_expiration: 0
+  webbing:
+    cast_count: 1
+    last_cast: 1558714022079
+    last_earn: 0
+    cooldown_expiration: 1558714027079
+  counterspell:
+    cast_count: 0
+    last_cast: 1560118630873
+    last_earn: 0
+    cooldown_expiration: 1560118635873
+  chainlightning|3:
+    cast_count: 2
+    last_cast: 1559129310521
+    last_earn: 1559129311872
+    cooldown_expiration: 1559129330521
+  lightningpunch:
+    cast_count: 3
+    last_cast: 1559238662849
+    last_earn: 1559238658592
+    cooldown_expiration: 1559238667849
+  superkill:
+    cast_count: 128
+    last_cast: 1564015169327
+    last_earn: 0
+    cooldown_expiration: 1564015169827
+  torch:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  smashpunch:
+    cast_count: 21
+    last_cast: 1563669217500
+    last_earn: 0
+    cooldown_expiration: 0
+  gatling:
+    cast_count: 3
+    last_cast: 1562502458336
+    last_earn: 1559221865967
+    cooldown_expiration: 1562502478336
+  fxdemo:
+    cast_count: 2
+    last_cast: 1559815583445
+    last_earn: 0
+    cooldown_expiration: 1559815613445
+  defender_attack:
+    cast_count: 1
+    last_cast: 1558712725997
+    last_earn: 0
+    cooldown_expiration: 0
+  superdome:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  peek:
+    cast_count: 1
+    last_cast: 1558712876718
+    last_earn: 1558712876717
+    cooldown_expiration: 1558712881718
+  growth|2:
+    cast_count: 1
+    last_cast: 1558447533141
+    last_earn: 1558447533140
+    cooldown_expiration: 1558447536141
+  lavamod:
+    cast_count: 14
+    last_cast: 1560463048662
+    last_earn: 1559845519976
+    cooldown_expiration: 0
+  growth|3:
+    cast_count: 1
+    last_cast: 1558447539141
+    last_earn: 1558447539190
+    cooldown_expiration: 1558447542141
+  growth|4:
+    cast_count: 1
+    last_cast: 1558859957617
+    last_earn: 1558447541142
+    cooldown_expiration: 1558859960617
+  lavablast:
+    cast_count: 13
+    last_cast: 1560243779704
+    last_earn: 1559845318150
+    cooldown_expiration: 0
+  hatakewound:
+    cast_count: 24
+    last_cast: 1563580106538
+    last_earn: 0
+    cooldown_expiration: 1563580106738
+  kunai:
+    cast_count: 67
+    last_cast: 1564336846911
+    last_earn: 0
+    cooldown_expiration: 1564336847911
+  inferno:
+    cast_count: 1
+    last_cast: 1563638492504
+    last_earn: 0
+    cooldown_expiration: 0
+  rotate:
+    cast_count: 9
+    last_cast: 1563212086178
+    last_earn: 0
+    cooldown_expiration: 1563212086179
+  admission|2:
+    cast_count: 0
+    last_cast: 1558857336257
+    last_earn: 0
+    cooldown_expiration: 1558857346257
+  arrow:
+    cast_count: 0
+    last_cast: 1561894643939
+    last_earn: 0
+    cooldown_expiration: 0
+  explosionmountbase:
+    cast_count: 32
+    last_cast: 1562005929980
+    last_earn: 0
+    cooldown_expiration: 1562005944980
+  shuriken|2:
+    cast_count: 2
+    last_cast: 1558708965010
+    last_earn: 1558708954299
+    cooldown_expiration: 1558708973010
+  bombarda:
+    cast_count: 2
+    last_cast: 1558539478971
+    last_earn: 1558539466561
+    cooldown_expiration: 1558539485971
+  arkan:
+    cast_count: 40
+    last_cast: 1562501235471
+    last_earn: 1559550213088
+    cooldown_expiration: 1562501240471
+  flashbang:
+    cast_count: 2
+    last_cast: 1560249202014
+    last_earn: 0
+    cooldown_expiration: 1560249212014
+  greatfireball:
+    cast_count: 82
+    last_cast: 1563641069529
+    last_earn: 1559920620819
+    cooldown_expiration: 0
+  shuriken|3:
+    cast_count: 4
+    last_cast: 1559134034073
+    last_earn: 1559134034425
+    cooldown_expiration: 1559134042073
+  cage:
+    cast_count: 5
+    last_cast: 1559379569540
+    last_earn: 1559379552382
+    cooldown_expiration: 0
+  virus_death:
+    cast_count: 1
+    last_cast: 1558712522168
+    last_earn: 0
+    cooldown_expiration: 1558712552168
+  smokefist:
+    cast_count: 36
+    last_cast: 1560173861832
+    last_earn: 0
+    cooldown_expiration: 0
+  vacuumwaves:
+    cast_count: 16
+    last_cast: 1562625060479
+    last_earn: 1559848634227
+    cooldown_expiration: 0
+  raise:
+    cast_count: 37
+    last_cast: 1559128267840
+    last_earn: 1559128241781
+    cooldown_expiration: 0
+  boiledsteam:
+    cast_count: 7
+    last_cast: 1560204250117
+    last_earn: 0
+    cooldown_expiration: 0
+  vermillious:
+    cast_count: 0
+    last_cast: 1558538993550
+    last_earn: 0
+    cooldown_expiration: 0
+  birth_snake:
+    cast_count: 0
+    last_cast: 1562451594717
+    last_earn: 0
+    cooldown_expiration: 1562451654717
+  wither|2:
+    cast_count: 1
+    last_cast: 1559053142096
+    last_earn: 1558712493402
+    cooldown_expiration: 1559053147096
+  recall|3:
+    cast_count: 3
+    last_cast: 1559312907236
+    last_earn: 1559312912247
+    cooldown_expiration: 1559312922236
+  alter:
+    cast_count: 0
+    last_cast: 1559129034989
+    last_earn: 0
+    cooldown_expiration: 0
+  wither|3:
+    cast_count: 4
+    last_cast: 1559053146902
+    last_earn: 1558856132250
+    cooldown_expiration: 1559053151902
+  summoning:
+    cast_count: 36
+    last_cast: 1563147816918
+    last_earn: 0
+    cooldown_expiration: 1563147817918
+  worm_death:
+    cast_count: 3
+    last_cast: 1558447133275
+    last_earn: 0
+    cooldown_expiration: 0
+  grenade:
+    cast_count: 0
+    last_cast: 1560249680608
+    last_earn: 0
+    cooldown_expiration: 1560249690608
+  needlewthrow:
+    cast_count: 0
+    last_cast: 1563485111258
+    last_earn: 0
+    cooldown_expiration: 1563485112258
+  superbackup:
+    cast_count: 4
+    last_cast: 1559672501091
+    last_earn: 0
+    cooldown_expiration: 0
+  broom:
+    cast_count: 6
+    last_cast: 1561845517438
+    last_earn: 0
+    cooldown_expiration: 1561845532438
+  superregenerate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  admission:
+    cast_count: 0
+    last_cast: 1558857333855
+    last_earn: 0
+    cooldown_expiration: 1558857343855
+  sticky|3:
+    cast_count: 1
+    last_cast: 1559671130580
+    last_earn: 1559671135947
+    cooldown_expiration: 1559671140580
+  fill:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  summoningslimeheal:
+    cast_count: 10
+    last_cast: 1562603655201
+    last_earn: 0
+    cooldown_expiration: 1562603656201
+  crystalshell:
+    cast_count: 1
+    last_cast: 1561456710000
+    last_earn: 0
+    cooldown_expiration: 1561456715000
+  arresto:
+    cast_count: 1
+    last_cast: 1558539738417
+    last_earn: 0
+    cooldown_expiration: 1558539741417
+  insectspray:
+    cast_count: 12
+    last_cast: 1562368140879
+    last_earn: 0
+    cooldown_expiration: 0
+  blackpull:
+    cast_count: 0
+    last_cast: 1559147065714
+    last_earn: 0
+    cooldown_expiration: 1559147067714
+  swiftrun:
+    cast_count: 12
+    last_cast: 1563629221927
+    last_earn: 0
+    cooldown_expiration: 1563629227927
+  superblob:
+    cast_count: 5
+    last_cast: 1558763426877
+    last_earn: 1558763427026
+    cooldown_expiration: 0
+  fury|2:
+    cast_count: 2
+    last_cast: 1558878621277
+    last_earn: 1558878623931
+    cooldown_expiration: 1558878651277
+  fury|3:
+    cast_count: 1
+    last_cast: 1558878634664
+    last_earn: 1558712397002
+    cooldown_expiration: 1558878664664
+  waterbullet:
+    cast_count: 42
+    last_cast: 1562624666481
+    last_earn: 1559817578247
+    cooldown_expiration: 1562624667481
+  collapse|2:
+    cast_count: 11
+    last_cast: 1559044271094
+    last_earn: 1559044237658
+    cooldown_expiration: 1559044279094
+  aguamenti|2:
+    cast_count: 1
+    last_cast: 1558539720450
+    last_earn: 1558539720496
+    cooldown_expiration: 1558539722450
+  airscooter:
+    cast_count: 5
+    last_cast: 1558538656803
+    last_earn: 0
+    cooldown_expiration: 0
+  stupefy:
+    cast_count: 1
+    last_cast: 1558539818868
+    last_earn: 1558539819418
+    cooldown_expiration: 1558539823868
+  chidorisenbon:
+    cast_count: 153
+    last_cast: 1562501937917
+    last_earn: 0
+    cooldown_expiration: 1562501938917
+  levicorpus:
+    cast_count: 2
+    last_cast: 1558539235216
+    last_earn: 0
+    cooldown_expiration: 1558539238216
+  lavaball:
+    cast_count: 18
+    last_cast: 1561590049951
+    last_earn: 0
+    cooldown_expiration: 1561590050951
+  iceshell:
+    cast_count: 19
+    last_cast: 1560243752074
+    last_earn: 1559847770908
+    cooldown_expiration: 0
+  teleport:
+    cast_count: 6
+    last_cast: 1563053604099
+    last_earn: 0
+    cooldown_expiration: 1563053605099
+  box:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  woodhook:
+    cast_count: 9
+    last_cast: 1559817838136
+    last_earn: 1559817641512
+    cooldown_expiration: 0
+  sandblast:
+    cast_count: 8
+    last_cast: 1559847723159
+    last_earn: 1559847723360
+    cooldown_expiration: 1559847753159
+  harden:
+    cast_count: 9
+    last_cast: 1559815575830
+    last_earn: 1559815563936
+    cooldown_expiration: 1559815576830
+  breach|3:
+    cast_count: 1
+    last_cast: 1558873390622
+    last_earn: 1558873391970
+    cooldown_expiration: 1558873405622
+  byakuganexplosion:
+    cast_count: 3
+    last_cast: 1563212094048
+    last_earn: 0
+    cooldown_expiration: 0
+  wound:
+    cast_count: 5
+    last_cast: 1563562942571
+    last_earn: 1558615609465
+    cooldown_expiration: 1563562947571
+  scorchblasts:
+    cast_count: 7
+    last_cast: 1560113664615
+    last_earn: 0
+    cooldown_expiration: 0
+  flamethrower:
+    cast_count: 10
+    last_cast: 1558708709689
+    last_earn: 1558708689361
+    cooldown_expiration: 0
+  heal:
+    cast_count: 2
+    last_cast: 1562363207416
+    last_earn: 1558854126524
+    cooldown_expiration: 1562363227416
+  singularity:
+    cast_count: 8
+    last_cast: 1559138432094
+    last_earn: 1559138439343
+    cooldown_expiration: 1559138462094
+  chakraflash:
+    cast_count: 12
+    last_cast: 1563580149828
+    last_earn: 0
+    cooldown_expiration: 1563580154828
+  add_physical_protection:
+    cast_count: 0
+    last_cast: 1558448186284
+    last_earn: 0
+    cooldown_expiration: 0
+  sharinganselfcrows:
+    cast_count: 16
+    last_cast: 1561465193341
+    last_earn: 0
+    cooldown_expiration: 0
+  watercontrol:
+    cast_count: 9
+    last_cast: 1560982733204
+    last_earn: 1559130069317
+    cooldown_expiration: 0
+  equation:
+    cast_count: 3
+    last_cast: 1558860183536
+    last_earn: 0
+    cooldown_expiration: 0
+  sharingancoercion:
+    cast_count: 0
+    last_cast: 1561561271237
+    last_earn: 0
+    cooldown_expiration: 0
+  explosionmount:
+    cast_count: 2
+    last_cast: 1561845965720
+    last_earn: 0
+    cooldown_expiration: 1561845980720
+  disintegrate:
+    cast_count: 7
+    last_cast: 1559818985854
+    last_earn: 1558712841876
+    cooldown_expiration: 0
+  lumossolem:
+    cast_count: 1
+    last_cast: 1558539217650
+    last_earn: 0
+    cooldown_expiration: 0
+  summoningfrogstandartmulti:
+    cast_count: 7
+    last_cast: 1562515677208
+    last_earn: 0
+    cooldown_expiration: 1562515678208
+  firepushjutsu:
+    cast_count: 81
+    last_cast: 1559130100951
+    last_earn: 1559130101749
+    cooldown_expiration: 1559130105951
+  needlethrow:
+    cast_count: 0
+    last_cast: 1563666844455
+    last_earn: 0
+    cooldown_expiration: 1563666845455
+  earth:
+    cast_count: 18
+    last_cast: 1560370079732
+    last_earn: 0
+    cooldown_expiration: 0
+  arrow_bomb:
+    cast_count: 4
+    last_cast: 1558708380513
+    last_earn: 1558708351198
+    cooldown_expiration: 0
+  blink|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  arrowrain:
+    cast_count: 11
+    last_cast: 1559818958444
+    last_earn: 0
+    cooldown_expiration: 0
+  blink|2:
+    cast_count: 1
+    last_cast: 1558712107243
+    last_earn: 1558712107243
+    cooldown_expiration: 1558712117243
+  irontrack:
+    cast_count: 1
+    last_cast: 1561456779581
+    last_earn: 0
+    cooldown_expiration: 0
+  blink|5:
+    cast_count: 1
+    last_cast: 1558712099603
+    last_earn: 1558712099601
+    cooldown_expiration: 1558712104603
+  uzumakikunai:
+    cast_count: 36
+    last_cast: 1561895406331
+    last_earn: 0
+    cooldown_expiration: 0
+  blink|4:
+    cast_count: 34
+    last_cast: 1558450085417
+    last_earn: 1558449950556
+    cooldown_expiration: 0
+  wall:
+    cast_count: 6
+    last_cast: 1559224851201
+    last_earn: 1559127895641
+    cooldown_expiration: 1559224861201
+  collapse:
+    cast_count: 15
+    last_cast: 1560023268706
+    last_earn: 1559147253670
+    cooldown_expiration: 0
+  blink|6:
+    cast_count: 5
+    last_cast: 1561135371685
+    last_earn: 1559844310416
+    cooldown_expiration: 1561135373685
+  earthsandfall:
+    cast_count: 2
+    last_cast: 1561024191682
+    last_earn: 0
+    cooldown_expiration: 0
+  hozukistrength:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  flare:
+    cast_count: 6
+    last_cast: 1559228389360
+    last_earn: 1559228374181
+    cooldown_expiration: 0
+  torture|3:
+    cast_count: 2
+    last_cast: 1558712650905
+    last_earn: 1558712650905
+    cooldown_expiration: 1558712680905
+  cluster:
+    cast_count: 0
+    last_cast: 1558763451498
+    last_earn: 0
+    cooldown_expiration: 1558763466498
+  torture|2:
+    cast_count: 1
+    last_cast: 1558712646949
+    last_earn: 1558712647198
+    cooldown_expiration: 1558712676949
+  byakuganpunch:
+    cast_count: 477
+    last_cast: 1560701116439
+    last_earn: 1559224911384
+    cooldown_expiration: 1560701117439
+  steelshrapnel:
+    cast_count: 0
+    last_cast: 1562501970541
+    last_earn: 0
+    cooldown_expiration: 1562501971541
+  rocket:
+    cast_count: 6
+    last_cast: 1559819037206
+    last_earn: 1558709239069
+    cooldown_expiration: 0
+  commit:
+    cast_count: 10
+    last_cast: 1562440935238
+    last_earn: 0
+    cooldown_expiration: 0
+  crystalspikes:
+    cast_count: 1
+    last_cast: 1561456719942
+    last_earn: 0
+    cooldown_expiration: 1561456720942
+  paint:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  cure:
+    cast_count: 0
+    last_cast: 1558873148203
+    last_earn: 0
+    cooldown_expiration: 0
+  absorb:
+    cast_count: 1
+    last_cast: 1558447600483
+    last_earn: 0
+    cooldown_expiration: 0
+  wallswood:
+    cast_count: 5
+    last_cast: 1559156402286
+    last_earn: 1559156404832
+    cooldown_expiration: 1559156412286
+  animate:
+    cast_count: 0
+    last_cast: 1562449586048
+    last_earn: 0
+    cooldown_expiration: 0
+  nuke|2:
+    cast_count: 1
+    last_cast: 1561561729312
+    last_earn: 1558873562587
+    cooldown_expiration: 1561561789312
+  skills:
+    cast_count: 5
+    last_cast: 1560181729824
+    last_earn: 0
+    cooldown_expiration: 0
+  reflect:
+    cast_count: 13
+    last_cast: 1560800719781
+    last_earn: 1559843055539
+    cooldown_expiration: 0
+  earthblock:
+    cast_count: 6
+    last_cast: 1558538466533
+    last_earn: 0
+    cooldown_expiration: 1558538468533
+  invisiblecloak:
+    cast_count: 0
+    last_cast: 1558860330365
+    last_earn: 0
+    cooldown_expiration: 0
+  push|4:
+    cast_count: 5
+    last_cast: 1559139463374
+    last_earn: 1559139322296
+    cooldown_expiration: 1559139468374
+  explosionspider:
+    cast_count: 53
+    last_cast: 1562452337423
+    last_earn: 0
+    cooldown_expiration: 1562452338423
+  fire:
+    cast_count: 44
+    last_cast: 1559901690509
+    last_earn: 1559901690670
+    cooldown_expiration: 0
+  wandbuffshop:
+    cast_count: 0
+    last_cast: 1561583918676
+    last_earn: 0
+    cooldown_expiration: 0
+  homing:
+    cast_count: 0
+    last_cast: 1559150557058
+    last_earn: 0
+    cooldown_expiration: 1559150567058
+  magichat:
+    cast_count: 27
+    last_cast: 1562271557769
+    last_earn: 0
+    cooldown_expiration: 0
+  throwsword:
+    cast_count: 1
+    last_cast: 1561155148437
+    last_earn: 0
+    cooldown_expiration: 1561155158437
+  steelprojectile:
+    cast_count: 1
+    last_cast: 1561456664490
+    last_earn: 0
+    cooldown_expiration: 1561456665490
+  lightningboost:
+    cast_count: 15
+    last_cast: 1562501220896
+    last_earn: 1559550602773
+    cooldown_expiration: 0
+  lightning:
+    cast_count: 10
+    last_cast: 1559224881942
+    last_earn: 1559224881942
+    cooldown_expiration: 0
+  soundtest:
+    cast_count: 12
+    last_cast: 1563199573310
+    last_earn: 0
+    cooldown_expiration: 0
+  swapjutsu:
+    cast_count: 1
+    last_cast: 1559550406753
+    last_earn: 1559550406753
+    cooldown_expiration: 1559550416753
+  goldwave:
+    cast_count: 0
+    last_cast: 1561482132904
+    last_earn: 0
+    cooldown_expiration: 0
+  gentlefist:
+    cast_count: 35
+    last_cast: 1563212100307
+    last_earn: 1559238485458
+    cooldown_expiration: 0
+  mute:
+    cast_count: 1
+    last_cast: 1560696012909
+    last_earn: 0
+    cooldown_expiration: 0
+  toss:
+    cast_count: 1
+    last_cast: 1558706884784
+    last_earn: 0
+    cooldown_expiration: 0
+  mount:
+    cast_count: 8
+    last_cast: 1559045995989
+    last_earn: 1559045905872
+    cooldown_expiration: 1559045997989
+  superrepair:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  airbomb:
+    cast_count: 0
+    last_cast: 1558538190954
+    last_earn: 0
+    cooldown_expiration: 1558538195954
+  shuriken:
+    cast_count: 4
+    last_cast: 1559134019564
+    last_earn: 1558708962246
+    cooldown_expiration: 1559134027564
+  pillar:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bridge:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  summoningminisnakes:
+    cast_count: 3
+    last_cast: 1562621477714
+    last_earn: 0
+    cooldown_expiration: 1562621478714
+  woodsphere:
+    cast_count: 7
+    last_cast: 1559817823477
+    last_earn: 1559817735571
+    cooldown_expiration: 0
+  crescentmoonlight:
+    cast_count: 9
+    last_cast: 1564089743404
+    last_earn: 0
+    cooldown_expiration: 1564089748404
+  addspell:
+    cast_count: 18
+    last_cast: 1559817728415
+    last_earn: 0
+    cooldown_expiration: 0
+  shadowneck:
+    cast_count: 50
+    last_cast: 1560286396487
+    last_earn: 0
+    cooldown_expiration: 0
+  blackhole:
+    cast_count: 5
+    last_cast: 1563641065142
+    last_earn: 1559238276893
+    cooldown_expiration: 0
+  salviohexia:
+    cast_count: 4
+    last_cast: 1558539841348
+    last_earn: 0
+    cooldown_expiration: 0
+  crucio:
+    cast_count: 1
+    last_cast: 1558539298536
+    last_earn: 1558539298684
+    cooldown_expiration: 1558539328536
+  gravimeteor:
+    cast_count: 2
+    last_cast: 1562456652129
+    last_earn: 1559550150477
+    cooldown_expiration: 0
+  ironwave:
+    cast_count: 1
+    last_cast: 1561482149097
+    last_earn: 0
+    cooldown_expiration: 0
+  earthsmash:
+    cast_count: 1
+    last_cast: 1558538443998
+    last_earn: 0
+    cooldown_expiration: 1558538448998
+  butterfly:
+    cast_count: 2
+    last_cast: 1559336294321
+    last_earn: 1559336294321
+    cooldown_expiration: 1559336300321
+  windatsugai:
+    cast_count: 5
+    last_cast: 1559550031133
+    last_earn: 1559549998741
+    cooldown_expiration: 1559550036133
+  crystalshots:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  iterate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bloodbending:
+    cast_count: 0
+    last_cast: 1558538615095
+    last_earn: 0
+    cooldown_expiration: 0
+  rollback:
+    cast_count: 1
+    last_cast: 1558711957718
+    last_earn: 0
+    cooldown_expiration: 0
+  poison:
+    cast_count: 2
+    last_cast: 1559818991804
+    last_earn: 1558712553474
+    cooldown_expiration: 1559818998804
+  akimichiroll:
+    cast_count: 32
+    last_cast: 1561577618277
+    last_earn: 0
+    cooldown_expiration: 0
+  wolf:
+    cast_count: 6
+    last_cast: 1558853695600
+    last_earn: 1558853316114
+    cooldown_expiration: 1558853700600
+  byakuganactivate:
+    cast_count: 2
+    last_cast: 1563309941290
+    last_earn: 0
+    cooldown_expiration: 0
+  railgun:
+    cast_count: 0
+    last_cast: 1558854166183
+    last_earn: 0
+    cooldown_expiration: 1558854176183
+  summonwolf:
+    cast_count: 3
+    last_cast: 1562458102191
+    last_earn: 1558853819548
+    cooldown_expiration: 1562458162191
+  meteor:
+    cast_count: 5
+    last_cast: 1562456644881
+    last_earn: 1559330992534
+    cooldown_expiration: 1562456689881
+  laser|3:
+    cast_count: 1
+    last_cast: 1559848520946
+    last_earn: 1559848523247
+    cooldown_expiration: 1559848530946
+  lightningchase:
+    cast_count: 11
+    last_cast: 1562457297626
+    last_earn: 0
+    cooldown_expiration: 0
+  monster:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  boomerang:
+    cast_count: 0
+    last_cast: 1558542400873
+    last_earn: 0
+    cooldown_expiration: 0
+  pull:
+    cast_count: 24
+    last_cast: 1559147050687
+    last_earn: 1559058672227
+    cooldown_expiration: 1559147052687
+  torture:
+    cast_count: 2
+    last_cast: 1558712644536
+    last_earn: 1558712644637
+    cooldown_expiration: 1558712674536
+  jugomod:
+    cast_count: 1
+    last_cast: 1560697691522
+    last_earn: 0
+    cooldown_expiration: 0
+  superlaser:
+    cast_count: 4
+    last_cast: 1558886310535
+    last_earn: 1558886313441
+    cooldown_expiration: 1558886320535
+  cloak:
+    cast_count: 4
+    last_cast: 1561019156917
+    last_earn: 0
+    cooldown_expiration: 0
+  waterblob:
+    cast_count: 1
+    last_cast: 1559049799755
+    last_earn: 1559049812051
+    cooldown_expiration: 1559049803755
+  underearth:
+    cast_count: 32
+    last_cast: 1561931859714
+    last_earn: 1559911792378
+    cooldown_expiration: 0
+  glide:
+    cast_count: 3
+    last_cast: 1558859834453
+    last_earn: 0
+    cooldown_expiration: 1558859894453
+  grab:
+    cast_count: 2
+    last_cast: 1560249118209
+    last_earn: 0
+    cooldown_expiration: 0
+  legilimens:
+    cast_count: 0
+    last_cast: 1558539247582
+    last_earn: 0
+    cooldown_expiration: 0
+  expelliarmus|3:
+    cast_count: 0
+    last_cast: 1558539601556
+    last_earn: 0
+    cooldown_expiration: 1558539609556
+  shadowcapture:
+    cast_count: 2
+    last_cast: 1560250218573
+    last_earn: 0
+    cooldown_expiration: 1560250219573
+  expelliarmus|4:
+    cast_count: 0
+    last_cast: 1558539604861
+    last_earn: 0
+    cooldown_expiration: 1558539613861
+  lightningsmite:
+    cast_count: 1
+    last_cast: 1563667586301
+    last_earn: 0
+    cooldown_expiration: 1563667596301
+  smite:
+    cast_count: 8
+    last_cast: 1563478290272
+    last_earn: 0
+    cooldown_expiration: 1563478305272
+  earthline:
+    cast_count: 1
+    last_cast: 1558538409742
+    last_earn: 0
+    cooldown_expiration: 1558538417742
+  reload_ak47:
+    cast_count: 0
+    last_cast: 1558540062994
+    last_earn: 0
+    cooldown_expiration: 1558540065994
+  secure:
+    cast_count: 0
+    last_cast: 1558709199514
+    last_earn: 0
+    cooldown_expiration: 0
+  bomb:
+    cast_count: 0
+    last_cast: 1561036972081
+    last_earn: 0
+    cooldown_expiration: 1561036984081
+  bloodcontrol:
+    cast_count: 0
+    last_cast: 1560639113837
+    last_earn: 0
+    cooldown_expiration: 0
+  extinguish:
+    cast_count: 24
+    last_cast: 1559913239999
+    last_earn: 1559047566075
+    cooldown_expiration: 1559913247999
+  sniper:
+    cast_count: 0
+    last_cast: 1558540053979
+    last_earn: 0
+    cooldown_expiration: 1558540055979
+  spellshop:
+    cast_count: 36
+    last_cast: 1563027952584
+    last_earn: 0
+    cooldown_expiration: 0
+  life3:
+    cast_count: 1
+    last_cast: 1559379380340
+    last_earn: 0
+    cooldown_expiration: 1559379500340
+  neutron:
+    cast_count: 7
+    last_cast: 1562442492417
+    last_earn: 0
+    cooldown_expiration: 1562442522417
+  fireblast:
+    cast_count: 62
+    last_cast: 1563924373161
+    last_earn: 1559919656671
+    cooldown_expiration: 1563924378161
+  missile:
+    cast_count: 46
+    last_cast: 1560981540540
+    last_earn: 1559333791183
+    cooldown_expiration: 0
+  wound|3:
+    cast_count: 5
+    last_cast: 1559913277411
+    last_earn: 1558713750724
+    cooldown_expiration: 0
+  hat:
+    cast_count: 1
+    last_cast: 1558857198326
+    last_earn: 1558857198326
+    cooldown_expiration: 1558857228326
+  wound|2:
+    cast_count: 0
+    last_cast: 1559913278961
+    last_earn: 0
+    cooldown_expiration: 1559913283961
+  expelliarmus|2:
+    cast_count: 0
+    last_cast: 1558539603156
+    last_earn: 0
+    cooldown_expiration: 1558539610156
+  reflect|4:
+    cast_count: 14
+    last_cast: 1559843052087
+    last_earn: 1559843052087
+    cooldown_expiration: 1559843052837
+  rasenblast:
+    cast_count: 9
+    last_cast: 1559137430397
+    last_earn: 1559137432966
+    cooldown_expiration: 1559137435397
+  reflect|3:
+    cast_count: 1
+    last_cast: 1558878711822
+    last_earn: 1558878711822
+    cooldown_expiration: 1558878714822
+  watertornado:
+    cast_count: 2
+    last_cast: 1559224593827
+    last_earn: 1559058257132
+    cooldown_expiration: 1559224603827
+  ironfist:
+    cast_count: 5
+    last_cast: 1561456737630
+    last_earn: 0
+    cooldown_expiration: 0
+  windpush:
+    cast_count: 8
+    last_cast: 1563047972347
+    last_earn: 0
+    cooldown_expiration: 1563047977347
+  jutsu:
+    cast_count: 22
+    last_cast: 1564257940740
+    last_earn: 0
+    cooldown_expiration: 0
+  boon|3:
+    cast_count: 12
+    last_cast: 1558790128246
+    last_earn: 1558790128246
+    cooldown_expiration: 0
+  earthsandshield:
+    cast_count: 1
+    last_cast: 1560983465242
+    last_earn: 0
+    cooldown_expiration: 0
+  boon|2:
+    cast_count: 5
+    last_cast: 1559335932057
+    last_earn: 1559335918889
+    cooldown_expiration: 1559335938057
+  superconvert:
+    cast_count: 3
+    last_cast: 1558712151261
+    last_earn: 0
+    cooldown_expiration: 0
+  aguamenti:
+    cast_count: 1
+    last_cast: 1558539724951
+    last_earn: 1558539724950
+    cooldown_expiration: 1558539726951
+  boon|4:
+    cast_count: 3
+    last_cast: 1559242636899
+    last_earn: 1559242636899
+    cooldown_expiration: 1559242642899
+  scorchmegablast:
+    cast_count: 14
+    last_cast: 1560173345977
+    last_earn: 0
+    cooldown_expiration: 0
+  sarutobismoke:
+    cast_count: 7
+    last_cast: 1562501330757
+    last_earn: 0
+    cooldown_expiration: 0
+  itemshop:
+    cast_count: 0
+    last_cast: 1559223533671
+    last_earn: 0
+    cooldown_expiration: 0
+  recurse:
+    cast_count: 2
+    last_cast: 1559303474229
+    last_earn: 1559303474440
+    cooldown_expiration: 1559303474729
+  summoningfrogstandart:
+    cast_count: 29
+    last_cast: 1562622528991
+    last_earn: 0
+    cooldown_expiration: 1562622529991
+  testdummy:
+    cast_count: 12
+    last_cast: 1561147152288
+    last_earn: 0
+    cooldown_expiration: 0
+  lumos:
+    cast_count: 6
+    last_cast: 1558539209947
+    last_earn: 0
+    cooldown_expiration: 0
+  hominglightning:
+    cast_count: 15
+    last_cast: 1559238682071
+    last_earn: 1559238677607
+    cooldown_expiration: 1559238687071
+  blind:
+    cast_count: 0
+    last_cast: 1562450320946
+    last_earn: 0
+    cooldown_expiration: 1562450330946
+  boon:
+    cast_count: 7
+    last_cast: 1560697331248
+    last_earn: 1559336313960
+    cooldown_expiration: 0
+  boom:
+    cast_count: 21
+    last_cast: 1559818960845
+    last_earn: 1559135829726
+    cooldown_expiration: 0
+  supercollapse:
+    cast_count: 1
+    last_cast: 1559231260051
+    last_earn: 0
+    cooldown_expiration: 1559231270051
+  silencio:
+    cast_count: 1
+    last_cast: 1558539847711
+    last_earn: 0
+    cooldown_expiration: 1558539848711
+  butterflymod:
+    cast_count: 21
+    last_cast: 1561456988248
+    last_earn: 0
+    cooldown_expiration: 0
+  superhemisphere:
+    cast_count: 2
+    last_cast: 1558763417326
+    last_earn: 1558763412275
+    cooldown_expiration: 0
+  stormlaser:
+    cast_count: 8
+    last_cast: 1561931646085
+    last_earn: 1559849286801
+    cooldown_expiration: 0
+  blink:
+    cast_count: 18
+    last_cast: 1561135356562
+    last_earn: 1558708192208
+    cooldown_expiration: 1561135366562
+  blast|4:
+    cast_count: 208
+    last_cast: 1562455429497
+    last_earn: 1559332853099
+    cooldown_expiration: 1562455434497
+  mokuton:
+    cast_count: 0
+    last_cast: 1559150467420
+    last_earn: 0
+    cooldown_expiration: 1559150477420
+  windboost:
+    cast_count: 10
+    last_cast: 1560021517821
+    last_earn: 1559848782199
+    cooldown_expiration: 0
+  wave:
+    cast_count: 1
+    last_cast: 1561248655282
+    last_earn: 1559234694558
+    cooldown_expiration: 1561248665282
+  life:
+    cast_count: 2
+    last_cast: 1559379370643
+    last_earn: 0
+    cooldown_expiration: 1559379490643
+  woodcut:
+    cast_count: 125
+    last_cast: 1559848665029
+    last_earn: 1559848657531
+    cooldown_expiration: 0
+  snakepoisonhuge:
+    cast_count: 19
+    last_cast: 1562455367792
+    last_earn: 0
+    cooldown_expiration: 1562455368792
+  chidori:
+    cast_count: 127
+    last_cast: 1563480323930
+    last_earn: 1559549950003
+    cooldown_expiration: 1563480324930
+  strongfist:
+    cast_count: 17
+    last_cast: 1561043001322
+    last_earn: 0
+    cooldown_expiration: 1561043002322
+  lava:
+    cast_count: 4
+    last_cast: 1559845472742
+    last_earn: 1559845465403
+    cooldown_expiration: 0
+  protego:
+    cast_count: 2
+    last_cast: 1558539639986
+    last_earn: 1558539630635
+    cooldown_expiration: 1558539642986
+  defender_death:
+    cast_count: 4
+    last_cast: 1558855175554
+    last_earn: 0
+    cooldown_expiration: 0
+  jugoarm:
+    cast_count: 1
+    last_cast: 1560697680407
+    last_earn: 0
+    cooldown_expiration: 0
+  icbm:
+    cast_count: 0
+    last_cast: 1558885605577
+    last_earn: 0
+    cooldown_expiration: 0
+  blast|3:
+    cast_count: 16
+    last_cast: 1562449395824
+    last_earn: 1559136587456
+    cooldown_expiration: 1562449400824
+  blast|2:
+    cast_count: 12
+    last_cast: 1562449649948
+    last_earn: 1558855461939
+    cooldown_expiration: 1562449654948
+  bookshop:
+    cast_count: 1
+    last_cast: 1561726545580
+    last_earn: 0
+    cooldown_expiration: 0
+  rinneganactivate:
+    cast_count: 11
+    last_cast: 1563641139520
+    last_earn: 0
+    cooldown_expiration: 1563641139620
+  incendio:
+    cast_count: 1
+    last_cast: 1558539287326
+    last_earn: 1558539287525
+    cooldown_expiration: 1558539290326
+  smokegun:
+    cast_count: 2
+    last_cast: 1560799898082
+    last_earn: 0
+    cooldown_expiration: 0
+  avadakedavra:
+    cast_count: 1
+    last_cast: 1558539123604
+    last_earn: 1558539128454
+    cooldown_expiration: 1558539153604
+  expelliarmus:
+    cast_count: 0
+    last_cast: 1558539610511
+    last_earn: 0
+    cooldown_expiration: 1558539620511
+  arrow_light:
+    cast_count: 5
+    last_cast: 1559211890940
+    last_earn: 1559211894439
+    cooldown_expiration: 0
+  polymorph:
+    cast_count: 2
+    last_cast: 1563149582426
+    last_earn: 1558860280411
+    cooldown_expiration: 1563149612426
+  superblast:
+    cast_count: 31
+    last_cast: 1562976358323
+    last_earn: 0
+    cooldown_expiration: 0
+  daytiger:
+    cast_count: 27
+    last_cast: 1562518700826
+    last_earn: 0
+    cooldown_expiration: 1562518705826
+  disarm|3:
+    cast_count: 1
+    last_cast: 1558712712607
+    last_earn: 1558712699229
+    cooldown_expiration: 1558712718607
+  disarm|2:
+    cast_count: 0
+    last_cast: 1558712709401
+    last_earn: 0
+    cooldown_expiration: 1558712717401
+  boom|2:
+    cast_count: 1
+    last_cast: 1558857662615
+    last_earn: 1558857662673
+    cooldown_expiration: 1558857669615
+  icespikes:
+    cast_count: 6
+    last_cast: 1560463016381
+    last_earn: 1559901648366
+    cooldown_expiration: 0
+  sizepartgrow:
+    cast_count: 8
+    last_cast: 1560900450693
+    last_earn: 0
+    cooldown_expiration: 0
+  birth_automatasnake:
+    cast_count: 0
+    last_cast: 1562500934803
+    last_earn: 0
+    cooldown_expiration: 1562500935803
+  arrow_shock:
+    cast_count: 0
+    last_cast: 1558789992006
+    last_earn: 0
+    cooldown_expiration: 0
+  blob|2:
+    cast_count: 1
+    last_cast: 1558875023311
+    last_earn: 1558875023453
+    cooldown_expiration: 1558875028311
+  arrow_regular:
+    cast_count: 0
+    last_cast: 1558708420671
+    last_earn: 0
+    cooldown_expiration: 0
+  blob|3:
+    cast_count: 2
+    last_cast: 1558875046739
+    last_earn: 1558875026415
+    cooldown_expiration: 1558875054739
+  blob|4:
+    cast_count: 2
+    last_cast: 1558875055186
+    last_earn: 1558875028666
+    cooldown_expiration: 1558875063186
+  byakupush:
+    cast_count: 5
+    last_cast: 1563200166961
+    last_earn: 0
+    cooldown_expiration: 1563200171961
+  colorshop:
+    cast_count: 0
+    last_cast: 1559906263116
+    last_earn: 0
+    cooldown_expiration: 0
+  time:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bubble|2:
+    cast_count: 3
+    last_cast: 1559049204517
+    last_earn: 1559049204560
+    cooldown_expiration: 1559049206517
+  bonebullets:
+    cast_count: 12
+    last_cast: 1559238213857
+    last_earn: 1559238206581
+    cooldown_expiration: 0
+  testdragon:
+    cast_count: 0
+    last_cast: 1559316603324
+    last_earn: 0
+    cooldown_expiration: 1559316604324
+  wither:
+    cast_count: 1
+    last_cast: 1560251735620
+    last_earn: 1559211571802
+    cooldown_expiration: 1560251740620
+  stash:
+    cast_count: 2
+    last_cast: 1560249284330
+    last_earn: 1558707131130
+    cooldown_expiration: 1560249286330
+  insectshield:
+    cast_count: 24
+    last_cast: 1561034103811
+    last_earn: 0
+    cooldown_expiration: 0
+  mob:
+    cast_count: 1
+    last_cast: 1558859610777
+    last_earn: 0
+    cooldown_expiration: 1558859655777
+  ironwall:
+    cast_count: 6
+    last_cast: 1561568715565
+    last_earn: 0
+    cooldown_expiration: 0
+  testbubble:
+    cast_count: 21
+    last_cast: 1559378032109
+    last_earn: 1559377957655
+    cooldown_expiration: 1559378034109
+  shadowimitation:
+    cast_count: 4
+    last_cast: 1560286431147
+    last_earn: 0
+    cooldown_expiration: 0
+  boilfog:
+    cast_count: 15
+    last_cast: 1562365186106
+    last_earn: 0
+    cooldown_expiration: 1562365191106
+  gills:
+    cast_count: 1
+    last_cast: 1558859966036
+    last_earn: 0
+    cooldown_expiration: 1558859996036
+  bonesword:
+    cast_count: 32
+    last_cast: 1559913613479
+    last_earn: 0
+    cooldown_expiration: 0
+  frost:
+    cast_count: 10
+    last_cast: 1559818976305
+    last_earn: 0
+    cooldown_expiration: 0
+  weather:
+    cast_count: 2
+    last_cast: 1558541206152
+    last_earn: 0
+    cooldown_expiration: 0
+  susanoo2st:
+    cast_count: 20
+    last_cast: 1561047782006
+    last_earn: 0
+    cooldown_expiration: 0
+  trackiron:
+    cast_count: 7
+    last_cast: 1561247728151
+    last_earn: 0
+    cooldown_expiration: 1561247733151
+  simulate:
+    cast_count: 1
+    last_cast: 1558857386553
+    last_earn: 0
+    cooldown_expiration: 0
+  phase:
+    cast_count: 16
+    last_cast: 1562010723918
+    last_earn: 0
+    cooldown_expiration: 1562010738918
+  birth_worm:
+    cast_count: 0
+    last_cast: 1562451925160
+    last_earn: 0
+    cooldown_expiration: 1562451985160
+  rasensuriken:
+    cast_count: 160
+    last_cast: 1563371172838
+    last_earn: 1559911563227
+    cooldown_expiration: 1563371177838
+  dustsplit:
+    cast_count: 0
+    last_cast: 1563480345502
+    last_earn: 0
+    cooldown_expiration: 1563480346502
+  worm:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  xuydril:
+    cast_count: 9
+    last_cast: 1559233262932
+    last_earn: 1559233177482
+    cooldown_expiration: 1559233263932
+  suicide:
+    cast_count: 30
+    last_cast: 1559376432032
+    last_earn: 0
+    cooldown_expiration: 1559376433032
+  summoningminisnakesup:
+    cast_count: 2
+    last_cast: 1562447929454
+    last_earn: 0
+    cooldown_expiration: 1562447930454
+  push:
+    cast_count: 41
+    last_cast: 1563198433072
+    last_earn: 1559234573617
+    cooldown_expiration: 1563198438072
+  superemp:
+    cast_count: 2
+    last_cast: 1558447764398
+    last_earn: 0
+    cooldown_expiration: 1558447769398
+  immobulus:
+    cast_count: 0
+    last_cast: 1558539282012
+    last_earn: 0
+    cooldown_expiration: 1558539292012
+  explosionblast:
+    cast_count: 51
+    last_cast: 1563199557176
+    last_earn: 1559333069438
+    cooldown_expiration: 1563199562176
+  vermillious|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  regenerate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  permafrost:
+    cast_count: 1
+    last_cast: 1560716751669
+    last_earn: 0
+    cooldown_expiration: 1560716781669
+  light:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  sandfall:
+    cast_count: 4
+    last_cast: 1560173399454
+    last_earn: 1559848284984
+    cooldown_expiration: 1560173429454
+  blackpanther:
+    cast_count: 0
+    last_cast: 1561934609472
+    last_earn: 0
+    cooldown_expiration: 0
+  sarutobifire:
+    cast_count: 8
+    last_cast: 1562501333956
+    last_earn: 0
+    cooldown_expiration: 1562501338956
+  mvrandomtravel:
+    cast_count: 2
+    last_cast: 1561731537649
+    last_earn: 0
+    cooldown_expiration: 0
+  sticky:
+    cast_count: 4
+    last_cast: 1559671116583
+    last_earn: 1559671121750
+    cooldown_expiration: 1559671126583
+  lightningchain:
+    cast_count: 24
+    last_cast: 1562501231668
+    last_earn: 1559129993660
+    cooldown_expiration: 0
+  chakrasmash:
+    cast_count: 9
+    last_cast: 1563565450845
+    last_earn: 0
+    cooldown_expiration: 1563565470845
+  lift:
+    cast_count: 16
+    last_cast: 1560622485751
+    last_earn: 1558857416067
+    cooldown_expiration: 1560622487751
+  summoning8dogs:
+    cast_count: 3
+    last_cast: 1562500496072
+    last_earn: 0
+    cooldown_expiration: 1562500497072
+  force:
+    cast_count: 0
+    last_cast: 1563822951755
+    last_earn: 0
+    cooldown_expiration: 0
+  addsp:
+    cast_count: 1
+    last_cast: 1559333770066
+    last_earn: 0
+    cooldown_expiration: 0
+  patronus:
+    cast_count: 1
+    last_cast: 1558539054859
+    last_earn: 0
+    cooldown_expiration: 1558539084859
+  damage:
+    cast_count: 33
+    last_cast: 1562362611440
+    last_earn: 0
+    cooldown_expiration: 1562362611940
+  woodcapture:
+    cast_count: 67
+    last_cast: 1560252190491
+    last_earn: 1559839309796
+    cooldown_expiration: 0
+  automatashop:
+    cast_count: 0
+    last_cast: 1558857354288
+    last_earn: 0
+    cooldown_expiration: 0
+  summoningfrogcastbig:
+    cast_count: 5
+    last_cast: 1562622005480
+    last_earn: 0
+    cooldown_expiration: 1562622006480
+  wear:
+    cast_count: 45
+    last_cast: 1563638139932
+    last_earn: 0
+    cooldown_expiration: 0
+  snake_death:
+    cast_count: 0
+    last_cast: 1558448342355
+    last_earn: 0
+    cooldown_expiration: 0
+  dome:
+    cast_count: 1
+    last_cast: 1558707170422
+    last_earn: 1558707170874
+    cooldown_expiration: 1558707176422
+  instantsmokeform:
+    cast_count: 12
+    last_cast: 1560371619524
+    last_earn: 0
+    cooldown_expiration: 0
+  mindtransferbase2:
+    cast_count: 2
+    last_cast: 1560696120884
+    last_earn: 0
+    cooldown_expiration: 0
+  recall:
+    cast_count: 1
+    last_cast: 1558707236824
+    last_earn: 1558707241875
+    cooldown_expiration: 0
+  susanoo1st:
+    cast_count: 39
+    last_cast: 1563212918022
+    last_earn: 0
+    cooldown_expiration: 1563212918122
+  broomshop:
+    cast_count: 0
+    last_cast: 1561845514684
+    last_earn: 0
+    cooldown_expiration: 0
+  goldwall:
+    cast_count: 2
+    last_cast: 1561249075212
+    last_earn: 0
+    cooldown_expiration: 0
+  place:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  superfly:
+    cast_count: 29
+    last_cast: 1563641069476
+    last_earn: 0
+    cooldown_expiration: 0
+  slimeheal:
+    cast_count: 24
+    last_cast: 1562453315719
+    last_earn: 0
+    cooldown_expiration: 1562453316219
+  breathofice:
+    cast_count: 0
+    last_cast: 1558538271614
+    last_earn: 0
+    cooldown_expiration: 1558538281614
+  fireball:
+    cast_count: 4
+    last_cast: 1563924341844
+    last_earn: 1559052983952
+    cooldown_expiration: 1563924351844
+  sharinganspikes:
+    cast_count: 15
+    last_cast: 1561456868429
+    last_earn: 0
+    cooldown_expiration: 0
+  fiantoduri:
+    cast_count: 2
+    last_cast: 1558539359109
+    last_earn: 0
+    cooldown_expiration: 1558539389109
+  tornado:
+    cast_count: 0
+    last_cast: 1559047790557
+    last_earn: 0
+    cooldown_expiration: 1559047800557
+  fury:
+    cast_count: 2
+    last_cast: 1560798988929
+    last_earn: 1559042922107
+    cooldown_expiration: 1560799018929
+  summoningslimehp:
+    cast_count: 4
+    last_cast: 1562501274992
+    last_earn: 0
+    cooldown_expiration: 1562501275992
+  kill:
+    cast_count: 4
+    last_cast: 1562362283163
+    last_earn: 1559147822410
+    cooldown_expiration: 1562362313163
+  amenomihashira:
+    cast_count: 0
+    last_cast: 1559818832254
+    last_earn: 0
+    cooldown_expiration: 0
+  insectinfection:
+    cast_count: 15
+    last_cast: 1561031495907
+    last_earn: 0
+    cooldown_expiration: 0
+  wave|2:
+    cast_count: 2
+    last_cast: 1559232423270
+    last_earn: 1559221598555
+    cooldown_expiration: 1559232433270
+  phasebackup:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  gatling|2:
+    cast_count: 1
+    last_cast: 1558859934643
+    last_earn: 1558859940804
+    cooldown_expiration: 1558859954643
+  kunaitriple:
+    cast_count: 1
+    last_cast: 1562510147691
+    last_earn: 0
+    cooldown_expiration: 1562510148691
+  note01:
+    cast_count: 1
+    last_cast: 1558857677880
+    last_earn: 0
+    cooldown_expiration: 0
+  smokeform:
+    cast_count: 10
+    last_cast: 1560173717685
+    last_earn: 0
+    cooldown_expiration: 0
+  amaterasu:
+    cast_count: 6
+    last_cast: 1559818803455
+    last_earn: 1559818803811
+    cooldown_expiration: 0
+  explosionsuicide:
+    cast_count: 5
+    last_cast: 1563036615429
+    last_earn: 0
+    cooldown_expiration: 1563036616429
+  projectile:
+    cast_count: 1
+    last_cast: 1559054327460
+    last_earn: 1559054327460
+    cooldown_expiration: 0
+  defender:
+    cast_count: 0
+    last_cast: 1562449149805
+    last_earn: 0
+    cooldown_expiration: 1562449154805
+  earthultimate:
+    cast_count: 11
+    last_cast: 1561578767592
+    last_earn: 0
+    cooldown_expiration: 0
+  wolfhouse:
+    cast_count: 9
+    last_cast: 1559231099220
+    last_earn: 0
+    cooldown_expiration: 1559231119220
+  kill|2:
+    cast_count: 1
+    last_cast: 1558615671089
+    last_earn: 1558615674437
+    cooldown_expiration: 1558615701089
+  woodwave:
+    cast_count: 6
+    last_cast: 1561248638327
+    last_earn: 1559848677849
+    cooldown_expiration: 1561248648327
+  kill|3:
+    cast_count: 0
+    last_cast: 1558860003055
+    last_earn: 0
+    cooldown_expiration: 1558860033055
+  arrow_ice:
+    cast_count: 4
+    last_cast: 1559211600026
+    last_earn: 1559211600824
+    cooldown_expiration: 0
+  birth_hunter:
+    cast_count: 0
+    last_cast: 1562450405771
+    last_earn: 0
+    cooldown_expiration: 1562450415771
+  whip:
+    cast_count: 2
+    last_cast: 1560170202761
+    last_earn: 0
+    cooldown_expiration: 1560170207761
+  fling|2:
+    cast_count: 160
+    last_cast: 1558541703622
+    last_earn: 0
+    cooldown_expiration: 0
+  flatten:
+    cast_count: 2
+    last_cast: 1559672426251
+    last_earn: 1559672426672
+    cooldown_expiration: 0
+  healing:
+    cast_count: 2
+    last_cast: 1558857218564
+    last_earn: 0
+    cooldown_expiration: 0
+  fling|4:
+    cast_count: 1
+    last_cast: 1560463559416
+    last_earn: 0
+    cooldown_expiration: 0
+  evade:
+    cast_count: 8
+    last_cast: 1562512722624
+    last_earn: 0
+    cooldown_expiration: 1562512724624
+  bendingshop:
+    cast_count: 1
+    last_cast: 1558538677200
+    last_earn: 0
+    cooldown_expiration: 0
+  beat:
+    cast_count: 1
+    last_cast: 1558539459358
+    last_earn: 0
+    cooldown_expiration: 1558539464358
+  chakraslash:
+    cast_count: 11
+    last_cast: 1564089725494
+    last_earn: 0
+    cooldown_expiration: 1564089730494
+  tag:
+    cast_count: 2
+    last_cast: 1560800838785
+    last_earn: 0
+    cooldown_expiration: 1560800868785
+  susanoo4st:
+    cast_count: 10
+    last_cast: 1561047780861
+    last_earn: 0
+    cooldown_expiration: 0
+  hunter:
+    cast_count: 0
+    last_cast: 1562449351214
+    last_earn: 0
+    cooldown_expiration: 1562449361214
+  day:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  taijutsubackflip:
+    cast_count: 5
+    last_cast: 1563655568645
+    last_earn: 0
+    cooldown_expiration: 1563655578645
+  superdisc:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fireannihilation:
+    cast_count: 15
+    last_cast: 1563053073185
+    last_earn: 1559916979236
+    cooldown_expiration: 0
+  nobabies:
+    cast_count: 0
+    last_cast: 1558709368952
+    last_earn: 0
+    cooldown_expiration: 1558709376952
+  stun|2:
+    cast_count: 0
+    last_cast: 1558709218927
+    last_earn: 0
+    cooldown_expiration: 1558709223927
+  stun|3:
+    cast_count: 0
+    last_cast: 1558857135620
+    last_earn: 0
+    cooldown_expiration: 1558857140620
+  backflip:
+    cast_count: 10
+    last_cast: 1563209114050
+    last_earn: 1558791323871
+    cooldown_expiration: 1563209124050
+  tree:
+    cast_count: 6
+    last_cast: 1559150027654
+    last_earn: 1559150010621
+    cooldown_expiration: 1559150032654
+  capture:
+    cast_count: 2
+    last_cast: 1559129191773
+    last_earn: 1559129152268
+    cooldown_expiration: 1559129196773
+  explosionclaybomb:
+    cast_count: 36
+    last_cast: 1562452296001
+    last_earn: 0
+    cooldown_expiration: 1562452297001
+  earthquake:
+    cast_count: 5
+    last_cast: 1562624768795
+    last_earn: 1559211433289
+    cooldown_expiration: 1562624788795
+  disarm:
+    cast_count: 1
+    last_cast: 1559818993932
+    last_earn: 1558712673532
+    cooldown_expiration: 1559819003932
+  gravipull:
+    cast_count: 3
+    last_cast: 1563630678129
+    last_earn: 1559146695067
+    cooldown_expiration: 0
+  goldfist:
+    cast_count: 1
+    last_cast: 1561481910058
+    last_earn: 0
+    cooldown_expiration: 0
+  floodfill:
+    cast_count: 0
+    last_cast: 1558712361325
+    last_earn: 0
+    cooldown_expiration: 1558712362325
+  reducio|2:
+    cast_count: 0
+    last_cast: 1558539064422
+    last_earn: 0
+    cooldown_expiration: 1558539079422
+  rainbow:
+    cast_count: 21
+    last_cast: 1559331795823
+    last_earn: 0
+    cooldown_expiration: 1559331840823
+  blob:
+    cast_count: 27
+    last_cast: 1558875064060
+    last_earn: 1558875019895
+    cooldown_expiration: 1558875068060
+  note24:
+    cast_count: 6
+    last_cast: 1558857695551
+    last_earn: 0
+    cooldown_expiration: 0
+  combustion:
+    cast_count: 2
+    last_cast: 1558538386711
+    last_earn: 0
+    cooldown_expiration: 0
+  note23:
+    cast_count: 2
+    last_cast: 1558857694701
+    last_earn: 0
+    cooldown_expiration: 0
+  icemirrors:
+    cast_count: 1
+    last_cast: 1560243763983
+    last_earn: 0
+    cooldown_expiration: 0
+  note22:
+    cast_count: 2
+    last_cast: 1558857693801
+    last_earn: 0
+    cooldown_expiration: 0
+  miniblackhole:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  note21:
+    cast_count: 2
+    last_cast: 1558857696601
+    last_earn: 0
+    cooldown_expiration: 0
+  note20:
+    cast_count: 1
+    last_cast: 1558857692750
+    last_earn: 0
+    cooldown_expiration: 0
+  flamejutsu:
+    cast_count: 32
+    last_cast: 1559224555241
+    last_earn: 1559224560233
+    cooldown_expiration: 1559224560241
+  dash:
+    cast_count: 36
+    last_cast: 1560899100621
+    last_earn: 1558894159388
+    cooldown_expiration: 0
+  chainlightning:
+    cast_count: 2
+    last_cast: 1559130091449
+    last_earn: 1559130093048
+    cooldown_expiration: 1559130111449
+  inuzukafang:
+    cast_count: 142
+    last_cast: 1561024695903
+    last_earn: 0
+    cooldown_expiration: 0
+  iceshards:
+    cast_count: 12
+    last_cast: 1560277151910
+    last_earn: 1559224772820
+    cooldown_expiration: 0
+  shell|2:
+    cast_count: 2
+    last_cast: 1558875073835
+    last_earn: 1558875073934
+    cooldown_expiration: 1558875079835
+  tent:
+    cast_count: 8
+    last_cast: 1559819035205
+    last_earn: 1559331759340
+    cooldown_expiration: 0
+  shell|3:
+    cast_count: 4
+    last_cast: 1558875183948
+    last_earn: 1558875076443
+    cooldown_expiration: 1558875189948
+  repair:
+    cast_count: 2
+    last_cast: 1558541226423
+    last_earn: 0
+    cooldown_expiration: 0
+  note:
+    cast_count: 1
+    last_cast: 1558857673820
+    last_earn: 0
+    cooldown_expiration: 0
+  sandblast|2:
+    cast_count: 3
+    last_cast: 1559847730279
+    last_earn: 1559847730336
+    cooldown_expiration: 1559847760279
+  mindcontrolbase:
+    cast_count: 0
+    last_cast: 1560639113837
+    last_earn: 0
+    cooldown_expiration: 0
+  summoningslimedamage:
+    cast_count: 17
+    last_cast: 1562501326453
+    last_earn: 0
+    cooldown_expiration: 1562501327453
+  reductomaxima:
+    cast_count: 6
+    last_cast: 1558539502847
+    last_earn: 0
+    cooldown_expiration: 0
+  firefenix:
+    cast_count: 1
+    last_cast: 1559128911128
+    last_earn: 1559128869994
+    cooldown_expiration: 1559128914128
+  moonlight:
+    cast_count: 13
+    last_cast: 1564089734342
+    last_earn: 0
+    cooldown_expiration: 1564089739342
+  byakuganactive:
+    cast_count: 2
+    last_cast: 1563211986896
+    last_earn: 0
+    cooldown_expiration: 0
+  reload_sniper:
+    cast_count: 0
+    last_cast: 1558540053077
+    last_earn: 0
+    cooldown_expiration: 1558540056577
+  volley:
+    cast_count: 5
+    last_cast: 1561036811117
+    last_earn: 0
+    cooldown_expiration: 0
+  snake:
+    cast_count: 0
+    last_cast: 1558872608097
+    last_earn: 0
+    cooldown_expiration: 0
+  windbullet:
+    cast_count: 0
+    last_cast: 1560202682312
+    last_earn: 0
+    cooldown_expiration: 1560202687312
+  appearanceshop:
+    cast_count: 0
+    last_cast: 1559906275357
+    last_earn: 0
+    cooldown_expiration: 0
+  hatakesword:
+    cast_count: 7
+    last_cast: 1561208051188
+    last_earn: 0
+    cooldown_expiration: 0
+  shell|4:
+    cast_count: 8
+    last_cast: 1558879682296
+    last_earn: 1558879549526
+    cooldown_expiration: 1558879688296
+  platform:
+    cast_count: 4
+    last_cast: 1558450854324
+    last_earn: 0
+    cooldown_expiration: 0
+  lava|3:
+    cast_count: 5
+    last_cast: 1559845570058
+    last_earn: 1559845541823
+    cooldown_expiration: 1559845575058
+  crystalarmor:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  cat:
+    cast_count: 1
+    last_cast: 1559729512729
+    last_earn: 1559729512728
+    cooldown_expiration: 1559729517729
+  stormminilaser:
+    cast_count: 0
+    last_cast: 1561931657101
+    last_earn: 0
+    cooldown_expiration: 0
+  byakuganairpunch:
+    cast_count: 0
+    last_cast: 1563212090586
+    last_earn: 0
+    cooldown_expiration: 0
+  airstrike:
+    cast_count: 2
+    last_cast: 1558857288968
+    last_earn: 1558857262152
+    cooldown_expiration: 0
+  susanoo3st:
+    cast_count: 15
+    last_cast: 1561047781167
+    last_earn: 0
+    cooldown_expiration: 0
+  progressmenu:
+    cast_count: 63
+    last_cast: 1561647168238
+    last_earn: 0
+    cooldown_expiration: 0
+  ghast:
+    cast_count: 2
+    last_cast: 1558541628524
+    last_earn: 0
+    cooldown_expiration: 0
+  supertorch:
+    cast_count: 1
+    last_cast: 1558763373227
+    last_earn: 1558763373227
+    cooldown_expiration: 1558763374227
+  snakewound:
+    cast_count: 6
+    last_cast: 1562455857666
+    last_earn: 0
+    cooldown_expiration: 0
+  breach:
+    cast_count: 5
+    last_cast: 1559818974053
+    last_earn: 1559150291947
+    cooldown_expiration: 0
+  harden|2:
+    cast_count: 3
+    last_cast: 1559043988520
+    last_earn: 1559043966053
+    cooldown_expiration: 1559043989520
+  fire|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  insectshot:
+    cast_count: 1
+    last_cast: 1562368129927
+    last_earn: 0
+    cooldown_expiration: 1562368135927
+  tearingattack:
+    cast_count: 80
+    last_cast: 1563669879342
+    last_earn: 0
+    cooldown_expiration: 1563669879442
+  sharingancrows:
+    cast_count: 33
+    last_cast: 1562355206478
+    last_earn: 0
+    cooldown_expiration: 0
+  levitate|5:
+    cast_count: 4
+    last_cast: 1558857554322
+    last_earn: 0
+    cooldown_expiration: 1558857555322
+  alohomora:
+    cast_count: 1
+    last_cast: 1558539712332
+    last_earn: 1558539689808
+    cooldown_expiration: 1558539722332
+  earthwave:
+    cast_count: 4
+    last_cast: 1561931853948
+    last_earn: 1559303449709
+    cooldown_expiration: 0
+  growth:
+    cast_count: 3
+    last_cast: 1558859954214
+    last_earn: 1558447509775
+    cooldown_expiration: 1558859957214
+  airsphere:
+    cast_count: 1
+    last_cast: 1558538374703
+    last_earn: 0
+    cooldown_expiration: 1558538404703
+  birth_virus:
+    cast_count: 0
+    last_cast: 1562451870443
+    last_earn: 0
+    cooldown_expiration: 1562451990443
+wands:
+  startsharingan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 377
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Активация Шарингана§f (§3Шаринган§f)
+        lore:
+        - §o§aТехники Шарингана
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QsVLCUBBFN0OMSRxxwMbSghYLESEdOFjgiBZIYcUsvA28IXl5JhsQCmv/QL/B2q/xJ2wsLUzCyHa7c/fsvesCGGAuiLThgrlCJWywmUIdIBOUE8aYkznGUs1Q2bAXrRTF4NAzx3Kz2ZAFZogKO2soyoRy3o5ZhpTthjrDL35fvz8yarE6lgJqvmg1iHyvLi6xWW80JlRvC/+i3hJTanp47rWJSrC/pDiRkcqwlgtHiaYgGEu1JMVRvC5BZecLpyyXud+iDDhIlYgjrXESkOFAtcuZ20nKNIiE9GWGdXOdCfZo1O8NooR/9OfLe+Wmb4KTj24JE3678r56D48nFljdMEoVd2rbAzaYwyBisEOUal687HB34g5DguMZZVnl9AyZcboYaiJRAudeU4y8jZRTCm31+imVOsxSnf7bA/gD+4Q0j5cBAAA=
+    wand:
+      template: startsharingan
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1563309961130
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        sharinganactivate: 0
+  startfire:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 361
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Огня
+        lore:
+        - §o§aТехники Стихии Огня
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QTU4CQRCFa6QdZzBqghdwwcLNuBAR2EGiEY3ogrBxQxq6RjtM/9hTA4a76M47eAB37vUCHsED2AzR2lXlvVdfVRUgADZDtEEV2IJrEUFEqGzGCSHOiTtKpcMINs1Co4MYn8jJ5XKJITDFNe9KKIvB7qodk1Tobcr65Kx58XLnA0vrWAqop6LVQEw7iTjlzaTRmGDSFulJ0hJTbHb4caeNWIGtObpcGu1jQ8+3XWjhjLV8kmEQQ61HHmFSEA6MkKn02qpXBgyi0ejybGByuvra+/ju9z8ZxKvRNfKc3g5fn0c/7xshhD1lCk3d+po8AjbMDEGkuNQP5Qt2/lfccIWwf4/+ADk94kR8OhtaRFGB+Nai47TmXKWU2tr5YyGtQk0Hf3gAv88pCJtnAQAA
+    wand:
+      template: startfire
+      owner: Exteva
+      mana: 200.0
+      mana_timestamp: 1564261981786
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  startrinnegan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 380
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Активация Риннегана§f (§3Риннеган§f)
+        lore:
+        - §o§aТехники Риннегана
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 1000'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QwU7CQBCGp2ktbQ1I4AU4cK0HEYGDCSRKYgJ6IJzJ0p3ihu52baegvIQXT76GT+IjeNWXcFuDc5vJP9/8/wQAFjhbRG0F4OyZ4h54hFInjBDqObGMMqEUbpjy4CTdK8zAx2czPBwO6IIjmWLj1zGU5UCjbFckJJpVqQ09aU7fPg20Wl0JDt2YD3qI8SjkV6wf9nprDIc8vgwHPML+iF2Mhog21HaY5SJVBusGcJZrTJKVUDtUlGYvNjSPtlhEYle6rcqC00LxLNWarRO0fGhNyJhdF4TzlItYGGpQ6hzwlsu7m3maU20xsxpf028H/HI0Q5bT+3Wn/fNhWy64E5kWisbdvwMeOIskJfAkE+qxelj9/8Q9kwjtDZqoIjpnRCzaLjQit8F/0Jgx+ktUUipt6/apEFqaUJ2jPYBfywoZbpUBAAA=
+    wand:
+      template: startrinnegan
+      owner: Exteva
+      mana: 1000.0
+      mana_timestamp: 1563641156817
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        rinneganactivate: 0
+  fullinuzuka:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 388
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Призыв Собаки§f (§3Хиден Клана Инузука§f)
+        lore:
+        - §o§aТехники Клана Инузука
+        - §3§oПривязан к Exteva
+        - 3 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1QTU/CQBAdbK1tiZqgP4AD13oQETgJiRyMogfCmSzsFDbtftDugvQHeFSPevOHmPhv/B1uEZ3MZSZv3rz3QoAKuAmiqoTgromgPvgauUqJRqjGJk2ZMIVJiA/7ci0wgwAfdcaKokAPXE4E6W1gWy4cleNEM465JlxZ7uQrfv22lNvTCaPQiGm7iRh3I3pJWlGzOcWoQ+OLqE1n2OqS824H0YGDFWY5k8LSeiEc5wrTdMLECoWW2caBcKeKS2ohe3aRG86lWMs0LrU4UN0hYiLmULq0XTWCZlIpMk2xEkCtr62TqdE4lJTFzL4MS6gL/nh8cz2UuX4ffLwsloM3F4JydYck18+nV/XPxdOtB16fSyN0r/EbgA/uKJUafE6YWGyzPPx/cU84wskcbQ5sdka0JrNkpBCpA8GDwozoX7slyxZbGywNU9w6rv/JA/gBBBNPhbABAAA=
+    wand:
+      template: fullinuzuka
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562284298470
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        inuzukamod: 2
+        summonwolf: 0
+        inuzukafang: 1
+  startinuzuka:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 388
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Хиден Клана Инузука
+        lore:
+        - §o§aТехники Клана Инузука
+        - §3§oПривязана к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QvU7DUAyFXRFCUn6GInaGrmGglLZbK4EQgsJQOldurwNXyf0hcShkZ+MBWFiRYOCNeAUeAAmJ21TgzdY5x59dB6iBlxDZWh28OWoRQMCkbIpMsJEzZix1URYJBrBq5poyCOmeM1mWJfngKdTYf4CqPNhatBOWipxTWReepB/vZy6zsk6kgGYsOi2iuBeJQ2xHrdaUoq6ID6KOmFG7h/u9LtEKrN1RlkujXazvENcLLTJjLU5TqoXQGLBDmBZMQyNkLJ227pQ1D4Lx+PRoaHK++v55+TQnvgfhYnROmPPj2455/np69cEfKFNo7jeX5AF4o9QwBAqlvqm+sPm/4gIVwfY1uQPkbA+ZcZaMLJFYgfDSUoa85FykVNrG8W0hrSLNu394AL9A3gzcagEAAA==
+    wand:
+      template: startinuzuka
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1560896514635
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullsharingan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 377
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Активация Шарингана§f (§3Шаринган§f)
+        lore:
+        - §o§aТехники Шарингана
+        - §3§oПривязан к Exteva
+        - 5 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE2RPU4DMRCFJ+wSNgk/IlSIBqGUhIIASSoSCQokfgpEQxNN1rNgxWsb25tAzsA5uA3QUXIAToF3A4HpPH7+5s1zFaAE4YhIl6oQTlCyCCJHqRboCFaSTAh7j4bLO5QRLKqJJAMVenSGT6dTKkOYosTeExQVwmp+HDieknWYak8XR8tfHx5aPB1wBo2EtVtESbfJjvCw2WoNqdlhyUGzzWI67OJ+t0MUwNKYjOVKemy5CmtWkxADLscknTJPAdTnviyJJDZqYr10IYD1+UWsyMQzRPi/j7Hj43w/XwGs/ul/IKXAz5vTNR+RLZQ+qlommVFa41BQqQL1vvNJDDNHF4rxhHvL1RwQQnRzc3ZyoazbfX9bW9q8Og6hkrfOCa17vt16+Xyt7ZSh3E9VJl2vMQswgvBaKAdRilzeF7+xMh9xiSnBxh35HHm8h85hPLrWRCyAypUmg262a04ptPXTh4zr1Ce2/WsP4BtUup9M8gEAAA==
+    wand:
+      template: fullsharingan
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1564274911958
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        sharinganselfcrows: 2
+        sharingancoercion: 4
+        sharinganactivate: 0
+        sharingancrows: 1
+        sharinganspikes: 3
+  fullketsuryugan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 381
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6bloodgenjutsu§f (§3Кецурьюган§f)
+        lore:
+        - §o§aТехники Кецурьюгана
+        - §3§oПривязан к Exteva
+        - 4 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QTU7DMBCFpySUJAUqlQPAgm1ZUKBUAqlFsEDiZ4HKtnLiSTF1bOOMKe114AZsEVvuwGlwgsA7f5r35s1LABoQzhBNI4FwzhSPICIsjGSE0M6dlDOk0tmFmzIVwaqeK7QQ4wtZsVwusQlhwRQbLqB+IWxW3wmJAktihfH+s8+T93VvW0sngsNuzvs9xHzQ5UfssNvrpdg95vlBt88zPByw/cExYgBrz2hLoZW3bSbQLg1KORHqGRVpuwhgI5Va8ymqR+cTVtsDaNWMWzatdUEASU1Iu+zBg0YA6zXItCKrpUcrVQUtp7jVxrBUYiOGzoj8fakjvNZc5MIHSSp1CNF4fHl+rUv6/jLx2/3Fdghxha6QlfSRfJz1X9PTJjRHhXaKhru/tUQQ3klNEBVMqIe65Y3/FTesQNjyd6AV2R4jYtnsziDyAOJbg5bRbwmVSz3buXhywhS+h52/eAA/W+QmF8oBAAA=
+    wand:
+      template: fullketsuryugan
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562264777484
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        bloodgenjutsu: 0
+        blooddragon: 3
+        bloodtouch: 1
+        bloodcontrol: 2
+  fulllava:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 367
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Режим Лавы§f (§3Стихия Лавы§f)
+        lore:
+        - §o§aТехники Стихии Лавы
+        - §3§oПривязаны к Exteva
+        - 4 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 3/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv07DQAyHHTWEJAiGMsHE0JEgRCltt1bAUInSoepcuT2nnJq7HInTfxIzr8CAkHgyNl6ChWsquM3Wz58/XwjggDsnMk4I7hK18MFnUiZBJvDjIkkSXKAPe+lSUwYBrTiTm82GPHAVauysoXwuHG3LMUtFOaMyFjyfrc9/LK8cHUsBtVg060RxOxI32Ijq9QlFLRFfR00xpUYbr9otogrsLyjLZaot1rN6B4UWWWoMThJyAqh22SpMCqZ+KmQsbTa0SccFfzTq3fXTnC9vT79PPnqBC8G29UCY8+vb13v4+TLwwOuqtNDcqe3MfXCHScrgK5T6qfyBw/8Vj6gIjmdkD5DTC2TG6XxoiEQFgoGhDHnnuaWU2er9cyGNIs1nf3oAv9rgelBmAQAA
+    wand:
+      template: fulllava
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1560809123067
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  startketsuryugan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 381
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Активация Кецурьюгана§f (§3Кецурьюган§f)
+        lore:
+        - §o§aТехники Кецурьюгана
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE1QzU7CQBAeQqltjX9w8egBj/UgIOAJEjUxET0QzmTpTnHTdnfdTkE4evN1TEx8B08+g29hPNiWaJzbTL7f8QAqYEWIuuKBtWSSO+AQJjpmhLCfEjMUIaWZWWVzJh2oqaVEAy4+khHr9RptsBIm2WAF5ViwW6xTEgnm7ETnBtH387mf65bUqeDQDHm3hRj2fX7GOn6rNUO/x8O23+UBdvrstN9DrMLWAk0qlMxlbQ/2Uo1xPBVygZKUWVWh8S8ZC0gsiszlVGA7k9wordksxooL9SHleWcZ4UhxEYpc2CtwFjiTyfXFSKX01j7++BpeHVjgFqcbZCm9zJ/ePw9fazbYw0RlkgbNjYED1jhWBE7ChLwv37bzZ3HLEoTGHPO2IjhhRCyIxhqRV8G902gYbUoVKiW2fvmQCZ3kvY5+4wH8AKmVYW2bAQAA
+    wand:
+      template: startketsuryugan
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1563309980205
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        ketsuryuganactivate: 0
+  startuzumaki:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 390
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Оненный Вихрь§f (§3Хиден Клана Узумаки§f)
+        lore:
+        - §o§aТехники Клана Узумаки
+        - §3§oПривязана к Exteva
+        - '§eЧакра: 600'
+        - '§eВосстановление чакры: 4/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAFWQQU7CQBSGH6HWtqImcAEW7AwuRAR2ksDCRHBBWDfTzkMn7UzH9hW0C008gDsv4N6tW27hDYzH0LaoCbObmS//9/7nAFTACBB1xQFjxRS3wCKUOmSEUEuIxZRmqWSBsGAnWimMwcY7ikWWZWhBjfkklugmGsMQar+oFwoVmGBIpti5+nr7fjpaG3BQXF0SEvNYqXNz8PL80cyFZa4rOLQWvNdBXAza/Ix1252Oh+0+X5y2e9zH7oCdDPqINpilLrGgmH5LWoXdJcaJiFT+ZzpwWJKuUEtUFMX31W0cylOBvVTxONKaeSFWbKgPKW/opYSTiIuFyBOdgjPAms8vRpMoofix8TDujKYG2MXTJbKEXj13/fmuBiaYQxmlis5bG4EFxiyMCCzJhLopl7z/r5gyidC4xnwFwj9mRMwPZhqRV8G+0hgz2rQpUkq2Pr5NhZZ5oebfeAA/FGtm5ckBAAA=
+    wand:
+      template: startuzumaki
+      owner: Exteva
+      active_spell: uzumakiblink
+      mana: 247.23999
+      mana_timestamp: 1561582294560
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      spells:
+      - uzumakiblink
+      version: 6
+      spell_inventory:
+        uzumakiblink: 0
+  bonesword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      damage: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4§f§lКостянной Клинок
+        lore:
+        - §3§oПривязан к Exteva
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2OMU7DQBBFx8ri2EY0EQegoDVImJC4QChSKJASIiGloEJj7zhaJd41u2uMfITUNFyBho6agotwEzaBMN18vT/zIgAP2JKo8iJgDUoeQGCprFZoCcJMSTKN0i7dU40kDSE9Wy3atiUfWIkS4W9cb0s8CA7HBR8kREUa8wvsx0mSUTzkxXk84Dn1UzxLh0QdYLUhs+l2oPtE2ggl3eI7o/1acq2qCrMVeSH0RtY9zWpLU8VFIRwbOdJjEMznN+OpMvbq7nTy/TozDMJNNCE09u3lY/3e/br0wR+Vqpb2837nevB/8RZLgsMFOXWRn6C1mC/HWOLCCYazijTaXy/XYlu4d/1Yi6okaY92OgA/8aPz5kkBAAA=
+    wand:
+      template: bonesword
+      owner: Exteva
+      mana: 0.0
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      uses: 0
+      version: 6
+  fulliburi:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 385
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Дымовой Пистолет§f (§3Улучшенный Геном Клана Ибури§f)
+        lore:
+        - §o§aТехники Улучшенного Генома
+        - §a Клана Ибури
+        - §3§oПривязан к Exteva
+        - 4 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QPU7DQBBGx8pi7CAowgUoUtCYghASd4kESEgEhKKIMlpnx7CK9wd7nEAkRJ97cAwKrgHcgJqCjo0j2G5G37x5s3UAD9gU0Xp1YHOuRQABobIZJ4QwLbNMJmUuA9gwc405hPhAuVwsFugDU1zz3iNUj8HOqhyTVFgQV9aRs/bH27sDVqNjKaCZik4LMY0jcczbUauVYNQV6VHUERNsx/ww7iLWYHOGeSGNdljf+W2VWuTGWp5k6IXQ6JNTSErCgREylS5bd0mPQTAanZ8MTEHL6+XTV3z2zCBctS6QF/S6/3Pz+V178cHvK1Nq6jXX5gGwYWYIAsWlvqu+YPt/xSVXCLu36A6QkwNOxCfToUUUNQivLOac1p4rSpVtnN6X0irUtPenB/ALibdRd2cBAAA=
+    wand:
+      template: fulliburi
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1564271690202
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  startice:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 366
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Льда
+        lore:
+        - §o§aТехники Стихии Льда
+        - §3§oПривязаны к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 3/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QPU7DQBCFx8pi7CAQCjUSRVpTEEKSLpGgQCKhiFJHa+8YVvH+ZD0mP6eg5xxcAyoqbsEJ2DiC6Wb03ptvpgkQAFsg2qAJbMW1iCAiVLbghBCVxB3JDCM4MCuNDmJck5Pb7RZDYIprPtxAXQxOdu2cpELvUtYHLwocfvm82jqXAtq56HUQ80Eibng36XRSTPoiv056IsPugF8N+ogNOHxBV0qjfWzo8Y4qLZyxlqcFBjG0RuQR0opwbITMpdc2vTJgEM1m97djU1LfbX7Ol5M3BvFu9IC8pNfPj9M0/H4PIRwpU2katvfkEbBpYQgixaV+rj9w/L9iwhXC2RP6A2R2yYl4tphaRNGA+NGi47Tn3KXU2tbdspJWoaaLPzyAX/kBqdpmAQAA
+    wand:
+      template: startice
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1560891703509
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  borealis:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 10
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Levitate§f (§3Borealis§f)
+        lore:
+        - §o§aThe Aurora Wand
+        - §3§oBound to Exteva
+        - Knows 27 Spells
+        - §6Manifestation
+        - §6Cost Reduction X
+        - §6Cooldown Reduction X
+        - §3Invulnerability
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1SS3ITMRBto7EzM8EEHP4rFtmaRZyQeEeqoCiqCCxSWQfNqMejskYSksYm3sMBOAAX4BAchBUbdhyBKlpywaze9Oe91+ouAQaQLRHtoIRszbXIIQ/YWcUDQl4Zh1xJn8PQrDU6KPBjcHKz2SDVpdCVFHDQiJMZYjOfimf8eDqbVTg9Fc3R9ETUeDznh/NTRAY7K3ReGg0AoxL2vEWlrqReoQ7GXTMYObRcOkrfZZBVJlVmDIaVknpJ+AbhhvCC8IBBYY2iv+gU4DaD0vcWHVcBI8e9RFhzpejnFql30nupYi0j+pYGi0YosUYe2tQzYcACj/R7hAS/JpST6KLlPhDep8aFM2uCDxnkClcybOWB1Hzrtj4fUQuNVLeE71BdwzupJI8KD4jB9j5mhmmyLfFuCierO3F2ZSqCJVX4FlO4IFz3zkexm/EdiD/ix8Rf0ztwm1Jj8hF6rTH23I/b3e21cMZaXikcFDA5C7TBqg94boRsJK2kjM+ZQX55+frFufHh++dP8/e/Xx1lUMTQGySPX7/9/PLj15/xCEZnnel1eH4A6cshu1AmQN5xqdt0QOP/Em95h7C/QLoTWT/lIfB6eWERBS3vXdxV2J5DZEm1k5cfemk7uogn/+wB/AW7DkTipQIAAA==
+    wand:
+      template: borealis
+      owner: Exteva
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        repair: 20
+        boon: 4
+        blink: 2
+        fling: 1
+        pollinate: 16
+        superalter: 21
+        recall: 14
+        missile: 3
+        heal: 6
+        weather: 18
+        tag: 15
+        day: 8
+        ghast: 19
+        grow: 24
+        levitate: 0
+        shrink: 25
+        torch: 17
+        familiar: 23
+        push: 5
+        blast: 11
+        pull: 7
+        blob: 10
+        shell: 9
+        curse: 12
+        force: 26
+        collapse: 13
+        tunnel: 22
+  fire:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6firewind§f (§3Стихия Огня§f)
+        lore:
+        - §o§aТехники Стихии Огня
+        - §3§oBound to Exteva
+        - Knows 4 Spells
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAEVQvU7DQAw2JIQkUJDKCzB0DQOlpF1QKwESEoWhKmvl5pxyIrkLyTUpmRATEo8BA6/CW3GXquDNn+3vxz6AD3aFgrngKkqzBBWBHfOcXNiRlaAcPFqpnNd1raF9jBQvaVZklCTgmr2KC+aAnaLA4QU0pbma0xln0IlZ2CWKBwE7x17Q7c4p6LP4LAhZRL0Bng76RBbslpQXXAp97fhw2PDPuChJKJm/WODFJPjK6BkBC/bWfSIr7RBg2/o3Y+YWtBY5oTLYHLVVgC0AD9ojpbPMl4rGkvGYa1HfzGxwp9Oby7Es1PdHieHX9bsNnoFuCQv1+vbweRD6Pw44o1QuhRp2NkntSSIVuCly8di8sfUncYcpwdGC9Cd4dIJKYfQ0yYiYjnOfUY5qHdiwNLvtq+clz1Kd+XhjD+AXwM2CPqMBAAA=
+    wand:
+      template: fire
+      owner: Exteva
+      active_spell: firewind
+      mana: 30.0
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        fenixfire: 0
+        fenixflower: 2
+        firewind: 3
+        greatfireball: 1
+  fullsarutobi:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 391
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Хиден Клана Сарутоби
+        lore:
+        - §o§aТехники Клана Сарутоби
+        - §3§oПривязан к Exteva
+        - 2 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1Qu07DQBBcK8bYJgEUfoAirSkIIUlFIhEkJAJFFCijc24NJ/se2OcEgkCio6DhcyihpgSJhopPQDRU2EZhtc2OZmdn1gUwwAwRleGCOSWC2mBr5CoiGqEcpFGUkDjV0mc2LMipwBgcvNAxm81maIHJiSCd6d3q7fPnjgnL+TjSjGOiCVeZePhyfHKdaRarI0ahFtBmHTFoe3SbNLx63UevRYMtr0nH2GiTzXYLsQSLE4wTJgUAWC6sJAqjaMTEBIWW8WUJKnNbCZchZiwoQXmOBSzOISPvpVTQWCpF/AgNB6pdnZn3U419STNidsXNqSbYw+H+bl8m+unn6vvmda9ngpNDB0gS/XDvv319vD9aYHW5TIXu1KAoG8xBJDXYnDBxVvyv8n/ikHCEtVPMorPxBtGajMOBQqQlcI4UxkT/JcxVCm61d54yxbOQ63N7AL+fWHVNpAEAAA==
+    wand:
+      template: fullsarutobi
+      owner: Exteva
+      mana: 376.50403
+      mana_timestamp: 1562501339005
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        sarutobismoke: 0
+        sarutobifire: 1
+  fullfire:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 361
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Пламя Феникса§f (§3Стихия Огня§f)
+        lore:
+        - §o§aТехники Стихии Огня
+        - §3§oПривязан к Exteva
+        - 6 техник изучено
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv04CQRCH5+KKdxgtsBMLC9ozRkSgg0QLE9GCUGhDBnZON+w/7+bEUNjY+RI2voUPp8sR3W4mv/nmm60DRCAWRD6qg1iilTHETMZrZII4K7XOVE4xbLulpRwSeuVcrVYrqoEwaHGgoHoC9tfllJWhgtH4ANanH83PwKtGp0pCK5PdNlHWT+UFdtJ2e0ZpT2bnaVfOqdPHs36PaAt2XigvlLMBWwt6u6WVufMeZ5qiBBpDDgqzkmnkpMpUyNZDMhIQTybXlyNXsP4+fPt5GH4JSNatG8KC3zv2vnnUC961oXGl5UFrYx6DGGvHEBtU9qn6gb3/FbdoCA4eKRyg5ifIjPPF2BPJLUjuPOXIG881pco2rp5L5Q1ZPv7TA/gFZLnmOWYBAAA=
+    wand:
+      template: fullfire
+      owner: Exteva
+      mana: 200.0
+      mana_timestamp: 1564182453151
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullice:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 366
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Ледяные Шипы§f (§3Стихия Льда§f)
+        lore:
+        - §o§aТехники Стихии Льда
+        - §3§oПривязаны к Exteva
+        - 4 техник изучено
+        - '§eЧакра: 383 §f(§b230§f)'
+        - '§eВосстановление чакры: 3/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1Qu07DQBBcY5PYRoAIDSVFRGcKQkgigZRIUCAlIBGlgCa65NbkFN+D8zmBfAotSssHIH6BigJKPoWzeWw3u7OzMxsCOOBNEZUTgjcngvrgG+QqIQahHGdJwsbow6qcC9QQ4L3RbLFYYAk8TgRpk70T9fQRerCRw6FhHFNDuLK606vPnXcrV6wOGYVqTBs1xLgV0SNSj2q1EUZNGh9GDTrGeosctJqILpRnqFMmBQCUQthMFSbJkIkZCiP1gwuhdcSZ1lKnluK44NtGOrEsC1dcCHKo2BTzMfziCdE0LaANvJYJqqVSZJSgE0ClY2yqUWawJymLmT0f5soe+IPB+WlPpuYx6Rwv37rPHgR5q4skNcvuzcvW1+t1CUodLjNh2lUoygevn0gDPidMTIqfrv+fuCAcYfsW7U/YeJ8YQ8bTvkKk1uilQk3MT/RcpeBWzu4yprhNv/tnD+Ab66b3BLgBAAA=
+    wand:
+      template: fullice
+      owner: Exteva
+      mana: 137.195
+      mana_timestamp: 1560463022291
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        icemirrors: 1
+        iceshell: 2
+        icespikes: 0
+        iceshards: 3
+  fulldust:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 376
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Атомное Расщепление§f (§3Стихия Пыли§f)
+        lore:
+        - §o§aТехники Стихии Пыли
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QsU7DMBCGL6oJThAM5QUYuqEwEErbrZUACURhqDpXbn0Bq7FjkguFbixsPAJCgpmJnYkX4AXYmXkB3FTg7U7/ffedQwAP2BTReiGwmTCSAyfUNhWEwJMyTWVZEIeVbGYwhwBvKFfz+Rx9YFoY0b2F6jHYWJQjUhoLEto68PQ9vv90vGp0pCQ0EtmKEZNOJPdFM4rjMUZtmexFLTnBZkfsdtqINVi9xrxQmXFY3+mtlUbmmbVinKIXQL1HTmFcEvYzqRLlsqFLegz4cHh80M8Kyk8+np5fj7YZBIvWKYqC7r5/Xt6+Hh988Hs6Kw11G0tzDmyQZgRcC2Uuqx9Y/19xJjTC5gW6A9RkRxCJyXRgEWUNgnOLuaCl54JSZeuHV6WyGg1t/ekB/AK+UY4pZgEAAA==
+    wand:
+      template: fulldust
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562264176337
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  apprentice:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Magic Missile§f (§3Apprentice Wand§f)
+        lore:
+        - §o§aFor demonstration purposes
+        - §3§oBound to Exteva
+        - Knows 49 Spells
+        - '§eMana: 200'
+        - '§eMana Regeneration: 40/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QwUrDQBCGJzTGJKJgfQEPvUkErbXNrQUFBauH0nOdZie6tLtZk4mVnsW3EDx4UnwMwYtP4Yu4SdG5zfDPP9/8IYAD7ozIOCG4C9TCB59JmTkyQYjG5KRZJuTDWrbQlENAD5zL5XJJHrgKNfY11OXCVtVOWCoqGJWx1rODt49X61ivTqSAViq6baI0jsQxdqJ2e0pRT6RHUVck1InxMO4RNWD9nvJCZpWzZwE3Si3yzBiczskJoDlgizAtmYaZkKm02tAqHRf88fj8ZJgV/HX9HW/Ls2cXgmp0QVjwe2fv8fPn5ckDb6CyUnO/tSL3wR3NMwZfodS3dQab/ycuURHs3JB9QCb7yIzJbGSIRAOCK0M58oqzcqm1zdO7UhplY9v9wwP4BdlRLdpoAQAA
+    wand:
+      template: apprentice
+      owner: Exteva
+      mana: 240.0
+      mana_timestamp: 1559906397604
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullmangekyou:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 378
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6gravimeteor§f (§3Мангекьё Шаринган§f)
+        lore:
+        - §o§aТехники Мангекьё Шарингана
+        - §3§oПривязан к Exteva
+        - 3 техник изучено
+        - '§eЧакра: 800'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAFWQTU4CQRCFa2TEAUETuIALt7gQFXAFiSaa+LMgrElB10CH/mOmBoTEA3gN7+ABXLr0EB7AG9gM0cTedfXr975XZYAAwhmRC8oQLtGICCIm7RQyQTXOlNJoJjRb2SyCXbs0lECJnjiR6/WaIqjgmOWChqkjpWB/kuBCamKySRFC/xW7L5CfEA421yH755RRO588+3j7uvSBue1QCjiORatJFHca4gLPG83miBptEZ81WmJM5x087bSJCrC3oCSV1njbYhkO8+yhNAsybJNV4R+G1wQFqGpp5EjheDa1ivxspwAl1L5kgmm2JQxgPzMisc7hSFFQglqPfc9RxnRvhYylDy1vdCFEg8Ht1b1NeV7pfk/rN/0QSpvRHWHKr5/P6j1YDopQ7GmbGe4ebwMiCPvKMkQapZnmu67+RTygJqhPyG9Cjk+Q2bP2HZHwoI/OY/K28MYl19au55l02nc++sUD+AHlLo880AEAAA==
+    wand:
+      template: fullmangekyou
+      owner: Exteva
+      active_spell: gravimeteor
+      mana: 800.0
+      mana_timestamp: 1562457269562
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        gravimeteor: 1
+        miniblackhole: 2
+        amaterasu: 0
+  fullstorm:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 375
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Демонический Шторм§f (§3Стихия Шторма§f)
+        lore:
+        - §o§aТехники Стихии Шторма
+        - §3§oПривязан к Exteva
+        - 4 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE2QSU7DQBBFK9gY2wyR4AJIsA0LwpQVg2CBxLBArKNKugxNesIuB4hYs2DJBbgAd+AaHACJa9BuBKJ29VX6/9fLAVoQj4hcK4f4Do1IIWXSTiETZEWtVMW21ClM2ztDJWR0z6WcTCaUwhwOWY6pXzlSCnJB2ppwnUCs0eDeA4SJYaFZ+yw1VYza+dDR+83ro88Krn0pYLUQ212iotcRW7jZ6XYH1NkRxUZnWwxps4frvR2iCGbGVFbSGm+b5NAO0X1pxmR88EMEcwOFw5FDw9e+LUAUwULopKWRCqsgtiLIg/grQPS/vt+nGi6ztRGldQ4HiloZLO6zf31QM51aIQvpi+SNWQzp5eXx4amt+OvzaDd5OcAYskY6Iaz4+entaeWjXSaQ7GtbG95b/cGSQnyhLEOqUZrrgH7+L+IMNcHSFXk6criGzP6rC0ckIsjOHZXIPxAal3C7eHRbS6c9h+XfegDfw0+qGt8BAAA=
+    wand:
+      template: fullstorm
+      owner: Exteva
+      active_spell: demonstorm
+      mana: 400.0
+      mana_timestamp: 1562284564348
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        blackpanther: 3
+        stormminilaser: 1
+        stormlaser: 0
+        demonstorm: 2
+  startexplosion:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 369
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Взрыва
+        lore:
+        - §o§aТехники Стихии Взрыва
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QPU7DQBCFx4oxdhApQo2giERlCkJI0iUICiQCRZQ62mTHsNj7gz1Oghu6VCBxCCi5AdfgBFyEtSOYbkZv3vtm6gAOuDGicergLpniPviE0iSMEBoZsZRwZRKdCa182NJLhSkEuKJUFEWBHriSKTZ4gqpcaJTtlIREuyuNtY/ff15K12p1Kji0It5tI0b9kJ+xTthuzzDs8eg07PI5dvrspN9DrMH2AtMy1dp6FnInVzzVxrBZgk4AzSFZhFlOONJcRMJq61bpuOBPJlcXI53Rx8H32/P6fN+FoBxdI8voa/16FH8uHjzwhlLnigatDbkP7jjRBL5kQt1Xf9j9j7hhEmHvDu0BYn7MiNg8HhtEXoPg1mDKaMNZulTa5uVjLoxERYd/eAC/OAnUNWwBAAA=
+    wand:
+      template: startexplosion
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1561839504484
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  startnara:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 386
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Хиден Клана Нара
+        lore:
+        - §o§aТехники Клана Нара
+        - §3§oПривязаны к Exteva
+        - '§eЧакра: 300'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QsU4CQRCG58J63kG0wMLCxgLLMxFEoINECxORgpDYkYGd0w23e+veIAYfwSfwOayMjbVP5d4ZnW4m///PN1MHCECsiGxQB7FBIyOImLTNkAnigtGxQYcR7OQbQw5iemanttsthSA0Ghy6LyhLwH7Zzllp8jZtffIqm72e+cDKOlcSWqnsdYjSQSIvsJt0OgtK+jI9T3pySd0Btgd9ohrsPpErVG58bOj5GmsjXW4tLjIKYmiO2CMs1kzjXKpUeW3dKwMB0Wx2fTnOCxYvbx/vh5MjAXE5uiEs+LPxXdy1T7IQwpHO14aHrQocIhDTLGeINCrzUL1g73/FLWqCg3vyB6jlKTLjcjW1RLIG8cSSQ/7lLFMqbfPqca2sJsPHf3gAPxKGZ09nAQAA
+    wand:
+      template: startnara
+      owner: Exteva
+      mana: 300.0
+      mana_timestamp: 1560890673969
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullexplosion:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 369
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Минный Кулак§f (§3Стихия Взрыва§f)
+        lore:
+        - §o§aТехники Стихии Взрыва
+        - §3§oПривязан к Exteva
+        - 5 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAF2RPU7DQBCFJ9gkdiD8XoCCNhSEAKkACZCQ+Cmi1NHaO4ZV9g97HJJwDg6ABAUNDUdA4hwcgEOwdkQisd1+epr35k0doAL+ANFW6uA/MM0DCAiVlYwQGkkuJY6sNJkwOoBF86AxhRBHlIrJZIIBLLOYxBD7mUUpYWUmjiTLqAq+Ypodj6F8PqwU3z4JhRkxZZ354G30EzrPcnJfcNhO+EELMek0+T5rN1utCJuHPNlrHvAY2x222zlE9KA2xLTwcWOrdVgt7ftCD1GTScfe/yROtuBBYw5Fyh3zPFidscwK7rZzoTxYm9NcxI4X8T1Yn+FYsnFkVDTdrAJLueapsZZFEishbJyQqyjKCa8MF4lwYeuFzoeg17s4vTIZ1Z7PX7/p8tOHsECX6GJ+vHw9HtXen6pQPVEm13S8PTUIwO9KQxAoJvRdeabGzOKaKYTNW3QNiniHEbF40LWI3IPwxmLKaFpUMaXUbpzd58Iq19XWXzyAX1bENEMLAgAA
+    wand:
+      template: fullexplosion
+      owner: Exteva
+      active_spell: explosionblast
+      mana: 400.0
+      mana_timestamp: 1561916402697
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        explosionblast: 2
+        explosionbird: 3
+        explosionspider: 1
+        explosionsuicide: 4
+        explosionclaybomb: 0
+  testwand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Test Wand
+        lore:
+        - §o§aAn empty wand to use for
+        - §a testing spells.
+        - §3§oBound to [Ｏｗｎｅｒ] ► Exteva
+        - 'Energy: §e500'
+        - 'Energy Regeneration: §e50/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QsU4CQRCG58J5HhgtMLFTMaGw8CxEBDpI1MQEtAAqY8jCzukKu7fe7YmhobIzFppI7RNobbwH8CWM8QXuFdw7o1PNTP78/zeTAzDAHCJKIwfmmAhqg62QyxFRmHSB+l3OeWOBPqyfxu8vcTSLo/s4uo2jh7PC99NbAW+UzyaTCVpgciJIfVqHpExYSsaeYlw7ES513OXX5mNHp6SGPUah6NJKCdGtOXSPlJ1SqY9Olbq7ToUOsFwjO7UqYgbmr9EPmCe0raWhF0JBfU9K0h+hkYV8Q2mEfqiw5VHmMq3NaaVhgt3tHu23vEB1Nj7uoq3DpgnZZNVEEqjXz9Xnldna1AKrwb1QqHoxBQcbzPbIU2BzwsRF+oLF/4hjwhGWz1EfwAbbRCkyGLYlIs1A9kSiT9QvZ+KSavMHVyGTHIUq/OEB/AAKA4gDfAEAAA==
+    wand:
+      template: testwand
+      owner: '[Ｏｗｎｅｒ] ► Exteva'
+      mana: 500.0
+      mana_timestamp: 1558538916692
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4§7Бумага Чакры
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязан к Exteva
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PTU4CQRCFa0Izzoxxgyt3LtiOiSICO0lkYSKSSNhqGrpGWugfp6vBcBHP4MIrGW/gFWxGsHav8l7V9zKACDKvlVkhny4xioAtEG2UAVtzLRJICJVdckKov3hyPoG6WWssIcU3KuVms8EYmOKaw25CpnI8SQHNQnRaiEUvF1e8nbdaU8y7orjMO2KG7R6/6HURa8C8Q7fN1uBghaWTRgcRB7ZDrx1xN9/BBSlKY20lU2j0KTBMPeHQCFnIEM1CMGKQTCa3N0PjyJ1//jzY0TeDdLu6Q+7o470Rfz2epDHEfWW8puvmHp2Nl4YgUVzqedX/6P/FPVcIx88YqsnZGSfis8XYIooapCOLJac/7O2VytsYvHppFWo63eMB/AKrjEPPcgEAAA==
+    wand:
+      template: jutsu
+      owner: Exteva
+      mana: 0.0
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      uses: 0
+      version: 6
+  fullaburame:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 389
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Аура Кикайчу§f (§3Хиден Клана Абураме§f)
+        lore:
+        - §o§aТехники Клана Абураме
+        - §3§oПривязан к Exteva
+        - 3 техник изучено
+        - '§eЧакра: 300'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv04CQRDGB+887yBKxBcwhliYYCEi0EGihUa0INRkYed0w+0f9/ZASHwFbW19A62NiY3PYmdp7e6hbjabzOTb33zzFQEK4E8QVaEI/owIGkJokKuEGIRSnCUJGWWacAxhVc4Eaojw1mi2WCwwAJ8TQTr6HdzxYcOVQ8M4poZwZdmT7/udL4vMvw4ZhWpMm3XEuF2jR6RRq9dHWGvR+LDWpGNstMlBu4XowdoUdcqksNigCOVUYZIMmZiiMFLPPSgxkeLYpEqTudWseBAtO1xS58WD8rJmInZvTiq4W8oE1VIpMkqwEEGla+w2o8xgT1IWMzu26KQ+hIPB6XFPpuaxvPu0+XHW8iFyrXMkqXm523t4fft8DiDocpkJ06nmGUAIfj+RBkJOmLjO81z/H3Fhc4StK7RZsPE+MYaMJ32FSK39S4Wa/Bp1lFxbObnJmOJ26+0/ewA/o1S217QBAAA=
+    wand:
+      template: fullaburame
+      owner: Exteva
+      mana: 300.0
+      mana_timestamp: 1563209638638
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        insectspray: 2
+        insectmod: 0
+        insectinfection: 1
+  fullscorch:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 371
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Испаряющее Убайиство§f (§3Стихия Жара§f)
+        lore:
+        - §o§aТехники Стихии Жара
+        - §3§oПривязан к Exteva
+        - 2 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QT07CUBDGp/FZ2xpd4AVcsK0LKwIrIcEFEXRBWJNH31Re6PtjOxVlZbyRF+AARg/gEdx6Ah8lOruZfPN9v5kIwAO2RLReBGzFtQggIFQ254QQZVWel6kp0kUA+2alsYAQn6iQ6/UafWCKa957hroYHG/bGUmFJXFlnfVyk0w+nGO9OpMCmploJ4hZNxaXvBUnyRzjjsgu4rZIsdXl590O4h4cPGJRSqOdre8ADystCmMtn+fohdDok0OYV4RjI2QmnTZySo9BMJ0OB2Pj4m8+379ehy8Mwu1ohLykt5/vwWbUufLB7ytTaeo1d+QBsEluCALFpV7UPzj6j7jlCuHkHt0BMj3jRDxdTiyi2IPwzmLBace5dam1jeuHSlqFmk7/8AB+ATqrHh9oAQAA
+    wand:
+      template: fullscorch
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562264163276
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullyamanaka:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 392
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6mindtransfer§f (§3Хиден Клана Яманака§f)
+        lore:
+        - §o§aТехники Клана Яманака
+        - §3§oПривязан к Exteva
+        - 3 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAFWQPU7DQBCFx8QExwSQoKWgQHShIPwkHUgghMRPEVFHY+8YVvb+sB4nJA0HoOIAnIWK01BwBdaOQGK7Hb1533sTAwQQ5kQ2iCGcohYRREzKFsgE3awqihkq1JhjBMtmqslBh57Zyfl8ThF0MWU5oXFpqSigq6QW7FCXGbk2hPXi6QyaF8J6/R2zVFQyKuvJ+Uf2Gntg4zuWAnYzcdInyoY9cYxHvX4/od5AZIe9E5HS0RAPhgOiFqxMyJXSaG/bjmGjgY+lnpBm42Yt6NQ5EkeYe8VS638uPwpasFqPUqPZmWIRMIDVSgtnrMWkoKADm2fseyYV040RMpOeGde6EKL7+6vzG1Py6H178P15mYbQqUfXhCW/JXt7g62Xrza0z5SpNJ/uLgARhKPCMEQKpX5sTr32h7hFRbD1QP4QMt1HZkzzkSUSvs2dJYe86Fu7NNrNi6dKWuUr7/zGA/gBXMEcxM8BAAA=
+    wand:
+      template: fullyamanaka
+      owner: Exteva
+      active_spell: mindtransfer
+      mana: 400.0
+      mana_timestamp: 1562284296970
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        mindbreak: 2
+        mindtransfer: 1
+        mindcontrol: 0
+  startyamanaka:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 392
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Хиден Клана Яманака
+        lore:
+        - §o§aТехники Клана Яманака
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qz07CQBDGp6HWFoOJePDKgWs9iAjECyR6MAH8gxwNGdipbuhu13Yqwiv4Br6Dz+ALePbg07gt0bnNzDff/GaqAA64SyLjVMFdoRY++EzKxMgEtYwx5TUq1LhEH3aSlaYUAnrlVG42G/LALXr9NZThwn6RzlgqsqPKWPe4fdAYWtNydCYFNCPRaRFFvVCcYTtsteYUdkV0GnbEgto9POl1iSqw+0JpJhNtbT3LuJdrkSbG4DwmJ4D6gC3CPGcaJUJG0mqrVum44E+nVxejJOOvz5u7h5/xvQtBURoSZvzxfvR9zrdvHngDleSa+80tuQ/uJE4YfIVSP5VvqP2vGKMiOHwke4BcHCMzLpYTQyQqEFwbSpG3nIVLqa1fPufSKNLc+MMD+AUhsR0FawEAAA==
+    wand:
+      template: startyamanaka
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1564258410572
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  startwood:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 368
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Дерева
+        lore:
+        - §o§aТехники Стихии Дерева
+        - §3§oПривязаны к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 4/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QvU7DUAyFHRpCUgQSZUZi6BoGSmk7ILUSSCBROlSdi9vrwFVzf0gcAnkKJJ6AgYHXYuIxuE0F3nx0fPzZTQAP/BWR9Zrgl6hFCCGTsikyQZQzZlwa49RtU2rKIKIXzmRVVRSAr1Dj8BXq8mF/3c5ZKnJjyrrkVbpV9lxgPTqXAtqJ6HWIkkEszrEbdzoLivsiOYt7YkndAZ4O+kQN2HmmLJdGu9jA8e0WWmTGWlyk5EXQGrFDWBRMYyNkIp236ZyeD+FsdnM5NjlXX++fR8H1hQ/RWrolzPlt8rF18PN9H0AwUqbQPGxvyEPwp6lhCBVK/Vi/YO9/xR0qgsMHcgfI5Qky43I1tUSiAdHEUoa84Vyn1N7W1VMhrSLNx394AL/lhe2WZwEAAA==
+    wand:
+      template: startwood
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1560885229367
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  potterwand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 25
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Vermillious§f (§3Wand§f)
+        lore:
+        - §o§aSycamore and Dragon
+        - §a Heartstring
+        - §3§oBound to [Ｏｗｎｅｒ] ► Exteva
+        - 'Energy: §e50'
+        - 'Energy Regeneration: §e6/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAD1QvU7CUBQ+hoql6IIPQAcc6wAi4CQJRk1EYgiTMeTSewo30t56exBldzJhYNDBJ3ByN3Z08DUcXPsKXkr0jN/P+b5zLAALjCkLuAkmoR+OGSFYoSRCtYLX5TRABcXL5OMtiZ+TeJ7ED0m8uLK/n95tvCMlZrMZan8q7AsOJY/XKohew+H7rOpUKgN06tzbc2rcxWqDlRt11AZDuDKA/FRK3h9JPChXTchzjFwlQhKaKnbvXeZLhbZuYrcUG8rAPkGmKNKpwTADG7eooqUUIAs5KDRJE4MJYVty4QlNWppaM8Ds9U5bbRnRz87nY2fRvjAgt4TOkEX0+hJ+zTePS1nINn05CeiwBOnojt2xJDB9JoJR+o6t/4hz5iNsD1EfLdxdRsTc626IyDOQ64SoGK2KLbek2sLRzUSEPgZk/9UD+AWlGwwWggEAAA==
+    wand:
+      template: potterwand
+      owner: '[Ｏｗｎｅｒ] ► Exteva'
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      icon: wood_hoe:25
+      description: Sycamore and Dragon Heartstring
+      version: 6
+  startearth:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 365
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Земли
+        lore:
+        - §o§aТехники Стихии Земли
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv07DQAzGHfUISSqQKGJgQQxdw0ApbcXSSjCAKAxVJbbqmnPoqbk/JA5FEW/AxkvQV2DmxbimAksebH3+/LMjAA/YEtF6EbAV1yKAgFDZjBNCVBDPCV0uAtgxK405hPhGuayqCn1gims+lFAHg/1NOSOp0M0p66yz7kH7yjnWozMpoJ2KXgcxHcTiknfjTmeOcV+kF3FPJNgd8PNBH7EBu6+YF9JoZ+s7wGapRW6s5fMMvRBaI3II85JwbIRMpdNGTukxCKbT2+uxKah5nPysw7tPBuGmdY+8oK/3p4+To/W3D/5ImVLTsL0lD4BNMkMQKC71ov7B3v+KB64QDp/RHSCTM07Ek+XEIooGhI8Wc05bzo1LrW3dvJTSKtR0+ocH8AsYdKGaaAEAAA==
+    wand:
+      template: startearth
+      owner: Exteva
+      mana: 200.0
+      mana_timestamp: 1564258411579
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullshikotsumyaku:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 384
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6bonesword§f (§3Шикоцумьяку§f)
+        lore:
+        - §o§aТехники Шикоцумьяку
+        - §3§oПривязан к Exteva
+        - 4 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1QO07DQBR8ISY4jgABJQ0FHQoFISTpQAIhFAJIiA4pWmefYWXvh91nQnIAGsQJuAGH4A4cgJID0FKxdoDtZt6+mTcTAVQgSBFNJYJgzBQPISSUJmOEsJLkWeZuRarJ5XLC0jyEeT1WaKGOD2TFdDrFGgSSKbY/gfIFsFTAIQmJjpg03iF9O24/eeFydSg4bCa800JMek2+x9rNVivGZpcnu80OH2G7x3Z6XcQqLNyjdUIrL1uLYNkZzLKhUPeoSNtJFeqxVujG2vLC+RczK7X1sFKFqJwbkaLzxFwVGgUR+1BIrtzw6Ru54lYbw+IMK3VYPSAfLM4JB5qLRPgLokItgPDq6uRwoB1tvfcfw+v+ZwD1gjpF5uj5++P1a/3loga1A6lzRfubsz5CCC4zTRBKJtRtWfDiv8UZkwhrN+hrEaNtRsRG6aVB5D7LuUHLaJa+UCn/rh7d5cJIX8DG33kAPy5+/gnFAQAA
+    wand:
+      template: fullshikotsumyaku
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562265466251
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        bonesword: 0
+        bonearmor: 1
+        bonespikes: 2
+        bonebullets: 3
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Animate§f (§3Wand§f)
+        lore:
+        - §o§a§2Student §rMagic Wand
+        - §3§oПривязан к Exteva
+        - 33 техник изучено
+        - '§eЧакра: 150'
+        - '§eВосстановление чакры: 30/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAEVSS3ITMRBtM2NnbCckJPx/ySLFKqbi2Cb2jlQBVVQRWKTC1iVpehKVNdIgaeyQNWdgyzZXYMeSW3AC7kBL+aBV6/Xr7qen7gA0IJ0hVo0OpAum8wwyj2WlmMdroGkWGi208cxbeX5+jhksM+HlHKeuQqVgiWlZUgHhWBQo/FQYZSy8GHDW3+XjwbAYix0xHBcjsd9HAndEMUTMR6OB4Ls0Mk6Yyhy2i3x/gFhMevkrNuoNBhx747wY9vZzgaMJ25uMERNYmqN10mgAaHVgNcqYSj1H7Y39mkCzUMwiZYFirqTOKWwkkHITi24RzKw1i8AgWNSRnVLofB0YzQRaDq/wVnLzRrptJdDmRqNbGBv6LlHWYqHo4XTLqJDXnKtAbQcp1riQ6CSwimeVMkG4q2ROngJ0iW5RMLIRYDmBjqsd08b0Y80KtS6lczJ2u03yChkVrf5n7kXmGokiPTOOWpzS/U4CWeDyy87rJOSE5O9RvHkV9yl+TuMrI110ZYMS5F+svxvqWSmVZEHmPRpd1S5k7kdLWZz6IMCIMwofRkYc9ogYQhkW4Mchrq0Lop8k0A3GcaKhd4Q8pSm0K4pVkfAsrGO31rk1VcXIwkYb1g88rR2vPR6aXBaSPr4TPjOF7Pj4/ZtDMvfi1+fv3y7e/UmhHaAPSOJ+/lC//7o1bEHroDS19q+3IZ4M0iNlPGQlk/o0LvjKzYiPrETYOEHaRileMu+ZmB3RA3Ny91OFlvnLpQtdInf97ZdaViXt3da1PIB/ARgPA1YDAAA=
+    wand:
+      template: wand
+      owner: Exteva
+      active_spell: animate
+      effect_color: 3ba10b834f8c,c48f5c71eba1,cf4eed553cb0
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        flare: 0
+        blind: 1
+        boon: 2
+        arrow: 3
+        cure: 4
+        stun: 5
+        secure: 6
+        animate: 32
+        bonesword: 7
+        reflect: 8
+        bubble: 9
+        frost: 10
+        explosionspider: 11
+        recall: 12
+        susanoo1st: 13
+        missile: 14
+        fire: 15
+        susanoo2st: 16
+        workbench: 17
+        fireball: 18
+        gate2: 31
+        gate1: 30
+        poison: 19
+        torch: 20
+        familiar: 21
+        push: 22
+        blast: 23
+        peek: 24
+        pull: 25
+        cloak: 26
+        curse: 27
+        bonebullets: 28
+        collapse: 29
+  science:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Levitate§f (§3For Science!§f)
+        lore:
+        - §o§aFor testing automata
+        - §3§oBound to Exteva
+        - Knows 11 Spells
+        - §6Cost Reduction X
+        - §6Cooldown Reduction X
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PsU4CQRRF34YVZlEbTKwtaNdCRKCTRAsT0YJQk2Hnrk7YnRl334JSm9j7DX6DlY0/YOtf2Bk747JGX3lzct+5TSKP/DngvCb5S2mUIMFIXSIZ1MgjDRNB0JaMWC8wzR2ShESCheaSELRhlwYZBbjlTK9WqzISVTTVitqx6nWAeBCqI9kNO50Zwr6KD8OeitAdyINBH6hRY4Es19YQUb3U2SyMyqxzcpbAC6g15LJ6VjBGVulYl2yzJD2fxGRydjKyOX++vby+f42+fQrW0Tlkzg+7z4/3dx9PdaoPU1sYPm5TdYL8cWKZRCq1ua4Wb/+/uJApaOcK5QAd7UtmGc3HDlA1Ci4dMsm/nuuWim2d3hTapTC896dH9ANrqYZVVgEAAA==
+    wand:
+      template: science
+      active_spell: levitate
+      owner: Exteva
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  startaburame:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 389
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Хиден Клана Абураме
+        lore:
+        - §o§aТехники Клана Абураме
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 300'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QPU7DQBCFx8IYO/xIhJYCibSmIAlJukRAgUSgiNKBonF2DKtk18t6TFBKjpEjUHIARA/H4ACUVIh1EEw3ozdvvjcVAA/8CZHxKuDPUIsQQiZlpsgEGzmjZUwKi4pCWM1mmixE9MBWzudzCsBXqLFrX6EsH7bKdsRSkdtUxplPFtf9D+e5XB1JAbVUtOpEaScWR9iM6/WE4rZIG3FLjKnZwcNOm2gF1u7J5jLTzjZwiOuFFjYzBpMpeRFUe+wQkoKpnwmZSqetOKXnQzgcnp30s5y3nz9frvaPv3yIytE5Yc5Pj9+7i8b7WwBBT2WF5m5tCQ4h+INpxhAqlPp2+YXN/xMXLjzs3JALIMcHyIzjycAQiRWILg1Z5F/O0mWprZ7eFdIo0rz3hwfwA8vf9idqAQAA
+    wand:
+      template: startaburame
+      owner: Exteva
+      mana: 300.0
+      mana_timestamp: 1561662934500
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  startsarutobi:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 391
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Хиден Клана Сарутоби
+        lore:
+        - §o§aТехники Клана Сарутоби
+        - §3§oПривязана к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QvU7DUAyFHRFC0qoMZUZi6EgYCKXtlkowIFE6VJ0rp9ehV839IXEodGRl4gV4CCbeDm5TgTdb5xx/dgvAA39NZL0W+BvUIoSQSdkCmaBTMZZcYVmzyWQIh2ajqYSIXriU2+2WAvAVakxfoSkfjnftgqUiZ1XWpa+Lj/NTF9pYF1JALxeDhCgfxeIa+3GSZBQPRX4VD8SS+iO8HA2JDuDomcpKGu1iA8fYrrUojbWYFeRF0B2zQ8hqpokRMpdO23JKz4dwPr+7mZiK3+rPtJ2M332IdqN7woq/Vj/T/ndaBRCMlak1p709eQj+rDAMoUKpV80bOv8rHlARnDySO0AuL5AZl+uZJRIHEE0tlch7zl1Ko+3ePtXSKtJ89ocH8AvjpHldawEAAA==
+    wand:
+      template: startsarutobi
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1560894581789
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullcrystal:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 382
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Багровый Фрукт§f (§3Стихия Кристалла§f)
+        lore:
+        - §o§aТехники Стихии Кристалла
+        - §3§oПривязан к Exteva
+        - 5 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QPU7DQBCFx8pi7ERQhI6KIgWNKQj56xIBBRKBIkodbbzjsIr3B3tMiAUXoIOLcAPOwj1oWDuC6Wb03ptvpgngAVsjWq8JbMO1CCAgVDblhNBKijSNs21OPA1gz2w0ZhDiM2WyLEv0gSmu+XgLdTE4rNoFSYXOoazLXn+dvvousrYupIBOIgZdxGQUiT7vRd3uEqOhSC6igYixN+LnoyFiA/afMMul0S7Wd4StQovMWMuXKXohtCfkEJYF4dQImUinbTqlxyCYz2+upianVWP2dvx9OWAQVqNb5Dl99t/zj5+X0gd/okyhadzZkQfAZqkhCBSX+qF+wsH/ijuuEI5W6A6Q8Rkn4vF6ZhFFA8J7ixmnHWeVUmvb14+FtAo1nfzhAfwC7Sy0s2kBAAA=
+    wand:
+      template: fullcrystal
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562263452934
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullwater:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 363
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Водяная Тюрьма§f (§3Стихия Воды§f)
+        lore:
+        - §o§aТехники Стихии Воды
+        - §3§oПривязана к Exteva
+        - 5 техник изучено
+        - '§eЧакра: 1000'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Ru04DMRBFJ2QJuwkPKUjUFLShIARIgxIBBRKPAlFHTjwLVry28c4mIdQ0CImvgF+g4DNoaejpKGixjYIrz9X4zNzrKkAJoiGiKVUhGjPFY4gJMyMZISRpIeXY3WwM83qs0EKCE7JiOp1iBaKMKdZ56oA/ESz7skciw5xYZhx5ePfyvOaA4WlPcNhI+W4TMW03+A5rNZrNPjb2eLrd2OUDbLXZVnsPHTgOpIxNZvAyLIzQ5kIrV1SqsJIblLIn1AgVaXtbhsWw5kArslr6dcpQC1LfWUByylwZkqCMmfQdpVmHsSIPYDdmKSiFdC58AF5yAdUKxa02hvUllhKod8ll0C8ITzUXqXCbVT0wgvjy8vjwVOd0//nxdfbT3Y8g8dIJspweXw++Ht7fvitQ6Wa6UNTZCOYghuhCavK2hboOf7D0P+KMZQirV+gSFINNRsQGwwuDyJ2dc4OW0V8qnhJ660c3hTCZC2Z9th7AL6bWDePoAQAA
+    wand:
+      template: fullwater
+      owner: Exteva
+      mana: 1000.0
+      mana_timestamp: 1561147647254
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      mana_max: 1000.0
+      version: 6
+      spell_inventory:
+        watercontrol: 4
+        waterbullet: 2
+        waterwall: 1
+        waterprison: 0
+        waterultimate: 3
+  startbyakugan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 379
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Активация Бьякугана§f (§3Бьякуган§f)
+        lore:
+        - §o§aТехники Бьякугана
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QPU7DQBCFx4oJjlEAhZaCIgVNKAj5o0oQCCERKKLU1tg7Cat414s9TkgOQIdouQMH4ApI3IKGM9BhOwrTzejNN++NC2CBPSMylgv2ArVwwGFSJkQmqCaMMftLnKVT1A5sRQtNMVToiWO5Wq2oDLZCjf0lFGXDbt56LBVlq8pk9LB9+ONl0GLVkwLqE9FpEk16DdHGVqPZ9KnRFZOzRkcE1Orhaa9LVILtOcWJjHSGLbuwlxgKQ0/qOWmO4mUJ9je2MGA5z90WZcFOqkUcGYN+SFYFagPOzPop0zASciIzqpvrbHDG45vLYZTwcXx9/vJ18WpDJR/dEib88fv+9vw5+y5DeaCiVHO/vj7ggD0KIwZHodQPxcOq/yfuUBEcTCmLKoMTZMZgNjJEogSVe0Mx8jpRTim0tavHVBqVhTra2AP4A03xqLuVAQAA
+    wand:
+      template: startbyakugan
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1564275959647
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        byakuganactivate: 0
+  mastersword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_SWORD
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Master Sword
+        lore:
+        - §o§aThe legendary sword that
+        - §a seals the darkness
+        - §3§oBound to Exteva
+        - §2Physical Protection III
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Ou07DQBBFx8IY2xFNlCIlRVqDhPPsiAgFEoEqNRp7x9EqWe+yHmPkfwhtCr6Ojs9gMYIpr869c2IAD/wdkfFi8BssRQghkzJ7ZIKeworJVo22Lj/VTUkWInpjK9u2JYd20bMUMCrELCUqFomY4iRJ04ySuSjGyUzkNFng9WJOdAJnr25O6hIAAve5V5fCamMw25MXQX/JbjqrmdZayEI6Nnak50O42dyv1rrir4+r43R4e/Qh+okeyBm+H4afwWAcBRAsla5LvhlBdyGc/y8+oiIYbMn5yvwSmTHfrVDh1llFT4Ys8q+Xa/kd3L97qaVRVPLFnw7AN77GFk0xAQAA
+    wand:
+      template: mastersword
+      owner: Exteva
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullswift:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 373
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Бестеневое Бегство§f (§3Стихия Скорости§f)
+        lore:
+        - §o§aТехники Стихии Скорости
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QMU8CQRCFh3Ced2eURFsLCgqbM1FEwAoSMTEBLQi2uLBzsmF3b7mbA8XYW9r7Oyy1MLHyZ9jY+g+8O6LlTN68977xAApgTRFNwQNrwTR3wCFURjJCcINEynghAnJgLVxojMDFW4rEcrlEGyzFNGudfb88fk1+LNjKxiEJhTExZVJnWXq6300N89Oh4FAJeL2KGDR9fsxqfrU6Qr/BgyO/zsdYa7LDZgOxCOtzjGIRagCwPSjFBqUcCj1HTWF0VwQn7xQlmQAygo1E8yg0ho0kFlzYblNacpQQ9kIuApG6eZnOAmcwOD/thTGV308eXmedAwvcbNVFFtPb1ef13vNH1wa7rcJEU6uyCnDA6suQwFFM6En+pM3/iAumEHZuMEUU431GxMbTvkHkRXAvDUaMViSZS67d7swSYVQKU/6rB/ALGOZ0QYkBAAA=
+    wand:
+      template: fullswift
+      owner: Exteva
+      mana: 45.81804
+      mana_timestamp: 1563629222684
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        swiftrun: 0
+  fullbyakugan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 379
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Активация Бьякугана§f (§3Бьякуган§f)
+        lore:
+        - §o§aТехники Бьякугана
+        - §3§oПривязан к Exteva
+        - 6 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE1Ru07rQBCdYMc45g0SFQUFbSgI5NGBBAUSjwJRR2PvGFZZ7y7rcSDpb3OL218hPoWWv4BvYR0IYrTNHJ05c+ZsAtCAcERkGwmEj6hFDDFTYRUywXJeKZVOcFTdoY6haR41OWjREzs5nU4pgrBAjccTmFUIq3U7ZFlQyVhYL666O+/PXnM2OpQC9nLR6xDlg7bo4lG700mp3Rf5YbsnMjoa4MGgTxTA4phcKY32slECa6UlpYZSj0mzcZMANua26Mkq880MA4i6h7ks2TfNAFbnJGe4vgdg4ReIGctxDUIA6z+gdLbS2X2NBpDc+X2KvhUb9VuqtHDGWkwVNVqwecI+jLRiujRC5tK7TmpqCPHt7fnppSn5z8LH9O/L1VsIrRq6ICz5f7rdfC3/9SKITgpTaT7e+8owhvBGGYa4QKnvZ/+x8rPiCguCLe+JnMz2kRmz0Y0lEgG0ri055K8capUZd/PsoZK28Efszu0BfAKlqhuE9AEAAA==
+    wand:
+      template: fullbyakugan
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1564275957147
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        byakuganexplosion: 4
+        64fist: 5
+        byakuganrotate: 2
+        byakuganactive: 0
+        byakuganairpunch: 3
+        gentlefist: 1
+  student:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Magic Missile§f (§3Student Wand§f)
+        lore:
+        - §o§aFor demonstration purposes
+        - §3§oBound to Exteva
+        - Knows 29 Spells
+        - '§eMana: 150'
+        - '§eMana Regeneration: 30/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1STW/TQBCdYMdx0rSFlM+WA4eekIIEIbTh1ErlUInCocq5GmfH8Sr7YXY3SckJJH4EP4ADBw78G/4Os47Apzf2vDdvnqcH0IJ0QVS3epCu0Ygc8kC6VhgIOj4sBZmQQ9uuDTno0m1wcrPZUAapRoNn5ReITwp7sbwJUpMPqGvWXbz8dfSd5RrqjRRwXIqTEVE5GYo3OB6ORgUNT0X5engiZjSe4KvJKVECnRU5L61h2awH+74mpW6kWbER6z4nkBbWav6YJJA5O1tQ4OIogZwb0MwVcfkogXahpFkwbjEuGc8Zt7ktOJwttuUhqylcIcM+dyn0vCTAE1b2wRHGMXuR7qyPUzoJ9EuFmkLl7Lrp3WfDWnovm7nAghWhYtRlWEoX32YJJAHjwPusXFsXmo7dBLpKzqtgtm52mKGliYx7rDp3ZFDEKm9Y0jeZPI7mKrfd7SlTZpXluGHAq5WopZIYfaXcJqRHF3d4GE1a40NjuRczVLZg+ICX8xUHzPiA7aDjvRzKOOgOK6xlqBrO3XgoO0sjnK1rLBS1ujA4D3wNxTLQlRWylPzbejHvFPLp9PLiijObzt6Of/y5PEyhG1+9J/Th5/Pbb/3fXy8yyM61XZpwdtzcEOSQXisbINdsoGpucff/iA+cOhzMiW9Jzl5gCPwTr2siwa4/1uQwbE8mqjS9g3eflrLWfBTP/tkD+AthmiId8AIAAA==
+    wand:
+      template: student
+      owner: Exteva
+      mana: 180.0
+      mana_timestamp: 1559906491288
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        boom: 3
+        rocket: 27
+        entangle: 23
+        blink: 1
+        fling: 5
+        tracking: 26
+        lava: 12
+        laser: 25
+        stream: 14
+        frost: 7
+        flamethrower: 15
+        missile: 0
+        heal: 9
+        fire: 6
+        tag: 20
+        portal: 13
+        lightning: 11
+        mine: 17
+        grenade: 8
+        poison: 24
+        shrink: 28
+        chop: 18
+        familiar: 4
+        disarm: 22
+        monster: 10
+        blob: 21
+        shell: 19
+        arrowrain: 2
+        wither: 16
+  fullin:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 395
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Инь
+        lore:
+        - §o§aТехники Стихии Инь
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PvU7DUAxGHTWEpAgkyoKYGDqBwkApbbdWggGJwlB1YKrcXgeumvtD4lDoAu/AC7CxIgZGXoWNd2DjNhV4s/X5+LgK4IE/JbJeFfwZahFCyKRsikwQJEWaSh3CiplpyiCie87kfD6nAHyFGrsPUJYPG4t2xFJRzqisw04/9+nD0crVkRRQT0SrQZR0YnGMzbjRGFPcFslR3BITanbwsNMmqsDqHWW5NNphAye3VmiRGWtxnJIXQa3HTmFcMPWNkIl02apLej6Ew+HZSd/k/Pz69rK53X/3IVqMzglzftr7udr5+n4MIOgpU2ju1pfmIfiD1DCECqW+Kf9f/z9xgYpg65rcA3JygMw4mQ4skahAdGkpQ156LihltnZ6W0irSPPunx7AL7VKYA1kAQAA
+    wand:
+      template: fullin
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562263643574
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  magicsword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_SWORD
+      damage: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Magic Sword
+        lore:
+        - §o§a§7Warrior §rMagic Sword
+        - §3§oBound to Exteva
+        - Knows 12 Spells
+        - '§eMana: 150 §f(§b180§f)'
+        - '§eMana Regeneration: 30 §f(§b33§f)§d/s'
+        - §2Physical Protection II
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE1RwY7TMBCdkLRNUhBSxYELEgeEhNSgQummuW2lcgBROPVcOfG4terEXttp2X7UfsLyB/wHB76AC5MgED69mXnvzXgmBQggOiKaIIXozBoeQ+yxNop5hLRme1m5s7aUHuhzgxYS/OqtvFwuSMw+tZMcXgiezxFFkfErtsjm8xKzJRfvspxXuCjY22KJJHiIQmDld5VW2sLLNzMhillRFAvOpoLU+VKIKuez6f+VEEYntE7qBgCGKTx2BpXayeaEjdf2NoTItEpRcRzCoFSy4YQjklkUitpRNAphaLR0vUdKNGatPhMGwsJq15FiktTSOamQooB8hbQdfECwans4IOh824/SN3aHziSEuOOWrJ8j6bY6bhtutTGsVBgkMFl52lvZetxoLoWkH6Vdlwji7fbDekMjvLr/fvfzx8c8gqRLfULm/Lfk17OMjQ9DGK5q3Tb++in0L4ZH/xw/sxrhyR7pGLJ6zbxn1XHN6HgYQvLFoGX+z/ZIFfXkyfubVpqaFvj87zgAvwE+GxGYDQIAAA==
+    wand:
+      template: magicsword
+      owner: Exteva
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      effect_color: 10ff909995da,fef978ffc7d0,10ff909995da
+      version: 6
+      spell_inventory:
+        pull: 11
+        blind: 4
+        reflect: 7
+        poison: 10
+        arrow: 0
+        frost: 8
+        missile: 1
+        fire: 2
+        cure: 5
+        stun: 6
+        push: 3
+        fireball: 9
+  admin:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Levitate§f (§3The Shusher§f)
+        lore:
+        - §o§aFor admins only
+        - §3§oПривязана к Exteva
+        - 19 техник изучено
+        - Has 40 Materials
+        - §6Manifestation
+        - §6Cost Reduction X
+        - §6Cooldown Reduction V
+        - §3Invulnerability
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAGVT3U4UMRT+SGfH2UFDAjf+AiKKf2siiIBXkOiFiWgi4Zp0Zs7uNjvT1rYDsq/gW/gQXnHhK/gkvoLtsLvZiXN1Ttv5+v2cpsACohGRXkgRXXBZJEgcVbrkjtDhRSVkgo66kGTQpe/OiPF4TCluWk1leVbSOZWW4UYlrBUlAYgYOlkp5CjUHj1RZsClGBM8dAN0Jgps9ou9HaL+Qa94y3d7OzsZ9faL/pveXpHT7gHfPtgnYog0HwRQMMRD5TJufO2pLmWmtsMzIc9JOmUu/Z1kuA1HnzB0DelS5EEC8Mzv5aWSoX7qEXOlL325xcAqrn31HF3EjRyb+HYFiVclXPg7tbUmkxmlqqmomdIAykeInKgI0ZB4iY4eBg7xgLuh92ux+XvSpIYG5MUH2KVmY24h1SIfaZWPyCHOeD6qNRYbsEkTe0VcTCEnjWdnuVTqtXWzets6n8Y5GSuU9Gpi79V1VPNeXfME7rEZMrDJWnqBl2xGBthgc74AL9j/KoD1uex7bGYEcJe1qQOPWVsh8Ii1TAJus6nJwGprxtbYxHHgPmv50IzKnBlhXNgkJOABa1kNPGTtlIA74UUs1rIwSmuelbTQxfKR84Of1Y6OVSH6wrubBuAIyenpx/fHyrrfv9j46sfhaoRuWPpE3Lqfaxt/vl79fRcjPqpULd3hJpovQXRSKoek4kIOm0d3a3bFZ+6prjQ2iPwVd877c6KJCj/XX3Tw5jrZgNKcXf7wrRa68uGuT+kB/wAD3G0i2QMAAA==
+    wand:
+      template: admin
+      owner: Exteva
+      spell_levels:
+        missile: 4
+        blink: 4
+      organize: false
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      page: 0
+      hotbar: 1
+      brush_inventory:
+        erase: 38
+        replicate: 41
+        clone: 40
+        copy: 39
+        map: 42
+      spells:
+      - levitate
+      - superbroom
+      - blink
+      - missile
+      - cloak
+      - time
+      - heal
+      - phase
+      - gather
+      - supergather
+      - regenerate
+      - superregenerate
+      - pickpocket
+      - backup
+      - phasebackup
+      - repair
+      - superrepair
+      - susanoo1st
+      - susanoo2st
+      version: 6
+      spell_inventory:
+        phase: 27
+        repair: 36
+        superbroom: 44
+        backup: 34
+        levitate: 43
+        superregenerate: 32
+        blink: 45
+        gather: 26
+        superrepair: 37
+        phasebackup: 35
+        regenerate: 24
+        cloak: 30
+        missile: 31
+        heal: 28
+        susanoo1st: 0
+        susanoo2st: 1
+        time: 29
+        pickpocket: 33
+        supergather: 25
+  fullmagnetgold:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 374
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6goldfist§f (§3Стихия Магнетизма§f)
+        lore:
+        - §o§aТехники Стихии Магнетизма
+        - §a |Золото|
+        - §3§oПривязан к Exteva
+        - 5 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QTU4CQRCFa5wRB4yY4AUkwZXBhYjKDhKNMRFdEHYmpKFroEP/OVMDwtatxzDxDG5cajyON7BnQHr3uqpeffVKAB4EU0TrlSCYM81DCAmVlYwQylEqpWJjjTQ20pW2zVxjDEV8plgsl0ssQKCYZu0F5C+AciYHJBQmxJR19tPP4+qRc81HB4JDLeIXDcSoVefnrFlvNIZYv+TRWf2Cj7DZYqetS0QfdmYYJ8JoZ1sowX5iUcqB0DPUZOKFD8UMiWI2mroOz4cw03M2Qye3NlJKJ/21jERCGeZ6OJkYSnJqF8JuqnlsrGVDiV4RKh1yJw5Twq7hIhKOpZTtCSDs92+vuiahqedXf75u3gIoZl93yBJ6Hb4/fr98/Bag0FEm1dSurZIJIehJQxAqJvQkz3lvs+KeKYSDMbqAxOiEEbmjehaRO9AHizGjVQ6ZS95buX5KhVUuisN/PIA/zPxs8MwBAAA=
+    wand:
+      template: fullmagnetgold
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562263626021
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        goldtrack: 1
+        goldwave: 2
+        goldwall: 3
+        goldfist: 0
+        goldshots: 4
+  startjugo:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 383
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Улучшенный Геном Клана Джуго
+        lore:
+        - §o§aТехники Улучшенного Генома
+        - §a Клана Джуго
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 4/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qz07CQBDGp2GtLUYP+AIaOVo0IgI3iJqoET0QjoZs2SmudP/YTkX7MD6BL+KzePMBjEuJzm0m3/fNb6YO4AFbIFqvDmzJtQggIFQ25YQQ5sQzeirmJoANs9SYQYivlMmyLNEHprjmgzeoisHOqp2SVOhsyrrk9Pjz68gFVtapFNBMRLeNmPQjccY7UbsdY9QTyWnUFTPs9PlJv4dYg80XzHJptIv1Hd9WoUVmrOVxil4IjSE5hLggHBkhE+m0daf0GASTyfXFyOT0fdC8ufo5LxmEq9Et8pw+WvH+e/fwwQd/qEyhadBckwfAxqkhCBSX+rF6wfb/ijuuEHbn6A6QsxYn4rPF2CKKGoT3FjNOa85VSqVtXD4X0irUtPeHB/ALijo+pWcBAAA=
+    wand:
+      template: startjugo
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1564186635055
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullearth:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 365
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Щит песка§f (§3Стихия Земли§f)
+        lore:
+        - §o§aТехники Стихии Земли
+        - §3§oПривязан к Exteva
+        - 6 техник изучено
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAGVRsW4UMRScY51jd0OIFH4gRdqjyBGS6xIEBRJJkKLQnt6t33LWedfG671LrqWEkgaJihJ+hS/gE/iDFJFiG4UGd288nnkzLoEBxILZDkqIFbUyR+65sZo8o6h7rZmcn+fYMKuWHQq+8k6t12vO8Ygqr5Y87Sxrje1E7IJEN1es5RCioZaOX/z6hOvvHwUex3HqVcOdp8YG58UPefM2GCbpqZLYq+XhmLmejORzOhiNxzMeHcn62ehQVnwwof3JEXOGh0t2nTItgGGJ7eQ/Ve2SW2/cdYbNtMqcnOTIeZBhKyGV0ZpsxwHLshAlYitaxhnZfwECKDKUfSvZpasADO6leh2CxI6AjdjhZqA5Yy3NNA8K7Jz4UNOs93xqpKpV2LeMzwXyy8vXL09N5999LfZvPp//Figi9Iap819+3l59y/6IIYYnjelbf7yHdHKIC2088oZUO0/ftPXP4owaxpP3HEpU1VPynqrFhWWWIeO5ZUf+b1dRJXF3Xn3olW1CXbv36wF33tdJpQsCAAA=
+    wand:
+      template: fullearth
+      owner: Exteva
+      active_spell: earthsandshield
+      mana: 37.597992
+      mana_timestamp: 1561931872592
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        earthharden: 2
+        earthcollapse: 3
+        earthwave: 0
+        earthsandshield: 4
+        underearth: 1
+        earthultimate: 5
+  hatakesword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      damage: 15
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3§f§lКлинок Чакры Белого Света
+        lore:
+        - §3§oПривязан к Exteva
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2OMU7DQBBFx8IY21GaiANQUNAYRTghcWkpFEgEqhRUaOwdh5XjXbMeY+SCW1ByCnrgFlyHJRCm/Hr/zwsBHHBLotoJwe1QCR98pqreIBMM7pGxpKbTxub7ulNkIKAnNrLve/LArVAh/J1tbok7KeC4ELOYqEgicY7TKI4ziuaimEQzkdM0wbNkTrQHB49kGqmVbXtWZNAqYXRdY7YhJ4BRyvZT1jIttZCFtGxoSccFf7W6XCx1w696/KWf07ELwU90Rdjwy8fkfWhO3jzw0kq3ij9vd4LD/8VrrAgO12R9ZX6KzJiXC6xwba2Cm5oM8q+XbblbeHTx0Mq6IsVHOx2Ab+21dyhAAQAA
+    wand:
+      template: hatakesword
+      owner: Exteva
+      mana: 0.0
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  conduit:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Levitate§f (§3Conduit Wand§f)
+        lore:
+        - §o§a§3Conduit §rMagic Wand
+        - §3§oBound to Exteva
+        - Knows 32 Spells
+        - Has 40 Materials
+        - '§eMana: 600'
+        - '§eMana Regeneration: 120/s'
+        - §6Manifestation
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE1TS24TQRAtM5PJ2PmBE/6/ANkaCUJIIgFKEAiCCCyirKOenrLdcv/o6UliLxASElfgDKw4BFdhxSmobmcCs6rqqnqv6lVNB6AF6QjRtjqQnjBd5pB7VFYyjzDLjS5r4XOYMScaHbTx1DsxmUwwg1QxzXa+fYHwtSA3bsC0mCCksBhCR14orDxTlsKjR8/fviToCHMkSljrl5vriP3tXvmUbfTW1wvsbZX9J73NkuPGNnu8vYWYQGrZAANBAtnQ+IK54HRgqXB1NTwS+hi1N26cwAw6Vp2lth1aKXgYgVyKcWl0sC8QIjd2HDpOIFGMeqN+E5g9RlcJo8nNCL2yKOX/6BkhMhHI75NTMD6qQ+mDBHLBsRpSOrmXKcaNUsKTc5F4qUYHOyOywpyStZJEVYkuvF+lAlZUxhVhKgILuveNU+ReSaBT1ZbGkh4D870E5uODHTumSEOAW4FDMh5mW6C5Y9gJPSD/LsWa0lliFWROFVkmImekDGOQu9QUlqLi5N+hsMRj4afZM3EoWasgziqBkiJ8SHbe9PNvnpukb19ELdrnqEYFmNsJzE3ba5RcI2BLyXGn81RZSBN0uET8MXOq2HWibATu0hwOee3iphcbirPCa2E1TpTxYuYa+ZraG+FK52pdOmMtKyS22tDd9XTPRe1x35SiLyi7E24jhfzwcO/Vvqn8519/3qy82P+eQjs8vUdW+a97P+ef/fj9LoNsV5la+521+BdADumBNB5yRYsfxr9p4ZziAyMhlgdIf4DgD5n3JP+BRSxpjI9hz356gAEl5nZff6qFVXSDq017AH8BAX9xT7IDAAA=
+    wand:
+      template: conduit
+      owner: Exteva
+      mana: 720.0
+      organize: false
+      mana_timestamp: 1559899228226
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      page: 0
+      hotbar: 0
+      brush_inventory:
+        erase: 0
+        replicate: 3
+        clone: 2
+        copy: 1
+        map: 4
+      version: 6
+      spell_inventory:
+        repair: 34
+        backup: 35
+        iceshell: 21
+        commit: 16
+        paint: 6
+        box: 20
+        convert: 23
+        absorb: 10
+        platform: 22
+        superalter: 33
+        superpyramid: 28
+        place: 13
+        superring: 31
+        alter: 7
+        iterate: 19
+        rollback: 15
+        superdisc: 30
+        levitate: 5
+        column: 32
+        torch: 8
+        superconvert: 27
+        fill: 9
+        superdome: 29
+        superrepair: 36
+        pillar: 12
+        blob: 17
+        superbox: 25
+        shell: 18
+        recurse: 14
+        superblob: 24
+        bridge: 11
+        supershell: 26
+  startwind:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 364
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Ветра
+        lore:
+        - §o§aТехники Стихии Ветра
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QsU4CQRCG58J63mG0gBewwPKMERHoIJHCBLQgNDZkYOdww+3eejcnhMq3sPAFfA5bn8ZEe/eO6HTz559/vpk6gAdiTWS9OogNGhlAwKRtgkwQ5owZb1SpHqQbQxmEtOVM7XY78kFoNDhQUJWAk7Kds9LkxrR1ycnF5+uPC6xG50pCK5bdNlHcj+Q1dqJ2e0FRT8ZXUVcuqdPHy36PqAaHz5TlKjUu1nd8R4WRWWotLhLyQmgM2SEsCqZJKlWsnLfunJ6AYDa7vZmkOa/eZs2vs/FIQFhKY8KcXz6+3+mh6/ngD3VaGB609uQBiGmSMgQalXmsXnD8v+IONUFzRe4AtTxHZlyup5ZI1iC8t5Qh7znLlMrbGD0VymoyfPqHB/ALDsyDL2cBAAA=
+    wand:
+      template: startwind
+      owner: Exteva
+      mana: 200.0
+      mana_timestamp: 1564186744821
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullnara:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 386
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Теневое Удушение§f (§3Хиден Клана Нара§f)
+        lore:
+        - §o§aТехники Клана Нара
+        - §3§oПривязан к Exteva
+        - 3 техник изучено
+        - '§eЧакра: 300'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1Qy07CUBCd2optDZrg2uiCLS5ERHZg1MREdEGISzJwp3Kl92F7C8pnuNL4D/6CJn6JMTHGr/C2BGc3J2fOY0IAB7wJkXZC8GYomQ++IaFjNAR+lMWxxAR9WFUzSQkEdG8SPp/PqQSeQInt5B3y8WAjXweGC0oNCm2FJ2/jz22rV5wOOINqxJp1oqhVY4fYqNXrQ6odseig1mQjarRwv3VE5MLalJKUK2llSyFspprieMDllKRRyYNrkTEyNeOCGzQL3ooL5QUqiVhMqcUcF8IlNpoUKW3Z9UyyRGmNw5icACodYwsNM0NdxXjErXOY8zzw+/3zk65Kzc/XR+f55fjRgyCHLghT83T7e73z/XpWglJHqEyadnVh4IPXi5UBXyCX4+Kf5X+LSxQEWzdk38FHe2gMjiY9bQO7EFxpSpZtcpWCWzm9y7gWtvjuMh7AH5MqaZO0AQAA
+    wand:
+      template: fullnara
+      owner: Exteva
+      mana: 300.0
+      mana_timestamp: 1562284450077
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        shadowimitation: 2
+        shadowneedles: 1
+        shadowneck: 0
+  startiburi:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 385
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Улучшенный Геном Клана Ибури
+        lore:
+        - §o§aТехники Улучшенного Генома
+        - §a Клана Ибури
+        - §3§oПривязаны к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QPU7DQBCFx8pibCMowgGgSIkpCCFJF0tQIBEoolQU0To7hlW8P9hjAr4Ix0hDQckpOAcS1IiNI5huRu+9+WYiAA/YAtF6EbAl1yKAgFDZnBNCVBIvSKZVIQPYMkuNBYT4RIWs6xp9YIprPnqGphjsrdsZSYXOp6yLXuQHr58usbHOpIBOJvpdxGwYizPei7vdFOOByE7jvphjb8hPhgPEFmw/YlFKo12s7wB3Ki0KYy1Pc/RCaCfkENKKcGyEzKTTRk7pMQim08vzsSnp7fv95+tjvGIQrkdXyEt6uV0lR8nA+uAnylSaRp0NeQBskhuCQHGp75sf7P6vuOYKYf8O3QFyfsyJ+HwxsYiiBeGNxYLThnOd0mjbFw+VtAo1Hf7hAfwCDhEh7GgBAAA=
+    wand:
+      template: startiburi
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1560887145712
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullmagnetiron:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 374
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6ironfist§f (§3Стихия Магнетизма§f)
+        lore:
+        - §o§aТехники Стихии Магнетизма
+        - §a |Тёмное Железо|
+        - §3§oПривязан к Exteva
+        - 5 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAEWROU8DMRCFJ+wSdsMlgURNQYUUCsKVCpCgQOIoEHU0iWeJlfXBejZXARV/i5IK8S9o+BXYGwiWm2c/zfv83ACoQTwgsrUGxCPUIoGESdkcmWAtK/Nc4aMmloXRCSyakaYCUhpzIafTKSWwgj2WQ+o4S3kOSfBl0nEdYoUazyZQrRjWguywVOQYlfW5g7fdj9jHVTM7UsBOJo5bRFm7KY7wsNlqdal5IrKD5rHo0WEb99snRBEsDalw0mg/tt6A9Sq4I/WQNJtiEs0YRjgkb1iYSw8HEEWQBun6hl3Aiv6JA+bvNRfYG0Coxu/lUovCWIvdnGopbJyzf3u3ZLoxQmbSszSCNYbk4eHq4sY4pvHX1qm9dDGk4eia0PHr3Xf6+fzyXof6uTKl5rOdWTMJxPe5YUgUSt2vPmB1HnGLimDzkXxBsreHzJ7r3hIJD3pnqUCe9RCmVN6Ny6dSWuWr2P7DA/gBQ36lmeUBAAA=
+    wand:
+      template: fullmagnetiron
+      owner: Exteva
+      active_spell: ironfist
+      mana: 400.0
+      mana_timestamp: 1562263604228
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        ironwave: 2
+        ironwall: 3
+        ironshots: 4
+        ironfist: 0
+        irontrack: 1
+  fulldark:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 372
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Тьмы
+        lore:
+        - §o§aТехники Стихии Тьмы
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QsU7DQAyGHTWEJAiGIjYGhg4sYaCUthJDi+iARGGoylq5PQdOyV2OxKHQV+AR2JmYGTvyCAysvAjXVHCbrd+fP18I4ICbEBknBHeOWvjgMymTIhP4cZmmAvPEh41srimHgJ44l4vFgjxwFWrsPUP1XNhZlROWigpGZSw4WR6+fFheNTqRAhqxaDeJ4m4kTrEVNZtTijoiPonaYkatLh53O0Q12HykvJCZtljP6m2VWuSZMThNyQmg3merMC2ZhpmQsbTZ0CYdF/zx+PJimBV8+/5mzgbnXy4Eq9YVYcHLve/P/defsQdeX2Wl5l5jbe6DO0ozBl+h1PfVD2z/r7hGRbB7R/YAOTtCZpwlI0MkahDcGMqR154rSpWtDx5KaRRpPvjTA/gFPJfK+2YBAAA=
+    wand:
+      template: fulldark
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562263456694
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullhozuki:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 393
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Водяной Пистолет§f (§3Хиден Клана Хозуки§f)
+        lore:
+        - §o§aТехники Клана Хозуки
+        - §3§oПривязан к Exteva
+        - 3 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv04CQRCH58J63p3RAis7CxKroxAR6CDRgkS0INRkYedkw+0f7+YE7wG0tbXmLXwJH0AbEx/E5YhuN5PffPPNRgAesCWi9SJgK65FAAGhsiknhCgp0nRhymIpA9gzK40ZhLimTJZliT4wxTXvP0H1GBxtyylJhTlxZR06bX+9vTtiNTqVAhqJ6LQQk14sLnk7brVmGHdFchF3xBzbPX7e6yLWYP8Rs1wa7bC+EzwotMiMtXyWohdCfUBOYVYQjoyQiXTZyCU9BsFkMrwamZzi1/jjezNsMgi3rRvkOW2ez35OPqcvPvgDZQpN/cbOPAA2Tg1BoLjUi+oPDv9X3HKFcHyP7gA5b3IiPl+OLaKoQXhnMeO089xSqmz9+qGQVqGm0z89gF+xm6jraAEAAA==
+    wand:
+      template: fullhozuki
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1564271745466
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullwood:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 368
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Великое Древесное Копьё§f (§3Стихия Дерева§f)
+        lore:
+        - §o§aТехники Стихии Дерева
+        - §3§oПривязаны к Exteva
+        - 5 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 4/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv04CQRDG58J63mG0AAtKCwqbsxAR6CARE6NoQagsyMLO4YbbP97NiVD7DLY2voAvZGnDS7h3RKebL99885upAnjAlojWqwJbcS0CCAiVTTghBHGeJCtjnLhnVhpTCPGVUrnZbNAHprjm/TWUxeCoaKckFWbElXXBy8X6tOHyytGpFNCMRaeFGPciccnbUas1w6gr4ouoI+bY7vHzXhexAvsvmGbSaBfrO7yDXIvUWMtnCXoh1AbkEGY54cgIGUvnrTqnxyCYTG6uRiaj7efX7cd2+MggLKQ75Bm9H//U376vGz74A2VyTf3mjjwANk4MQaC41E/lBw7/V9xzhVBfoDtAzs84EZ8vxxZRVCB8sJhy2nEWKaW3NnzOpVWo6eQPD+AXWBr5VmYBAAA=
+    wand:
+      template: fullwood
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1560809121816
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullrinnegan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 380
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Аменоминака§f (§3Риннеган§f)
+        lore:
+        - §o§aТехники Риннегана
+        - §3§oПривязан к Exteva
+        - 6 техник изучено
+        - '§eЧакра: 1000'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAF2RTW4TQRCFy8zEjE2AKEFim0W2ZoHJj3eOBCiRCCBZ2SFZZXeN3Ur/0VMzIV5yAe4Ad0LKJrsoR8gqEtWDEiRmV93V733vTR+gA/kZUej0IT9HpwoomGwwyATrZW1M1M7RAl0Ba/7cUYQefeOoV6sVFbCOc9YNTatAxsAz20SR8JYjNmS6kFt0OP4xhvTlci/jlLWlitEG8TYb7z8fiWWrPNUKdkq1PyQqRwO1h7uD4XBGgwNVvhnsqzntjvD16IAog8cNxUp7J7LdPjxv7afaNeTYx4sMegsh0KGulrLRyf4nSzQZbNxHa0OkwABrGRRVHSiW5kLG7J+USa9A5pnB+dnSm7T+KPX3pHYq+hBwZqjTg81Dln5mNdOJV7rUQtpPFDkUp6fHb098xXvfJ7cvb47vcuilow+EFf/8cvn76teL6y50D62vHY932tqggHxiPENhUbtl+4uePlh8REuwtSCpT89fIbOwTQKREtBPEgP5b0tJpd3dfPe11sFKUdv3eAB/ABfEIGcHAgAA
+    wand:
+      template: fullrinnegan
+      owner: Exteva
+      active_spell: mvrandomtravel
+      mana: 1000.0
+      mana_timestamp: 1563641139272
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        gravipush: 1
+        mvrandomtravel: 4
+        rinneganactivate: 5
+        superfly: 3
+        gravipull: 0
+        blackhole: 2
+  fulllightning:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 362
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Аркан§f (§3Стихия Молнии§f)
+        lore:
+        - §o§aТехники Стихии Молнии
+        - §3§oПривязан к Exteva
+        - 6 техник изучено
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAF2Rz07bQBDGJ9gJTiAg0RfgwKVS00qEf7mBWiSQSDlQpN6isXecTG3vLutxaHPpiT5IJe48AU/AqZe+Q499AtZuiyr2NDv69P2+/bYH0IIwI7KtHoTXqFUEkVBhcxSCflrlec7TmWjW0wja5lqTgy59FseLxYIiWMVEeE6T0lKeQxtdhroDYYEaD1/+vrvR/CmEtfo6ES6oFCysZ2YPH34sPKoxnLCCrVTtD4nS0UDt4e5gOIxpcKDSncG+Smh3hNujA6IAlufkSjYaADo9WG+oE9Zz0mLclwDWntImM+RaBs+WJfldK/gb1c+hnzN2jXjpf3FsTCm1QQD9ZMbKOC5Jxw28Xfe2UmnljLUY59TqwsaR+FriSmhsFKfsk/ZqVgjR5eXpu7F3+/X25/eTb+OvIXTr1RlhKfd0++qj3nvTgc5RYSoth1vQnAjCi9wIRIV/yaz5mv4T4j0WBC+m5Ovj5DWKYJJdWCIVQPfckkP501Lt0mg3jq8qtoUvavNfPIBHEf1gwP8BAAA=
+    wand:
+      template: fulllightning
+      owner: Exteva
+      active_spell: arkan
+      mana: 12.974003
+      mana_timestamp: 1562501239418
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        lightningchain: 0
+        lightningchase: 1
+        arkan: 4
+        kirin: 2
+        lightningboost: 3
+        chidorisenbon: 5
+  fulljugo:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 383
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Трансформация Мудреца§f (§3Улучшенный Геном Клана Джуго§f)
+        lore:
+        - §o§aТехники Улучшенного Генома
+        - §a Клана Джуго
+        - §3§oПривязан к Exteva
+        - 4 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 4/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QzU4CMRSF7zgjljFqgolrF2xx4YhIogkYXZgILgg7Iyn0DhSmP3Q6ILyVK935FK58GVtQu/t623PPOTFAANEMUQcxREsqGQFiUeiMWgSSFlk2LcaKwK5aSjRQxldr+Hq9xhJEgkraWsHmRHDocWC5wNxSoZ3w7HOanDi9zdcBZ1BNWSNBTJs1dknrtSQZYu2KpRe1BhthvUnPm1eIIewt0ORcSSdbiuEo15hlAy4XKK0yKzf3lqgRbh78klDMuwih7ClfKuM5DIF4niDNHO74sPuFZEZpTYcZBmWotK0LNCwsdhTjKXebY68bAen3H+46Krcfz5X3+c1tM4Kyv3pEmtu3l+63uf6qlqDUFqqQtlXd9kAg6mXKAhGUy8mmz4P/FV0qEI7H6OrgozNqLR3NehqROd9PGg2129ReZfO2cj8vuBYu+OmfPYAf5H7Y7bQBAAA=
+    wand:
+      template: fulljugo
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562284536598
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        jugoarm: 1
+        jugomod: 0
+        jugosword: 3
+        jugoheal: 2
+  fullboil:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 370
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Кислотный Туман§f (§3Стихия Кипения§f)
+        lore:
+        - §o§aТехники Стихии Кипения
+        - §3§oПривязан к Exteva
+        - 3 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv0oDQRCH53C97EW0iC9gEezOwhiTdAkoKBgtQsAu7GXndMntH+/mjAZrn8HONxB8AR/BztaHsBXBzQXdbobffPPN1gECYDNEF9SBzYWRHDihdpkgBJ6WWZZYlXFYt3ODOUR4R7laLBYYAtPCiP49VI/B1rKckNJYkNDOg2dvuz+PnleNTpSEZio7LcS0F8tD0Y5brQTjrkwP4o6cYrsn9ntdxDWo3WJeKGs8NvR6G6WRuXVOJBkGETQG5BWSknBopUqVz9Z9MmDAx+PTo6EtCD4vT74fBpJBtGydoSjo5eP5q/b0/hpCONC2NNRvrsw5sFFmCbgWylxXP7D5v+JcaITtK/QHqOmeIBLT2cghyjWILhzmglaeS0qVbRzflMppNLTzpwfwC4L0mvdmAQAA
+    wand:
+      template: fullboil
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562263354758
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  boneblade:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Костянной меч§4 (§c20 Использований§4)
+        lore:
+        - §3§oПривязан к Exteva
+        - §c20 Использований
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAD2OMU7DQBBFB+GYtSUKIgpKCtqlwITEHZaCFCQCVQqqaOwdRyuyu8YeE+SGkpYDcBgOwBm4BqJjMYIp3//z9WKAGIINWiVAMJlqjUwQ5c5SvkZFAgZuY6mGiB651l3XeSR6tNQKjko1TojKVKozHMkkyUlOVHkqx6qgUYon6YRoG3YeqG60swAQQgTDjP1W3jLNndKl9mHso60AxGJxOZ27hj/lwfP7RzYLIPpBV4QNvw6evl72zpchhJlxreW3W+hPwO7/4jUagv0VeUFdHCMzFndTNLjyGtFNRTXyr4j/Cvry8OK+1ZUhy4d/OgDfaAKvQBgBAAA=
+    wand:
+      template: boneblade
+      owner: Exteva
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullakimichi:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 387
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Режим Бабочки§f (§3Хиден Клана Акимичи§f)
+        lore:
+        - §o§aТехники Клана Акимичи
+        - §3§oПривязан к Exteva
+        - 4 техник изучено
+        - '§eЧакра: 800'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QvU4CQRSFL+6Ky4qa6AtY0Jm1EBGJjSaaaCJaEGsy7NyFCfPn7F1Q4gv4Kjb2Ntj5JFYmPoOzEJzcZk7OPXPmiwEqEI4RbSWGcMo0jyAiVFYyQqhnhZRsLJRIRyKCdTPV6KCGT+TEbDbDKoSKaXb+CosTwnZ57ZNQmBNT1oeP5/xt7jMXq33BoZHxdhMx6yT8hLWSZnOAySnPjpM2T7HVYUedU8QANibocmG0j63GsJNblLIv9AQ1GfccQD0XM7TM0dCZqTeteWnV1BkpvRR4aVAQocvkszK8rBjA9r9kC52OoATgZ7PQ3Blr2UBipQa7F+T/6K3YNVxkwpeJS2sI0cPDzWXX5PSpH39+59cvIdRK6RZZTh+T3tfZwfd7FaoXyhSazhtLNBGEPWkIIsWEHi0wb/0/cccUwt4QPSGRHjIilo57FpEHULu36BgtQZQpC+/u1WMhrPIs9lf1AP4AjZwneMsBAAA=
+    wand:
+      template: fullakimichi
+      owner: Exteva
+      mana: 800.0
+      mana_timestamp: 1562284174015
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        sizepartgrow: 2
+        akimichiroll: 3
+        butterflymod: 0
+        butterflypunch: 1
+  fulluzumaki:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 390
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Печать Отражения§f (§3Хиден Клана Узумаки§f)
+        lore:
+        - §o§aТехники Клана Узумаки
+        - §3§oПривязан к Exteva
+        - 4 техник изучено
+        - '§eЧакра: 600'
+        - '§eВосстановление чакры: 4/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAFWQvTIEQRSF75qxZtdfFR5AoGQrsP42QiFQZQmQ2ro7fYeu6e5pPXcWG0o8hRJ4A4lUJvISXkBGpvSsnyqd9alzv3vuqQNUIEyJbKUO4QUaEUHEpK1CJhhNCqWKfqExlREMZxeGHNTokp3s9/tUhVCjwY3rJyhfCBPlt8NSU86orWen7/dHnx45GO1IAXOJWG0SJa2GWMHlRrPZpcaaSJYaqyKm5RYuttaIAhjpkctlZjy2WofJ3JJSHWl6ZDhzVwFM/6SKz1CaXKDGU/LeIIAxR4mimK2ThstYXvoxd5U0qVcqAcz8m4/RcuFKwFDZx2hhhMusxa6iSg2mNtkf3C2Y2pmQifTJ6iUlhOj4eHe7neX88Tx/8vKw8xhCrZT2CHO+vbtZ30reXqtQ3dRZYXhjblATRBAeqowh0n732aDy8b8V+6gJpk/J1yXjBWTGOD20RCKA2oElh/zdSkkZeKd2zgtptS9m9jcewBfRSkrd1wEAAA==
+    wand:
+      template: fulluzumaki
+      owner: Exteva
+      mana: 600.0
+      mana_timestamp: 1563211027710
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        uzumakichainsdamage: 3
+        reflectprint: 0
+        uzumakiblink: 1
+        uzumakichainscapture: 2
+  master:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Magic Missile§f (§3Master Wand§f)
+        lore:
+        - §o§aFor demonstration purposes
+        - §3§oПривязаны к Exteva
+        - 48 техник изучено
+        - '§eЧакра: 250'
+        - '§eВосстановление чакры: 50/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Pz07CQBCHp1Jri5ED3jiZyLUmigjcINEYE9ED4WZCBnaqG9g/tlMwvIQXzz6KJj6A8Sn06iO4rdG9zeY333y/KoAH/pzIelXwV6hFCCGTsgtkgkBhxpSGsGlWmlKI6IFTuV6vKQBfoca+6UPxfKgV44SlooxRWYed3xw2nh2tXJ1IAc1EdFpESS8WJ9iOW60pxV2RHMcdMaN2D496XaIKbC0pzaTRDhs4ue1ci9RYi9MFeRHUB+wUpjnT0AiZSJetuqTnQzgeX5wOTcZvn/sfG7XzRx+i4uuSXInXr6eX7/ekEUAwUCbX3G+W4hCCP1oYhlCh1Hdl/53/E1eoCHZvyRWQswNkxtl8ZIlEBaJrSynyr2dBKbP1s/tcWkWa9/70AH4AH3mLrWQBAAA=
+    wand:
+      template: master
+      owner: Exteva
+      mana: 250.0
+      mana_timestamp: 1560619850398
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  startwater:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 363
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Воды
+        lore:
+        - §o§aТехники Стихии Воды
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv07DQAzGHfUISRAM5QUYuoaBUtqKpZVgQKKAqDqiyu05cGrvD4lDUXdGVgbgAZhYeA7egIfhmgo82dbnzz87AQhAzIhckIBYoJERREzazZEJkoIx54VP8wg27MJQDjE9cq6WyyWFIDQa7CmoQsDOqhyz0uTntPPWs9eb62/vWI2OlYRGJttNoqybyiNspc3mhNKOzA7TtpxSq4sH3Q5RDTYfKC+UNd429IBbpZG5dQ4ncwpiqPfZI0xKpoGVKlNem3hlICAajc5OBrbgn3Hn7f247wTEq9Y5YcFfV0/q4/P5JYSwr21puNdYk0cghnPLEGlU5q76wfb/igvUBLu35A9Q031kxuls6IhkDeJLRznymnPlUmnrp/elcpoM7/3hAfwCTNYlcWgBAAA=
+    wand:
+      template: startwater
+      owner: Exteva
+      mana: 200.0
+      mana_timestamp: 1561662935757
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  naruto:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Великий Огненный Шар§f (§3Все Техники§f)
+        lore:
+        - §o§aВсе Техники
+        - §3§oПривязаны к Exteva
+        - 26 техник изучено
+        - '§eЧакра: 10000'
+        - '§eВосстановление чакры: 100/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAF1TvXLTQBBeI9mRHTsJDgToGCatU2BCEqBwZqBgIFBkUlB5VtLKuvHp7jidrOCGlkfgVah5HEpegL0LZpio273d/X52NQDoQLwkMp0BxC2qPIHEUWUkOoKeQts4nUBXt4os9OnaWbFerymBIWZOrGheG5ISRgtL6AphKUUpexBXqHD28xv4L4YdH86dqKh2WBkGXcrOr3eMFQbPRQ6HRX4yJSrOJvlzPJ5MpylNTvPi2eQkz+j4DJ+enRJFEBtckB8awdaKbC204qA3gN1AZC7UipTT9ksE24TWlSXanHzNwwgST7AVKvf9EXTRLtE/DaJbAjjXiaDvS1Ota8fxPsfhWWKIYwZYYdY0VYsrqjlzN4IdKRalU0ItNm39CPZ8GyolSsGu3hDuRjC0WJOqGyuWgd/9DeBfgDEDFKTEdSF1y+YD3OGmlvdiM62c1Z7lHovyTaapSw7v+Rm+or0RMfqfUlYyICe3WG0oaiRvxO8ZYJfdWAorPJHEKw3AzPvG6lGwMtNSogkzHt0aHBp73BgKvSMcH7CCAJQ2UpLXtBPBoFE52VDGiQebEmNFHZwZMlpWilxzglQactv+Sre50WpjMJXU6cP43PEtpo2jC52LQvAtDPzaYkiurt6+vmD7r84PDtZPZr9j6PvUe2Jjf7w8evH10/dXPeidV7pRbnYYbhQSiC+ldpBULKYMP8LoH8QHrAj2F8S3KrIjdA6z5aUhylnxR0N2s1Y/JdSO33xuhKn4FB9v6AH8AfX2HnNtAwAA
+    wand:
+      template: naruto
+      owner: Exteva
+      active_spell: greatfireball
+      mana: 10000.0
+      mana_timestamp: 1560885193547
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      page: 0
+      version: 6
+      spell_inventory:
+        earthharden: 24
+        firewind: 3
+        arkan: 10
+        greatfireball: 1
+        windboost: 19
+        fireblast: 4
+        vacuumwaves: 17
+        lightningboost: 9
+        fireannihilation: 5
+        rasensuriken: 21
+        windblast: 18
+        fenixflower: 2
+        watercontrol: 16
+        windpush: 20
+        waterwall: 13
+        lightningchase: 7
+        waterultimate: 15
+        kirin: 8
+        fenixfire: 0
+        earthcollapse: 25
+        lightningchain: 6
+        earthwave: 22
+        waterbullet: 14
+        underearth: 23
+        waterprison: 12
+        chidorisenbon: 11
+  fullyan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 396
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Ян
+        lore:
+        - §o§aТехники Стихии Ян
+        - §3§oПривязан к Exteva
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QsU4CQRCG58J53GG0wBewILEgRyEi0EGihYlIQWhsyBw7pxtu99a7OREqK1/BB+AV7EzsfAFb38CncDmi283kn2++2RqAA+6CyDg1cJeohQ8+kzIJMkE1LpJkhdqHvXSpKYOAnjiT6/WaPHAVahysoHwuHG7LGUtFOaMylrv4aOKnxZWjMymgEYtumyjuh+IcO2G7HVHYE/FZ2BVz6vTxtN8jqkD1kbJcptpiPWu3X2iRpcZglJATQH3IViEqmEapkLG02ZpNOi740+nVxSjNudk5aX2/jm9dCLata8Kc3zY/m6/35xcPvKFKC82Dxs7cB3eSpAy+Qqnvyw84+F9xg4rg6I7sAXLeQmacLyaGSFQgGBvKkHeeW0qZrV8+FNIo0nz8pwfwCzUiAxJlAQAA
+    wand:
+      template: fullyan
+      owner: Exteva
+      mana: 400.0
+      mana_timestamp: 1562263642565
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  startlightning:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 362
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Молнии
+        lore:
+        - §o§aТехники Стихии Молнии
+        - §3§oПривязана к Exteva
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv04CQRDG58J63mGkwMTagsbiLESE6yBCYSIag9Rkj52Dlds/3s2J4QVsbXwnn8BCH8XG5YhON5Pv++Y3UwfwgK0QrVcHtuZaBBAQKptxQmgUxHPK5GJJWupFAHtmrTGHEF8ol5vNBn1gimvel1AVg8a2nZFU6LzKuvjV+8/o0aVW1pkU0EpFt42YxpG45J2o3U4w6on0IuqKOXZifh73EGuw/4x5IY12sb6DPCi1yI21PMnQC6E5IIeQlIRjI2QqnbbulB6DYDq9Ho5NQd9f96cPr8NjBuF2dIO8oLePWCfJ1acP/kCZUlO/tSMPgE0yQxAoLvWy+sPh/4pbrhCOFugOkPMzTsTnq4lFFDUI7yzmnHac25RK2xw9ldIq1HTyhwfwC9d6DKJsAQAA
+    wand:
+      template: startlightning
+      owner: Exteva
+      mana: 200.0
+      mana_timestamp: 1561589400938
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+  fullwind:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 364
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Ужасающее Давление§f (§3Стихия Ветра§f)
+        lore:
+        - §o§aТехники Стихии Ветра
+        - §3§oПривязан к Exteva
+        - 5 техник изучено
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE1ROU7DQBT9wSY4YZOgokMC0YWCsCQFgkhQILEUCNrox/MNo3gW7BkH0uUOFFyCggqJI9BQQEvBASi4ATNGIKZ7X2/TmzpABcI+ka7UIRygZBFEhoRO0RBEiU3TAffHcTWQlEGNrk3Gh8MhRTCFseEFdXNNaQo1z+ulmJsqhAIl7p6Pnkd3X28hzHjYNVxQblBoF9l/fdy5dUmlaZczWE7YVpMoaTfYJm40ms0eNVosWW9ssZg22rjWbhEFMFFQlnMlAaBah9kyuctlQdKo7CaAqQxzkrnNeJ88KQz+9XK4EsBkgbG1YoAF5e4CAUSeoW1+6dGvQKlSMOb3mbSSZUpr7KVUqcFcx7gNetbQkWI84a5S3XuHEJ2dHewdOaXcfqH74nghhJo/HZKLf1pa+XhI3j+rUO0IZaXZXYbyRRCepspAJJDLy/ILpv8ijlEQzF+Q24nHq2gMxv1TTcRc0RNNGZqfObxLyZ3bv7JcC7fI4m89gG8scY/m5wEAAA==
+    wand:
+      template: fullwind
+      owner: Exteva
+      active_spell: windblast
+      mana: 90.027985
+      mana_timestamp: 1562625130388
+      owner_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+      version: 6
+      spell_inventory:
+        rasensuriken: 4
+        windblast: 1
+        vacuumwaves: 0
+        windpush: 3
+        windboost: 2
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 6623
+  mana: 201.0
+  health: 101.0
+properties:
+  version: 6
+classes:
+  caster:
+    mana_timestamp: 1564435978619
+    mana: 150.0
+    spells:
+    - flare
+    - blind
+    - boon
+    - arrow
+    - cure
+    - stun
+    - secure
+    - animate
+    - bonesword
+    - reflect
+    - bubble
+    - frost
+    - explosionspider
+    - recall
+    - susanoo1st
+    - missile
+    - fire
+    - susanoo2st
+    - workbench
+    - fireball
+    - gate2
+    - gate1
+    - poison
+    - torch
+    - familiar
+    - push
+    - blast
+    - peek
+    - pull
+    - cloak
+    - curse
+    - bonebullets
+    - collapse
+    spell_levels:
+      fire: 2
+    mana_regeneration: 30.0
+    mana_max: 150.0
+  mage:
+    hotbar_count: 2.0
+    path: student
+  broomrider: {}
+  battle_mage: {}
+active_class: mage
+health: 20.0

@@ -1,0 +1,30 @@
+lastAccountName: Evalone
+timestamps:
+  login: 1563056929325
+  lastteleport: 1563057495519
+  logout: 1563058010553
+ipAddress: 77.222.102.112
+lastlocation:
+  world: world
+  x: -906.679231970498
+  y: 68.0
+  z: -441.90454427182084
+  yaw: -98.99064
+  pitch: 5.243422
+geolocation: Russia
+logoutlocation:
+  world: world
+  x: -913.7155817018463
+  y: 68.0
+  z: -441.5138948241833
+  yaw: -86.07207
+  pitch: -1.2918544
+homes:
+  home:
+    world: Survival
+    x: -381.61099809645555
+    y: 65.0
+    z: 382.9054976192306
+    yaw: -98.43973
+    pitch: 12.412716
+money: '24.70'

@@ -1,0 +1,5 @@
+TropicLeaves:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEAVES
+    damage: 3

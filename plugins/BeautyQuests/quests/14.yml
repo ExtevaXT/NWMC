@@ -1,0 +1,114 @@
+quest:
+- requirements:
+  - questID: 13
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое будет следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: На этот раз я тебе дам необычное задание
+    - id: 2
+      message:
+        sender: NPC
+        text: В Конохе ходят слухи про "Золотое Яблоко"
+    - id: 3
+      message:
+        sender: NPC
+        text: Ты должен найти его и принести мне
+    - id: 4
+      message:
+        sender: PLAYER
+        text: Я постараюсь его найти
+  manager:
+    stages:
+    - msg:
+        npc: 470
+        msgs:
+        - id: 0
+          message:
+            sender: NOSENDER
+            text: А вот и оно!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: §e§lЗолотое Яблоко
+            internal: H4sIAAAAAAAAAE2Py06DQBhGf01MkPgYbkmGmXJbdGHEtkPKIJRLYcdlCLQDNhSM8Fw+oCxdfjnnLD4ZQIaX03US4nP4qlvBJXikFbxiQyfFBiHFwFWubHQTK3ltIEU1rbqqLNPKCZZBXqMbH8aW359BGvnPOA38LgPAgwRPcS4mDr98dlB2blB1dkQ5U33d4QkJj15uBu3juXinOu1WfnjTj7P1z9XGPNFESpwm6/2p6GJ0JIHgh0Atu+jbC0XDFnFlOFIze9emYbl4ya5ltk/cMEUujgizA5Fdyo2bpCRddle2jxsWOiLrXM0LP7C393GKqcoWd3YXimmvWrW/3a4P4A8E8KHJHAEAAA==
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 470
+      order: 0
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Ты смог его найти?
+        - id: 1
+          message:
+            sender: NPC
+            text: Я удивлён
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Это было не трудно
+        - id: 3
+          message:
+            sender: NPC
+            text: Держи награду за него
+      stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lЗолотое Яблоко
+          internal: H4sIAAAAAAAAAE2Py06DQBhGf01MkPgYbkmGmXJbdGHEtkPKIJRLYcdlCLQDNhSM8Fw+oCxdfjnnLD4ZQIaX03US4nP4qlvBJXikFbxiQyfFBiHFwFWubHQTK3ltIEU1rbqqLNPKCZZBXqMbH8aW359BGvnPOA38LgPAgwRPcS4mDr98dlB2blB1dkQ5U33d4QkJj15uBu3juXinOu1WfnjTj7P1z9XGPNFESpwm6/2p6GJ0JIHgh0Atu+jbC0XDFnFlOFIze9emYbl4ya5ltk/cMEUujgizA5Fdyo2bpCRddle2jxsWOiLrXM0LP7C393GKqcoWd3YXimmvWrW/3a4P4A8E8KHJHAEAAA==
+      rewards: []
+      npcID: 42
+      order: 1
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 20
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    - type: GOLD_INGOT
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Золото
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №10
+  finished: []
+  id: 14
+  scoreboard: true
+  cancellable: false

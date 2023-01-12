@@ -1,0 +1,182 @@
+quest:
+- requirements:
+  - questID: 12
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: Нам поступила просьба от Бабушки
+    - id: 2
+      message:
+        sender: NPC
+        text: Сходи к ней и спроси, что ей надо
+    - id: 3
+      message:
+        sender: PLAYER
+        text: Хорошо
+  manager:
+    stages:
+    - msg:
+        npc: 468
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Привет внучок, не мог бы ты помочь мне?
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Я как раз за этим и пришёл
+        - id: 2
+          message:
+            sender: NPC
+            text: Вот и отлично
+        - id: 3
+          message:
+            sender: NPC
+            text: Мне тут очень скучно, найди мне какую-нибудь интересную книгу пожалуйста
+        - id: 4
+          message:
+            sender: PLAYER
+            text: Хорошо
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 468
+      order: 0
+    - msg:
+        npc: 165
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Здравствуйте, у вас есть какие-нибудь интересные книги?
+        - id: 1
+          message:
+            sender: NPC
+            text: У нас есть много разных книг, какой жанр вам интересен?
+        - id: 2
+          message:
+            sender: NPC
+            text: Хотя подожди...
+        - id: 3
+          message:
+            sender: NPC
+            text: У нас есть один интересный экземпляр
+        - id: 4
+          message:
+            sender: NPC
+            text: Вот держи
+      stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            display-name: '§bИча Ича: §e§lРай'
+            lore:
+            - '§fАвтор: Джирайя'
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 165
+      order: 1
+    - msg:
+        npc: 468
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Вот интересная книга
+        - id: 1
+          message:
+            sender: NPC
+            text: Спасибо, про что она хоть?
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Я думаю что там что крайне увлекательное
+      stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          display-name: '§bИча Ича: §e§lРай'
+          lore:
+          - '§fАвтор: Джирайя'
+      rewards: []
+      npcID: 468
+      order: 2
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я помог этой Бабушке
+        - id: 1
+          message:
+            sender: NPC
+            text: Отлично
+        - id: 2
+          message:
+            sender: NPC
+            text: Подожди немного....
+        - id: 3
+          message:
+            sender: NPC
+            text: Мне сообщили, что эта Бабушка упала в обморок
+        - id: 4
+          message:
+            sender: NPC
+            text: Что ты с ней сделал?
+        - id: 5
+          message:
+            sender: PLAYER
+            text: Да вроде-бы ничего
+        - id: 6
+          message:
+            sender: NPC
+            text: Надеюсь это правда
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 3
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №9
+  finished: []
+  id: 13
+  scoreboard: true
+  cancellable: false

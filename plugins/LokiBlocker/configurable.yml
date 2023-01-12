@@ -1,0 +1,36 @@
+diamond_pickaxe:
+  id: 278
+  data: 600
+  damage: 600
+  place: false
+  break: false
+  craft: true
+  inventory:
+    content: true
+    delete: false
+  pickup: true
+  drop: true
+  interact:
+    left-item: true
+    right-item: true
+    left-block: true
+    right-block: true
+    left-entity: false
+    right-entity: false
+  explode: true
+  burn: true
+  info: true
+  coords-black-list: true
+  min-x: -2147483647
+  max-x: 2147483647
+  min-z: -2147483647
+  max-z: 2147483647
+  min-y: -1
+  max-y: -1
+  biomes-black-list: true
+  biomes: []
+  worlds-black-list: true
+  worlds: []
+  piston:
+    push: false
+    drag: false

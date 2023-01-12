@@ -1,0 +1,15 @@
+[17:51:52] [Server thread/INFO]: Loading properties
+[17:51:52] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[17:51:52] [Server thread/INFO]: Default game type: SURVIVAL
+[17:51:52] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-7228328-11323bf (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[17:51:52] [Server thread/INFO]: Debug logging is disabled
+[17:51:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:51:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:51:52] [Server thread/INFO]: Generating keypair
+[17:51:53] [Server thread/INFO]: Starting Minecraft server on 178.33.4.198:25605
+[17:51:53] [Server thread/INFO]: Using default channel type
+[17:51:53] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[17:51:53] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
+[17:51:53] [Server thread/WARN]: Perhaps a server is already running on that port?
+[17:51:53] [Server thread/INFO]: Stopping server
+[17:51:53] [Server thread/INFO]: Saving players

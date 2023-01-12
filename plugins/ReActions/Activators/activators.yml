@@ -1,0 +1,7 @@
+ITEM_CLICK:
+  paper:
+    item: f DIRECTION NORTH
+  bone:
+    item: f DIRECTION NORTH
+  type:bone:
+    item: f DIRECTION NORTH

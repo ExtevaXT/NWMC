@@ -1,0 +1,416 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&4&lИнформация о техниках'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'jutsuhelp'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+menu:
+  COMMAND: 'help'
+  NAME: '&e&lВ меню&b'
+  ID: '262'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 6
+right:
+  COMMAND: 'jutsuhelp2'
+  NAME: '&e&lВперёд&b'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 6
+  ID: '262'
+
+
+
+
+
+
+sharingan:
+  NAME: '&4&lШаринган'
+  LORE:
+  - '&fВид: Додзюцу'
+  - '&fИмеет 5 Техник'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+sharinganactivate:
+  NAME: '&4&lАктивация Шарингана'
+  LORE:
+  - '&fУвеличивает скорость обладателя'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+  ENCHANTMENT: Infinity
+sharingancrows:
+  NAME: '&4&lДемоническая Иллюзия Ворона Миража'
+  LORE:
+  - '&fВ ходе использования, гендзюцу проецирует поток воронов,'
+  - '&fкоторые оставляют противника во власти пользователя.'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+  ENCHANTMENT: Infinity
+sharinganselfcrows:
+  NAME: '&4&lВоронье Исчезновение'
+  LORE:
+  - '&fВ ходе использования, гендзюцу проецирует'
+  - '&fпоток воронов, которые скрывают вас.'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+  ENCHANTMENT: Infinity
+sharinganspikes:
+  NAME: '&4&lДемоническая Иллюзия Техника Пленения'
+  LORE:
+  - '&fЗаставляет жертву мучаться чувством, будто множество'
+  - '&fколов пронзило ее конечности, что забирает у нее возможность двигаться'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+  ENCHANTMENT: Infinity
+sharingancoercion:
+  NAME: '&4&lПринуждение Шарингана'
+  LORE:
+  - '&fГендзюцу шарингана, которое погружает жертву в кошмарную иллюзию'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+  ENCHANTMENT: Infinity
+
+
+
+
+
+mangekyousharingan:
+  NAME: '&4&lМангекьё Шаринган'
+  LORE:
+  - '&fВид: Додзюцу'
+  - '&fИмеет 5 Техник'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+
+mangekyousharinganactivate:
+  NAME: '&4&lАктивация Мангекьё Шарингана'
+  LORE:
+  - '&fСильнее увеличивает скорость обладателя'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+  ENCHANTMENT: Infinity
+miniblackhole:
+  NAME: '&4&lКамуи Дальнего Действия'
+  LORE:
+  - '&fСоздаёт пространственный барьер вокруг цели и затягивает её в другое измерение'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+  ENCHANTMENT: Infinity
+susanoo:
+  NAME: '&4&lСусаноо'
+  LORE:
+  - '&fСоздаёт вокруг обладателя абсолютную защиту'
+  - '&fИмеет 5 стадий'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+  ENCHANTMENT: Infinity
+amaterasu:
+  NAME: '&4&lАматерасу'
+  LORE:
+  - '&fСоздаёт не тушимое чёрное пламя'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+  ENCHANTMENT: Infinity
+gravimeteor:
+  NAME: '&4&lТенгай Шинсей'
+  LORE:
+  - '&fПритягивает несколько массивных метеоритов из верхнив слоёв атмосферы'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+  ENCHANTMENT: Infinity
+
+
+
+
+
+
+byakugan:
+  NAME: '&f&lБьякуган'
+  LORE:
+  - '&fВид: Додзюцу'
+  - '&fИмеет 6 Техник'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+
+byakuganactivate:
+  NAME: '&f&lАктивация Бьякугана'
+  LORE:
+  - '&fПозволяет видеть намного чётче и видеть сквозь предметы'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+  ENCHANTMENT: Infinity
+gentlefist:
+  NAME: '&f&lМягкий Кулак'
+  LORE:
+  - '&fДелает точечные удары усиленные чакрой'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+  ENCHANTMENT: Infinity
+byakuganrotate:
+  NAME: '&f&lВосемь Триграмм Небесное Вращение'
+  LORE:
+  - '&fВращаясь облдатель испускает большое количество чакры, отражая все атаки'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+  ENCHANTMENT: Infinity
+64fist:
+  NAME: '&f&lВосемь Триграмм Шестьдесят Четыре Ладони'
+  LORE:
+  - '&fДелает 64 невероятно быстрых ударов, блокирующих каналы чакры'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+  ENCHANTMENT: Infinity
+byakuganairpunch:
+  NAME: '&f&lВосемь Триграмм Вакуумная Ладонь'
+  LORE:
+  - '&fВыпускает высокоскоростной удар ладонью.'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+  ENCHANTMENT: Infinity
+byakuganexplosion:
+  NAME: '&f&lРазрушающая Ладонь'
+  LORE:
+  - '&fВыпускает из руки разрушительный порыв чакры'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+  ENCHANTMENT: Infinity
+
+
+
+
+ketsuryugan:
+  NAME: '&c&lКецурьюган'
+  LORE:
+  - '&fВид: Додзюцу'
+  - '&fИмеет 5 Техник'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 4
+
+ketsuryuganactivate:
+  NAME: '&c&lАктивация Кецурьюгана'
+  LORE:
+  - '&fУсиливает регенерацию тела'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+  ENCHANTMENT: Infinity
+bloodgenjutsu:
+  NAME: '&c&lГендзюцу Кецурьюгана'
+  LORE:
+  - '&fЗапирает жертву внутри своего гендзюцу'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+  ENCHANTMENT: Infinity
+bloodtouch:
+  NAME: '&c&lКасание Крови'
+  LORE:
+  - '&fИспользуя небольшое количество своей крови облдатель запускает её с огромной скоростью в жертву'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+  ENCHANTMENT: Infinity
+bloodcontrol:
+  NAME: '&c&lУправление Кровью'
+  LORE:
+  - '&fКонтролируя кровь живых существ, облдатель может управлять ими'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+  ENCHANTMENT: Infinity
+blooddragon:
+  NAME: '&c&lВосхождение Кровавого Дракона'
+  LORE:
+  - '&fВыпускает высокоскоростной удар ладонью.'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 4
+  ENCHANTMENT: Infinity
+
+
+
+
+
+
+rinnegan:
+  NAME: '&7&lРиннеган'
+  LORE:
+  - '&fВид: Додзюцу'
+  - '&fИмеет 7 Техник'
+  ID: '403'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+
+rinneganactivate:
+  NAME: '&7&lАктивация Риннегана'
+  LORE:
+  - '&fУсиливает регенерацию тела'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 5
+  ENCHANTMENT: Infinity
+soulcatch:
+  NAME: '&7&lВырывание Души'
+  LORE:
+  - '&fЗапирает жертву внутри своего гендзюцу'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 5
+  ENCHANTMENT: Infinity
+superfly:
+  NAME: '&7&lГравитационный Полёт'
+  LORE:
+  - '&fИспользуя небольшое количество своей крови облдатель запускает её с огромной скоростью в жертву'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 5
+  ENCHANTMENT: Infinity
+blackhole:
+  NAME: '&7&lЧибаку Тенсей'
+  LORE:
+  - '&fКонтролируя кровь живых существ, облдатель может управлять ими'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 5
+  ENCHANTMENT: Infinity
+gravipull:
+  NAME: '&7&lБаншоо Теннин'
+  LORE:
+  - '&fВыпускает высокоскоростной удар ладонью.'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 5
+  ENCHANTMENT: Infinity
+gravipush:
+  NAME: '&7&lШинра Тенсей'
+  LORE:
+  - '&fВыпускает высокоскоростной удар ладонью.'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 5
+  ENCHANTMENT: Infinity
+limbo:
+  NAME: '&7&lЛимбо Граничная Тюрьма'
+  LORE:
+  - '&fЗапирает жертву внутри своего гендзюцу'
+  ID: '339'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5
+  ENCHANTMENT: Infinity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

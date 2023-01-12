@@ -1,0 +1,187 @@
+quest:
+- requirements:
+  - questID: 6
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое будет следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: Снова пришёл заказ от садовода
+    - id: 2
+      message:
+        sender: NPC
+        text: Сходи к нему и помоги ему скосить травы в его саду
+    - id: 3
+      message:
+        sender: PLAYER
+        text: Хорошо
+  manager:
+    stages:
+    - msg:
+        npc: 451
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Привет, это снова ты?
+        - id: 1
+          message:
+            sender: NPC
+            text: У меня есть ещё для тебя поручение
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Чем сейчас тебе помочь?
+        - id: 3
+          message:
+            sender: NPC
+            text: Сходи в сад, который слева от меня и убери все сорняки, чтобы они
+              не мешали цветам расти
+        - id: 4
+          message:
+            sender: PLAYER
+            text: Хорошо
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 451
+      order: 0
+    - world: world
+      stageType: REGION
+      customText: null
+      text: null
+      region: grassgarden
+      rewards: []
+      order: 1
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 483
+      order: 2
+    - stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 479
+      order: 3
+    - stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 482
+      order: 4
+    - stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 481
+      order: 5
+    - stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 480
+      order: 6
+    - stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 487
+      order: 7
+    - stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 485
+      order: 8
+    - stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 486
+      order: 9
+    - stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 484
+      order: 10
+    - stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 489
+      order: 11
+    - msg:
+        npc: 451
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я убрал эти сорняки
+        - id: 1
+          message:
+            sender: NPC
+            text: Огромное тебе спасибо!
+        - id: 2
+          message:
+            sender: NPC
+            text: Возвращайся к Какаши
+      stageType: NPC
+      customText: null
+      text: <Вы убрали сорняк>
+      rewards: []
+      npcID: 451
+      order: 12
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Ну что помог?
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Да, я убрал сорняки, которые он просил
+        - id: 2
+          message:
+            sender: NPC
+            text: Вот и хорошо, держи награду
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 13
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №3
+  finished: []
+  id: 7
+  scoreboard: true
+  cancellable: false

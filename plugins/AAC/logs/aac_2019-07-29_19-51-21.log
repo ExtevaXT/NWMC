@@ -1,0 +1,136 @@
+[29-07-2019 19:53:19.608] (CheckManager) Enabled check chat.Spam
+[29-07-2019 19:53:19.635] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:53:19.643] (CheckManager) Enabled check combat.Fastbow
+[29-07-2019 19:53:19.653] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:53:19.658] (CheckManager) Enabled check combat.Regen
+[29-07-2019 19:53:20.574] (CheckManager) Enabled check combat.FastUse
+[29-07-2019 19:53:21.339] (CheckManager) Enabled check combat.Killaura
+[29-07-2019 19:53:21.364] (CheckManager) Enabled check movement.Speed
+[29-07-2019 19:53:21.370] (CheckManager) Enabled check movement.Phase
+[29-07-2019 19:53:21.386] (CheckManager) Enabled check movement.Fly
+[29-07-2019 19:53:21.392] (CheckManager) Enabled check movement.Vehicles
+[29-07-2019 19:53:21.398] (CheckManager) Enabled check movement.Elytra
+[29-07-2019 19:53:21.404] (CheckManager) Enabled check movement.NoFall
+[29-07-2019 19:53:21.410] (CheckManager) Enabled check movement.Jesus
+[29-07-2019 19:53:21.413] (CheckManager) Enabled check movement.Derp
+[29-07-2019 19:53:21.419] (CheckManager) Enabled check combat.Criticals
+[29-07-2019 19:53:21.435] (CheckManager) Enabled check world.FastBreak
+[29-07-2019 19:53:21.473] (CheckManager) Enabled check world.FastPlace
+[29-07-2019 19:53:21.485] (CheckManager) Enabled check world.Nuker
+[29-07-2019 19:53:21.494] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:53:21.512] (CheckManager) Enabled check world.Interact
+[29-07-2019 19:53:21.521] (CheckManager) Enabled check world.Velocity
+[29-07-2019 19:53:21.533] (CheckManager) Enabled check MovementManager
+[29-07-2019 19:53:21.544] AAC has been enabled
+[29-07-2019 19:53:27.172] (TPSManager) TPS dropped to 5.699629524080935
+[29-07-2019 19:53:27.173] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:53:27.175] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:53:27.194] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 19:53:33.358] (TPSManager) TPS dropped to 3.339734491107957
+[29-07-2019 19:53:38.201] (TPSManager) TPS dropped to 2.368405471016638
+[29-07-2019 19:53:42.664] (TPSManager) TPS dropped to 2.4405125076266017
+[29-07-2019 19:53:47.519] (TPSManager) TPS dropped to 2.677376171352075
+[29-07-2019 19:53:51.267] (TPSManager) TPS dropped to 3.051571559353067
+[29-07-2019 19:53:54.347] (TPSManager) TPS dropped to 3.2234668385848977
+[29-07-2019 19:53:57.005] (TPSManager) TPS dropped to 3.8595137012736394
+[29-07-2019 19:53:58.632] (TPSManager) TPS dropped to 5.385754678874377
+[29-07-2019 19:53:59.598] (TPSManager) TPS dropped to 7.554296506137866
+[29-07-2019 19:54:00.480] (TPSManager) TPS dropped to 9.39187602723644
+[29-07-2019 19:54:00.616] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:54:00.617] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:54:00.618] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:54:02.413] (TPSManager) TPS dropped to 14.809329877823027
+[29-07-2019 19:54:02.413] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:54:02.414] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:54:02.414] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 19:54:03.277] (TPSManager) TPS dropped to 14.970059880239521
+[29-07-2019 19:54:04.291] (TPSManager) TPS dropped to 14.853323431117712
+[29-07-2019 19:54:09.537] (TPSManager) TPS dropped to 5.632216277105041
+[29-07-2019 19:54:10.447] (TPSManager) TPS dropped to 5.606166783461808
+[29-07-2019 19:54:11.359] (TPSManager) TPS dropped to 5.6457304163726185
+[29-07-2019 19:54:11.472] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:54:11.473] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:54:11.474] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:54:14.367] (TPSManager) TPS dropped to 13.769363166953529
+[29-07-2019 19:54:14.367] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:54:14.368] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:54:14.368] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 19:54:15.329] (TPSManager) TPS dropped to 12.730744748567792
+[29-07-2019 19:54:15.486] (TPSManager) TPS dropped to 14.270424545130217
+[29-07-2019 19:54:16.027] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:54:16.035] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:54:16.035] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:54:19.835] (TPSManager) TPS dropped to 18.034265103697024
+[29-07-2019 19:54:20.950] (TPSManager) TPS dropped to 14.930944382232177
+[29-07-2019 19:54:20.950] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:54:20.950] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:54:20.950] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 19:54:21.931] (TPSManager) TPS dropped to 13.328890369876707
+[29-07-2019 19:54:22.012] (TPSManager) TPS dropped to 16.420361247947454
+[29-07-2019 19:54:22.937] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:54:22.937] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:54:22.937] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:54:28.091] (TPSManager) TPS dropped to 15.904572564612327
+[29-07-2019 19:54:28.092] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:54:28.092] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:54:28.092] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 19:54:28.363] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:54:28.363] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:54:28.364] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:54:30.880] (TPSManager) TPS dropped to 15.841584158415841
+[29-07-2019 19:54:30.880] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:54:30.880] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:54:30.880] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 19:54:31.419] (TPSManager) TPS dropped to 16.89189189189189
+[29-07-2019 19:54:31.794] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:54:31.795] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:54:31.798] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:54:38.353] (TPSManager) TPS dropped to 17.421602787456447
+[29-07-2019 19:54:38.354] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:54:38.355] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:54:39.308] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:54:39.308] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:54:41.274] (TPSManager) TPS dropped to 15.64945226917058
+[29-07-2019 19:54:41.275] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:54:41.276] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:54:41.276] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 19:54:41.457] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:54:41.458] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:54:41.459] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:54:46.309] (TPSManager) TPS dropped to 17.536168347216133
+[29-07-2019 19:55:00.204] (TPSManager) TPS dropped to 13.192612137203167
+[29-07-2019 19:55:00.204] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:55:00.204] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:55:00.204] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 19:55:00.248] (TPSManager) TPS dropped to 16.481252575195715
+[29-07-2019 19:55:01.078] (TPSManager) TPS dropped to 15.355086372360844
+[29-07-2019 19:55:01.886] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:55:01.886] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:55:01.886] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:55:07.172] (TPSManager) TPS dropped to 8.613264427217915
+[29-07-2019 19:55:07.172] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:55:07.172] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:55:07.173] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 19:55:07.197] (TPSManager) TPS dropped to 9.950248756218905
+[29-07-2019 19:55:07.800] (TPSManager) TPS dropped to 10.196278358399184
+[29-07-2019 19:55:08.451] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 19:55:08.452] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:55:08.452] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 19:56:43.137] (TPSManager) TPS dropped to 17.40644038294169
+[29-07-2019 19:56:43.141] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 19:56:43.142] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 19:56:43.558] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 19:56:43.558] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 20:01:20.619] (TPSManager) TPS dropped to 17.152658662092627
+[29-07-2019 20:01:20.619] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 20:01:20.621] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 20:01:20.986] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 20:01:20.987] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 20:54:08.989] (TPSManager) TPS dropped to 15.278838808250573
+[29-07-2019 20:54:08.989] (CheckManager) Disabled check combat.FightSpeed
+[29-07-2019 20:54:08.989] (CheckManager) Disabled check world.NoSwing
+[29-07-2019 20:54:08.997] (CheckManager) Disabled check combat.Hitbox
+[29-07-2019 20:54:09.172] (CheckManager) Enabled check combat.Hitbox
+[29-07-2019 20:54:09.172] (CheckManager) Enabled check world.NoSwing
+[29-07-2019 20:54:09.175] (CheckManager) Enabled check combat.FightSpeed
+[29-07-2019 20:54:09.868] (TPSManager) TPS dropped to 18.214936247723134

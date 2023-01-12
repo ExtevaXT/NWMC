@@ -1,0 +1,254 @@
+quest:
+- requirements:
+  - questID: 1
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 73
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Здравствуйте, вы Ирука Умино?
+    - id: 1
+      message:
+        sender: NPC
+        text: Да это я, ты хочешь стать генином?
+    - id: 2
+      message:
+        sender: PLAYER
+        text: Что для этого нужно?
+    - id: 3
+      message:
+        sender: NPC
+        text: Сначала, я тебе дам несколько заданий, после которых ты должен будешь
+          написать экзамен
+    - id: 4
+      message:
+        sender: PLAYER
+        text: Какое первое задание?
+  manager:
+    stages:
+    - msg:
+        npc: 73
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Сперва ты должен изучить начальный материал, сходи в Книжный Магазин
+              и почитай книги на книжных полках.
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Понял!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 73
+      order: 0
+    - world: world
+      stageType: REGION
+      customText: null
+      text: null
+      region: bookshop
+      rewards: []
+      order: 1
+    - stageType: INTERACT
+      customText: null
+      leftClick: false
+      location:
+        world: world
+        x: -613.0
+        y: 69.0
+        z: -426.0
+        pitch: 0.0
+        yaw: 0.0
+      text: null
+      rewards: []
+      order: 2
+    - msg:
+        npc: 73
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я добыл рыбы
+        - id: 1
+          message:
+            sender: NPC
+            text: Молодец, вот твоё второе задание. Тебе нужно показать свои навыки
+              работы с металлом, создай и принеси мне 10 кунаев
+        - id: 2
+          message:
+            sender: PLAYER
+            text: А как создать кунаи?
+        - id: 3
+          message:
+            sender: NPC
+            text: Хорошо...
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 73
+      order: 3
+    - stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: TRIPWIRE_HOOK
+        amount: 10
+      rewards: []
+      npcID: 73
+      order: 4
+    - msg:
+        npc: 73
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я создал кунаи, что дальше?
+        - id: 1
+          message:
+            sender: NPC
+            text: Отлично! Последнее задание будет самым трудным - Ты должен показать
+              все свои навыки ловкости и поймать оцелота!
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Постараюсь...
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 73
+      order: 5
+    - mobs:
+      - bmob: OCELOT
+        amount: 1
+      stageType: MOBS
+      customText: null
+      text: null
+      rewards: []
+      remaining:
+        '0': []
+      order: 6
+    - msg:
+        npc: 73
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я поймал оцелота!
+        - id: 1
+          message:
+            sender: NPC
+            text: Теперь осталось совсем немного. Тебе нужно пройти официальный экзамен
+              на Генина.
+        - id: 3
+          message:
+            sender: NPC
+            text: Экзамен начинается
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 73
+      order: 7
+    - cancel: true
+      writeText: Коноха
+      stageType: CHAT
+      customText: null
+      text: Как называется наша деревня?
+      rewards: []
+      order: 8
+    - cancel: true
+      writeText: Хаширама
+      stageType: CHAT
+      customText: null
+      text: Как зовут основателя деревни?
+      rewards: []
+      order: 9
+    - cancel: true
+      writeText: Минато
+      stageType: CHAT
+      customText: null
+      text: Как зовут создателя Расенгана?
+      rewards: []
+      order: 10
+    - cancel: true
+      writeText: Девять
+      stageType: CHAT
+      customText: null
+      text: Сколько всего существует Биджу?
+      rewards: []
+      order: 11
+    - cancel: true
+      writeText: Шаринган
+      stageType: CHAT
+      customText: null
+      text: Какое Додзюцу у клана Учиха?
+      rewards: []
+      order: 12
+    - cancel: true
+      writeText: Бьякуган
+      stageType: CHAT
+      customText: null
+      text: Какое Додзюцу у клана Хьюга?
+      rewards: []
+      order: 13
+    - cancel: true
+      writeText: Риннеган
+      stageType: CHAT
+      customText: null
+      text: Самое могущественное Додзюцу?
+      rewards: []
+      order: 14
+    - msg:
+        npc: 73
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Кажется всё правильно...
+        - id: 1
+          message:
+            sender: NPC
+            text: Поздравляю ты сдал экзамен!
+        - id: 2
+          message:
+            sender: NPC
+            text: Теперь ты официально стал генином!
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Мне дадут повязку?
+        - id: 4
+          message:
+            sender: NPC
+            text: Конечно, а вот и она!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 73
+      order: 15
+    players: {}
+  rewardsList:
+  - class: fr.skytasul.quests.rewards.CommandReward
+    commands:
+    - console: true
+      label: wandp {PLAYER} headprotector
+  - items: []
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 150
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 73
+  name: 'Ранг: Генин'
+  finished:
+  - '0'
+  id: 2
+  scoreboard: true
+  cancellable: false

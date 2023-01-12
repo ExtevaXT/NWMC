@@ -1,0 +1,517 @@
+#
+# Modify this file to change the available progression paths.
+# New paths can be added, existing paths can be modified.
+#
+# You can also add individual files to the paths/ folder
+#
+# This will change the overall behavior of how wands progress when players
+# spend SP to gain spells (or using the legacy enchanting system).
+#
+# To see the current default builtin configs, look in this folder:
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/paths
+#
+# For customization help see: 
+# https://github.com/elBukkit/MagicPlugin/wiki/Customization
+#
+
+#
+# This is the Enchanthing configuration file for the Magic plugin.
+#
+# This defines the randomization paths for wands, used in several places:
+#
+# - Wand crafting
+# - Wand enchanting
+# - Block populator
+#
+# Note that enchanting paths can now contain simple lists of spells, rather than probability tables.
+# The following information mostly only applies if you are still using the legacy enchanting system, and not the
+# SP / Spell Shop system.
+#
+# The randomization system works with "levels".
+# When enchanting, these map directly to the number of xp levels a player spends.
+# When creating a random wand, you can specify a level like random(23).
+# The default "/wand random" will give you a level-1 random wand. This is also what the crafting table generates.
+#
+# An enchanting table with no bookshelves can add about 27 levels to a wand at one time. A full bookshelf table
+# can add about 40. This is used to try to give out the "big" spells to only the high-level enchanting tables.
+#
+# The "levels" line defines the level thresholds. This list is used in all of the following lists, think of it
+# as the column headers.
+#
+# The randomization blocks create a lookup table that is used to randomly choose values based on the input level.
+# (Note that the actual values are interpolated based on the provided level and the thresholds set.)
+# The key in a randomization block is the output. The values separated by columns are weights that match to the level
+# in the same column in the "levels" list. Higher weights mean higher probability for that value at that level threshold.
+#
+# For example:
+#
+# # Define level thresholds at 1, 20, 30 and 40.
+# levels: 1,20,30,40
+# # Add spells to a wand
+# spell_count:
+# # levels:  1  20   30    40
+#       1: 99,  85, 100,   100
+#       2: 1,   10,  60,   100
+#       3: 0,   5,   20,   70
+#       4: 0,   0,   10,   60
+#
+# At level 1, a wand has a 99% chance of getting 1 spell added to it, and a 1% chance of 2 spells.
+# At level 20, a wand has an 85% chane of getting 1 spell, 10% chance of 2 spells, and a 5% chance of 3
+#
+# Levels between 1 and 20 will be scaled linearly between the two.
+# The same logic is applies for levels 20-30 and 30-40.
+#
+# Note that the actual values need not add up to 100- and generally do not. This is much easier to tweak, but also generally
+# harder to comprehend when looking at the numbers- I'm thinking about ways to clean that up.
+#
+
+#
+# Examples:
+# Note that a "#" character means the line is commented out and has no effect.
+# Make sure to not comment out the lines you add, there should not be a space in front of the name, indentation is important.
+# Use http://www.yamllint.com if you have issues with your config, make sure not to use tabs!
+#
+
+# Change broadcast message
+# default:
+#  upgrade_commands:
+#    - broadcast &6@pd &3has graduated to &b$path&3!
+
+
+kenjutsu:
+  icon: gold_sword:10
+  spells:
+  - chakraslash
+  - heavencutter
+  - moonlight
+  - crescentmoonlight
+  - chakraflash
+  - samuraistrength
+  inherit: default
+
+
+
+
+#BASIC RELEASES
+
+fire:
+  icon: gold_sword:10
+  spells:
+  - fenixfire
+  - greatfireball
+  - fenixflower
+  - firewind
+  - fireblast
+  - fireannihilation
+  inherit: default
+
+
+lightning:
+  icon: gold_sword:10
+  spells:
+  - lightningchain
+  - lightningchase
+  - kirin
+  - lightningboost
+  - arkan
+  - chidorisenbon
+  inherit: default
+
+
+water:
+  icon: gold_sword:10
+  spells:
+  - waterprison
+  - waterwall
+  - waterbullet
+  - waterultimate
+  - watercontrol
+  inherit: default
+
+
+
+wind:
+  icon: gold_sword:10
+  spells:
+  - vacuumwaves
+  - windblast
+  - windboost
+  - windpush
+  - rasensuriken
+  inherit: default
+
+earth:
+  icon: gold_sword:10
+  spells:
+  - earthwave
+  - underearth
+  - earthharden
+  - earthcollapse
+  - earthsandshield
+  - earthultimate
+  inherit: default
+
+
+#ADDITIONAL RELEASES
+
+ice:
+  icon: gold_sword:10
+  spells:
+  - icespikes
+  - iceshards
+  - iceshell
+  - icemirrors
+  inherit: default
+
+
+
+lava:
+  icon: gold_sword:10
+  spells:
+  - lavaball
+  - lavablast
+  - lavaharden
+  - lavamod
+  inherit: default
+
+
+wood:
+  icon: gold_sword:10
+  spells:
+  - woodcut
+  - woodcapture
+  - woodspikes
+  - woodwave
+  - woodsphere
+  inherit: default
+
+
+
+explosion:
+  icon: gold_sword:10
+  spells:
+  - explosionspider
+  - explosionbird
+  - explosionblast
+  - explasionsuicide
+  - explosionclaybomb
+  - explosionmount
+  inherit: default
+
+
+
+
+boil:
+  icon: gold_sword:10
+  spells:
+  - boilfog
+  - boiledsteam
+  - boilpunch
+  - boilself
+  inherit: default
+
+
+
+
+storm:
+  icon: gold_sword:10
+  spells:
+  - stormlaser
+  - demonstorm
+  - blackpanther
+  - stormminilaser
+  inherit: default
+
+
+
+
+crystal:
+  icon: gold_sword:10
+  spells:
+  - crystalshell
+  - crystalshots
+  - crystalspikes
+  - crystalprison
+  - crystalarmor
+  inherit: default
+
+
+
+
+
+dark:
+  icon: gold_sword:10
+  spells:
+  - chakrasteal
+  - otherrelease
+  inherit: default
+
+
+
+
+
+swift:
+  icon: gold_sword:10
+  spells:
+  - swiftrun
+  inherit: default
+
+
+
+
+magnetiron:
+  icon: gold_sword:10
+  spells:
+  - ironfist
+  - irontrack
+  - ironwave
+  - ironwings
+  - ironwall
+  - ironshots
+  inherit: default
+magnetgold:
+  icon: gold_sword:10
+  spells:
+  - goldfist
+  - goldtrack
+  - goldwave
+  - goldwings
+  - goldwall
+  - goldshots
+  inherit: default
+
+
+
+
+scorch:
+  icon: gold_sword:10
+  spells:
+  - scorchblasts
+  - scorchmegablast
+  - scorchheat
+  inherit: default
+
+
+dust:
+  icon: gold_sword:10
+  spells:
+  - dustsplit
+  inherit: default
+
+
+
+
+yan:
+  icon: gold_sword:10
+  spells:
+  - lightsword
+  - lightmultisword
+  - lightflash
+  - lightdome
+  inherit: default
+
+
+
+
+
+in:
+  icon: gold_sword:10
+  spells:
+  - darksword
+  - darkmultisword
+  - darkflash
+  - darkdome
+  inherit: default
+
+
+inyan:
+  icon: gold_sword:10
+  spells:
+  - earthwave
+  - underearth
+  - earthharden
+  - earthcollapse
+  - sandshield
+  - sandfall
+  inherit: default
+
+
+
+#DODJUTSU EYES
+
+
+
+rinnegan:
+  icon: gold_sword:10
+  spells:
+  - gravipull
+  - gravipush
+  - blackhole
+  - superfly
+  - mvrandomtravel
+  inherit: default
+
+
+mangekyou:
+  icon: gold_sword:10
+  spells:
+  - gravimeteor
+  - amaterasu
+  - miniblackhole
+  - susano
+  inherit: default
+
+
+
+sharingan:
+  icon: gold_sword:10
+  spells:
+  - sharingancrows
+  - sharinganselfcrows
+  - sharinganspikes
+  - sharingancoercion
+  inherit: default
+
+
+byakugan:
+  icon: gold_sword:10
+  spells:
+  - byakuganactive
+  - gentlefist
+  - byakuganrotate
+  - byakuganairpunch
+  - byakuganexplosion
+  - 64fist
+  - byakugannet
+  inherit: default
+
+
+ketsuryugan:
+  icon: gold_sword:10
+  spells:
+  - bloodgenjutsu
+  - bloodtouch
+  - bloodcontrol
+  - blooddragon
+  inherit: default
+
+
+#KEKKEI GENKAI / HIDEN
+
+
+jugo:
+  icon: gold_sword:10
+  spells:
+  - jugomod
+  - jugoarm
+  - jugoheal
+  - jugosword
+  inherit: default
+
+
+
+shikotsumyaku:
+  icon: gold_sword:10
+  spells:
+  - bonesword
+  - bonearmor
+  - bonespikes
+  - bonebullets
+  - bonereverse
+  inherit: default
+
+
+iburi:
+  icon: gold_sword:10
+  spells:
+  - smokegun
+  - smokeform
+  - smokefist
+  - instantsmokeform
+  inherit: default
+
+
+nara:
+  icon: gold_sword:10
+  spells:
+  - shadowimitation
+  - shadowneck
+  - shadowneedles
+  inherit: default
+
+
+
+akimichi:
+  icon: gold_sword:10
+  spells:
+  - butterflymod
+  - sizepartgrow
+  - akimichiroll
+  - butterflypunch
+  - akimichipills
+  inherit: default
+
+
+inuzuka:
+  icon: gold_sword:10
+  spells:
+  - summonwolf
+  - inuzukafang
+  - inuzukaclone
+  - inuzukamod
+  inherit: default
+
+
+
+
+aburame:
+  icon: gold_sword:10
+  spells:
+  - insectmod
+  - insectsphere
+  - insectinfection
+  - insectspray
+  inherit: default
+
+
+
+uzumaki:
+  icon: gold_sword:10
+  spells:
+  - reflectprint
+  - uzumakiblink
+  - demonprint
+  - uzumakichainscapture
+  - uzumakichainsdamage
+  inherit: default
+
+
+
+
+sarutobi:
+  icon: gold_sword:10
+  spells:
+  - sarutobismoke
+  - sarutobifire
+  inherit: default
+
+
+
+
+yamanaka:
+  icon: gold_sword:10
+  spells:
+  - mindtransfer
+  - mindcontrol
+  - mindbreak
+  inherit: default
+
+
+hozuki:
+  icon: gold_sword:10
+  spells:
+  - hozukishot
+  - hozukimorph
+  - hozukistrength
+  - hozukibubbles
+  inherit: default

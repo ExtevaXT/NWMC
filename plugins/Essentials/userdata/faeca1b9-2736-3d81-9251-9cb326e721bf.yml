@@ -1,0 +1,22 @@
+geolocation: Russia
+lastAccountName: UMBRELLLA
+timestamps:
+  login: 1562098652003
+  logout: 1562100494321
+ipAddress: 88.147.174.102
+lastlocation:
+  world: world
+  x: -866.9570433913943
+  y: 68.0
+  z: -439.4965641390171
+  yaw: 268.9535
+  pitch: 2.1000333
+logoutlocation:
+  world: world
+  x: -598.1251061367351
+  y: 68.0
+  z: -515.7962337928
+  yaw: 122.17383
+  pitch: -7.3500032
+money: '12.91'
+godmode: true

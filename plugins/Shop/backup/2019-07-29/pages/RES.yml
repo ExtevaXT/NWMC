@@ -1,0 +1,744 @@
+data:
+  properties:
+    type: 1
+    title: Обмен Драгоценностей на Рьё
+    size: 0
+    gui: false
+    pagedata:
+      hide_affordability: 'false'
+  inventory:
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    items:
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: LEATHER
+      : meta-type: UNSPECIFIC
+        display-name: §l§6↓Кожу на Рьё↓
+    - ? type: GOLD_INGOT
+      : meta-type: UNSPECIFIC
+        display-name: §l§e↓Золото на Рьё↓
+    - ? type: ENDER_PEARL
+      : meta-type: UNSPECIFIC
+        display-name: §l§5↓Жемчуг на Рьё↓
+    - ? type: DIAMOND
+      : meta-type: UNSPECIFIC
+        display-name: §l§b↓Алмазы на Рьё↓
+    - ? type: EMERALD
+      : meta-type: UNSPECIFIC
+        display-name: §l§a↓Изумруды на Рьё↓
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: MAGMA_CREAM
+        amount: 2
+      : meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    - ? type: MAGMA_CREAM
+        amount: 4
+      : meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    - ? type: MAGMA_CREAM
+        amount: 6
+      : meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    - ? type: MAGMA_CREAM
+        amount: 8
+      : meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    - ? type: MAGMA_CREAM
+        amount: 8
+      : meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 14
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    slotdata:
+      '0':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '1':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '2':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '3':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '4':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '5':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '6':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '7':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '8':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '9':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '10':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '11':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '12':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '13':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '14':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '15':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '16':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '17':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '18':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '19':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '20':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '21':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '22':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '23':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '24':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '25':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '26':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '27':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '28':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '29':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: LEATHER
+          : null
+      '30':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: GOLD_INGOT
+          : null
+      '31':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: ENDER_PEARL
+          : null
+      '32':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: DIAMOND
+          : null
+      '33':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: EMERALD
+          : null
+      '34':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '35':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '36':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '37':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '38':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '39':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '40':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '41':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '42':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '43':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '44':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '45':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '46':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '47':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '48':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '49':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '50':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '51':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '52':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '53':
+        page: RES
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None

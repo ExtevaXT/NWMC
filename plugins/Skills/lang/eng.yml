@@ -1,0 +1,665 @@
+Swordsman:
+- Swordsman
+Devourer:
+- Devourer
+Mage:
+- Mage
+FireMage:
+- FireMage
+Juggernaut:
+- Juggernaut
+Arbalist:
+- Arbalist
+Vampire:
+- Vampire
+Eidolon:
+- Eidolon
+None:
+- None
+Energy_Energy:
+- Energy
+Energy_Blood:
+- Blood
+Energy_Mana:
+- Mana
+Energy_Imbalance:
+- Imbalance
+Swordsman_Description:
+- Swordsmen are the prime of all melee battles, with superior damage and close-range
+  capabilities
+Swordsman_Strong:
+- Swordsmen are strong in one on one battles, and can win most other skills if fought
+  well
+Swordsman_Weak:
+- Swordsmen don't have powerful ranged capabilities, and can be outmatched by ranged
+  attacks
+Devourer_Description:
+- Devourers are fast, agile, and their strikes are very corrosive. Hit-and-run specialists
+Devourer_Strong:
+- Nothing can outrun a devourer, as they have powerful techniques to get away from
+  danger, and an equally corrosive strike
+Devourer_Weak:
+- Devourers have weak defensive capability
+Mage_Description:
+- Mages are masters of offensive and defensive magic, and battle with Staffs to cast
+  spells and curses on their enemies
+Mage_Strong:
+- Mages can counter many skill types as their attacks with Staffs can cause different
+  attacks to occur
+Mage_Weak:
+- Mages rely on Mana, and are severely weakened without it.
+FireMage_Description:
+- FireMages, unlike Mages, are fully focused on fire-based offensive spells, and don't
+  use staffs. They cast spells by expending their own health
+FireMage_Strong:
+- While health is spent on spells, the spells can deliver devastating blows to your
+  foes
+FireMage_Weak:
+- FireMages are weak against fire-resistance potions.
+Juggernaut_Description:
+- The most durable warriors, juggernauts are powerful behemoths that can soak up a
+  lot of damage.
+Juggernaut_Strong:
+- 'Very strong against non-healing skills, as you can out last your opponent. '
+Juggernaut_Weak:
+- Very low damage output. Although you are durable, if you fail to dish out enough
+  damage to take out your enemy before he takes you out, you would be doomed
+Arbalist_Description:
+- Arbalists are adaptive, with different playstyles, up front battle, and sniping
+  from afar. Arbalists utilize Crossbows to fight
+Arbalist_Strong:
+- Arbalists can deal a lot of damage, if the target fails to reach the arbalist in
+  time, and also have a lot of knockback capabilities
+Arbalist_Weak:
+- Arbalists are weak in short range combat, and only rely on knockback to keep their
+  enemies at bay
+Vampire_Description:
+- Vampires are majestic yet horrible demons, with the uncanny abilities of regeneration
+  and stealth
+Vampire_Strong:
+- Attacks can deplete your opponent of Mana, and you also have many healing abilities
+  of your own
+Vampire_Weak:
+- Vampires are all rounded, but can be outpaced by targets with high mobility
+Eidolon_Description:
+- Eidolons are spirits, that periodically change form, switching between Dark and
+  Light.
+Eidolon_Strong:
+- Eidolon has both defensive and offensive abilities, and if used wisely, can be a
+  very effective melee fighter
+Eidolon_Weak:
+- Offensive abilites are mostly in Eidolon's Dark form, and vice versa. Complex to
+  master
+Command_Help_Select:
+- '&eUse to select a skill'
+Command_Help_Change:
+- '&eUse to change your skill'
+Command_Help_Info:
+- '&eUse to see your skill level, stats and improvements'
+Command_Help_Improve:
+- '&eUse to open your skill''s improvment menu'
+Command_Help_ShowActiveMessages:
+- '&eUse to toggle active skill messages'
+Command_Help_See:
+- '&eUse to see the skill information of another player'
+Command_Help_Stat:
+- '&eUse to manage your statpoints'
+Command_Help_Mastery:
+- '&eUse to manage your masteries'
+Command_Help_Help:
+- '&eUse to display commands'
+Command_Help_Setsouls:
+- '&eUse to manipulate player soul count'
+Command_Help_Setlevel:
+- '&eUse to manipulate level of a player'
+Command_Help_Setxp:
+- '&eUse to manipulate xp of a player. Player must be online'
+Command_Help_Setskill:
+- '&eUse to manipulate player skill'
+Command_Help_Addstatpoints:
+- '&eUse to add statpoints to a player'
+Command_Help_StartXpBoost:
+- '&eUse to start a server-wide xp booster'
+Command_Help_StartSoulBoost:
+- '&eUse to start a server-wide soul booster'
+Command_Help_Partycreate:
+- '&eUse to create a party'
+Command_Help_Partyleave:
+- '&eUse to leave your current party'
+Command_Help_Partyshow:
+- '&eUse to show information about your party'
+Command_Help_Partyinvite:
+- '&eUse to invite a player to your party'
+Command_Help_Partyaccept:
+- '&eUse to join a party'
+Command_Help_ResetPlayer:
+- '&eUse to wipe the specified player''s data'
+Command_Help_NextPage:
+- '&3Use /skills help %page% to see the next page'
+Command_Help_No_More_Pages:
+- '&3No more pages present'
+Command_Usage:
+- '&bUsage: '
+Command_Info_Level:
+- '&bLevel: '
+Command_Info_Souls:
+- '&bSouls: '
+Command_See_Player_Doesnt_Exist:
+- '&cThe player you specified doesn''t exist.'
+Command_Setsoul_Success:
+- '&a%amount% has been added to the soul count'
+Command_Setskill_Success:
+- '&a%player% is now a %skill%'
+Command_Setskill_Not_Skill:
+- '&c%skill% is not an existing skill! Skills: none,swordsman,devourer,mage,firemage,juggernaut,arbalist,vampire,eidolon'
+Command_Setsoul_Not_Number:
+- '&cSoulcount must be a number!'
+Command_Setstatpoints_Success:
+- '&a%amount% statpoints have been added to the player'
+Command_Setstatpoints_Not_Number:
+- '&cStatpoints to be added must be a number!'
+Command_Setlevel_Success:
+- '&a%amount% has been added to the player''s level'
+Command_Setlevel_Not_Number:
+- '&clevel must be a number!'
+Command_Setxp_Success:
+- '&a%amount% has been added to the player''s xp'
+Command_Setxp_Not_Number:
+- '&cxp must be a number!'
+Command_Resetplayer_Success:
+- '&a%player%''s stats, level, skill, masteries and improvements reset'
+Command_Misc_Player_Doesnt_Exist:
+- '&cThe specified player does not exist'
+Command_Misc_Player_Not_Online:
+- '&cThe specified player is not online!'
+Command_StartBoost_Already_Started:
+- '&cThe specified event is already in progress! Remaining time: %time%'
+Command_StartSoulBoost_Broadcast:
+- '&aSoul Boost activated for %time% minutes! Get x%multiplier% souls per kill!'
+Command_StartXpBoost_Broadcast:
+- '&aXP Boost activated for %time% minutes! Get x%multiplier% xp per kill!'
+Command_ShowActiveMessages_On:
+- '&aActive messages will now be shown.'
+Command_ShowActiveMessages_Off:
+- '&cActive messages will not be shown.'
+Party_Already_In_Party:
+- '&cYou are already in a party!'
+Party_Player_Invited_Offline:
+- '&cThe invited player is offline, or doesn''t exist!'
+Party_Invited_Is_In_Party:
+- '&cThe invited player is already in a party!'
+Party_Required:
+- '&cYou need a party to use this function! Do /skill partycreate, or join another
+  party'
+Party_Joined:
+- '&aSuccessfully joined %player%''s party!'
+Party_Join_Announcement:
+- '&a%player% has joined the party!'
+Party_Leave_Announcement:
+- '&c%player% has left the party!'
+Party_Not_Invited:
+- '&cYou''re not invited to any party!'
+Party_Invite_Message:
+- '&a%player% invited you to his party! Do /skill partyaccept to join!'
+Party_Invite_Success:
+- '&a%player% invited!'
+Party_Created:
+- '&aParty created! Use /skills partyinvite [player] to invite others to your party!'
+Party_Disbanded:
+- '&cYour party has been disbanded!'
+Party_Leader_Left:
+- '&cYour party''s leader has left! New leader: %player%'
+Party_Bonus_Xp_Amount:
+- '&aYou now gain %percent%% more Skills xp from killing mobs'
+Party_Bonus_Souls_Amount:
+- '&aYou now gain +%amount% more souls from killing mobs'
+Party_Cannot_Harm_Others:
+- '&cYou can''t harm other party members!'
+Party_Show_Bonus_Xp_Rate:
+- 'Bonus Xp gained per kill: '
+Party_Show_Bonus_Soul:
+- 'Bonus Souls gained per kill: '
+Misc_Skill_Owned_Error:
+- '&4You already own a skill!'
+Misc_Info_No_Skill_Error:
+- '&4You need a skill to be able to display your skill info!'
+Misc_Skill_Selected:
+- '&aYou are now a %skill%'
+Misc_Skill_Change_Cooldown_Error:
+- '&cYou need to wait %cooldown% seconds to use this command'
+Misc_No_Perm_Error:
+- '&4You don''t have the permission to perform that command!'
+Misc_Skill_Affected_By:
+- '&bThis improvement''s effectivity is also affected by %stat%'
+Misc_Skill_Maximum_Level:
+- '&cThis improvement is fully upgraded.'
+Misc_Not_Enough_Souls:
+- '&cYou don''t have enough souls!'
+Misc_Improvement_Upgraded:
+- '&aSkill Improvement upgraded!'
+Misc_Mastery_Upgraded:
+- '&aMastery Upgraded!'
+Misc_Improvement_Max:
+- '&cSkill Improvement is at maximum level.'
+Misc_Cooldown_Active:
+- '&cYou still need to wait %time% before using this skill again!'
+Misc_Stunned:
+- '&cYou can''t attack while you''re immobilised!'
+Misc_Player_Doesnt_Exist:
+- '&cThe specified player doesn''t exist!'
+Misc_Not_enough_Energy:
+- '&cYou need at least %amount% energy to use this skill!'
+Misc_Not_enough_Mana:
+- '&cYou need at least %amount% mana to use this skill!'
+Misc_Not_enough_Health:
+- '&cYou need at least %amount% health to use this skill!'
+Misc_Not_enough_Statpoints:
+- '&cNot enough statpoints'
+Misc_Two_Statpoints_Needed:
+- '&cat least 2 statpoints are required to auto distribute stats.'
+Misc_Statpoints_Distribution:
+- '&a%amount% points added into %stat%'
+Misc_Statpoints_Spent:
+- '&cUsed %amount% statpoints'
+Misc_No_Skill_Error:
+- '&cYou don''t have a skill to improve!'
+Misc_Soul_Loss:
+- '&cYou''ve lost %amount% souls.'
+Misc_Level_Up:
+- '&b[&a%xp%xp&b/&a%xp%xp&b] &eYou''ve leveled up! Do /skill level to check on your
+  total levels!'
+Misc_Gained_StatPoints:
+- '&6You''ve gained %amount% stat points. Do /skill stats to add it to your total
+  stats.'
+Misc_Xp_Message:
+- '&b[&6%xp%xp&b/&e%maxxp%xp&b]'
+Guis_StatMenu_Title:
+- '&6Your Stats'
+Guis_StatMenu_Level:
+- '&bLevel: '
+Guis_StatMenu_Amount:
+- '&bAmount: '
+Guis_StatMenu_STR:
+- '&6Strength'
+Guis_StatMenu_INT:
+- '&1Intelligence'
+Guis_StatMenu_DEX:
+- '&dDexterity'
+Guis_StatMenu_DEF:
+- '&4Defense'
+Guis_StatMenu_STR_ADDALL:
+- '&6Add all points to STR'
+Guis_StatMenu_INT_ADDALL:
+- '&1Add all points to INT'
+Guis_StatMenu_DEX_ADDALL:
+- '&dAdd all points to DEX'
+Guis_StatMenu_DEF_ADDALL:
+- '&4Add all points to DEF'
+Guis_StatMenu_StatPoints:
+- '&aStatPoints'
+Guis_StatMenu_ResetStats:
+- '&cClick to reset stats'
+Guis_StatMenu_AutoAdd:
+- '&aClick to automatically assign statpoints for your skilltype'
+Guis_StatMenu_Explanation:
+- '&aClick to see what statpoints to add'
+Guis_StatMenu_Explanation_Message:
+- '&aYour statpoints determine the effectiveness of some of your skills. The type
+  of stat that affects your skill improvements can be seen at the bottom of the description
+  of it in /skill improve'
+Guis_Selection_Title:
+- '&4Choose Your Skill'
+Guis_Change_Title:
+- '&4Change Your Skill'
+Guis_Improve_Title:
+- '&6Skill Tree'
+Guis_Improve_Cost:
+- '&cCost: '
+Guis_Masteries_Cost:
+- '&cCost: '
+Guis_Masteries_Level:
+- '&bLevel: '
+Skill_Passive_Title:
+- '&6Passive'
+Skill_Swordsman_Dodge_Title:
+- '&6Dodge'
+Skill_Swordsman_Parry_Title:
+- '&6Parry'
+Skill_Swordsman_Pierce_Title:
+- '&6Pierce'
+Skill_Swordsman_ThousandCuts_Title:
+- '&6Thousand Cuts'
+Skill_Devourer_EvolveGliders_Title:
+- '&6Evolve Gliders'
+Skill_Devourer_EvolveCloak_Title:
+- '&6Evolve Cloak'
+Skill_Devourer_EvolveSadism_Title:
+- '&6Evolve Sadism'
+Skill_Devourer_Consume_Title:
+- '&6Consume'
+Skill_Mage_Reflect_Title:
+- '&6Reflect'
+Skill_Mage_ExplosionSpell_Title:
+- '&6Explosion Spell'
+Skill_Mage_HealSpell_Title:
+- '&6Heal Spell'
+Skill_Mage_EnergyFlux_Title:
+- '&6Energy Flux'
+Skill_FireMage_AbsorbEnergy_Title:
+- '&6Absorb Energy'
+Skill_FireMage_PhoenixEssence_Title:
+- '&6Phoenix Essence'
+Skill_FireMage_BlackFire_Title:
+- '&6Black Fire'
+Skill_FireMage_Inferno_Title:
+- '&6Inferno'
+Skill_Juggernaut_HeavyStrikes_Title:
+- '&6Heavy Strikes'
+Skill_Juggernaut_StoneSkin_Title:
+- '&6Stone Skin'
+Skill_Juggernaut_AegisProtection_Title:
+- '&6Aegis Protection'
+Skill_Juggernaut_Throw_Title:
+- '&6Throw'
+Skill_Arbalist_Execute_Title:
+- '&6Execute'
+Skill_Arbalist_DualArrow_Title:
+- '&6Dual Arrow'
+Skill_Arbalist_BarbedArrow_Title:
+- '&6Barbed Arrow'
+Skill_Arbalist_FireCrossbow_Title:
+- '&6Fire Crossbow'
+Skill_Vampire_BloodLust_Title:
+- '&6Blood Lust'
+Skill_Vampire_BloodWell_Title:
+- '&6Blood Well'
+Skill_Vampire_Bleed_Title:
+- '&6Bleed'
+Skill_Vampire_EternalDarkness_Title:
+- '&6Eternal Darkness'
+Skill_Eidolon_Purify_Title:
+- '&6Purify'
+Skill_Eidolon_SpiritFire_Title:
+- '&6Spirit Fire'
+Skill_Eidolon_Spectre_Title:
+- '&6Spectre'
+Skill_Eidolon_Defile_Title:
+- '&6Defile'
+Skill_Swordsman_Passive:
+- '&bYour attack is increased by &e%amount%%'
+Skill_Swordsman_Dodge:
+- '&bYou have a &e%chance%% &bof dodging your opponent''s attack'
+Skill_Swordsman_Dodge_Opponent_Message:
+- '&cYour attack was dodged!'
+Skill_Swordsman_Dodge_Message:
+- '&aDodged attack!'
+Skill_Swordsman_Parry:
+- '&bIf you are holding a sword, and your opponent has lesser &6STR &bthan you, you
+  reflect &e%amount%% damage back to your opponent'
+Skill_Swordsman_Pierce:
+- '&bIf your &6STR &bis higher than your opponent''s &4DEF&b, your attack will deal
+  &e%amount%% &bmore damage'
+Skill_Swordsman_ThousandCuts:
+- '&bRight click to activate while holding a sword<br>&bDoes &e%damage% &bdamage per
+  hit to the next target you attack, while disorienting them each hit for the next
+  2 seconds.'
+Skill_Swordsman_Active_Activation_Message:
+- '&a&lThousand Cuts activated! Hit your target as many times as you can!'
+Skill_Swordsman_Active_Finished_Message:
+- '&c&lThousand Cuts has worn off'
+Skill_Swordsman_Ready_Activation_Message:
+- '&a*You raise your weapon* Hit a target to activate Thousand Cuts'
+Skill_Swordsman_NotReady_Activation_Message:
+- '&7*You lower your weapon*'
+Skill_Devourer_Passive:
+- '&bYour attacks inflict corrosion to your enemy, causing them to lose &e%damage%
+  &bhealth per second for 5 seconds.'
+Skill_Devourer_EvolveGliders:
+- '&bWhen sprinting, gain <br> speed &e%amount% &b.'
+Skill_Devourer_EvolveCloak:
+- '&bLevel 1: Gain invisibility permanently. When you attack, the invisibility is
+  disabled for 30 seconds. <br>&bLevel 2: Hostile mobs will naturally be neutral to
+  you. If you attack a mob, neutrality is disabled for 30 seconds. <br>&bLevel 3:
+  The first attack you make before becoming invisible will deal &e%damage% &bmore
+  damage.'
+Skill_Devourer_Invis_Disabled:
+- '&cYour invisibility is disabled for 30 seconds!'
+Skill_Devourer_Invis_Enabled:
+- '&1You fade into the darkness...'
+Skill_Devourer_Neutrality_Disabled:
+- '&cYour neutrality is disabled for 30 seconds!'
+Skill_Devourer_Neutrality_Enabled:
+- '&1You are now neutral to mobs.'
+Skill_Devourer_EvolveSadism:
+- '&bEvolve the ability to have no conscience. When attacking, you delight off your
+  target''s suffering, giving a &e%amount%% &bchance of healing you for 1 health per
+  attack.'
+Skill_Devourer_Consume:
+- '&bRight click to activate. Bite your target, dealing &e%damage% &bdamage, along
+  with 1 additional damage per 5 missing health the target has. If target dies, you
+  are healed by 50% of your maximum health.'
+Skill_Devourer_Ready_Activation_Message:
+- '&a*Your teeth glint with glee* Hit a target to activate Consume'
+Skill_Devourer_NotReady_Activation_Message:
+- '&7*You save your meal for another time*'
+Skill_Devourer_Activation_Message:
+- '&a&l*CHOMP!*'
+Skill_Devourer_Heal_Message:
+- '&a&lYou feast off your victim, regaining %amount% health'
+Skill_Mage_Passive:
+- '&bWhen attacking with staffs (hoe), you gain back 1 mana per hit. Attacking with
+  hoes will deal more damage, ranging from 2 for a wooden hoe, to 6 for a diamond
+  hoe'
+Skill_Mage_Reflect:
+- '&bWhen you are attacked, and you''re holding a staff, have a chance (based on your
+  staff material) to deal &e%damage% &bto the attacker.'
+Skill_Mage_ExplosionSpell:
+- '&bWhen you are attacking, and you''re holding a staff, have a chance (based on
+  your staff material) to deal &e%damage%% &b more damage to your enemy.'
+Skill_Mage_HealSpell:
+- '&bFor every 10 mana you have, regenerate &e%amount%&b additional health, if your
+  health is over 20.'
+Skill_Mage_EnergyFlux:
+- '&bRight click while pointing at air, or a mob, to fire a beam of energy that deals
+  &e%damage%&b damage to all enemies in line.'
+Skill_Mage_Ready_Activation_Message:
+- '&a*Your staff glows with powerful magic!* Punch in a direction to fire Energy Flux'
+Skill_Mage_NotReady_Activation_Message:
+- '&7*Your staff dims*'
+Skill_Mage_Activation_Message:
+- '&a&l*WHOOSH!*'
+Skill_FireMage_Passive:
+- '&bWhen on fire, regain &e%amount% &bhealth every second. You are also immune to
+  fire damage.'
+Skill_FireMage_AbsorbEnergy:
+- '&bWhen attacked, your next attack will set your targets on fire for &e%amount%&b
+  seconds, and deal damage based on your fire ticks.'
+Skill_FireMage_PhoenixEssence:
+- '&bDeal &e%damage%% &b more damage for every 1 second your target is on fire for'
+Skill_FireMage_BlackFire:
+- '&bWhen targets in a radius of 5 blocks to you, increase their fire damage by &e%amount%'
+Skill_FireMage_Inferno:
+- '&bRight click, and hit a target with your fist to activate. Immediately deal &e%damage%
+  &bdamage, plus 1 damage per 20 fireticks the target has'
+Skill_FireMage_Ready_Activation_Message:
+- '&a*Your hands burns with power* Hit a target to activate Consume'
+Skill_FireMage_NotReady_Activation_Message:
+- '&7*The power dissipates*'
+Skill_FireMage_Activation_Message:
+- '&a&lYour target is blasted with infernal power!'
+Skill_Juggernaut_Passive:
+- '&bReduce entity attacks by &e%amount%%&b. If your &4DEF &bis higher than your attacker''s
+  &6STR&b, the damage reduction is increased to &e%calculatedamt%%'
+Skill_Juggernaut_HeavyStrikes:
+- '&bIf you are using an axe to attack, deal &e%damage%% &b more damage to your target.'
+Skill_Juggernaut_StoneSkin:
+- '&bLevel 1: Fall damage is reduced by 50% <br>Level 2: Fire damage is reduced by
+  50% <br>Level 3: Your passive''s effect will work against projectiles'
+Skill_Juggernaut_AegisProtection:
+- '&bEvery &e%amount%&b seconds, refresh a shield that negates all damage for the
+  next attack'
+Skill_Juggernaut_Throw:
+- '&bSneak and right click at your target to activate. Carry your target for 3 seconds,
+  making you and your target unable to attack for the duration, then toss your enemy
+  in the direction you''re looking at. Once your target hits the ground, deal &e%damage%
+  &bdamage to your target. While you are carrying your target, all incoming damage
+  is reduced by 50%'
+Skill_Juggernaut_Active_Activated_Message:
+- '&a&lYou grab your opponent above your head!'
+Skill_Juggernaut_Active_Throw_Message_Countdown:
+- '&c&lAIM! Throwing opponent in your direction in %countdown%'
+Skill_Juggernaut_Active_Throw_Success:
+- '&a&lThrew target at location!'
+Skill_Juggernaut_Aegis_Success:
+- '&aYour aegis shield blocks the attack!'
+Skill_Arbalist_Passive:
+- '&bThe longer the distance between you and your target, the higher the damage.'
+Skill_Arbalist_Execute:
+- '&bAfter two shots on the same target, the third shot on the target will deal an
+  additional &e%damage% &bdamage to the target.'
+Skill_Arbalist_DualArrow:
+- '&bLevel 1: Your crossbow and bow can fire two arrows at once. The second arrow
+  deals 50% damage. Level 2: the second arrow does 100% damage. Level 3: The second
+  arrow does 100% damage, along with &e%damage%% &bbonus damage.'
+Skill_Arbalist_BarbedArrow:
+- '&bYour arrows cause your target to be crippled, causing &e%damage% &bdamage on
+  your target over 2 seconds.'
+Skill_Arbalist_FireCrossBow:
+- '&bFire an arrow at your enemy by punching. Does not use arrows, and instead uses
+  energy. Upgrade to reduce cooldown'
+Skill_Arbalist_Activation_Msg:
+- '&aArrow launched!'
+Skill_Vampire_Passive:
+- '&bAttacking gives you 3 blood per hit. For every 2 blood you have, deal an additional
+  &e%damage%% &b melee damage to your targets. Blood levels drop by &e(1+10%) &bevery
+  4 seconds.'
+Skill_Vampire_BloodLust:
+- '&bLevel 1: If you have more than 70% of your blood well full, go into a frenzy,
+  allowing you to deal &e%amount%% &bmore damage than usual <br>Level 2: Your natural
+  health regeneration is tripled during this time. <br>Level 3: Attacks during this
+  duration have a chance (based on your current blood) to heal you by 2'
+Skill_Vampire_BloodWell:
+- '&bIncreases your maximum blood levels by a large amount every upgrade. Has a &e%chance%%
+  &bchance to stop the loss of blood every 4 seconds.'
+Skill_Vampire_Bleed:
+- '&bYour targets bleed for &e%amount% &bseconds, dealing 1 &bdamage to them per 1
+  second. Also, for each target that is bleeding, have a chance to gain 1 blood each
+  time they bleed based on the amount of blood you have.'
+Skill_Vampire_EternalDarkness:
+- '&bSneak and hit a target to become invincible for &e%time% &bseconds. During this
+  time, you blind the targets you attack for 1 second per hit.'
+Skill_Vampire_Active_Activation_Message:
+- '&a&lEternal Darkness activated! You are now immune to damage!'
+Skill_Vampire_Active_Finished_Message:
+- '&c&lEternal Darkness has worn off. You are now vulnerable to damage.'
+Skill_Vampire_Ready_Activation_Message:
+- '&a*Your fangs glint* Hit a target to activate Eternal Darkness'
+Skill_Vampire_NotReady_Activation_Message:
+- '&7*The victim isn''t worth such effort*'
+Skill_Eidolon_Passive:
+- '&bEidolon has a light and dark form. When your Imbalance hits 100, you change to
+  another form. Imbalance is gained over time. Upon changing, restore &9%amount% &bhealth'
+Skill_Eidolon_Purify:
+- '&bDeal &9%amount% &bdamage for every 5 health your target has, up to a maximum
+  of &9%max%&b. &6%gain% &bimbalance is gained when you attack.'
+Skill_Eidolon_SpiritFire:
+- '&bIn Light form, absorb &6%amount%% &bdamage when hit, up to a maximum of 50%.
+  This amount is stored. <br>&bIn Dark form, expell the stored amount in the first
+  attack to deal 1 damage per &e%level% &bdamage absorbed'
+Skill_Eidolon_Spectre:
+- '&bIn Light form, gain a shield, that will give speed &c%amount%&b for 3 seconds
+  when broken by another mob. Shield refreshes every &e%time% &bseconds. <br>In Dark
+  form, your attack will be charged every &e%time% &bseconds. Charged attacks deal
+  &6%attack%% &badditional damage.'
+Skill_Eidolon_Defile:
+- '&bRight click and attack to tip the balance in your target, increasing its damage
+  taken, and reducing its damage dealt to you by &9%amount%% for &e%time% seconds.'
+Skill_Eidolon_Active_Ready:
+- '&a*Disruptive energy radiates from you* Punch a target to defile it'
+Skill_Eidolon_Active_Not_Ready:
+- '&c*The energy dissipates*'
+Skill_Eidolon_Active_Activation_Message:
+- '&a&lYou disrupted your target''s spiritual balance!'
+Skill_Eidolon_Turn_Light:
+- '&eYour darkness fades into light'
+Skill_Eidolon_Turn_Dark:
+- '&4Darkness overwhelms the light!'
+Skill_Eidolon_Spirit_Expell:
+- '&aYou blast your target with %damage% extra damage!'
+Skill_Eidolon_Shield_Refresh:
+- '&aYou feel a surge of energy'
+Skill_Eidolon_Shield_Speed:
+- '&aYour shield shatters to give you speed!'
+Skill_Eidolon_Attack_Boost:
+- '&aYou expell your charged attack to deal %damage%% more damage!'
+Mastery_Efficiency:
+- '&aEfficiency'
+Mastery_Efficiency_Logging_Title:
+- '&aLogging'
+Mastery_Efficiency_Logging_Desc:
+- When breaking logs, have a chance get 5 planks instead of 1 log
+Mastery_Efficiency_Harvesting_Title:
+- '&aHarvesting'
+Mastery_Efficiency_Harvesting_Desc:
+- When harvesting crops, have a chance to get double the amount
+Mastery_Efficiency_Mining_Title:
+- '&aMining'
+Mastery_Efficiency_Mining_Desc:
+- When breaking ores, have a chance to gain 1 additional drop
+Mastery_Efficiency_Pacifist_Title:
+- '&aPacifist'
+Mastery_Efficiency_Pacifist_Desc:
+- Gain Skills experience from logging and harvesting crops (XP gained is also increased
+  by logging and harvesting masteries)
+Mastery_Efficiency_Regeneration_Title:
+- '&aRegeneration'
+Mastery_Efficiency_Regeneration_Desc:
+- If you have more than 20 health, regain health from eating food
+Mastery_Brutality:
+- '&cBrutality'
+Mastery_Brutality_CriticalStrikes_Title:
+- '&cCritical Strikes'
+Mastery_Brutality_CriticalStrikes_Desc:
+- Your critical strikes (Jump hits) will deal additional damage. This bonus is doubled
+  against non-players.
+Mastery_Brutality_Power_Title:
+- '&cPower'
+Mastery_Brutality_Power_Desc:
+- Have a chance to deal an additonal 1 damage
+Mastery_Brutality_BruteForce_Title:
+- '&cBruteForce'
+Mastery_Brutality_BruteForce_Desc:
+- For every piece of armor you're wearing, have a chance to deal 1 more damage
+Mastery_Brutality_Glory_Title:
+- '&cGlory'
+Mastery_Brutality_Glory_Desc:
+- Xp gained from killing mobs is increased by a flat amount
+Mastery_Brutality_ThickSkin_Title:
+- '&cThick Skin'
+Mastery_Brutality_ThickSkin_Desc:
+- Have a chance to reduce damage taken by one
+Mastery_Finesse:
+- '&bFinesse'
+Mastery_Finesse_Precision_Title:
+- '&bPrecision'
+Mastery_Finesse_Precision_Desc:
+- Have a chance to critically strike with bows, to deal 50% more damage
+Mastery_Finesse_Exploit_Title:
+- '&bExploit'
+Mastery_Finesse_Exploit_Desc:
+- For each piece of armor your opponent is using, have a chance to deal 1 extra damage
+  for each piece
+Mastery_Finesse_Reap_Title:
+- '&bReap'
+Mastery_Finesse_Reap_Desc:
+- Have a chance to gain an extra soul per kill.
+Mastery_Finesse_Adriot_Title:
+- '&bAdriot'
+Mastery_Finesse_Adriot_Desc:
+- When handling weapons, have a chance to not lose durability
+Mastery_Finesse_Serration_Title:
+- '&bSerration'
+Mastery_Finesse_Serration_Desc:
+- Have a chance to deal additional damage to your target one second after attacking
+Mastery_Title:
+- '&bMasteries'

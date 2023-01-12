@@ -1,0 +1,21 @@
+geolocation: Russia
+lastAccountName: Hoversoy
+timestamps:
+  login: 1564257731249
+  lastteleport: 1564254711540
+  logout: 1564257747813
+ipAddress: 77.222.102.112
+lastlocation:
+  world: world_the_end
+  x: 281.5
+  y: 61.0
+  z: -494.5
+  yaw: -183.0
+  pitch: 3.0
+logoutlocation:
+  world: world_the_end
+  x: 357.1381220039493
+  y: 61.0
+  z: -502.7006791757712
+  yaw: -129.8896
+  pitch: 5.9882426

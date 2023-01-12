@@ -1,0 +1,35 @@
+enable: true
+material-id-system: false
+old-event-system: false
+force:
+  enable: true
+  id-data:
+  - '8'
+  - '9'
+  - '10'
+  - '11'
+place: true
+break: true
+craft: true
+inventory:
+  content: true
+  delete: false
+pickup: false
+drop: true
+interact:
+  left-item: false
+  right-item: true
+  left-block: true
+  right-block: true
+block-burn: false
+block-explode: false
+piston:
+  push: false
+  drag: false
+chat:
+  enable: false
+  words:
+  - �����
+  - ���������
+entitys: true
+configurated: true

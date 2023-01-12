@@ -1,0 +1,60 @@
+# ############################################################
+# # +------------------------------------------------------+ #
+# # |                     - Config -                       | #
+# # |               Plugin by Christian34	 			           | #
+# # +------------------------------------------------------+ #
+# ############################################################
+
+config:
+  prefix:
+    Owner:
+      prefix: '&4Owner &7| &4'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Admin:
+      prefix: '&4Admin &7| &4'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Developer:
+      prefix: '&3Dev &7| &4'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Moderator:
+      prefix: '&cMod &7| &c'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Supporter:
+      prefix: '&9Sup &7| &9'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Builder:
+      prefix: '&aBuilder &7| &a'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Youtuber:
+      prefix: '&5YT &7| &5'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Vip:
+      prefix: '&eVIP &7| &e'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Premium:
+      prefix: '&6Premium &7| &6'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Ultimate:
+      prefix: '&2Ultimate &7| &6'
+      suffix: '&f:'
+      chatcolor: '&7'
+    Helper:
+      prefix: '&2Helper &7| &2'
+      suffix: '&f:'
+      chatcolor: '&7'
+    default:
+      prefix: '&7'
+      suffix: '&f:'
+      chatcolor: '&7'
+  players:
+    fd73eef9-d6a5-33be-8df4-7dce59a298ee:
+      group: Vip

@@ -1,0 +1,12 @@
+kunaicraft:
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MAP
+    damage: 9
+    meta:
+      ==: ItemMeta
+      meta-type: MAP
+      display-name: Кунаи

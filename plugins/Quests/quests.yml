@@ -1,0 +1,267 @@
+# For non-English characters, this file MUST stay encoded in UTF-8
+quests:
+  Miner:
+    name: Iron Miner
+    ask-message: <yellow>Mine <pink>2<yellow> blocks of <pink>Iron Ore<yellow> and
+      <yellow>gather the <pink>2 pieces of <pink>Iron Ore<yellow>.
+    finish-message: <yellow>Well done. Here is your reward.
+    redo-delay: 1800
+    requirements:
+      items:
+      - name-stone_pickaxe:amount-1
+      remove-items:
+      - false
+      fail-requirement-message: <red>You must have a <pink>Stone Pickaxe<red> first.
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - IRON_ORE
+          break-block-amounts:
+          - 2
+          break-block-durability:
+          - 0
+    rewards:
+      money: 1000
+      quest-points: 1
+  Hunter:
+    name: Mob Hunter
+    ask-message: <yellow>Kill an assortment of Mobs.
+    finish-message: <yellow>Excellent. Here is a <pink>Diamond Sword<yellow>.
+    requirements:
+      quests:
+      - Iron Miner
+      fail-requirement-message: <red>Complete <pink>Iron Miner<red> first.
+    stages:
+      ordered:
+        '1':
+          death-event: DeathFail
+          mobs-to-kill:
+          - Pig
+          mob-amounts:
+          - 3
+          finish-event: NiceFinish
+        '2':
+          death-event: DeathFail
+          mobs-to-kill:
+          - Zombie
+          mob-amounts:
+          - 2
+          finish-event: NiceFinish
+        '3':
+          death-event: DeathFail
+          mobs-to-kill:
+          - Skeleton
+          mob-amounts:
+          - 1
+    rewards:
+      items:
+      - name-DIAMOND_SWORD:amount-1
+      exp: 100
+      quest-points: 1
+  CatchFish:
+    name: Catch Fish
+    ask-message: <yellow>Catch some fish!
+    finish-message: <yellow>Good job. Here is some <green>experience<yellow>.
+    requirements:
+      quests:
+      - Iron Miner
+      fail-requirement-message: <red>Complete <pink>Iron Miner<red> first.
+    stages:
+      ordered:
+        '1':
+          start-event: RodStart
+          death-event: DeathFail
+          chat-events:
+          - GiveRod
+          chat-event-triggers:
+          - rod
+          fish-to-catch: 5
+    rewards:
+      exp: 250
+  TimedQuest:
+    name: Timed Quest
+    ask-message: <yellow>Dig up <pink>10<yellow> blocks of <pink>Dirt<yellow> before
+      time runs out!
+    finish-message: <yellow>You did it in time! Have an <pink>Iron Shovel<yellow>
+      and some <green>experience<yellow>.
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - DIRT
+          break-block-amounts:
+          - 10
+          break-block-durability:
+          - 0
+          start-event: TimerStart
+          finish-event: CancelTimer
+    rewards:
+      items:
+      - name-GOLD_INGOT:amount-1
+      exp: 150
+  custom2:
+    name: Задание 1 - Начало
+    ask-message: Здраствуй шиноби. Я рад видеть тебя на нашем сервере NinjaWorld.
+      Уменя есть к тебе первое поручение. Найди 10 яблок и принеси мне .
+    finish-message: Спасибо
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-APPLE:amount-10
+          npc-delivery-ids:
+          - 23
+          delivery-messages:
+          - Спасибо за яблоки )
+        '2':
+          npc-ids-to-talk-to:
+          - 42
+          objective-override: хз что это просто интерестно
+          start-message: Смотрю ты быстрый . Теперь я дам тебе настоящее поручение.
+            Иди поговори с Какаси. Он часто бывает на монументе героев Конохи.
+          complete-message: Привет шиноби. Меня предупредил хокаге что ты прийдешь
+            . Он мне поручил ввести в курс дела в жизни NinjaWorld.
+        '3':
+          items-to-deliver:
+          - name-LEATHER:amount-11
+          npc-delivery-ids:
+          - 42
+          delivery-messages:
+          - Молодец шиноби.
+          start-message: Вот тебе мое первое задание . Принеси мне кожу. Чем быстрее
+            сделаешь . Тем быстрее я буду поручать буду более сложные задания.
+          complete-message: Ступай к хокаге он даст тебе новые задания.
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+  start:
+    name: Начало
+    npc-giver-id: 71
+    ask-message: Привет, я смотрю ты здесь новенький? Сходи и познакомся с нашими
+      жителями деревни
+    finish-message: Ты уже со всеми познакомился? Молодец, теперь ты можешь пойти
+      к Ируке и попробовать стать Генином
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 42
+          start-message: Сперва познакомся с Какаши Хатаке, он находится возле памятника
+            погибшим на войне
+          complete-message: Меня зовут Какаши Хатаке, если ты захочешь пойти на миссии
+            обращайся ко мне
+        '2':
+          npc-ids-to-talk-to:
+          - 85
+          start-message: Теперь познакомся с Майто Гаем, скорее всего он на тренировочной
+            площадке возле Академии
+          complete-message: Привет, меня зовут Майто Гай, я Благородный Зелёный Зверь
+            Конохи, можешь обращаться ко мне если хочешь изучить тайдзюцу!
+        '3':
+          npc-ids-to-talk-to:
+          - 81
+          start-message: Следующий - Асума Сарутоби, сейчас он находится вместе со
+            своей командой в BBQ
+          complete-message: Я Асума Сарутоби, сын Хокаге, я могу помочь тебе с зачарованиями
+            с помощью твоей Чакры
+        '4':
+          npc-ids-to-talk-to:
+          - 77
+          start-message: Последний с кем тебе следует познакомится - это Куренай Юхи,
+            она сейчас у себя дома.
+          complete-message: Привет, меня зовут Куренай Юхи, если тебе интересно Гендзюцу
+            обращайся ко мне!
+    rewards:
+      money: 30
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+  custom1:
+    name: 'Ранг: Генин'
+    npc-giver-id: 73
+    ask-message: Привет, я слышал ты хочешь стать Генином? Если да, то тебе сначала
+      нужно выполнить начальные требования
+    finish-message: Поздравляю! Теперь ты стал Генином! Вот твой протектор.
+    requirements:
+      quests:
+      - Начало
+      fail-requirement-message: Вы не выполнили достаточное количество квестов!
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-APPLE:amount-10
+          npc-delivery-ids:
+          - 73
+          delivery-messages:
+          - Твоё первое задание выполнено!
+          start-message: Первое задание - Ты должен принести мне 10 яблок
+        '2':
+          items-to-deliver:
+          - name-LEATHER:amount-10
+          npc-delivery-ids:
+          - 73
+          delivery-messages:
+          - Твоё второе задание выполнено!
+          start-message: Второе задание - Ты должен принести мне 10 кожи
+        '3':
+          mobs-to-kill:
+          - Ocelot
+          mob-amounts:
+          - 1
+          start-message: Третее задание - самое трудное. Тебе нужно показать все свои
+            навыки ловкости, приручив оцелота
+          complete-message: Неплохо! Тебе удалось выполнить это задание, теперь ты
+            готов к финальному тесту!
+        '4':
+          npc-ids-to-talk-to:
+          - 73
+          password-displays:
+          - Как называется наша деревня?
+          password-phrases:
+          - Коноха
+          start-message: Сейчас начинается твой тест!
+          complete-message: Правильно!
+        '5':
+          password-displays:
+          - Как зовут основателя деревни?
+          password-phrases:
+          - Хаширама
+        '6':
+          password-displays:
+          - Как зовут создателя Расенгана?
+          password-phrases:
+          - Минато
+        '7':
+          password-displays:
+          - Сколько всего существует Биджу?
+          password-phrases:
+          - '9'
+        '8':
+          password-displays:
+          - Какое Додзюцу у клана Учиха?
+          password-phrases:
+          - Шаринган
+        '9':
+          password-displays:
+          - Какое Додзюцу у клана Хьюга?
+          password-phrases:
+          - Бьякуган
+        '10':
+          password-displays:
+          - Самое могущественное Додзюцу?
+          password-phrases:
+          - Риннеган
+          complete-message: Поздравляю ты прошёл тест!
+    rewards:
+      money: 100
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true

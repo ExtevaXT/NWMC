@@ -1,0 +1,364 @@
+special-xp-gain-cases:
+- CREEPER,10
+- WITHER,100
+- ENDER_DRAGON,500
+
+special-soul-gain-cases:
+- PLAYER,2
+- WITHER,10
+- ENDER_DRAGON,50
+
+gain-disabled-worlds:
+- World1
+- NoGainWorld
+
+disabled-worlds:
+- NoSkillsWorld
+#Worlds without skills enabled
+
+
+max-level: 100
+
+mastery-cost: 20
+#The cost of a mastery level upgrade. The cost of upgrading a mastery = to this option multiplied by the mastery's level.
+
+mastery-max: 5
+#The maximum level a mastery can go
+
+mastery-enabled:
+    logging: true
+    harvesting: true
+    pacifist: true
+    criticalstrikes: true
+    power: true
+    glory: true
+    precision: true
+    exploit: true
+    reap: true
+    mining: true
+    bruteforce: true
+    adriot: true
+    regeneration true:
+    thickskin: true
+    serration: true
+#Disable certain masteries
+    
+actionbarEnabled: true
+#Disable if you don't want the actionbar
+show-level-in-actionbar: true
+#Disable if you don't want level and xp display to show in the actionbar
+
+persistentActionBar: true
+#Set to false if you don't want the custom Hud (the health and energy display) to
+#override other plugin's actionbar messages. Will make actionbar Hud only appear when
+#player's health/energy changes.
+#If your server has a large number of players, this option can reduce lag
+
+use-bold-bar: true
+#If true, actionbar will be bolded. Causes a slight double-vision-ish look.
+mob-name-bonus-xp:
+- '&4A_Mob,30'
+#The above means that killing a mob named "A Mob" (Red name) will award 30 extra xp.
+
+spawner-support: true
+#If this is true, mobs from spawners will yield xp and souls
+
+spawner-percentage-decrease: 0.1
+#Xp earned from spawner mobs is multiplyed by this value.
+#Now, xp from spawner mobs is reduced by 90% with this setting
+
+spawner-award-soul: true
+#If true, spawner mobs give souls as well. If false, they will give no souls when killed.
+
+force-skill-pick: false
+#If this is true, players with no skill will have the skill select gui popped up when they move in Skills-enabled worlds.
+
+souls-lost-upon-death: 5
+
+soul-lose-disabled-worlds:
+- World_With_No_Soul_Lost
+- DerpWorld
+- HerpWorlds
+
+minimum-soul-count: 0
+#The lowest the soul amount can go
+
+stat-max: 99
+#Maximum statpoints that can be added to a stattype
+
+perform-commands-upon-level-up: false
+#Enable if you want to use the feature below
+
+commands-to-perform-on-level-up:
+    player:
+    - me has leveled up to %level%!
+    #Command performed through the player
+    console:
+    - kit levelup %player%
+    #Command performed through the console
+
+perform-commands-upon-skill-select: false
+#Enable if you want to use the feature below
+
+commands-to-perform-upon-skill-select:
+#These commands will be performed when a player selects a skill for the first time. Player must be online.
+    swordsman:
+        player:
+        - me has picked Swordsman
+        - spawn
+        #Command performed through the player
+        console:
+        - kit swordsman %player%
+        #Command performed through the console
+    devourer:
+        player:
+        - me has picked Devourer
+        - spawn
+        #Command performed through the player
+        console:
+        - kit devourer %player%
+        #Command performed through the console
+    mage:
+        player:
+        - me has picked Mage
+        - spawn
+        #Command performed through the player
+        console:
+        - kit mage %player%
+        #Command performed through the console
+    pyro:
+        player:
+        - me has picked Pyro
+        - spawn
+        #Command performed through the player
+        console:
+        - kit pyro %player%
+        #Command performed through the console
+    juggernaut:
+        player:
+        - me has picked Juggernaut
+        - spawn
+        #Command performed through the player
+        console:
+        - kit juggernaut %player%
+        #Command performed through the console
+    arbalist:
+        player:
+        - me has picked Arbalist
+        - spawn
+        #Command performed through the player
+        console:
+        - kit arbalist %player%
+        #Command performed through the console
+    vampire:
+        player:
+        - me has picked Vampire
+        - spawn
+        #Command performed through the player
+        console:
+        - kit vampire %player%
+        #Command performed through the console
+    eidolon:
+        player:
+        - me has picked Eidolon
+        - spawn
+        console:
+        - kit eidolon %player%
+        
+
+#Amount of time for 1 mana/energy takes to regenerate
+#Note that players above a certain level will regenerate 2 mana at a time
+manaregeneration:
+    swordsman: 3
+    devourer: 3
+    mage: 3
+    juggernaut: 3
+    arbalist: 3
+#Firemage does not use any energy/mana
+#Vampire's blood loss rate is based on its improvements
+
+
+perform-commands-upon-skill-change: false
+#Enable if you want to use the feature below
+
+commands-to-perform-upon-skill-change:
+#These commands will be performed when a player changes his skill. Player must be online.
+    swordsman:
+        player:
+        - me has picked Swordsman
+        - spawn
+        #Command performed through the player
+        console:
+        - kit swordsman %player%
+        #Command performed through the console
+    devourer:
+        player:
+        - me has picked Devourer
+        - spawn
+        #Command performed through the player
+        console:
+        - kit devourer %player%
+        #Command performed through the console
+    mage:
+        player:
+        - me has picked Mage
+        - spawn
+        #Command performed through the player
+        console:
+        - kit mage %player%
+        #Command performed through the console
+    pyro:
+        player:
+        - me has picked Pyro
+        - spawn
+        #Command performed through the player
+        console:
+        - kit pyro %player%
+        #Command performed through the console
+    juggernaut:
+        player:
+        - me has picked Juggernaut
+        - spawn
+        #Command performed through the player
+        console:
+        - kit juggernaut %player%
+        #Command performed through the console
+    arbalist:
+        player:
+        - me has picked Arbalist
+        - spawn
+        #Command performed through the player
+        console:
+        - kit arbalist %player%
+        #Command performed through the console
+    vampire:
+        player:
+        - me has picked Vampire
+        - spawn
+        #Command performed through the player
+        console:
+        - kit vampire %player%
+        #Command performed through the console
+    eidolon:
+        player:
+        - me has picked Eidolon
+        - spawn
+        console:
+        - kit eidolon %player%
+        
+
+#Amount of time for 1 mana/energy takes to regenerate
+#Note that players above a certain level will regenerate 2 mana at a time
+manaregeneration:
+    swordsman: 3
+    devourer: 3
+    mage: 3
+    juggernaut: 3
+    arbalist: 3
+#Firemage does not use any energy/mana
+#Vampire's blood loss rate is based on its improvements
+
+
+    
+skill-change-cooldown: 60
+#Time in seconds for /skill change. Cooldown can be bypassed with skills.change.cooldownbypass
+
+active-costs-and-cooldowns:
+    thousandcuts:
+        cost: 20
+        #In energy
+        cooldown: 30
+    consume:
+        cost: 20
+        #In energy
+        cooldown: 30
+    energyflux:
+        cost: 7
+        #In mana
+        cooldown: 1
+    inferno:
+        cost: 5
+        #In health
+        cooldown: 5
+    throw: 
+        cost: 20
+        #In energy
+        cooldown: 30
+    firecrossbow:
+        cost: 1
+        #No cooldown, as cooldown is ruled by skill improvement
+    eternaldarkness:
+        #No cost
+        cooldown: 30
+    defile:
+        #no cost
+        cooldown: 30
+
+base-costs:
+    swordsman:
+            dodge: 100
+            parry: 100
+            pierce: 100
+            thousandcuts: 300
+    devourer:
+            evolvegliders: 100
+            evolvecloack: 100
+            evolvesadism: 100
+            consume: 300
+    mage:
+            reflect: 100
+            explosionspell: 100
+            healspell: 100
+            energyflux: 300
+    firemage:
+            absorbenergy: 100
+            phoenixessence: 100
+            blackfire: 100
+            inferno: 300
+    juggernaut:
+            heavystrikes: 100
+            stoneskin: 100
+            aegisprotection: 100
+            throw: 300
+    arbalist:
+            execute: 100
+            dualarrow: 100
+            barbedarrow: 100
+            firecrossbow: 300
+    vampire:
+            bloodlust: 100
+            bloodwell: 100
+            bleed: 100
+            eternaldarkness: 300
+    eidolon:
+            purify: 100
+            spiritfire: 100
+            spectre: 100
+            defile: 300
+    
+enabled:
+    swordsman: true
+    devourer: true
+    mage: true
+    firemage: true
+    juggernaut: true
+    arbalist: true
+    vampire: true
+    eidolon: true
+
+lang: eng
+
+items-which-cannot-trigger-active-abilities:
+- SNOW_BALL
+- EGG
+
+blocks-which-cannot-trigger-active-abilities:
+- CHEST
+- FURNACE
+- DOOR
+- ANVIL
+- ENCHANTMENT_TABLE
+- BREWING_STAND
+
+
+

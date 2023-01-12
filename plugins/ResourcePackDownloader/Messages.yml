@@ -1,0 +1,5 @@
+Accept-Message: '&r'
+Declined-Message: '&cYou have declined the resource-pack request!'
+Successfuly-Downloaded-Message: '&aРесурспак успешно загружен!'
+Failed-Downloaded-Message: '&r'
+Error-Message: '&6Error: error on checking request!'

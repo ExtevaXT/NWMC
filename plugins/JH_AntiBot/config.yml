@@ -1,0 +1,47 @@
+# Desativar mensagem de quando os jogadores entram e sai do servidor?
+BukkitDisableJoinLeaveMessages: true
+
+# Bloquear lista de proxys do DeathBot
+BloquearIpsDeathBot: true
+
+# Bloquear nicks do DeathBot (Nicks.txt)
+BloquearNicksDeathBot: true
+
+# Ativar Anti VPN/Proxy? (Funciona 70% das vezes)
+AtivarAntiVPN: true
+
+# Criador: Agradeco se voce deixar isso true :)
+DeixarMaisEficiente: true
+
+# Ativar Protecao com tempo?
+# Caso inicie um attack bot o Sistema ativa a protecao
+# E deixa ela ativa por um periodo de tempo
+# Neste periodo somente Jogadores que ja jogaram
+# Mais de um minuto no servidor podem entrar e sair
+# Sem ser acusado de bot para o sistema!
+ProtecaoPorTempo: true
+
+# Mensagens de kick do antibot
+mensagens:
+  prefix: "&7[&aJH_AntiBot&7] &r"
+  
+  # Precisa de 'ProtecaoPorTempo: true' para funcionar!
+  QuandoIniciadoUmAttackBot: "&c&lO Anti Bot Detectou um possevel attack bot no servidor e iniciou a protecao por tempo!"
+
+  kickIpBloqueado:
+  - '&c&lJH_AntiBot'
+  - ''
+  - '&cSeu IP esta bloqueado de entrar em nosso servidor'
+  - '&cPor se um possivel proxy/VPN!'
+  kickNickBloqueado:
+  - '&c&lJH_AntiBot'
+  - ''
+  - '&cSeu nome de usuario esta em nossa lista negra'
+  - '&cpor tanto você deve trocar de nick'
+  kickProtecaoPorTempo:
+  - '&c&lJH_AntiBot'
+  - ''
+  - '&cEstamos recebendo muitos logins por segundo'
+  - '&cpotencialmente um bot attack'
+  - '&cestamos com proteção &aON'
+  - '&ctente logar-se novamente em alguns instantes!'

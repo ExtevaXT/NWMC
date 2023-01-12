@@ -1,0 +1,128 @@
+quest:
+- requirements:
+  - questID: 20
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Привет Какаши, я стал генином, мне Ирука сказал идти к тебе.
+    - id: 1
+      message:
+        sender: NPC
+        text: Хорошо, у меня есть задания для тебя.
+    - id: 2
+      message:
+        sender: PLAYER
+        text: Что за задания?
+    - id: 3
+      message:
+        sender: NPC
+        text: Сначала я тебе дам несколько миссий Ранга D.
+    - id: 4
+      message:
+        sender: NPC
+        text: Если у тебя получиться всех их выполнить я тебе дам пару миссий Ранга
+          C
+    - id: 5
+      message:
+        sender: PLAYER
+        text: Я понял, так какое будет моё первое задание?
+    - id: 6
+      message:
+        sender: NPC
+        text: 'К нам недавно пришёл заказ: Котёнок залез на крышу одного дома и не
+          хочет слазить.'
+    - id: 7
+      message:
+        sender: NPC
+        text: Тебе нужно будет пойти туда и спасти котёнка.
+    - id: 8
+      message:
+        sender: PLAYER
+        text: А где этот дом находится?
+    - id: 9
+      message:
+        sender: NPC
+        text: Он возле главных ворот, заброшенный дом, где живёт Наруто
+  manager:
+    stages:
+    - world: world
+      stageType: REGION
+      customText: null
+      text: null
+      region: narutohome
+      rewards: []
+      order: 0
+    - msg:
+        npc: 166
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Привет дружок, как ты тут оказался?
+        - id: 1
+          message:
+            sender: NPC
+            text: Мяу
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Хорошо давай тебя спустим на землю
+        - id: 3
+          message:
+            sender: NPC
+            text: Мяяяу
+        - id: 4
+          message:
+            sender: NOSENDER
+            text: <Вы взяли котёнка и аккуратно спустили его на землю>
+      stageType: NPC
+      customText: null
+      text: А вот и этот дом
+      rewards: []
+      npcID: 166
+      order: 1
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я спас котёнка!
+        - id: 1
+          message:
+            sender: NPC
+            text: Отлично твоя первая миссия выполнена, вот деньги за твою работу
+      stageType: NPC
+      customText: null
+      text: Теперь надо вернуться и поговорить с Какаши
+      rewards: []
+      npcID: 42
+      order: 2
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №1
+  finished:
+  - '3'
+  id: 4
+  scoreboard: true
+  cancellable: false

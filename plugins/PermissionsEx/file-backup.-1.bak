@@ -1,0 +1,56 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&8[&dИгрок&8] &6'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand

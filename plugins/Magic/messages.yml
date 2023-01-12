@@ -1,0 +1,240 @@
+#
+# This is the localization file for the Magic plugin.
+#
+# All in-game text can be controlled from this file.
+#
+# You can also add individual files to the messages/ folder
+#
+# The default will always be loaded first, so the English messages will be used for any
+# keys you do not provide in this file.
+#
+# To see the current default builtin configs, look in this folder:
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/messages
+#
+# For customization help see: 
+# https://github.com/elBukkit/MagicPlugin/wiki/Customization
+#
+
+#
+# Examples:
+# Note that a "#" character means the line is commented out and has no effect.
+# Make sure to not comment out the lines you add, there should not be a space in front of the name, indentation is important.
+# Use http://www.yamllint.com if you have issues with your config, make sure not to use tabs!
+# 
+
+# Change name of Spell Points
+# sp:
+#     name: "&e$amount &6Academic Credits"
+# costs:
+#     sp_amount: $amount AC
+#     sp: Academic Credits
+
+# Change name/description of Magic Missile spell
+# spells:
+#   missile:
+#     name: Zap
+#     description: Zap somebody!
+
+wand:
+  spell_count: $count техник изучено
+  mana_max: '&eЧакра: $amount'
+  mana_amount: '&eЧакра: $amount'
+  mana_regeneration: '&eВосстановление чакры: $amount/s'
+  mana_amount_boosted: '&eЧакра: $amount &f(&b$mana&f)'
+  mana_regeneration_boosted: '&eВосстановление чакры: $amount &f(&b$mana&f)&d/s'
+  mana_boost: '&eУвеличение чакры: $percent%'
+  mana_regeneration_boost: '&eУскорение восстановления чакры: $percent%'
+  owner_description: '&2&oТехники $name'
+  bound_description: '&3&oПривязан к $name'
+  hotbar_count_usage: '&eНажмите $cycle_hotbar когда $wand &eактивны для переключения
+    панели быстрого доступа'
+  inventory_instructions: '&r&eВаша спобность $wand &eтеперь имеет более одной техники. Нажмите $toggle
+    чтобы открыть/закрыть инвентарь техник. Используйте кнопки горячих клавиш, чтобы выбрать технику.'
+  chest_instructions: '&r&eВаша спобность $wand &eтеперь имеет более одной техники. Нажмите $toggle
+    чтобы открыть/закрыть инвентарь техник, нажмите на технику чтобы использовать её.'
+  skills_instructions: '&r&eYour $wand &enow has more than one spell. Press $toggle
+    to open/close the spell inventory, drag a spell to the hotbar to cast.'
+  cycle_instructions: '&r&eYour $wand &enow has more than one spell. Press $cycle
+    to cycle between spells.'
+  page_instructions: '&r&eYour $wand &enow has more than one page of spells. Click
+    outside the spell inventory to change pages.'
+  bound_instructions: '&r&3Ваша спобность $wand &3привязан к вам.'
+  spell_instructions: '&r&bНажмите ПКМ с $wand &bчтобы исполоьзовать &r&6$spell&d&o. Техники требуют
+    чакры, показанной в вашей полоске опыта.'
+  enchant_instructions: '&r&bУлучшайте вашу спобность $wand &bна Столе Техник чтобы добавить техник
+    и способностей.'
+  brush_instructions: '&r&eMaterial brushes have been added to your $wand&e. Shift+$toggle
+    to select a brush.'
+  sp_instructions: '&r&6Вы получили некоторое количество Очков Техник! Очки Техник отображаются
+    над вашей полоской опыта. Очки Техник могут быть потрачены в Столе Техник для изучения техник.'
+  earn_instructions: '&r&6You have earned some $currency! This is displayed above
+    your mana bar, and may be spent at an enchanting table to learn new spells. Repeat
+    casts earn less, try mixing it up once you have more spells!'
+  super_powered: '&3Сверхмощное'
+  super_protected: '&3Неуязвимость'
+  spell_aura: '&8Аура: &7$spell'
+  costs_description: '&8Потребляет $description'
+  active_costs_description: '&8Потребляет $description в секунду'
+  range_description: '&8Дальность: &9$range метров'
+  owner_description: '&7Техники $name'
+  unmodifiable: '&b>> &cЭти Техники не могут быть изменены'
+  player_unmodifiable: '&b>> &cТехники $name не могут быть изменены'
+  spell_added: '&b>> &6Вы изучили технику &a$name'
+  player_spell_upgraded: '&b>> &fТехника &6$name &fу игрока $players &fбыло улучшено до &3$level'
+  spell_upgraded: '&b>> &fТехника &a$name &fбыло улучшено до &3$level'
+  spell_override_upgraded: '&b>> &fТехника &a$name &fбыло улучшено'
+  upgraded_property: '&b>> &r&dВаша палочка была улучшена до &r&b$name'
+  spell_progression: '&b>> &fТехника &a$name &fбыло улучшено до &3$level&f/&3$max_level'
+  mana_added: '&b>> &r&dТеперь вы имеете $value чакры'
+  hotbar_count: '&6$amount слотов'
+  player_upgraded: '&b>> &6Техники игрока $name обновлены'
+  player_not_upgraded: '&b>> &cТехники игрока $name не обновлены'
+  player_spells_levelled: '&b>> &6Техника игрока $name было повышено до $count'
+  player_spells_not_levelled: '&b>> &6Техника игрока $name не было повышено'
+  spells_levelled: '&b>> &6Ваши заклинания были повышены до $count'
+  spells_not_levelled: '&b>> &cВаши заклинания не были повышены'
+  no_wand: '&b>> &cВы должны держать палочку'
+  player_no_wand: '&b>> &c$name не держит палочку'
+  no_item: '&b>> &cВы должны держать предмет'
+  player_no_item: '&b>> &c$name не держит предмет'
+  reorganized: '&b>> &6Палочка $wand &bпереустановлена'
+  uses_remaining_brief: '&c$count Использований'
+  uses_remaining_singular: '&c$count Изпользование'
+  uses_remaining: $count Использований остаётся
+currency:
+  item_name: '&e$amount &6$type'
+  description: Right-click to deposit
+  limit: a:&eThe limit for &6$type &eis &c$amount
+  deposited: 'a:&aDeposited &2$amount &6$type&a, balance: &2$balance'
+  earned: a:&6+&e$earned
+costs:
+  sp_amount: $amount Очков Техник
+  xp_amount: $amount опыта
+  levels_amount: $amount Уровней Опыта
+  mana_amount: $amount Чакры
+  mana: Чакра
+  xp: Опыта
+  levels: Уровней
+  sp: Очков Техник
+  hunger: Энергии
+  health: Жизни
+  health_amount: $amount Жизни
+  hunger_amount: $amount Энергии
+  heroes_mana: $amount Чакры
+  currency_singular: Dollar
+  currency: Dollars
+  currency_amount: $amount опыта
+sp:
+  name: '&e$amount &6Очков Техник'
+  description: Будет выдано вам
+  limit: a:&eЛимит для &6Очков Техник &e- &c$amount
+  deposited: 'a:&aПолучено &2$amount &6Очков Техник&a, Текущее количество: &2$balance'
+cooldown:
+  wait_seconds: ещё $seconds секунд
+  wait_minutes: ещё $minutes минут
+  wait_hours: ещё $hours часов
+  wait_moment: момент
+  wait_second: секунду
+  wait_minute: минуту
+  wait_hour: ещё час
+  description_seconds: $seconds секунд
+  description_minutes: $minutes минут
+  description_hours: $hours часов
+  description_minute: Одну минуту
+  description_hour: Один час
+  description_second: Одну секунду
+  description_moment: Момент
+  description: '&eОткат: &6$time'
+  mage_description: '&cИстощение: &6$time'
+spells:
+  default:
+    fizzle: Your spell fizzled!
+    backfire: Your spell backfired!
+    fail: Что-то не так!
+    insufficient_permission: '&cВы не можете использовать это здесь.'
+    cast_player_message: a:&d&o$player &r&5cast &3&o$spell &r&5on you!
+    indirect_player_message: a:&d&o$player &r&5cast &3&o$spell &r&5on you!
+    insufficient_resources: Не достаточно $cost
+    cooldown: Вы должны подождать $time.
+    cancelled: Ваша техника отменена!
+    entity_required: An entity is required.
+    living_entity_required: A living entity is required.
+    player_required: A player is required.
+    location_required: A location is required.
+    world_required: A world is required.
+    invalid_world: The specified world is not valid.
+    cast_finish: ''
+  spellshop:
+    name: Learn Spells
+    title: Техники ($balance&0)
+    description: |-
+      Spend Spell Points to learn new spells.
+      When you have learned all the required spells on your current path, you will rank up to the next path!
+    no_items: Больше нет техник которые вы можете изучить
+    no_path: Вы не можете изучать техники.
+    no_upgrade: Вы изучили все техники.
+    no_required_path: Вы должны быть на $path&r!
+    no_path_end: Вы должны быть готовы чтобы начать с $path&r!
+    no_wand: Вы должны держать в руках вашу способность!
+    confirm_title: Изучить $item
+    selected: "t:&d&oВы изучили \n&r&6$item\na:&r&d&o-&r&a$cost"
+    fail: ''
+  wear:
+    name: Wear
+    description: ПКМ - чтобы одеть предмет
+    cast: Вы одели предмет на голову
+warmup:
+  description: '&7Зарядка: &6$time'
+duration:
+  lasts_seconds: Длится $seconds секунд
+  lasts_minutes: Длится $minutes минут
+  lasts_hours: Длится $hours часов
+  lasts_second: Длится $seconds секунду
+  lasts_minute: Длится $minutes минуту
+  lasts_hour: Длится $hours час
+skills:
+  inventory_title: Техники
+  inventory_title_heroes: $class Skills ($page/$pages)
+  inventory_title_heroes_secondary: $class-$class2 Skills ($page/$pages)
+  item_name: $skill
+  item_name_unavailable: '&c$skill'
+  item_description: $description
+  passive_description: '&1PASSIVE'
+  none: You have no skills!
+  none_on_page: There are no skills on page $page
+resource_pack:
+  prompt: Используйте /getrp чтобы скачать Ресурспак.
+  sending: ''
+controls:
+  drop: Выбросить (Q)
+  right_click: ПКМ
+  left_click: ЛКМ
+  swap: Поменять (F)
+spell:
+  not_undoable: ''
+economy:
+  missing: '&cMy shop is closed, sorry!'
+  insufficient: 'Стоимость: &6$cost'
+  deducted: 'Deducted: &6$cost'
+  requires: You must have a $cost
+shops:
+  no_wand: '&cВы должны держать способность в руках!'
+  no_template: '&cYou may not learn with that $wand&c.'
+  no_path: '&cВы не можете ничего изучить.'
+  no_required_path: '&cВы должны быть на $path&r!'
+  no_path_exact: '&cВы должны быть на $path&r!'
+  no_path_end: '&cВы должны быть готовы для $path&r!'
+  insufficient: '&cСтоимость $cost'
+shops:
+  title: Очки Техник ($balance&0)
+  buyshop:
+    name: Buy Shop
+    title: Очки Техник ($balance&0)
+    description: Buy Buy Buy!
+
+
+
+
+
+
+

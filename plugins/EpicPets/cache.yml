@@ -1,0 +1,34 @@
+fd73eef9-d6a5-33be-8df4-7dce59a298ee:
+  pet:
+    foods: 100
+    showName: true
+    setSmall: true
+    setVisible: true
+    showArms: true
+    sneakProtect: true
+    isDead: false
+    name: §lNo name
+    head: §eBee
+    helmet: 'NULL'
+    chestplate: 'NULL'
+    leggings: 'NULL'
+    boots: 'NULL'
+  player:
+    name: Exteva
+4ea20c7e-d0d1-3a47-a19a-f92465090a24:
+  player:
+    name: abeliks
+  pet:
+    showName: true
+    setSmall: true
+    setVisible: true
+    showArms: true
+    sneakProtect: true
+    isDead: false
+    name: §lNo name
+    head: §eBee
+    helmet: 'NULL'
+    chestplate: 'NULL'
+    leggings: 'NULL'
+    boots: 'NULL'
+    foods: 100

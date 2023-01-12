@@ -1,0 +1,324 @@
+quest:
+- requirements:
+  - questID: 4
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое будет второе задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: 'Следующие задание: Тебе нужно помочь садоводу собрать яблок'
+    - id: 2
+      message:
+        sender: PLAYER
+        text: Где мне его найти?
+    - id: 3
+      message:
+        sender: NPC
+        text: Когда зайдёшь в деревню поверни направо и иди пока не найдёшь много
+          деревьев с яблоками
+    - id: 4
+      message:
+        sender: PLAYER
+        text: Понял
+  manager:
+    stages:
+    - msg:
+        npc: 451
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Здраствуйте, мне сказали, что вам надо помочь с яблоками
+        - id: 1
+          message:
+            sender: NPC
+            text: Да, было бы неплохо, помоги собрать все помеченные яблоки
+        - id: 2
+          message:
+            sender: NPC
+            text: Их слишком много, я один не справлюсь
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Хорошо
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 451
+      order: 0
+    - stageType: NPC
+      customText: null
+      text: Нажимайте ПКМ по подсвеченным яблокам по порядку начиная слева
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 460
+      order: 1
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 458
+      order: 2
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 461
+      order: 3
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 457
+      order: 4
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 452
+      order: 5
+    - msg:
+        npc: 456
+        msgs: []
+      stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 456
+      order: 6
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 455
+      order: 7
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 459
+      order: 8
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 463
+      order: 9
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 462
+      order: 10
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 454
+      order: 11
+    - msg:
+        npc: 453
+        msgs: []
+      stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: SKULL_ITEM
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: SKULL
+            display-name: Яблоко
+            lore:
+            - §eКвестовый Предмет
+            internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 453
+      order: 12
+    - msg:
+        npc: 451
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я собрал яблоки
+        - id: 1
+          message:
+            sender: NPC
+            text: Спасибо
+      stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 11
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: Яблоко
+          lore:
+          - §eКвестовый Предмет
+          internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGe1m4qKZpmRTQluvsgJkJl6E2LRjguXxAZ+nufDnfWRwVQIWXcz8J8Xn75q1gCjz6FF4RtTn1alOjyLI0y91wrXJdS6OmW9l84/DSKFVQ5ejKbmPL7s+gjGwepxu7qwDwoMBTWoqJwS9bMCJ5g2iORb34juT4jETkd1fXv6RL9eE7/iD7w9Y5Lt4/1x7LzBaFiRty+ZqqIUVH8yTY4aTXQ/JDYtwGa9qS/U4nGe5Jt1vDrEAkrufCSFAU10s4kJZkgR6ugU2694bsU+lt52JN5ihLliJLm9Ao9CDu9UDmoMUez9GbfAB/cdIxvRwBAAA=
+      rewards: []
+      npcID: 451
+      order: 13
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я помог собрать садоводу яблоки
+        - id: 1
+          message:
+            sender: NPC
+            text: Отлично, вот твоя награда
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 14
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №2
+  finished:
+  - '3'
+  id: 6
+  scoreboard: true
+  cancellable: false

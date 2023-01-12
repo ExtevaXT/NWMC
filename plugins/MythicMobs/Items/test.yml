@@ -1,0 +1,21 @@
+test:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    damage: 251
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§1Налобный Протектор
+      lore:
+      - §o§aЗащищает вашу голову
+      - §bПКМ - чтобы одеть предмет
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      Unbreakable: true
+      internal: H4sIAAAAAAAAAD2OTRLBQBSEO2UqklTFwgU4gTOIYqEqWDnAkIcp5sfkhbNYuoadO9kzKHrZ/VV3Z0AEsSdyUQZxlqZKkDBpd5BMyHckK+ct05qtb6F9Il8rawDESNEtmL1aNUwzW6mNCmEWokggWS6n45mt+X57dMre6CmQvq2SZM2Xa1M+0wfHiAttG8NDfJUg/zfOpQ77WzLk1XogvX7vpwtHXvL3QcDFh+pOjo1ymgz3fz+AF6AX953ZAAAA

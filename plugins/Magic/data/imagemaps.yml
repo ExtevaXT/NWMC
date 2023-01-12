@@ -1,0 +1,85 @@
+'1':
+  world: ourservers
+  url: https://s3-us-west-2.amazonaws.com/elmakers/mario.gif
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+'2':
+  world: ourservers
+  url: https://wdb.space/media/2018-5-3/wyB-qzaJwm.gif
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+'3':
+  world: ourservers
+  url: https://coubsecure-s.akamaihd.net/get/b177/p/coub/simple/cw_image/5c8db23cc0d/e055a59cfbbe769cbaacc/med_1550394891_00031.jpg
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+'4':
+  world: ourservers
+  url: https://mtdata.ru/u7/photo613F/20467080231-0/original.png
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+'5':
+  world: ourservers
+  url: https://medialeaks.ru/wp-content/uploads/2019/01/DxEY9HJXQAAQJYa.jpg
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+'6':
+  world: world
+  url: https://a.radikal.ru/a23/1907/33/870c98f163da.png
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+  name: Бинты
+'7':
+  world: world
+  url: https://a.radikal.ru/a30/1907/9f/2e50d7d436d0.png
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+  name: Сюрикены
+'8':
+  world: world
+  url: https://b.radikal.ru/b19/1907/cb/4d3f86de1c73.png
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+  name: Сенбоны
+'9':
+  world: world
+  url: https://c.radikal.ru/c25/1907/03/338aa7bdbf20.png
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+  name: Кунаи
+'10':
+  world: world
+  url: https://a.radikal.ru/a14/1907/79/870cc66d1fe0.png
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+  enabled: false
+  name: Фуума

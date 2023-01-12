@@ -1,0 +1,62 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+#  ENCHANTMENT: Infinity
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&2&lТелепорты'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'teleport'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 339
+    left-click: true
+    right-click: true
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+spawn:
+  COMMAND: 'spawn'
+  ENCHANTMENT: 'fire aspect, 1'
+  NAME: '&b* &3&lВ Коноху'
+  KEEP-OPEN: true
+  LORE:
+    - '&c&l➲ &fТелепортирует в Коноху'
+  ID: 373
+  POSITION-X: 1
+  POSITION-Y: 1
+
+menu:
+  COMMAND: 'menu'
+  NAME: '&e&l Назад в меню&b'
+  ID: '262'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+survival:
+  COMMAND: 'warp survival'
+  ENCHANTMENT: 'fire aspect, 1'
+  NAME: '&b* &3&lВ Мир Выживания'
+  KEEP-OPEN: true
+  LORE:
+    - '&c&l➲ &fТелепортирует в мир Выживания'
+  ID: 373
+  POSITION-X: 2
+  POSITION-Y: 1
+

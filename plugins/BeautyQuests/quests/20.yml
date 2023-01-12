@@ -1,0 +1,282 @@
+quest:
+- requirements:
+  - questID: 1
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 73
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Здравствуйте Ирука, я бы хотел стать генином
+    - id: 1
+      message:
+        sender: NPC
+        text: Хокаге мне рассказал о тебе
+    - id: 2
+      message:
+        sender: NPC
+        text: Для начала ты должен изучить начальный материал
+    - id: 3
+      message:
+        sender: NPC
+        text: Сходи в книжный магазин и прочитай учебные книги
+  manager:
+    stages:
+    - world: world
+      stageType: REGION
+      customText: null
+      text: null
+      region: bookshop
+      rewards: []
+      order: 0
+    - stageType: INTERACT
+      customText: null
+      leftClick: false
+      location:
+        world: world
+        x: -613.0
+        y: 69.0
+        z: -426.0
+        pitch: 0.0
+        yaw: 0.0
+      text: null
+      rewards: []
+      order: 1
+    - msg:
+        npc: 73
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я прочитал учебный материал
+        - id: 1
+          message:
+            sender: NPC
+            text: Теперь ты должен принести 10 кунаев
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Где мне их найти?
+        - id: 3
+          message:
+            sender: NPC
+            text: Ты должен создать их сам
+      stageType: NPC
+      customText: null
+      text: <Вы изучили учебный материал>
+      rewards: []
+      npcID: 73
+      order: 2
+    - msg:
+        npc: 73
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я создал кунаи
+        - id: 1
+          message:
+            sender: NPC
+            text: Осталось последнее задание
+        - id: 2
+          message:
+            sender: NPC
+            text: Ты должен показать свои навыки ловкости
+        - id: 3
+          message:
+            sender: NPC
+            text: Тебе нужно найти и убить оцелота
+        - id: 4
+          message:
+            sender: PLAYER
+            text: '...'
+      stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: MAGMA_CREAM
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4§fКунай
+          lore:
+          - §o§a§5Нажмите ПКМ для броска
+          enchants:
+            VANISHING_CURSE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+      rewards: []
+      npcID: 73
+      order: 3
+    - mobs:
+      - bmob: OCELOT
+        amount: 1
+      stageType: MOBS
+      customText: null
+      text: null
+      rewards: []
+      remaining: {}
+      order: 4
+    - msg:
+        npc: 73
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я поймал оцелота!
+        - id: 1
+          message:
+            sender: NPC
+            text: Теперь осталось совсем немного. Тебе нужно пройти официальный экзамен
+              на Генина.
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Я сделал это
+        - id: 3
+          message:
+            sender: NPC
+            text: Экзамен начинается
+        - id: 4
+          message:
+            sender: NPC
+            text: Все подготовительные задания ты выполнил
+        - id: 5
+          message:
+            sender: NPC
+            text: Тебе осталось сдать официальный экзамен на Генина
+        - id: 6
+          message:
+            sender: NPC
+            text: Экзамен начинается
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 73
+      order: 5
+    - cancel: true
+      writeText: Коноха
+      stageType: CHAT
+      customText: null
+      text: Как называется наша деревня?
+      rewards: []
+      order: 6
+    - cancel: true
+      writeText: Хаширама
+      stageType: CHAT
+      customText: null
+      text: Как зовут основателя деревни?
+      rewards: []
+      order: 7
+    - cancel: true
+      writeText: Минато
+      stageType: CHAT
+      customText: null
+      text: Как зовут создателя Расенгана?
+      rewards: []
+      order: 8
+    - cancel: true
+      writeText: Девять
+      stageType: CHAT
+      customText: null
+      text: Сколько всего существует Биджу?
+      rewards: []
+      order: 9
+    - cancel: true
+      writeText: Шаринган
+      stageType: CHAT
+      customText: null
+      text: Какое Додзюцу у клана Учиха?
+      rewards: []
+      order: 10
+    - cancel: true
+      writeText: Бьякуган
+      stageType: CHAT
+      customText: null
+      text: Какое Додзюцу у клана Хьюга?
+      rewards: []
+      order: 11
+    - cancel: true
+      writeText: Риннеган
+      stageType: CHAT
+      customText: null
+      text: Самое могущественное Додзюцу?
+      rewards: []
+      order: 12
+    - msg:
+        npc: 73
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Все ответы правильные
+        - id: 1
+          message:
+            sender: NPC
+            text: Ты прошёл экзамен
+        - id: 2
+          message:
+            sender: NPC
+            text: Теперь ты официально стал генином Конохи
+        - id: 3
+          message:
+            sender: NPC
+            text: Теперь иди к Какаши, он будет давать тебе миссии
+        - id: 4
+          message:
+            sender: NPC
+            text: Вот твой протектор
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 73
+      order: 13
+    players:
+      '0': 3
+  rewardsList:
+  - class: fr.skytasul.quests.rewards.CommandReward
+    commands:
+    - console: true
+      label: pex user {PLAYER} group remove Shinobi
+    - console: true
+      label: pex user {PLAYER} group add Genin
+  - items:
+    - type: DIAMOND_PICKAXE
+      damage: 251
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§1Налобный Протектор
+        lore:
+        - §o§aЗащищает вашу голову
+        - §bПКМ - чтобы одеть предмет
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2OSw4BQRiEa6IzZiax4QI2dmLlACRIJB4r9s38Rod+6PmHI4i9M3A5e1uDUMuqL1WVAAHEjsgFCcRJmjRCxKTdXjKhtiWZOm+Z1mx9BdUj+VxZAyBEjHqf2atVwTS1qdqoMkzKKBCIFovxYGpzfl4ad7RGD4H4bU1I5nxdBrdzu5uFCPvaFoZ7+CpC7d84k7rcz8iQV+uO9Pq9H88decnfByUuPlR9eCiU02S4+fsBvADhiz9O2QAAAA==
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 100
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 73
+  name: 'Ранг: Генин'
+  finished:
+  - '3'
+  id: 20
+  scoreboard: true
+  cancellable: false

@@ -1,0 +1,21 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 0
+  surface: ''
+  maxZ: -646
+  maxY: 69
+  maxX: -635
+  ignoreLadders: false
+  fillMode: false
+  world: world
+  minY: 69
+  resetWarnings: []
+  minX: -658
+  composition: {}
+  name: gardenquest
+  resetClock: 0
+  minZ: -670
+  isSilent: false
+  tpY: -1
+  tpX: 0
+  tpZ: 0

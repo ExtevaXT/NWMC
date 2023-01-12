@@ -1,0 +1,154 @@
+id: b45518c1-fad9-31a3-9da7-b650d829e5e5
+name: lybitel_sosat
+created: 1562015595034
+last_cast: 1562015653840
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  jutsu:
+    cast_count: 1
+    last_cast: 1562015653840
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  startwater:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 363
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Воды
+        lore:
+        - §o§aТехники Стихии Воды
+        - §3§oПривязан к lybitel_sosat
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QMU7DUAyGHTWENKgM5QIMZQyilECztRIggSgMVTekyslz4al5L4/EoeIAnAQWJjYWDgITIwfgBLymAk+29fvzbwcADrhzIuME4C5QCx98JmUyZIKgZCx4YdPCh7V8oamAVvaQSKZsWuYlsgeuQo0DCXW4sLkspywV2VllLH7+Kk4fLbUen0oBneQgirr9tBvOUMRhr4u9MBZ4FCaH0Z7o78cUUdSA9XsqSplri/WsyY1KiyI3BpOMnCa0h8yFTCqmUS7kTFptYJWOC/5kcnY8ykv++Ezf3r/Pf1xoLlsXhCU/xS/PO9dfygNvqPJK86Czcu6DO85yBl+h1Lf1H1r/Ky5REWzdkD1AprvIjOl8bIhEA5pXhgrklc8lpda2T+4qaRRp3v6zB/ALiW+wtGwBAAA=
+    wand:
+      template: startwater
+      owner: lybitel_sosat
+      mana: 200.0
+      mana_timestamp: 1562015712901
+      owner_id: b45518c1-fad9-31a3-9da7-b650d829e5e5
+      version: 6
+  startice:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 366
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Льда
+        lore:
+        - §o§aТехники Стихии Льда
+        - §3§oПривязан к lybitel_sosat
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 3/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QwU7CQBCGp6HWgqIGPXj0wLUqYhVukKiJiWAMcCbT7qAburu1nUq460uY+Ax68o18D5cSndtM/v+fb6YG4IA7J0qdGrgL1MIHn0mlCTKBnzNmLGPyYcMsNGVQT5aRZEqmucmRPXAVauwtoSwXdlbtlKUi61SpDZ9/ipsHm1nap1JAMzoPw1YnbgUzFN2g3cJ20BV4GUQX4anonHUppLACmy+U5dJoG+tZxK1Ci8ykKUYJOVVo9JkzGRVMAyPkTFptzSodF/zJ5PZqYHLeff86PPgYjl2orkZ3hDm/jV9P9r63fzzw+soUmnvNNbkP7igxDL5CqZ/KL9T/VwxREew/kj1AxsfIjPF8lBKJClTvU8qQ15yrlFLbuH4uZKpI89EfHsAvz9AA7GoBAAA=
+    wand:
+      template: startice
+      owner: lybitel_sosat
+      mana: 400.0
+      mana_timestamp: 1562015712849
+      owner_id: b45518c1-fad9-31a3-9da7-b650d829e5e5
+      version: 6
+  startfire:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 361
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Огня
+        lore:
+        - §o§aТехники Стихии Огня
+        - §3§oПривязан к lybitel_sosat
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QT07CUBDGp6HWFoMLvIAJbGtErMIOEkgkAV0Q1mTKG/SFvj+2U4mn0QOYuNJjeAJP4spHic5uJt/3zW+mDuCBvyGyXh38LWoRQsikbIZMEBWMOa9lTiEcmK2mHBrZcyqZsmVhCuQAfIUaBxKq8uF41y5ZKnJWZV365l3cjF1oZV9KAe30Mkk6vVUnXqPox90OduO+wOs4vUrORe+iTwklNTh8oryQRrvYwDEelVrkxlpMM/IiaA6Zc5mWTDMj5Fo6bd0pPR/CxWIympmCX6et759i/OVDtBtNCQt+mbTeJh+fowCCoTKl5kF7Tx6CP88MQ6hQ6ofqDY3/FbeoCE7uyR0gV2fIjKvN3BKJGkR3lnLkPecupdI2x4+ltIo0n/7hAfwC3SO9W2sBAAA=
+    wand:
+      template: startfire
+      owner: lybitel_sosat
+      mana: 200.0
+      mana_timestamp: 1562015713349
+      owner_id: b45518c1-fad9-31a3-9da7-b650d829e5e5
+      version: 6
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Рандомный Клан
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязан к lybitel_sosat
+        - §4Not Undoable
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QMVLCUBCGN0OIIQ4NXsCCNo6IEehkRgpH0YKhc4bZ8BZ5krwX8/bBeA2PYGPnLbyAMxQ2lp7CwhDB7f6d/9/9dgMABwKrUr0kjBNyHHAXRJkTgLtCJXzwmdIsQSaoPlg21oeqXinKoZ48xZIpmRhtkD1wU1QI2ypypWsiBTTj0yhqdaetcIaiF7Zb2A57AjthfBYdi+5JjyKKKuBaQ2aTrcDeknIjtSqEV/DtW2UYzXwLWEiR6ywrZQ0afeZcxpZpqIWcySIaFEHHBX88vrwYasN3zz+dq5f+2oXapnVNaPjtY/31/fr57oHXT7VVfN7cobujRDP4KUo1L39Q/19xgynBwT0Vp8npETLjdDHKiEQFarcZ5ch/2JsppbcxeLQyS0nx4Q4P4BfwZvn1dgEAAA==
+    wand:
+      template: jutsu
+      owner: lybitel_sosat
+      mana: 0.0
+      owner_id: b45518c1-fad9-31a3-9da7-b650d829e5e5
+      uses: 0
+      version: 6
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 0
+properties:
+  version: 6
+classes:
+  caster:
+    mana_timestamp: 1564254654694
+    mana: 50.0
+  mage: {}
+active_class: mage
+health: 20.0

@@ -1,0 +1,317 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+OCELOT:
+  MobType: cat
+  Display: '&6Оцелот'
+  Health: 10
+  Damage: 2
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.5
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+CHICKEN:
+  MobType: chicken
+  Display: '&fКурица'
+  Health: 6
+  Damage: 2
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+SPIDER:
+  MobType: spider
+  Display: '&0Паук'
+  Health: 20
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.4
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+SKELETON:
+  MobType: skeleton
+  Display: '&7Скелет'
+  Health: 40
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.35
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+ZOMBIE:
+  MobType: zombie
+  Display: '&2Зомби'
+  Health: 40
+  Damage: 4
+  Skills:
+    - potion{type=POISON;duration=250;lvl=1} @target ~onAttack 0.1
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.35
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+CREEPER:
+  Type: CREEPER
+  Display: '&8Теневой Крипер'
+  Health: 20
+  Damage: 2
+  Skills:
+  - potion{type=INVISIBILITY;duration=100;lvl=1} @self ~onTimer:1000
+  Drops:
+  - JungleCreeperDrops
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+CAVE_SPIDER:
+  MobType: cave_spider
+  Display: '&2Ядовитый Паук'
+  Health: 20
+  Skills:
+    - potion{type=POISON;duration=100;lvl=2} @target ~onAttack 0.5
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.4
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+COW:
+  MobType: cow
+  Display: '&2Корова'
+  Health: 15
+  Damage: 2
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+SHEEP:
+  MobType: sheep
+  Display: '&2Овца'
+  Health: 15
+  Damage: 2
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+PIG:
+  MobType: pig
+  Display: '&2Свинья'
+  Health: 15
+  Damage: 2
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+PARROT:
+  MobType: parrot
+  Display: '&2Попугай'
+  Health: 6
+  Damage: 2
+  Options:
+    MovementSpeed: 0.4
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+WOLF:
+  MobType: wolf
+  Display: '&2Зимний Волк'
+  Health: 20
+  Damage: 4
+  Skills:
+    - potion{type=POISON;duration=150;lvl=1} @target ~onAttack 0.6
+  Options:
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 0
+    Angry: true
+LLAMA:
+  MobType: llama
+  Display: '&2Горная Лама'
+  Health: 15
+  Damage: 2
+  Options:
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+SILVERFISH:
+  MobType: silverfish
+  Display: '&2Крыса'
+  Health: 6
+  Damage: 1
+  Options:
+    MovementSpeed: 0.5
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+HORSE:
+  MobType: horse
+  Display: '&2Лошадь'
+  Health: 20
+  Damage: 2
+  Options:
+    MovementSpeed: 0.6
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+ENDERMAN:
+  MobType: enderman
+  Display: '&2Существо из другого мира'
+  Health: 200
+  Damage: 10
+  Options:
+    MovementSpeed: 0.5
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+BLAZE:
+  MobType: blaze
+  Display: '&4Страж Ада'
+  Health: 50
+  Damage: 10
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+DONKEY:
+  MobType: donkey
+  Display: '&2Осёл'
+  Health: 20
+  Damage: 2
+  Options:
+    MovementSpeed: 0.6
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+SLIME:
+  MobType: slime
+  Display: '&2Слизень'
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+GUARDIAN:
+  MobType: guardian
+  Display: '&2Морская жаба'
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+ELDER_GUARDIAN:
+  MobType: elder_guardian
+  Display: '&2Пожилая морская жаба'
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+HUSK:
+  MobType: husk
+  Display: '&2Кадавр'
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+POLAR_BEAR:
+  MobType: polar_bear
+  Display: '&2Полярный Медведь'
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+VILLAGER:
+  MobType: villager
+  Display: '&2Торговец'
+  Drops:
+  - EMERALD 1 0.01
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+BAT:
+  MobType: bat
+  Display: '&2Летучая Мышь'
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+ENDERMITE:
+  MobType: endermite
+  Display: '&2Личинка Края'
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+GHAST:
+  MobType: ghast
+  Display: '&2Гаст'
+  Health: 30
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+MAGMA_CUBE:
+  MobType: magma_cube
+  Display: '&2Раскалённый Слизень'
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+WITCH:
+  MobType: witch
+  Display: '&4Ведьма'
+  Health: 20
+  Damage: 4
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+WITHER_SKELETON:
+  MobType: wither_skeleton
+  Display: '&2Иссушённый Скелет'
+  Health: 50
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+PIG:
+  MobType: polar_bear
+  Display: '&2Дикий Кабан'
+  Health: 40
+  Damage: 6
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 golems
+  Options:
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Disguise:
+    Type: pig
+PIG_ZOMBIE:
+  MobType: pig_zombie
+  Display: '&2Мёртвый Свиночеловек'
+  Health: 50
+  Drops:
+  - goldkatana 1 0.005
+  Equipment:
+  - gold_katanarev:5
+  Options:
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+
+
+
+
+
+
+
+

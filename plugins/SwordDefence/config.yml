@@ -1,0 +1,7 @@
+Should the attacker's sword get damaged by swinging at a blocked sword? (supports unbreaking enchantments): true
+Should a blocked sword get damaged by a swinging sword? (supports unbreaking enchantments): true
+Should swinging a sword momentarily disable its ability to block swords?: true
+Should players be protected against arrows when blocking with a sword?: false
+The chance (0-100) that players will loose durability on their sword (100 = Minecraft's default durability loss chance): 100
+How much damage should a blocking sword take per hit? (1 = Minecraft's default durability loss): 1
+How much damage should a swinging sword take per hit? (1 = Minecraft's default durability loss): 1

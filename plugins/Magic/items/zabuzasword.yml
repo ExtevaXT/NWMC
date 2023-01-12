@@ -1,0 +1,15 @@
+zabuzasword:
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    damage: 7
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8§lКубикирибочо
+      lore:
+      - Меч способный восстанавливаться от крови жертвы
+      Unbreakable: true

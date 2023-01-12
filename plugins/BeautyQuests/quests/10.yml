@@ -1,0 +1,144 @@
+quest:
+- requirements:
+  - questID: 9
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: Один из наших генинов попросил помощи
+    - id: 2
+      message:
+        sender: NPC
+        text: Его зовут Киба Инузука
+    - id: 3
+      message:
+        sender: NPC
+        text: Сейчас он находится в парке
+    - id: 4
+      message:
+        sender: PLAYER
+        text: Я тебя понял
+  manager:
+    stages:
+    - msg:
+        npc: 170
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Привет, меня послали тебе помочь
+        - id: 1
+          message:
+            sender: NPC
+            text: Мой друг Акамару пропал
+        - id: 2
+          message:
+            sender: NPC
+            text: Я даже не представляю куда он мог уйти
+        - id: 3
+          message:
+            sender: NPC
+            text: Пожалуйста найди его
+        - id: 4
+          message:
+            sender: PLAYER
+            text: Хорошо, я постараюсь
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 170
+      order: 0
+    - msg:
+        npc: 465
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Так это ты Акамару?
+        - id: 1
+          message:
+            sender: NPC
+            text: Ррррр-рр
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Я скажу Кибе, что ты здесь, хорошо?
+        - id: 3
+          message:
+            sender: NPC
+            text: Рр-р-ррр
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 465
+      order: 1
+    - msg:
+        npc: 170
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я его нашёл
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Он справа от моста на повороте
+        - id: 2
+          message:
+            sender: NPC
+            text: Спасибо тебе
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 170
+      order: 2
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я помог Кибе
+        - id: 1
+          message:
+            sender: NPC
+            text: Хорошо, держи награду
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 3
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №6
+  finished: []
+  id: 10
+  scoreboard: true
+  cancellable: false

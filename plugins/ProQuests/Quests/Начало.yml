@@ -1,0 +1,25 @@
+# ======================================================
+# 
+# ProQuests Version: 2.1.1.13 build: 17757
+# Created by: JC_Plays_MC
+# 
+# ======================================================
+
+type: CHAT_QUEST
+team: SOLO
+duration: 0
+repeat_delay: 0
+auto_start: true
+repeatable: false
+cancelable: false
+command_start: true
+command_join: true
+check_all: true
+cancel_after_timer: false
+editable: true
+disabled: false
+join_active: false
+require_invite: false
+author: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+start_actions: []
+response: Понятно

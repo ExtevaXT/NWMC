@@ -1,0 +1,25 @@
+lastAccountName: PapaRimskiy
+timestamps:
+  login: 1562175526976
+  logout: 1562180725124
+  lastteleport: 1562171443771
+ipAddress: 88.147.173.42
+afk: false
+lastlocation:
+  world: world
+  x: -884.6999999880791
+  y: 71.23782366250128
+  z: -526.5242955178688
+  yaw: -356.98047
+  pitch: 20.373356
+logoutlocation:
+  world: world
+  x: -898.2876256931984
+  y: 87.0
+  z: -444.57022177404093
+  yaw: 206.84271
+  pitch: 18.299995
+godmode: false
+geolocation: Russia
+nickname: Abeliks
+money: '999778252.69'

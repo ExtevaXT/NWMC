@@ -1,0 +1,1488 @@
+id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+name: PapaRimskiy
+created: 1558447244148
+last_cast: 1561990310029
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+- world: ourservers
+  blocks:
+  - 1035,69,10113,ourservers|air
+  - 1034,69,10112,ourservers|air
+  - 1033,68,10112,ourservers|air
+  - 1032,68,10112,ourservers|air
+  - 1031,68,10112,ourservers|air
+  - 1030,67,10112,ourservers|air
+  - 1030,67,10111,ourservers|air
+  - 1029,67,10111,ourservers|air
+  - 1028,66,10111,ourservers|air
+  - 1027,66,10111,ourservers|air
+  - 1025,65,10110,ourservers|air
+  - 1024,64,10110,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1007,63,10099,ourservers|air
+  - 1008,63,10099,ourservers|air
+  - 1009,64,10099,ourservers|air
+  - 1010,64,10098,ourservers|air
+  - 1011,64,10098,ourservers|air
+  - 1012,64,10097,ourservers|air
+  - 1013,64,10097,ourservers|air
+  - 1014,64,10097,ourservers|air
+  - 1015,65,10097,ourservers|air
+  - 1016,65,10096,ourservers|air
+  - 1017,65,10096,ourservers|air
+  - 1018,65,10096,ourservers|air
+  - 1019,66,10095,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1027,69,10062,ourservers|air
+  - 1028,69,10063,ourservers|air
+  - 1029,69,10063,ourservers|air
+  - 1030,69,10063,ourservers|air
+  - 1031,69,10063,ourservers|air
+  - 1032,69,10063,ourservers|air
+  - 1033,69,10063,ourservers|air
+  - 1034,69,10063,ourservers|air
+  - 1035,68,10063,ourservers|air
+  - 1036,69,10063,ourservers|air
+  - 1037,67,10063,ourservers|air
+  - 1038,68,10063,ourservers|air
+  - 1039,67,10063,ourservers|air
+  - 1040,68,10063,ourservers|air
+  - 1041,66,10063,ourservers|air
+  - 1042,65,10063,ourservers|air
+  - 1043,65,10063,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1037,69,10110,ourservers|air
+  - 1037,69,10109,ourservers|air
+  - 1037,69,10108,ourservers|air
+  - 1037,69,10107,ourservers|air
+  - 1037,69,10106,ourservers|air
+  - 1036,69,10105,ourservers|air
+  - 1036,69,10104,ourservers|air
+  - 1036,69,10103,ourservers|air
+  - 1036,69,10102,ourservers|air
+  - 1036,68,10101,ourservers|air
+  - 1035,68,10100,ourservers|air
+  - 1035,68,10099,ourservers|air
+  - 1035,67,10098,ourservers|air
+  - 1035,67,10097,ourservers|air
+  - 1035,68,10096,ourservers|air
+  - 1034,67,10095,ourservers|air
+  - 1034,67,10094,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1042,69,10109,ourservers|air
+  - 1043,69,10109,ourservers|air
+  - 1044,69,10109,ourservers|air
+  - 1045,69,10108,ourservers|air
+  - 1046,69,10108,ourservers|air
+  - 1047,69,10108,ourservers|air
+  - 1048,69,10107,ourservers|air
+  - 1049,70,10107,ourservers|air
+  - 1050,70,10107,ourservers|air
+  - 1051,70,10106,ourservers|air
+  - 1052,70,10106,ourservers|air
+  - 1053,70,10106,ourservers|air
+  - 1054,71,10106,ourservers|air
+  - 1055,70,10105,ourservers|air
+  - 1056,73,10105,ourservers|air
+  - 1056,72,10105,ourservers|double_plant:10
+  - 1056,71,10105,ourservers|double_plant:2
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1049,68,10095,ourservers|air
+  - 1049,67,10094,ourservers|air
+  - 1048,67,10093,ourservers|air
+  - 1047,68,10092,ourservers|air
+  - 1047,67,10091,ourservers|air
+  - 1046,67,10090,ourservers|air
+  - 1046,67,10089,ourservers|air
+  - 1045,67,10088,ourservers|air
+  - 1045,68,10087,ourservers|air
+  - 1044,68,10087,ourservers|air
+  - 1044,68,10086,ourservers|air
+  - 1043,68,10085,ourservers|air
+  - 1043,67,10084,ourservers|air
+  - 1042,67,10082,ourservers|air
+  - 1041,68,10081,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1053,65,10086,ourservers|air
+  - 1053,65,10087,ourservers|air
+  - 1052,66,10088,ourservers|air
+  - 1052,66,10089,ourservers|air
+  - 1052,66,10090,ourservers|air
+  - 1051,67,10091,ourservers|air
+  - 1051,67,10092,ourservers|air
+  - 1051,67,10093,ourservers|air
+  - 1050,67,10093,ourservers|air
+  - 1050,67,10094,ourservers|air
+  - 1049,69,10096,ourservers|air
+  - 1049,68,10097,ourservers|air
+  - 1048,68,10098,ourservers|air
+  - 1048,75,10099,ourservers|air
+  - 1047,72,10100,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1045,68,10101,ourservers|air
+  - 1044,68,10101,ourservers|air
+  - 1044,68,10100,ourservers|air
+  - 1043,68,10099,ourservers|air
+  - 1043,68,10098,ourservers|air
+  - 1042,68,10097,ourservers|air
+  - 1041,68,10096,ourservers|air
+  - 1040,68,10095,ourservers|air
+  - 1040,69,10094,ourservers|air
+  - 1039,69,10093,ourservers|air
+  - 1038,68,10092,ourservers|air
+  - 1038,69,10091,ourservers|air
+  - 1037,69,10090,ourservers|air
+  - 1036,68,10089,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1041,70,10113,ourservers|air
+  - 1042,70,10114,ourservers|air
+  - 1043,70,10116,ourservers|air
+  - 1044,70,10118,ourservers|air
+  - 1045,71,10119,ourservers|air
+  - 1047,71,10122,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1028,66,10109,ourservers|air
+  - 1028,66,10110,ourservers|air
+  - 1027,66,10112,ourservers|air
+  - 1026,65,10113,ourservers|air
+  - 1024,65,10115,ourservers|air
+  - 1024,65,10116,ourservers|air
+  - 1023,65,10116,ourservers|air
+  - 1023,65,10117,ourservers|air
+  - 1022,65,10118,ourservers|air
+  - 1022,65,10119,ourservers|air
+  - 1021,65,10120,ourservers|air
+  - 1020,65,10121,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1045,70,10116,ourservers|air
+  - 1045,70,10117,ourservers|air
+  - 1042,70,10120,ourservers|air
+  - 1042,71,10121,ourservers|air
+  - 1041,71,10121,ourservers|air
+  - 1040,72,10123,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1019,64,10113,ourservers|air
+  - 1020,64,10114,ourservers|air
+  - 1021,64,10115,ourservers|air
+  - 1022,65,10116,ourservers|air
+  - 1022,65,10117,ourservers|air
+  - 1025,67,10120,ourservers|air
+  - 1026,67,10120,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1044,71,10120,ourservers|air
+  - 1043,72,10120,ourservers|air
+  - 1041,71,10120,ourservers|air
+  - 1040,70,10120,ourservers|air
+  - 1039,71,10120,ourservers|air
+  - 1038,71,10120,ourservers|air
+  - 1037,71,10120,ourservers|air
+  - 1036,69,10120,ourservers|air
+  - 1035,69,10120,ourservers|air
+  - 1034,69,10120,ourservers|air
+  - 1033,69,10120,ourservers|air
+  - 1032,68,10120,ourservers|air
+  - 1031,68,10120,ourservers|air
+  - 1030,69,10120,ourservers|air
+  - 1029,68,10120,ourservers|air
+  - 1028,67,10120,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1022,68,10148,ourservers|air
+  - 1021,69,10147,ourservers|air
+  - 1020,68,10147,ourservers|air
+  - 1020,68,10146,ourservers|air
+  - 1019,67,10145,ourservers|air
+  - 1018,66,10145,ourservers|air
+  - 1017,67,10144,ourservers|air
+  - 1016,67,10144,ourservers|air
+  - 1016,67,10143,ourservers|air
+  - 1015,67,10143,ourservers|air
+  - 1014,67,10142,ourservers|air
+  - 1013,66,10141,ourservers|air
+  - 1012,67,10140,ourservers|air
+  - 1011,67,10140,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1011,64,10163,ourservers|air
+  - 1010,65,10163,ourservers|air
+  - 1009,65,10163,ourservers|air
+  - 1008,65,10163,ourservers|air
+  - 1007,64,10163,ourservers|air
+  - 1006,65,10162,ourservers|air
+  - 1005,65,10162,ourservers|air
+  - 1004,64,10162,ourservers|air
+  - 1003,64,10162,ourservers|air
+  - 1002,64,10162,ourservers|air
+  - 1001,65,10162,ourservers|air
+  - 1000,65,10162,ourservers|air
+  - 999,65,10162,ourservers|air
+  - 998,65,10162,ourservers|air
+  - 997,64,10162,ourservers|air
+  - 996,64,10162,ourservers|air
+  - 995,65,10162,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1004,65,10171,ourservers|air
+  - 1003,65,10170,ourservers|air
+  - 1002,65,10170,ourservers|air
+  - 1001,64,10170,ourservers|air
+  - 1000,65,10170,ourservers|air
+  - 998,65,10169,ourservers|air
+  - 997,64,10169,ourservers|air
+  - 996,64,10169,ourservers|air
+  - 995,64,10169,ourservers|air
+  - 994,64,10168,ourservers|air
+  - 993,64,10168,ourservers|air
+  - 992,64,10168,ourservers|air
+  - 991,64,10167,ourservers|air
+  - 990,64,10167,ourservers|air
+  - 989,65,10167,ourservers|air
+  - 989,64,10167,ourservers|double_plant:10
+  - 989,63,10167,ourservers|double_plant:2
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1002,65,10157,ourservers|air
+  - 1003,64,10157,ourservers|air
+  - 1004,64,10156,ourservers|air
+  - 1005,65,10156,ourservers|air
+  - 1006,64,10156,ourservers|air
+  - 1007,64,10156,ourservers|air
+  - 1008,65,10156,ourservers|air
+  - 1009,64,10156,ourservers|air
+  - 1010,64,10156,ourservers|air
+  - 1011,64,10156,ourservers|air
+  - 1012,65,10156,ourservers|air
+  - 1013,64,10156,ourservers|air
+  - 1014,65,10156,ourservers|air
+  - 1014,64,10156,ourservers|double_plant:10
+  - 1014,63,10156,ourservers|double_plant:2
+  - 1015,63,10156,ourservers|air
+  - 1016,63,10156,ourservers|air
+  - 1017,64,10156,ourservers|air
+  - 1018,63,10155,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1025,63,10162,ourservers|air
+  - 1024,65,10162,ourservers|air
+  - 1023,64,10163,ourservers|air
+  - 1022,64,10163,ourservers|air
+  - 1021,64,10163,ourservers|air
+  - 1021,65,10164,ourservers|air
+  - 1020,66,10164,ourservers|air
+  - 1019,66,10164,ourservers|air
+  - 1018,66,10165,ourservers|air
+  - 1017,66,10165,ourservers|air
+  - 1016,66,10165,ourservers|air
+  - 1015,64,10166,ourservers|air
+  - 1014,65,10166,ourservers|air
+  - 1013,65,10167,ourservers|air
+  - 1012,64,10167,ourservers|air
+  - 1011,65,10168,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1011,65,10174,ourservers|air
+  - 1011,64,10175,ourservers|air
+  - 1012,64,10175,ourservers|air
+  - 1013,64,10176,ourservers|air
+  - 1013,65,10177,ourservers|air
+  - 1014,64,10178,ourservers|air
+  - 1015,64,10178,ourservers|air
+  - 1016,65,10180,ourservers|air
+  - 1017,65,10181,ourservers|air
+  - 1018,65,10182,ourservers|air
+  - 1019,65,10183,ourservers|air
+  - 1020,65,10184,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1012,64,10177,ourservers|air
+  - 1014,65,10177,ourservers|air
+  - 1015,65,10177,ourservers|air
+  - 1016,65,10177,ourservers|air
+  - 1017,66,10176,ourservers|air
+  - 1018,66,10176,ourservers|air
+  - 1019,66,10176,ourservers|air
+  - 1020,66,10176,ourservers|air
+  - 1021,66,10176,ourservers|air
+  - 1023,68,10175,ourservers|air
+  - 1023,67,10175,ourservers|double_plant:10
+  - 1023,66,10175,ourservers|double_plant:2
+  - 1024,66,10175,ourservers|air
+  - 1025,66,10175,ourservers|air
+  - 1026,67,10175,ourservers|air
+  - 1027,65,10174,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1007,65,10167,ourservers|air
+  - 1006,65,10166,ourservers|air
+  - 1005,64,10165,ourservers|air
+  - 1004,64,10164,ourservers|air
+  - 1004,64,10163,ourservers|air
+  - 1003,64,10163,ourservers|air
+  - 1002,64,10161,ourservers|air
+  - 1001,64,10160,ourservers|air
+  - 1000,64,10159,ourservers|air
+  - 999,64,10158,ourservers|air
+  - 999,65,10157,ourservers|air
+  - 998,65,10156,ourservers|air
+  - 997,65,10156,ourservers|air
+  - 997,65,10155,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1035,67,10185,ourservers|air
+  - 1035,67,10186,ourservers|air
+  - 1036,68,10187,ourservers|air
+  - 1036,67,10188,ourservers|air
+  - 1036,67,10189,ourservers|air
+  - 1036,67,10190,ourservers|air
+  - 1037,68,10191,ourservers|air
+  - 1037,67,10192,ourservers|air
+  - 1037,67,10193,ourservers|air
+  - 1037,68,10194,ourservers|air
+  - 1038,67,10195,ourservers|air
+  - 1038,67,10196,ourservers|air
+  - 1038,67,10197,ourservers|air
+  - 1038,68,10198,ourservers|air
+  - 1039,67,10199,ourservers|air
+  - 1039,67,10200,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1041,67,10205,ourservers|air
+  - 1040,67,10206,ourservers|air
+  - 1039,68,10206,ourservers|air
+  - 1039,67,10207,ourservers|air
+  - 1038,68,10208,ourservers|air
+  - 1037,67,10209,ourservers|air
+  - 1037,68,10210,ourservers|air
+  - 1036,68,10210,ourservers|air
+  - 1036,67,10211,ourservers|air
+  - 1035,69,10212,ourservers|air
+  - 1034,68,10213,ourservers|air
+  - 1033,68,10214,ourservers|air
+  - 1033,69,10215,ourservers|air
+  - 1032,69,10216,ourservers|air
+  - 1031,69,10217,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1022,68,10215,ourservers|air
+  - 1022,68,10214,ourservers|air
+  - 1021,68,10213,ourservers|air
+  - 1021,68,10212,ourservers|air
+  - 1021,68,10211,ourservers|air
+  - 1021,68,10210,ourservers|air
+  - 1021,67,10209,ourservers|air
+  - 1020,67,10208,ourservers|air
+  - 1020,67,10207,ourservers|air
+  - 1020,67,10206,ourservers|air
+  - 1020,68,10205,ourservers|air
+  - 1019,68,10204,ourservers|air
+  - 1019,68,10203,ourservers|air
+  - 1019,66,10202,ourservers|air
+  - 1019,67,10201,ourservers|air
+  - 1019,67,10200,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1022,68,10218,ourservers|air
+  - 1022,68,10217,ourservers|air
+  - 1022,68,10216,ourservers|air
+  - 1022,68,10213,ourservers|air
+  - 1022,68,10212,ourservers|air
+  - 1022,68,10211,ourservers|air
+  - 1022,68,10210,ourservers|air
+  - 1022,68,10209,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1018,69,10221,ourservers|air
+  - 1019,68,10221,ourservers|air
+  - 1020,68,10221,ourservers|air
+  - 1021,68,10222,ourservers|air
+  - 1022,68,10222,ourservers|air
+  - 1023,68,10222,ourservers|air
+  - 1024,68,10222,ourservers|air
+  - 1025,68,10222,ourservers|air
+  - 1026,69,10222,ourservers|air
+  - 1027,69,10222,ourservers|air
+  - 1028,70,10222,ourservers|air
+  - 1029,70,10223,ourservers|air
+  - 1030,70,10223,ourservers|air
+  - 1031,69,10223,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1014,67,10221,ourservers|air
+  - 1014,67,10222,ourservers|air
+  - 1014,68,10223,ourservers|air
+  - 1014,67,10224,ourservers|air
+  - 1014,67,10225,ourservers|air
+  - 1014,69,10226,ourservers|air
+  - 1014,68,10227,ourservers|air
+  - 1014,68,10228,ourservers|air
+  - 1014,68,10229,ourservers|air
+  - 1014,68,10230,ourservers|air
+  - 1014,67,10231,ourservers|air
+  - 1014,66,10232,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 973,56,10237,ourservers|air
+  - 971,56,10236,ourservers|air
+  - 971,56,10235,ourservers|air
+  - 969,56,10234,ourservers|air
+  - 969,56,10233,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 994,61,10234,ourservers|air
+  - 993,62,10234,ourservers|air
+  - 992,63,10234,ourservers|air
+  - 991,63,10234,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 969,65,10211,ourservers|air
+  - 969,65,10212,ourservers|air
+  - 970,65,10213,ourservers|air
+  - 970,64,10214,ourservers|air
+  - 970,67,10215,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 988,65,10205,ourservers|air
+  - 985,60,10207,ourservers|air
+  - 985,60,10208,ourservers|air
+  - 984,61,10208,ourservers|air
+  - 983,63,10209,ourservers|air
+  - 982,65,10209,ourservers|air
+  - 981,63,10210,ourservers|air
+  - 981,63,10211,ourservers|air
+  - 980,63,10211,ourservers|air
+  - 979,63,10212,ourservers|air
+  - 978,63,10213,ourservers|air
+  - 977,63,10214,ourservers|air
+  - 976,64,10214,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 993,56,10266,ourservers|air
+  - 993,56,10265,ourservers|air
+  - 993,56,10264,ourservers|air
+  - 993,56,10263,ourservers|air
+  - 993,56,10262,ourservers|air
+  - 993,56,10261,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 995,56,10268,ourservers|air
+  - 995,56,10267,ourservers|air
+  - 996,56,10266,ourservers|air
+  - 1001,56,10260,ourservers|air
+  - 1001,56,10259,ourservers|air
+  - 1002,56,10258,ourservers|air
+  - 1002,56,10257,ourservers|air
+  - 1003,56,10257,ourservers|air
+  - 1003,56,10256,ourservers|air
+  - 1004,56,10255,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1000,57,10252,ourservers|air
+  - 1000,56,10253,ourservers|air
+  - 999,57,10254,ourservers|air
+  - 998,57,10254,ourservers|air
+  - 998,56,10255,ourservers|air
+  - 997,56,10256,ourservers|air
+  - 996,56,10257,ourservers|air
+  - 995,56,10257,ourservers|air
+  - 995,56,10258,ourservers|air
+  - 994,56,10259,ourservers|air
+  - 993,56,10259,ourservers|air
+  - 993,56,10260,ourservers|air
+  - 992,56,10261,ourservers|air
+  - 991,56,10261,ourservers|air
+  - 990,56,10262,ourservers|air
+  - 990,56,10263,ourservers|air
+  - 989,56,10263,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 986,56,10261,ourservers|air
+  - 985,56,10261,ourservers|air
+  - 984,56,10262,ourservers|air
+  - 983,56,10262,ourservers|air
+  - 982,56,10262,ourservers|air
+  - 981,56,10263,ourservers|air
+  - 980,56,10264,ourservers|air
+  - 979,56,10264,ourservers|air
+  - 978,56,10264,ourservers|air
+  - 977,56,10265,ourservers|grass
+  - 976,56,10265,ourservers|air
+  - 975,56,10266,ourservers|air
+  - 974,56,10266,ourservers|air
+  - 973,56,10266,ourservers|air
+  - 972,56,10267,ourservers|air
+  - 971,56,10267,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 984,56,10255,ourservers|air
+  - 983,56,10255,ourservers|air
+  - 982,56,10254,ourservers|air
+  - 981,56,10254,ourservers|air
+  - 981,56,10253,ourservers|air
+  - 980,56,10253,ourservers|air
+  - 979,56,10252,ourservers|air
+  - 978,56,10252,ourservers|air
+  - 977,56,10251,ourservers|air
+  - 976,56,10251,ourservers|dirt
+  - 975,57,10250,ourservers|dirt
+  - 974,58,10249,ourservers|dirt
+  - 973,61,10249,ourservers|air
+  - 972,60,10248,ourservers|fire
+  - 971,60,10248,ourservers|grass
+  - 970,60,10247,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 981,64,10204,ourservers|air
+  - 982,65,10203,ourservers|air
+  - 983,64,10202,ourservers|air
+  - 984,64,10201,ourservers|air
+  - 985,65,10200,ourservers|air
+  - 985,64,10199,ourservers|air
+  - 986,64,10198,ourservers|air
+  - 987,65,10197,ourservers|air
+  - 988,64,10196,ourservers|air
+  - 988,64,10195,ourservers|air
+  - 989,64,10195,ourservers|air
+  - 989,66,10194,ourservers|air
+  - 989,65,10194,ourservers|double_plant:10
+  - 989,64,10194,ourservers|double_plant:2
+  - 990,64,10193,ourservers|air
+  - 991,65,10193,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 956,66,10204,ourservers|air
+  - 957,65,10204,ourservers|air
+  - 958,64,10203,ourservers|air
+  - 959,64,10203,ourservers|air
+  - 960,64,10202,ourservers|air
+  - 961,64,10202,ourservers|air
+  - 962,64,10201,ourservers|air
+  - 963,64,10200,ourservers|air
+  - 964,65,10200,ourservers|air
+  - 965,64,10199,ourservers|air
+  - 966,65,10199,ourservers|air
+  - 967,64,10198,ourservers|air
+  - 968,65,10197,ourservers|air
+  - 969,64,10197,ourservers|air
+  - 970,64,10196,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 961,56,10226,ourservers|air
+  - 960,56,10226,ourservers|air
+  - 959,56,10225,ourservers|air
+  - 958,56,10225,ourservers|air
+  - 957,56,10225,ourservers|air
+  - 956,56,10224,ourservers|air
+  - 955,56,10224,ourservers|air
+  - 955,56,10223,ourservers|air
+  - 954,56,10223,ourservers|air
+  - 953,56,10223,ourservers|air
+  - 952,57,10222,ourservers|air
+  - 951,59,10222,ourservers|air
+  - 950,59,10221,ourservers|air
+  - 949,59,10221,ourservers|air
+  - 948,60,10221,ourservers|air
+  - 947,60,10220,ourservers|air
+  - 946,59,10220,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 988,56,10259,ourservers|air
+  - 987,56,10258,ourservers|air
+  - 987,56,10257,ourservers|air
+  - 987,56,10256,ourservers|air
+  - 987,56,10255,ourservers|air
+  - 986,56,10254,ourservers|air
+  - 986,56,10253,ourservers|air
+  - 986,56,10252,ourservers|air
+  - 985,56,10252,ourservers|air
+  - 985,56,10251,ourservers|air
+  - 985,56,10250,ourservers|air
+  - 985,56,10249,ourservers|air
+  - 984,56,10248,ourservers|air
+  - 984,56,10247,ourservers|air
+  - 984,57,10246,ourservers|air
+  - 983,56,10245,ourservers|air
+  - 983,56,10244,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 995,56,10240,ourservers|air
+  - 994,56,10241,ourservers|air
+  - 994,56,10242,ourservers|air
+  - 993,56,10243,ourservers|air
+  - 993,56,10244,ourservers|air
+  - 992,56,10245,ourservers|air
+  - 992,56,10246,ourservers|air
+  - 992,56,10247,ourservers|air
+  - 991,56,10248,ourservers|air
+  - 991,56,10249,ourservers|air
+  - 990,56,10250,ourservers|air
+  - 990,56,10251,ourservers|air
+  - 989,56,10252,ourservers|air
+  - 989,54,10253,ourservers|air
+  - 988,54,10254,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 997,56,10239,ourservers|air
+  - 996,56,10239,ourservers|air
+  - 995,56,10239,ourservers|air
+  - 994,56,10240,ourservers|grass
+  - 993,56,10240,ourservers|dirt
+  - 992,56,10241,ourservers|grass
+  - 991,56,10241,ourservers|grass
+  - 990,56,10241,ourservers|grass
+  - 989,56,10242,ourservers|air
+  - 988,56,10242,ourservers|air
+  - 987,56,10242,ourservers|air
+  - 986,56,10243,ourservers|air
+  - 985,56,10243,ourservers|air
+  - 985,56,10244,ourservers|air
+  - 984,56,10244,ourservers|air
+  - 982,56,10245,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1002,56,10238,ourservers|air
+  - 1001,56,10238,ourservers|air
+  - 1000,56,10239,ourservers|air
+  - 999,56,10239,ourservers|air
+  - 998,56,10240,ourservers|air
+  - 997,56,10241,ourservers|air
+  - 996,56,10241,ourservers|air
+  - 995,56,10241,ourservers|air
+  - 993,56,10242,ourservers|air
+  - 992,56,10243,ourservers|air
+  - 991,56,10243,ourservers|air
+  - 991,56,10244,ourservers|air
+  - 990,56,10244,ourservers|air
+  - 989,56,10245,ourservers|air
+  - 988,56,10245,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1001,56,10239,ourservers|air
+  - 1001,56,10240,ourservers|air
+  - 1000,56,10240,ourservers|air
+  - 999,56,10240,ourservers|air
+  - 998,56,10241,ourservers|air
+  - 996,54,10242,ourservers|stone
+  - 995,56,10242,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1004,56,10239,ourservers|air
+  - 1003,56,10240,ourservers|air
+  - 1002,56,10241,ourservers|air
+  - 1002,57,10242,ourservers|air
+  - 1001,56,10242,ourservers|air
+  - 1001,57,10243,ourservers|air
+  - 1000,55,10244,ourservers|stationary_lava
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1005,56,10235,ourservers|air
+  - 1004,56,10236,ourservers|air
+  - 1003,56,10236,ourservers|air
+  - 1002,56,10236,ourservers|air
+  - 1001,56,10237,ourservers|air
+  - 1000,56,10237,ourservers|air
+  - 999,56,10238,ourservers|air
+  - 998,56,10238,ourservers|air
+  - 996,56,10240,ourservers|air
+  - 993,56,10241,ourservers|air
+  - 991,55,10242,ourservers|grass
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1003,60,10218,ourservers|air
+  - 1002,59,10218,ourservers|air
+  - 1001,58,10218,ourservers|air
+  - 1000,56,10218,ourservers|air
+  - 999,56,10218,ourservers|air
+  - 998,56,10218,ourservers|air
+  - 997,56,10219,ourservers|air
+  - 996,56,10219,ourservers|air
+  - 995,56,10219,ourservers|air
+  - 994,56,10219,ourservers|air
+  - 993,56,10219,ourservers|air
+  - 992,56,10219,ourservers|air
+  - 991,56,10219,ourservers|air
+  - 990,56,10219,ourservers|air
+  - 989,56,10220,ourservers|air
+  - 988,56,10220,ourservers|air
+  - 987,56,10220,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+- world: ourservers
+  blocks:
+  - 1003,59,10219,ourservers|air
+  - 1002,59,10219,ourservers|air
+  - 1001,57,10219,ourservers|air
+  - 1000,56,10219,ourservers|air
+  - 999,56,10219,ourservers|air
+  - 998,56,10219,ourservers|air
+  - 994,56,10220,ourservers|air
+  - 993,56,10220,ourservers|air
+  - 992,56,10220,ourservers|air
+  - 991,56,10220,ourservers|air
+  - 990,56,10220,ourservers|air
+  time_to_live: 0
+  name: flamejutsu
+  mode: NO_PHYSICS
+spells:
+  byakuganpunch:
+    cast_count: 29
+    last_cast: 1558893405254
+    last_earn: 1558893329087
+    cooldown_expiration: 1558893405354
+  counterspell|2:
+    cast_count: 0
+    last_cast: 1558893380889
+    last_earn: 0
+    cooldown_expiration: 1558893390889
+  commit:
+    cast_count: 1
+    last_cast: 1558711956622
+    last_earn: 0
+    cooldown_expiration: 0
+  arrow_ice:
+    cast_count: 4
+    last_cast: 1558713551470
+    last_earn: 1558713538462
+    cooldown_expiration: 0
+  arkan:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  absorb:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  greatfireball:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bloodcontrol:
+    cast_count: 0
+    last_cast: 1558856381125
+    last_earn: 0
+    cooldown_expiration: 0
+  bonesword:
+    cast_count: 1
+    last_cast: 1559238122535
+    last_earn: 0
+    cooldown_expiration: 0
+  spellshop:
+    cast_count: 0
+    last_cast: 1560692857869
+    last_earn: 0
+    cooldown_expiration: 0
+  fireblast:
+    cast_count: 0
+    last_cast: 1561023852028
+    last_earn: 0
+    cooldown_expiration: 0
+  missile:
+    cast_count: 20
+    last_cast: 1558542544300
+    last_earn: 1558542543100
+    cooldown_expiration: 1558542545300
+  tag:
+    cast_count: 0
+    last_cast: 1561021638287
+    last_earn: 0
+    cooldown_expiration: 1561021668287
+  lightningboost:
+    cast_count: 2
+    last_cast: 1560185541108
+    last_earn: 0
+    cooldown_expiration: 0
+  fireannihilation:
+    cast_count: 2
+    last_cast: 1561023904473
+    last_earn: 0
+    cooldown_expiration: 0
+  fenixflower:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  jutsu:
+    cast_count: 1
+    last_cast: 1561019797041
+    last_earn: 0
+    cooldown_expiration: 0
+  boon|3:
+    cast_count: 8
+    last_cast: 1558893423186
+    last_earn: 1558893423186
+    cooldown_expiration: 1558893429186
+  count:
+    cast_count: 15
+    last_cast: 1558893497636
+    last_earn: 0
+    cooldown_expiration: 0
+  gravipull:
+    cast_count: 0
+    last_cast: 1561731429399
+    last_earn: 0
+    cooldown_expiration: 0
+  fenixfire:
+    cast_count: 7
+    last_cast: 1561024037510
+    last_earn: 1559058725155
+    cooldown_expiration: 1561024042510
+  mvrandomtravel:
+    cast_count: 4
+    last_cast: 1561990310029
+    last_earn: 0
+    cooldown_expiration: 0
+  lightningchain:
+    cast_count: 0
+    last_cast: 1560185502387
+    last_earn: 0
+    cooldown_expiration: 0
+  flamejutsu:
+    cast_count: 76
+    last_cast: 1559057928437
+    last_earn: 1559057918812
+    cooldown_expiration: 1559057933437
+  waterbullet:
+    cast_count: 0
+    last_cast: 1559063992070
+    last_earn: 0
+    cooldown_expiration: 1559063993070
+  supershell:
+    cast_count: 1
+    last_cast: 1558711934028
+    last_earn: 0
+    cooldown_expiration: 0
+  chidorisenbon:
+    cast_count: 2
+    last_cast: 1560185535758
+    last_earn: 0
+    cooldown_expiration: 0
+  gravipush:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  anvil:
+    cast_count: 2
+    last_cast: 1558542536899
+    last_earn: 0
+    cooldown_expiration: 1558542556899
+  appearanceshop:
+    cast_count: 0
+    last_cast: 1560533259768
+    last_earn: 0
+    cooldown_expiration: 0
+  blast|4:
+    cast_count: 20
+    last_cast: 1559058796010
+    last_earn: 1559058714993
+    cooldown_expiration: 1559058801010
+  firewind:
+    cast_count: 0
+    last_cast: 1561023848565
+    last_earn: 0
+    cooldown_expiration: 0
+  blackhole:
+    cast_count: 0
+    last_cast: 1561731232755
+    last_earn: 0
+    cooldown_expiration: 0
+  spshop:
+    cast_count: 0
+    last_cast: 1560183079101
+    last_earn: 0
+    cooldown_expiration: 0
+  chidori:
+    cast_count: 4
+    last_cast: 1559065896856
+    last_earn: 1559065234846
+    cooldown_expiration: 1559065901857
+  blast|3:
+    cast_count: 3
+    last_cast: 1558449089295
+    last_earn: 1558449037141
+    cooldown_expiration: 1558449094295
+  blast|2:
+    cast_count: 1
+    last_cast: 1558449035442
+    last_earn: 1558449035493
+    cooldown_expiration: 1558449040442
+  flamethrower:
+    cast_count: 76
+    last_cast: 1558545694621
+    last_earn: 1558545504009
+    cooldown_expiration: 1558545696621
+  add_fall_protection:
+    cast_count: 0
+    last_cast: 1558542253036
+    last_earn: 0
+    cooldown_expiration: 0
+  superfly:
+    cast_count: 6
+    last_cast: 1561731564941
+    last_earn: 0
+    cooldown_expiration: 0
+  progressmenu:
+    cast_count: 1
+    last_cast: 1560533255459
+    last_earn: 0
+    cooldown_expiration: 0
+  fireball:
+    cast_count: 1
+    last_cast: 1558789805108
+    last_earn: 1558789760291
+    cooldown_expiration: 1558789815108
+  rollback:
+    cast_count: 1
+    last_cast: 1558711934585
+    last_earn: 0
+    cooldown_expiration: 0
+  sharinganselfcrows:
+    cast_count: 1
+    last_cast: 1560625758316
+    last_earn: 0
+    cooldown_expiration: 1560625759316
+  akimichiroll:
+    cast_count: 2
+    last_cast: 1561456947827
+    last_earn: 0
+    cooldown_expiration: 1561456952827
+  counterspell:
+    cast_count: 1
+    last_cast: 1558789878443
+    last_earn: 1558789878442
+    cooldown_expiration: 1558789883443
+  kirinjutsu:
+    cast_count: 11
+    last_cast: 1558893437499
+    last_earn: 1558893355844
+    cooldown_expiration: 1558893447499
+  lightningchase:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  kirin:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  add_damage:
+    cast_count: 0
+    last_cast: 1558542286898
+    last_earn: 0
+    cooldown_expiration: 0
+  sharingancrows:
+    cast_count: 1
+    last_cast: 1560623513564
+    last_earn: 0
+    cooldown_expiration: 1560623514564
+  blast:
+    cast_count: 1
+    last_cast: 1558449028633
+    last_earn: 1558449028677
+    cooldown_expiration: 1558449033633
+  boomerang:
+    cast_count: 8
+    last_cast: 1558542408723
+    last_earn: 0
+    cooldown_expiration: 0
+  firepushjutsu:
+    cast_count: 61
+    last_cast: 1558862082559
+    last_earn: 1558861958711
+    cooldown_expiration: 0
+  fireballjutsu:
+    cast_count: 48
+    last_cast: 1558893340230
+    last_earn: 1558893341107
+    cooldown_expiration: 1558893355230
+  kunai:
+    cast_count: 0
+    last_cast: 1561020756083
+    last_earn: 0
+    cooldown_expiration: 1561020757083
+  missile|2:
+    cast_count: 4
+    last_cast: 1561023613798
+    last_earn: 1558542544749
+    cooldown_expiration: 1561023614798
+wands:
+  startwater:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 363
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Воды
+        lore:
+        - §o§aТехники Стихии Воды
+        - §3§oПривязана к ~Abeliks
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QsU7DQAyGHTWEaxAMZUZiKGMQJEDbrZUAgURBoupcXRIHTsldjovTbsy8AQviIZgYEI/CKyDxBFxTgSfb+v35t30AB9wcUTs+uAuuUgaMUOqCE4JfETe0sKlhsFYuFBpgj6MYC5FXHriSKz4U0IQLW8tyRkKiHZPaknNiT5EFNpMzkUK3f5QcnwyyXpD0+gdBlGU8iMNwEETxYZTioN8LE2zB+hxNJUplsZ71t1Gr1JRa87hApw2dEZERcU04LlORCav1rdJxgU2nl6fjsqKd99vni5fzPRfay9YV8oo+vj6/X9/CHw+8kSxrRcPuyjkDd1KUBExyoe6bF2z+r7jmEmH7Du0BItnnRDzJJxoxbUH7RqPhtPK5pDTaztlDLbRERbt/9gB+AQWQvJ9nAQAA
+    wand:
+      template: startwater
+      owner: ~Abeliks
+      mana: 200.0
+      mana_timestamp: 1561019844659
+      owner_id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+      version: 6
+  startlightning:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 362
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Молнии
+        lore:
+        - §o§aТехники Стихии Молнии
+        - §3§oПривязаны к ~Abeliks
+        - '§eЧакра: 254 §f(§b298§f)'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QPU7DQBCFx2Jx1kGkCBegSGtEEkKSLpGgQEqgiCIETbS2x8nK3p/YY9LRwEU4ARUdBQ0NHIBzcAMcI5huRu+9+WbqAA6wBNE6dWAboSMOnFDZVBBCIyeRUSqXK9JSLznsmo3GDPj9OMBUJrkLTAktRu2nj7eHpmHQ2LYLkgpLq7JlenJda3hlaOVcyAhag5OwdzqM+37YHxz73TgWftDpDP1u0O5GOBz0OyHuQO0Os1waDQBuybhX6Cgz1oogRceD5pgok0FBODWRjGWprZdKhwGfzy/Opianm9738+1q9MnA244mKHJ6dNfvr5OvFxfcsTKFplELquLAZqkh4EpIvaresP+/4lIohIMllgfI8EgQiTCZWcRoB7wri5mgX85tSqVtnq8LaRVqOvzDA/gBNUkRzWsBAAA=
+    wand:
+      template: startlightning
+      owner: ~Abeliks
+      mana: 17.632
+      mana_timestamp: 1560533208585
+      owner_id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+      version: 6
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Magic Missile§f (§3Wand§f)
+        lore:
+        - §o§a§7Beginner §rMagic Wand
+        - §3§oПривязана к ~Abeliks
+        - 2 техник изучено
+        - '§eЧакра: 50'
+        - '§eВосстановление чакры: 5/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1QTU6DQBR+BNpS1JjUC7ho3FhMS6HAziZ1YWJ1UeuWDMNDJwwMwtDGxHgIj+EVPIArT2RMBEz78lbf+/L9PANAAS1BzBUDtC3JIh10iWnOicQd0BHbDAvQ3+YhcpaUOhwSKtkGgzJHzqGXsrJkHGsc4xipDKjgooCzieuMQ/RtjEIysmfUQSf2bTqJRr5jW+i51HJnVu3YGgQsgqFnU2fmx65JXW9sTuOYmKFl+eY0nEwj9D3XoqhCb4NFyUQGAF0DjtsYAcs2mElRvKj7RPUdVOgkrGANV2n2oMqiQuQ5CTkqfRjMpSxYWElciojFrBY2GqoG+np9vViKUn69rj7v3eWHBv0GukFSyvefxcP577fShe48FVUmL4fQjg7aigsJekpY9tT+72hvcUtShJNHrNsyekGkJDRZ5YiRCv27HAsi/0s1Ki13cPVcsTyte53u4gH8AXsomo21AQAA
+    wand:
+      template: wand
+      owner: ~Abeliks
+      active_spell: missile
+      effect_color: 1750be94edba,46c5e5f94c1d,9542e87c2762
+      owner_id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+      version: 6
+      spell_inventory:
+        missile: 0
+        kirin: 1
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Рандомный Клан
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязана к ~Abeliks
+        - §4Not Undoable
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PPU7DQBCFx8rG2EY04QIUkVKZnwRI0hEJikgEiigVBVrbY7LEu2u8s0mBhARHQVyDO9BwEi7AxiRM90bvzXwvAvAgskrqJfKkQM8DtkAsvQjYiqssgIBQlgUnhOajJWMDaOqVwgqCl1GChVgYH5jkisNmXKQ23IsM2oPT9Ox8mPfjtD84jnt5zuOk2x3GveSkl+Fw0O+m2ABmDZp1tgE7S6yM0MoJ36HtWmWIm/mGzcms0mVZyxBaI6JKJJZwojORCxeNXNBjEMxm48uJNnT39fP93hx/MgjXq2vkht4+Oq9HHf/ZB38ktVV00d6is2mhCQLJhZrX9ff+X9xwibD/gK6aSA85EU8X0xIxa0B4W2LF6Q97faX2tq6erCglKjrY4gH8AvVyadlxAQAA
+    wand:
+      template: jutsu
+      owner: ~Abeliks
+      mana: 0.0
+      owner_id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+      uses: 0
+      version: 6
+  startwood:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 368
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Дерева
+        lore:
+        - §o§aТехники Стихии Дерева
+        - §3§oПривязана к ~Abeliks
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 4/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QPU7DQBCFx8pi1kFQhAtQpKAxggRI0iUSFEgYkKLU0doew8reH+xxAhQ0tMBdKLgDXIiajSOYbp7efPNm2gAesBzRem1gS6FTDpxQ2UIQQlCRKGlpjFM3zFJjCfx5EmMh88oHpoQW40doisHOqp2TVOimlHXgnPjLjeM1k3OZQnd4nJycjrJBmAyGh2E/y0QY93qjsB8f9VMcDQe9BFuwucCykkY7rO/ibdU6LY21Ii7QC6AzISplXBNGJpWZdN62c3oM+Gx2cRaZij6fEh8x+mAQrKRLFBW9738/vH39vPrgT5SpNY276+Qc2LQwBFwJqe+aD2z/r7gSCmH3Ft0BMjkQRCLJpxYxbUFwbbEUtM65ojTezvl9La1CTXt/8QB+ARyYy5tmAQAA
+    wand:
+      template: startwood
+      owner: ~Abeliks
+      mana: 400.0
+      mana_timestamp: 1561019843408
+      owner_id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+      version: 6
+  fullrinnegan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 380
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Аменоминака§f (§3Риннеган§f)
+        lore:
+        - §o§aТехники Риннегана
+        - §3§oПривязан к ~Abeliks
+        - 5 техник изучено
+        - '§eЧакра: 1000'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAF2Rv04bQRDGx7nDrB0IglTpKGgdgQ3YbhCWkiJSnBSI2tq7m7MX7z/25g7RUEOHlLeIRJO0yQPkCdKmywskqTN3CCJlu29mdr7fftsFaEG8RPStLsQX0mYCBKHxWhLCWl5qHZS1OJdWwIq7sBhAXE0S1GpZCFiTKakKZ4VHreGZqQJvcIaCrFC3ITbSyuOz29/frzc/xdxnOSNlsCBpPFsv7358vmHHZvFMZbAz2k8PDsf5sJcOR7u9QZ7LXtLvj3uDZG+Q4Xg07KcYwWqFoVDOAkC7CxuN/UzZCi25cBlBZ84EypfFgida0f9kXIwjEEXpMeT6kmX0746u28A60TJdLpxGlk/qnJ6WNgvOe5lobHVga0IUVFISTl2mcsVI3douBnF6+ubV1BW0/fHPh+zX9GcMnbr0FmVBdy+Odr9++9JvQ3tiXGnpeAeaIyA+0Y5AGKnsovmK9UeLd9IgPJ8j56TSl5KI2U48Ysag7/kZku7jqLc0s1uvz0vlDSey/YAH8BeTOmTp7wEAAA==
+    wand:
+      template: fullrinnegan
+      owner: ~Abeliks
+      active_spell: mvrandomtravel
+      mana: 212.53001
+      mana_timestamp: 1561990312841
+      owner_id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+      version: 6
+      spell_inventory:
+        gravipush: 1
+        mvrandomtravel: 4
+        superfly: 3
+        gravipull: 0
+        blackhole: 2
+  fullfire:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 361
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Пламя Феникса§f (§3Стихия Огня§f)
+        lore:
+        - §o§aТехники Стихии Огня
+        - §3§oПривязана к ~Abeliks
+        - 6 техник изучено
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE1Ru07DMBS9JaG45VEEC4KFgbUIWqDt1koggXgNiAmkyklu4Kp+kTgtLPAHTOz8BR+CxMi/YKcCYXm510fn5TpABcIRoqnUIZxwlTBgFqUR3CKwtBAipQwZzOqJwgzY8yBCQaOcwQKPLY1xmBsUAmopKnr02CqEkiveJyhPCEt+HFqSmFsujVMcva6/vzihknNICWx19+L9g17aacad7k6znaa8GbVavWY72m0n2Ot2WjEGMDfGLCetHG21Do1SeUhqjMrq7CmAZa/PlaJ7cv6nwNngnzdvKID56Sz0xCUCmPEI9xgJnlvvOHDB3TwhlXh8AIt3jtaWGO6y+s7cnS9UkmljeCSwUoOVgbUZRYXFc51QSs5q3UNDYNfXJ4fnOrdrGx8336fHnyHU/OoMneCHvG303752qlAdSF0o29+aFscgvBLaApOc1H35M4t/EhdcIqzeoeuP4m1uLY9HVwYxcVkuDWa/6T1LiV05eijISNfU5q89gB/VAyJ8/gEAAA==
+    wand:
+      template: fullfire
+      owner: ~Abeliks
+      active_spell: fenixfire
+      mana: 200.0
+      mana_timestamp: 1561457237887
+      owner_id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+      version: 6
+      spell_inventory:
+        fireannihilation: 5
+        fenixfire: 0
+        fenixflower: 2
+        fireblast: 4
+        firewind: 3
+        greatfireball: 1
+  fulllightning:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 362
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Кирин§f (§3Стихия Молнии§f)
+        lore:
+        - §o§aТехники Стихии Молнии
+        - §3§oПривязаны к ~Abeliks
+        - 6 техник изучено
+        - '§eЧакра: 394 §f(§b384§f)'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAF2RvW4TQRSFr9mxWRscpFDQRSnSGoEN2O7iCIpEBIooobRmd+/aVzs7M5m96yRNHoSeBomeFyCR8hy0kfIImdn8CDHVzNXR+c490wNogSgQbasH4kTqLIaYsbRKMkI/r5VStFiyJr2IoW1ONDqIz2cJKiqqGJ7LlGmF88qiUtAuyJHugCilltunNxCOgLXwnDOVWLEsrUcW38TPHU9q/OaUwdbkXfr+wzQfD9Lx5M1glOdykAyH08EoeTvKcDoZD1OM4OkKXUVGe9tOD1401DnpFWo27iyCtcew6VJSkMF/wwr9rBVBW7pCBoGI7mP7+5N/xYkxFQeDCPrpkjLjqEKdNPB2qO1ZrTNnrJWJwlYX1mfMjpKacd9klJNP2gssAfHh4e7Hfe92/Ov39dXF3pGAbhh9Rlnxj8vvr/4kG3870JmVpta8vdXUBjGIA2UY4tJvsmx+pv+I+CJLhJcL9PVR+loyy7Q4sIhZBN2vFp3ku5aCS6Nd/3Rcky19UZsP8QBuAZrFWLb+AQAA
+    wand:
+      template: fulllightning
+      owner: ~Abeliks
+      active_spell: kirin
+      mana: 399.0
+      mana_timestamp: 1560533051970
+      owner_id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+      version: 6
+      spell_inventory:
+        lightningchain: 0
+        lightningchase: 1
+        arkan: 4
+        kirin: 2
+        lightningboost: 3
+        chidorisenbon: 5
+  startwind:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 364
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Ветра
+        lore:
+        - §o§aТехники Стихии Ветра
+        - §3§oПривязана к ~Abeliks
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QzUrDUBCFJ/Qak4oi9QVEuo1oo7bdtaCCYBUpXZebZKKX5P6YTOxKd30DEd/ITXdufRMRvEnR2c3hzDdnpg3gAMsQjdMGtuAq8cAjlCbnhOCXxAtaiFrd0AuFBXgv4whzkZUuMMkVHwloisFO3c5JSLRT0lhwRt7q0/KayblIoDs4iU/Phmk/iPuDoyBMUx5Evd4wCKPjMMHhoN+LsQWbT1iUQiuLdW28rUolhTaGRzk6PnTGRIWIKsKJTkQqrLdtnQ4Dbza7Op/okt5f3+6evy4PGPi1dI28pGW4/P7Z/Vi54I6lrhSNuuvkHrBprgk8yYV6aD6w/b/ihkuEvXu0B4j4kBPxOJsaxKQF/q3BgtM6Z01pvJ2Lx0oYiYr2/+IB/AKIYfmnZgEAAA==
+    wand:
+      template: startwind
+      owner: ~Abeliks
+      mana: 200.0
+      mana_timestamp: 1561019862227
+      owner_id: 84c569f7-c780-3ffa-b229-3b13de9872ce
+      version: 6
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 402
+properties:
+  version: 6
+classes:
+  caster:
+    mana_timestamp: 1562180724919
+    mana: 50.0
+    spell_levels:
+      missile: 2
+    spells:
+    - missile
+    - kirin
+  mage: {}
+active_class: mage
+health: 20.0

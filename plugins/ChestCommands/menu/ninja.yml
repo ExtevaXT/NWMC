@@ -1,0 +1,64 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+#  ENCHANTMENT: Infinity
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&2&lШиноби'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'ninja'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 339
+    left-click: true
+    right-click: true
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+jutsus:
+  ENCHANTMENT: 'fire aspect, 1'
+  NAME: '&a&lТехники'
+  LORE:
+    - '&c&l &6Чтобы получить новые техники / улучшить старые'
+    - '&c&l &6Найдите "Стол Техник" в Конохе'
+  ID: 116
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+abilities:
+  ENCHANTMENT: 'fire aspect, 1'
+  NAME: '&3&lУлучшение ваших навыков'
+  KEEP-OPEN: true
+  LORE:
+    - '&4&l&nВременно не достпуно'
+  ID: 373
+  POSITION-X: 7
+  POSITION-Y: 1
+
+menu:
+  COMMAND: 'menu'
+  NAME: '&e&l Назад в меню&b'
+  ID: '262'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+
+
+
+

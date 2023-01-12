@@ -1,0 +1,21 @@
+geolocation: Russia
+lastAccountName: lybitel_sosat
+timestamps:
+  login: 1564254637995
+  lastteleport: 1562015706377
+  logout: 1564254654749
+ipAddress: 77.222.102.112
+lastlocation:
+  world: world_the_end
+  x: 378.061641547969
+  y: 61.0
+  z: -528.3464060087194
+  yaw: -94.3517
+  pitch: 11.956619
+logoutlocation:
+  world: world
+  x: -912.9240898104085
+  y: 68.0
+  z: -442.9031659524237
+  yaw: -273.16357
+  pitch: 12.234637

@@ -1,0 +1,223 @@
+# ======================================================
+# 
+# ProQuests Version: 2.1.1.13 build: 17757
+# Created by: JC_Plays_MC
+# 
+# ======================================================
+
+type: GENERAL
+name: '&8Quests'
+size: 27
+editable: true
+break-quest:
+  slot: 10
+  waiting:
+    item: EMERALD_BLOCK;1;0
+    name: '&aCompleted!'
+    glow: false
+    lore:
+    - '&7You have completed this quest, and'
+    - '&7can repeat it in %quest_repeat_delay%'
+  completed:
+    item: EMERALD_BLOCK;1;0
+    name: '&aCompleted!'
+    glow: false
+    lore:
+    - '&7You have completed this quest,'
+    - '&7why not start another one!'
+  active:
+    item: STONE;1;0
+    name: '&bBlock Breaker!'
+    glow: true
+    lore:
+    - '&7You only have %quest_remaining_duration%'
+    - '&7to complete this quest'
+    - '&8&m-------------------'
+    - '&aGoal: &fBreak %quest_total_formatted% blocks'
+    - '%quest_progress_bar%'
+    - '&8&m-------------------'
+    - '&e&lREWARD:'
+    - '&7- &a$5000'
+    - '&8&m-------------------'
+    - '&f[Shift-Right-Click] to cancel'
+  available:
+    item: STONE;1;0
+    name: '&eBlock Breaker!'
+    glow: false
+    lore:
+    - '&7You are eligble to begin this quest!'
+    - '&7Click to start now!'
+    - '&8&m-------------------'
+    - '&aGoal: &fBreak %quest_total_formatted% blocks'
+    - '&8&m-------------------'
+    - '&e&lREWARD:'
+    - '&7- &a$5000'
+  unavailable:
+    item: COAL_BLOCK;1;0
+    name: '&cBlock Breaker!'
+    glow: false
+    lore:
+    - '&7You are not eligible to'
+    - '&7begin this quest, as you have'
+    - '&7not completed the required quests!'
+chat-quest:
+  slot: 11
+  waiting:
+    item: EMERALD_BLOCK;1;0
+    name: '&aCompleted!'
+    glow: false
+    lore:
+    - '&7You have completed this quest, and'
+    - '&7can repeat it in %quest_repeat_delay%'
+  completed:
+    item: EMERALD_BLOCK;1;0
+    name: '&aCompleted!'
+    glow: false
+    lore:
+    - '&7You have completed this quest,'
+    - '&7why not start another one!'
+  active:
+    item: STONE;1;0
+    name: '&bWord Speaker!'
+    glow: true
+    lore:
+    - '&7You only have %quest_remaining_duration%'
+    - '&7to complete this quest'
+    - '&8&m-------------------'
+    - '&aGoal: &fSay ''ProQuests'''
+    - '&8&m-------------------'
+    - '&e&lREWARD:'
+    - '&7- &a64x Diamonds'
+    - '&8&m-------------------'
+    - '&f[Shift-Right-Click] to cancel'
+  available:
+    item: STONE;1;0
+    name: '&eWord Speaker!'
+    glow: false
+    lore:
+    - '&7You are eligble to begin this quest!'
+    - '&7Click to start now!'
+    - '&8&m-------------------'
+    - '&aGoal: &fSay ''ProQuests'''
+    - '&8&m-------------------'
+    - '&e&lREWARD:'
+    - '&7- &a64x Diamonds'
+  unavailable:
+    item: COAL_BLOCK;1;0
+    name: '&cWord Speaker!'
+    glow: false
+    lore:
+    - '&7You are not eligible to'
+    - '&7begin this quest, as you have'
+    - '&7not completed Block Breaker!'
+enchant-quest:
+  slot: 12
+  waiting:
+    item: EMERALD_BLOCK;1;0
+    name: '&aCompleted!'
+    glow: false
+    lore:
+    - '&7You have completed this quest,'
+    - '&7why not start another one!'
+  completed:
+    item: EMERALD_BLOCK;1;0
+    name: '&aCompleted!'
+    glow: false
+    lore:
+    - '&7You have completed this quest,'
+    - '&7why not start another one!'
+  active:
+    item: STONE;1;0
+    name: '&bThe Enchanter!'
+    glow: true
+    lore:
+    - '&8&m-------------------'
+    - '&aGoal: &fMake a level 30 enchant'
+    - '&8&m-------------------'
+    - '&e&lREWARD:'
+    - '&7- &a64x Emeralds'
+    - '&8&m-------------------'
+    - '&fYou cannot cancel this quest'
+  available:
+    item: STONE;1;0
+    name: '&eThe Enchanter!'
+    glow: false
+    lore:
+    - '&7You are eligble to begin this quest!'
+    - '&7Click to start now!'
+    - '&8&m-------------------'
+    - '&aGoal: &fMake a level 30 enchant'
+    - '&8&m-------------------'
+    - '&e&lREWARD:'
+    - '&7- &a64x Emeralds'
+  unavailable:
+    item: COAL_BLOCK;1;0
+    name: '&cThe Enchanter!'
+    glow: false
+    lore:
+    - '&7You are not eligible to'
+    - '&7begin this quest, as you have'
+    - '&7not completed Word Speaker!'
+placeholder_item_1:
+  slot: 0
+  item: STAINED_GLASS_PANE;1;7
+  name: '&8'
+  glow: false
+  lore: []
+placeholder_item_2:
+  slot: 1
+  parent: placeholder_item_1
+placeholder_item_3:
+  slot: 2
+  parent: placeholder_item_1
+placeholder_item_4:
+  slot: 3
+  parent: placeholder_item_1
+placeholder_item_5:
+  slot: 4
+  parent: placeholder_item_1
+placeholder_item_6:
+  slot: 5
+  parent: placeholder_item_1
+placeholder_item_7:
+  slot: 6
+  parent: placeholder_item_1
+placeholder_item_8:
+  slot: 7
+  parent: placeholder_item_1
+placeholder_item_9:
+  slot: 8
+  parent: placeholder_item_1
+placeholder_item_10:
+  slot: 9
+  parent: placeholder_item_1
+placeholder_item_11:
+  slot: 17
+  parent: placeholder_item_1
+placeholder_item_12:
+  slot: 18
+  parent: placeholder_item_1
+placeholder_item_13:
+  slot: 19
+  parent: placeholder_item_1
+placeholder_item_14:
+  slot: 20
+  parent: placeholder_item_1
+placeholder_item_15:
+  slot: 21
+  parent: placeholder_item_1
+placeholder_item_16:
+  slot: 22
+  parent: placeholder_item_1
+placeholder_item_17:
+  slot: 23
+  parent: placeholder_item_1
+placeholder_item_18:
+  slot: 24
+  parent: placeholder_item_1
+placeholder_item_19:
+  slot: 25
+  parent: placeholder_item_1
+placeholder_item_20:
+  slot: 26
+  parent: placeholder_item_1

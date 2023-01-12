@@ -1,0 +1,211 @@
+quest:
+- requirements:
+  - questID: 15
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое будет следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: Хокаге попросил чтобы ты лично помог ему
+    - id: 2
+      message:
+        sender: NPC
+        text: Сделай то что он попросит и возращайся ко мне
+  manager:
+    stages:
+    - msg:
+        npc: 71
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Привет, давно не виделись
+        - id: 1
+          message:
+            sender: NPC
+            text: Вижу ты уже стал генином
+        - id: 2
+          message:
+            sender: NPC
+            text: Так вот у меня есть для тебя поручение
+        - id: 3
+          message:
+            sender: NPC
+            text: Тебе нужно сходить на склад и принести письмо адресованное мне
+        - id: 4
+          message:
+            sender: NPC
+            text: Я думаю это будет не трудно
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 71
+      order: 0
+    - msg:
+        npc: 466
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Привет, мне нужно письмо для Хокаге
+        - id: 1
+          message:
+            sender: NPC
+            text: Да конечно, щас поищу
+        - id: 2
+          message:
+            sender: NPC
+            text: Так...
+        - id: 3
+          message:
+            sender: NPC
+            text: Кажется оно у нас на внутреннем складе
+        - id: 4
+          message:
+            sender: NPC
+            text: Я тебя туда проведу
+        - id: 5
+          message:
+            sender: NPC
+            text: Там немного пыльно, но думаю это не проблема
+      stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - tp:
+          world: world
+          x: -525.4603251062103
+          y: 20.0
+          z: -398.30000001192093
+          pitch: 4.0535297
+          yaw: -179.25793
+        class: fr.skytasul.quests.rewards.TeleportationReward
+      npcID: 466
+      order: 1
+    - msg:
+        npc: 474
+        msgs: []
+      stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: MAGMA_CREAM
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: Письмо для Хокаге
+            lore:
+            - §eКвестовый Предмет
+            enchants:
+              VANISHING_CURSE: 7
+            ItemFlags:
+            - HIDE_ENCHANTS
+        class: fr.skytasul.quests.rewards.ItemReward
+      - tp:
+          world: world
+          x: -562.0885463059485
+          y: 68.0
+          z: -423.7780430347981
+          pitch: 0.60798734
+          yaw: -352.65057
+        class: fr.skytasul.quests.rewards.TeleportationReward
+      npcID: 474
+      order: 2
+    - msg:
+        npc: 71
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я нашёл это письмо
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Это было не трудно
+        - id: 2
+          message:
+            sender: NPC
+            text: Вот и хорошо
+        - id: 3
+          message:
+            sender: NPC
+            text: Спасибо за помощь
+        - id: 4
+          message:
+            sender: NPC
+            text: Возвращайся к Какаши
+      stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: MAGMA_CREAM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Письмо для Хокаге
+          lore:
+          - §eКвестовый Предмет
+          enchants:
+            VANISHING_CURSE: 7
+          ItemFlags:
+          - HIDE_ENCHANTS
+      rewards: []
+      npcID: 71
+      order: 3
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я принёс Хокаге письмо
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Какие-то слишком лёгкие задания, ты не думаешь?
+        - id: 2
+          message:
+            sender: NPC
+            text: И вправду, ты быстро справляешься
+        - id: 3
+          message:
+            sender: NPC
+            text: Я думаю ты уже готов к заданиям Ранга-C!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 4
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №12
+  finished: []
+  id: 16
+  scoreboard: true
+  cancellable: false

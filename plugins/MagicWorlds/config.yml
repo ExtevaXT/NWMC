@@ -1,0 +1,15 @@
+
+#
+# The default config will add wands to chests in world and world_nether
+#
+
+# Enable or disable event handlers
+entity_spawn_listener: true
+player_listener: true
+
+# Configure spawn reasons to ignore
+ignore_reasons:
+ - CUSTOM
+ - EGG
+ - SPAWNER
+ - SPAWNER_EGG

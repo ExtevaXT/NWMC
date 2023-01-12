@@ -1,0 +1,4 @@
+OakLeaves:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEAVES

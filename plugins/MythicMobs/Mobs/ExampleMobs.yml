@@ -1,0 +1,697 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SkeletalKnight:
+  Type: WITHER_SKELETON
+  Display: '&aSkeletal Knight'
+  Health: 40
+  Damage: 8
+  Equipment:
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  - IRON_SWORD HAND
+  - SHIELD OFFHAND
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  LevelModifiers:
+  - health 5
+  - damage 0.5
+  Options:
+    MovementSpeed: 0.1
+SkeletonKing:
+  Type: WITHER_SKELETON
+  Display: '&6Skeleton King'
+  Health: 500
+  Damage: 10
+  Skills:
+  - message{cooldown=20;m="<mob.name><&co> None may challenge the Skeleton King!"}
+    @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - message{m="<mob.name><&co> Ahahahahah! Die, <trigger.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - skill{s=SummonSkeletons} @self 0.1
+  - skill{s=SmashAttack} @target >0 0.2
+  Equipment:
+  - KingsCrown HEAD
+  - SkeletonKingSword HAND
+  Drops:
+  - SkeletonKingDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+SkeletalMinion:
+  Type: SKELETON
+  Display: '&2Skeletal Minion'
+  Health: 10
+  Damage: 2
+  Options:
+    MovementSpeed: 0.1
+StaticallyChargedSheep:
+  Type: SHEEP
+  Display: '&aStatically Charged Sheep'
+  Health: 100
+  Damage: 2
+  Options:
+    MovementSpeed: 0.3
+  DamageModifiers:
+  - LIGHTNING 0
+  - FIRE 0.5
+  Skills:
+  - lightning @LivingInRadius{r=10} ~onTimer:100
+AngrySludge:
+  Type: SLIME
+  Display: '&aAngry Sludge'
+  Health: 100
+  Damage: 2
+  Options:
+    Size: 20
+    MovementSpeed: 0.1
+    PreventSlimeSplit: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    KnockbackResistance: 1
+  Skills:
+  - skill{s=AngrySludgePoison} 0.2
+  - blockmask{material=SLIME_BLOCK;r=1;duration=100} @self ~onTimer:20
+
+
+
+
+#KAGE BUNSHIN
+
+Clone:
+  MobType: wolf
+  Display: Клон
+  Health: 1
+  Damage: 4
+  Skills:
+  - doppleganger @NearestPlayer ~onSpawn
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 0
+    PreventRandomEquipment: true
+    Silent: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AngryCat:
+  Type: CAT
+  Display: '&6Злая Кошка'
+  Health: 20
+  Damage: 2
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 golems
+  Skills:
+  - potion{type=POISON;duration=30;lvl=1} @target ~onAttack 0.5
+  Drops:
+  - AngryCatDrops
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.5
+    MaxCombatDistance: 25
+    Silent: true
+
+
+JungleCreeper:
+  Type: CREEPER
+  Display: '&2Тропический Крипер'
+  Health: 20
+  Damage: 2
+  Skills:
+  - potion{type=INVISIBILITY;duration=100;lvl=1} @self ~onTimer:500
+  Drops:
+  - JungleCreeperDrops
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+
+banditquest:
+  MobType: pig_zombie
+  Display: '&fРазбойник'
+  Health: 40
+  Damage: 4
+  Equipment:
+  - IRON_SWORD:0
+  - IRON_SWORD:5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 30
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    Angry: true
+  Disguise:
+    Type: player
+    Skin: 'bandit00013'
+    Player: Разбойник
+
+ChuuninQuest:
+  MobType: pig_zombie
+  Display: '&fГенин'
+  Health: 60
+  Damage: 6
+  Equipment:
+  - test:4
+  - kunai:5
+  Skills:
+    - command{c="castp <mob.uuid> firewind cooldown_reduction 3000"} @self ~onDamaged 0.1
+    - command{c="castp <mob.uuid> kunai cooldown_reduction 3000"} @self ~onDamaged 0.1
+    - command{c="castp <mob.uuid> windpush cooldown_reduction 3000 living_entity_speed 0.7"} @self ~onDamaged 0.1
+    - command{c="castp <mob.uuid> lightningchase cooldown_reduction 3000"} @self ~onDamaged 0.1
+    - command{c="castp <mob.uuid> lightningchain cooldown_reduction 3000"} @self ~onDamaged 0.1
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.5
+    MaxCombatDistance: 40
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+  Disguise:
+    Type: player
+    Skin: 'ninjaaschjem'
+    Player: Генин
+
+
+Shrek:
+  MobType: pig_zombie
+  Health: 99999
+  Damage: 99999
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.15
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+  Disguise:
+    Type: player
+    Skin: 'shrek'
+    Player: Шрек
+    ShowName: false
+
+
+
+
+
+
+
+
+
+
+
+
+
+WhiteZetsu:
+  MobType: husk
+  Health: 30
+  Damage: 3
+  Skills:
+    - doppleganger @NearestPlayer ~onAttack 0.1
+    - consume{d=2;h=4} @target ~onAttack 0.5
+    - potion{type=WEAKNESS;duration=100;lvl=0} @target ~onAttack 0.3
+    - potion{type=SLOW_DIGGING;duration=100;lvl=0} @target ~onAttack 0.3
+  Drops:
+  - WhiteZetsuDrops
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+  Disguise:
+    Type: player
+    Skin: 'ShiroZetsu'
+    Player: Белый Зецу
+    ShowName: false
+
+
+
+DarkVex:
+  Type: parrot
+  Display: '&0Тёмная Фея'
+  Health: 4
+  Damage: 2
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 golems
+  Drops:
+  - DarkVexDrops
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+  Disguise:
+    Type: vex
+
+
+
+
+StandartZombie:
+  MobType: zombie
+  Display: '&2Зомби'
+  Health: 40
+  Damage: 4
+  Skills:
+    - potion{type=POISON;duration=250;lvl=1} @target ~onAttack 0.1
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.35
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+
+
+Bandit:
+  MobType: pig_zombie
+  Display: '&fРазбойник'
+  Health: 20
+  Damage: 5
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    Angry: true
+  Disguise:
+    Type: player
+    Skin: 'Bandit_'
+    Player: Разбойник
+
+
+
+Infected:
+  MobType: zombie
+  Display: '&fЗаражённый'
+  Health: 60
+  Damage: 6
+  Skills:
+    - potion{type=POISON;duration=500;lvl=5} @target ~onAttack 1
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.5
+    MaxCombatDistance: 40
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: false
+  Disguise:
+    Type: player
+    Skin: 'storymy'
+    Player: Заражённый
+
+StandartSkeleton:
+  MobType: skeleton
+  Display: '&2Скелет'
+  Health: 40
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.35
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+
+StandartSpider:
+  MobType: spider
+  Display: '&2Паук'
+  Health: 20
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.4
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+
+PoisonSpider:
+  MobType: cave_spider
+  Display: '&2Ядовитый Паук'
+  Health: 20
+  Skills:
+    - potion{type=POISON;duration=100;lvl=2} @target ~onAttack 0.5
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.4
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+
+
+
+
+StandartToad:
+  MobType: pig_zombie
+  Display: '&2Жаба'
+  Health: 15
+  Damage: 4
+  Skills:
+    - jump{velocity=0.5} @self ~onTimer:100
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Disguise:
+    Type: guardian
+    ShowName: false
+
+BigToad:
+  MobType: pig_zombie
+  Display: '&2Большая Жаба'
+  Health: 40
+  Damage: 6
+  Skills:
+    - jump{velocity=0.5} @self ~onTimer:100
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Disguise:
+    Type: elder_guardian
+    ShowName: false
+
+JungleToad:
+  MobType: pig_zombie
+  Display: '&2Тропическая Лягушка'
+  Health: 10
+  Damage: 2
+  Skills:
+    - potion{type=POISON;duration=100;lvl=3} @target ~onAttack 0.3
+    - jump{velocity=0.5} @self ~onTimer:100
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Disguise:
+    Type: guardian
+    ShowName: false
+
+StandartOcelot:
+  MobType: cat
+  Display: '&2Оцелот'
+  Health: 10
+  Damage: 2
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.5
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+
+StandartChicken:
+  MobType: chicken
+  Display: '&2Курица'
+  Health: 6
+  Damage: 2
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+
+
+SnowDeer:
+  MobType: cow
+  Display: '&2Олень'
+  Health: 15
+  Damage: 2
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 0
+
+StandartCow:
+  MobType: cow
+  Display: '&2Корова'
+  Health: 15
+  Damage: 2
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+
+
+StandartSheep:
+  MobType: sheep
+  Display: '&2Овца'
+  Health: 15
+  Damage: 2
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+
+
+StandartPig:
+  MobType: pig
+  Display: '&2Свинья'
+  Health: 15
+  Damage: 2
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+
+AngryPig:
+  MobType: polar_bear
+  Display: '&2Дикий Кабан'
+  Health: 40
+  Damage: 6
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 golems
+  Options:
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Disguise:
+    Type: pig
+    ShowName: false
+
+StandartParrot:
+  MobType: parrot
+  Display: '&2Попугай'
+  Health: 6
+  Damage: 2
+  Options:
+    MovementSpeed: 0.4
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+
+MiniSnakePurple:
+  MobType: endermite
+  Display: '&2Ядовитая Змея'
+  Health: 15
+  Damage: 4
+  Skills:
+    - potion{type=POISON;duration=150;lvl=1} @target ~onAttack 0.6
+  Options:
+    MovementSpeed: 0.5
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 0
+
+
+SnowWolf:
+  MobType: wolf
+  Display: '&2Зимний Волк'
+  Health: 20
+  Damage: 4
+  Skills:
+    - potion{type=POISON;duration=150;lvl=1} @target ~onAttack 0.6
+  Options:
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 0
+    Angry: true
+
+
+StandartLama:
+  MobType: llama
+  Display: '&2Горная Лама'
+  Health: 15
+  Damage: 2
+  Options:
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+
+
+StandartRat:
+  MobType: silverfish
+  Display: '&2Крыса'
+  Health: 6
+  Damage: 1
+  Options:
+    MovementSpeed: 0.5
+    MaxCombatDistance: 25
+    PreventOtherDrops: false
+    KnockbackResistance: 0
+
+
+
+Werewolf:
+  MobType: wolf
+  Display: '&fОборотень'
+  Health: 60
+  Damage: 6
+  Drops:
+  - WhiteZetsuDrops
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    Angry: true
+  Disguise:
+    Type: player
+    Skin: 'Werewolf'
+    Player: Оборотень
+
+
+
+GhostDragon:
+  MobType: ghast
+  Display: '&fПризрачный Дракон'
+  Health: 1500
+  Damage: 40
+  Skills:
+  - potion{type=INVISIBILITY;duration=400;lvl=1} @self ~onTimer:1500
+  Drops:
+  - WhiteZetsuDrops
+  Options:
+    MovementSpeed: 0.4
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    Angry: true
+  Disguise:
+    Type: ender_dragon
+
+
+
+BlackThing:
+  MobType: Zombie
+  Display: '&r'
+  Health: 500
+  Damage: 40
+  Drops:
+  - WhiteZetsuDrops
+  Options:
+    MovementSpeed: 0.1
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    Angry: true
+    AlwaysShowName: false
+    Silent: true
+  Disguise:
+    Type: player
+    Skin: 'bolc'
+    Player: _
+
+HellDemon:
+  MobType: pig_zombie
+  Display: '&4Адский Демон'
+  Health: 100
+  Damage: 10
+  Skills:
+    - command{c="castp <mob.uuid> fireannihilation cooldown 20000"} @self ~onDamaged 0.05
+    - command{c="castp <mob.uuid> greatfireball cooldown 10000"} @self ~onAttack 0.1
+  Drops:
+  - WhiteZetsuDrops
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    Angry: true
+    AlwaysShowName: false
+  Disguise:
+    Type: player
+    Skin: 'Demon19'
+    Player: Адский Демон
+
+DarkGhost:
+  MobType: pig_zombie
+  Display: '&4Призрак'
+  Health: 100
+  Damage: 0
+  Drops:
+  - WhiteZetsuDrops
+  Options:
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+    AlwaysShowName: false
+    Silent: true
+  Disguise:
+    Type: player
+    Skin: 'diablo03'
+    Player: Призрак
+
+
+
+

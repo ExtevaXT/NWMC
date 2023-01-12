@@ -1,0 +1,46 @@
+# ======================================================
+# 
+# ProQuests Version: 2.1.1.13 build: 17757
+# Created by: JC_Plays_MC
+# 
+# ======================================================
+
+type: BREAK_QUEST
+team: SOLO
+total: 30.0
+duration: 300
+repeat_delay: 600
+editable: true
+auto_start: false
+repeatable: true
+cancelable: true
+command_start: true
+command_join: false
+check_all: true
+cancel_after_timer: true
+disabled: false
+join_active: false
+require_invite: false
+allowed_materials: []
+required_quests: []
+blacklisted_quests: []
+allowed_worlds: []
+blacklisted_worlds: []
+allowed_regions: []
+blacklisted_regions: []
+complete_permissions: []
+return_actions: []
+invite_actions: []
+kick_actions: []
+start_actions:
+- '[Title] &aQuest Started;&7Goal: &fBreak %quest_total_formatted% blocks!'
+complete_actions:
+- '[Title] &bQuest Completed!;&7Reward: &a$&f5k'
+- '[ConsoleCommand] eco give %player% 5000'
+- '[AddPoints] 10'
+progress_actions:
+- '[Message] &8&m---- &e%quest_identifier% &8&m----'
+- '[Message] &6Time Remaining: &f%quest_remaining_duration%'
+- '[Message] &bProgress: &f%quest_progress_formatted%&7/&f%quest_total_formatted%'
+cancel_actions:
+- '[Title] &cQuest Cancelled; &7Maybe try again?'

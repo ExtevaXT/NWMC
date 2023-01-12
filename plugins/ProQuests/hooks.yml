@@ -1,0 +1,66 @@
+# ======================================================
+# 
+# ProQuests Version: 2.1.1.13 build: 17757
+# Created by: JC_Plays_MC
+# 
+# ======================================================
+# 
+# Hooks File
+# 
+# This is the hooks file where you can enable/disable plugin hooks to
+# be utilized during dynamic loading.
+# 
+# Wiki: https://github.com/JCulley/ProQuests-Documentaion/hooks.yml
+# 
+# ======================================================
+
+hooks:
+  advanced_envoys: true
+  askyblock: true
+  auction_gui_plus: true
+  auction_house: true
+  auctions: true
+  autorank: true
+  autosell: true
+  battle_levels: true
+  buycraft: true
+  chat_reaction: true
+  citizens: true
+  crate_keys: true
+  crazy_crates: true
+  custom_bosses: true
+  custom_shops: true
+  dailybonus: true
+  ez_blocks: true
+  ez_ranks: true
+  factions: true
+  factions_uuid: true
+  gangs_plus: true
+  holographic_displays: true
+  jobs: true
+  lucky_blocks: true
+  mcmmo: true
+  mine_crates: true
+  mvdw_placeholders: true
+  mythic_mobs: true
+  name_my_tool: true
+  obsidian_auctions: true
+  placeholder_api: true
+  player_points: true
+  pouches: true
+  pro_jackpots: true
+  pro_packages: true
+  pro_votes: true
+  rank_vouchers: true
+  rpg_me: true
+  shop_gui_plus: true
+  skill_api: true
+  sponsored_slots: true
+  token_enchant: true
+  token_manager: true
+  towny: true
+  unity_gen: true
+  uskyblock: true
+  vault: true
+  votifier: true
+  world_guard: true

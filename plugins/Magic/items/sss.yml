@@ -1,0 +1,11 @@
+sss:
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy65ViTMoPrZdzILAydIyCc1sbhks+sUvzmGbVPZGNgcc/NL80ocGCCAg4ElOCe/hIE9Py0tIzEvhYOBF26DX2JuKgNvempealFmsl5iUW5+ETMDp39BalFiSWZ+HlQ7WJWQa2FpZkFual6JAsxdDAwAbUydK7EAAAA=

@@ -1,0 +1,193 @@
+quest:
+- requirements:
+  - questID: 11
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое будет следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: Поступил заказ от Теучи
+    - id: 2
+      message:
+        sender: NPC
+        text: Он владеет лавкой Ичираку
+    - id: 3
+      message:
+        sender: NPC
+        text: Советую тебе попробовать его рамен
+    - id: 4
+      message:
+        sender: NPC
+        text: Так... Тебе нужно пойти к нему и помочь ему приготовить лапшы
+    - id: 5
+      message:
+        sender: PLAYER
+        text: Хорошо
+  manager:
+    stages:
+    - msg:
+        npc: 20
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Здраствуйте, чем вам помочь?
+        - id: 1
+          message:
+            sender: NPC
+            text: Привет, у нас закончилась пшеница для лапшы
+        - id: 2
+          message:
+            sender: NPC
+            text: Тебе нужно сходить к складу и взять лапшы, скажи что ты от меня
+        - id: 3
+          message:
+            sender: PLAYER
+            text: А где склад находится?
+        - id: 4
+          message:
+            sender: NPC
+            text: Он возле главных ворот
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 20
+      order: 0
+    - msg:
+        npc: 466
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Здравствуйте, я пришёл от Теучи, мне нужна пшеница для лапши
+        - id: 1
+          message:
+            sender: NPC
+            text: У нас тут где то была пшеница...
+        - id: 2
+          message:
+            sender: NPC
+            text: А вот и она, держи
+      stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: WHEAT
+          amount: 64
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: Пшеница для лапшы
+            lore:
+            - ' '
+            - §e§oКвестовый предмет
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 466
+      order: 1
+    - msg:
+        npc: 20
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Вот ваша пшеница
+        - id: 1
+          message:
+            sender: NPC
+            text: Спасибо тебе за помощь
+        - id: 2
+          message:
+            sender: NPC
+            text: Держи порцию рамена за счёт заведения
+      stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WHEAT
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Пшеница для лапшы
+          lore:
+          - ' '
+          - §e§oКвестовый предмет
+      rewards:
+      - items:
+        - type: MUSHROOM_SOUP
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §bИчираку Рамен
+            enchants:
+              VANISHING_CURSE: 1
+            ItemFlags:
+            - HIDE_ENCHANTS
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 20
+      order: 2
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я помог Теучи
+        - id: 1
+          message:
+            sender: PLAYER
+            text: К тому же получил Рамен
+        - id: 2
+          message:
+            sender: NPC
+            text: А мне он ничего не оставил?
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Вроде бы нет
+        - id: 4
+          message:
+            sender: NPC
+            text: Жаль..
+        - id: 5
+          message:
+            sender: NPC
+            text: Вот держи награду за задание
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 3
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №8
+  finished: []
+  id: 12
+  scoreboard: true
+  cancellable: false

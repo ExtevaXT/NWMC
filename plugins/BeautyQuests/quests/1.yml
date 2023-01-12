@@ -1,0 +1,206 @@
+quest:
+- requirements: []
+  startDialog:
+    npc: 71
+    msgs:
+    - id: 0
+      message:
+        sender: NPC
+        text: Привет, ты новенький?
+    - id: 1
+      message:
+        sender: PLAYER
+        text: Да я недавно здесь оказался
+    - id: 2
+      message:
+        sender: NPC
+        text: Тогда сходи и познакомся с нашими жителями деревни
+    - id: 3
+      message:
+        sender: NPC
+        text: После этого возвращайся ко мне
+  manager:
+    stages:
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Меня зовут Какаши Хатаке, если ты захочешь пойти на миссии обращайся
+              ко мне
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Приятно познакомится!
+      stageType: NPC
+      customText: null
+      text: Сперва познакомся с Какаши Хатаке, он находится возле памятника погибшим
+        на войне
+      rewards: []
+      npcID: 42
+      order: 0
+    - msg:
+        npc: 71
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Ну что познакомился с Какаши? Если станешь генином, иди к нему.
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Кто следующий?
+        - id: 2
+          message:
+            sender: NPC
+            text: Теперь познакомся с Майто Гаем, скорее всего он на тренировочной
+              площадке возле Академии
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 71
+      order: 1
+    - msg:
+        npc: 85
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Привет, меня зовут Майто Гай, я Благородный Зелёный Зверь Конохи,
+              можешь обращаться ко мне если хочешь изучить тайдзюцу!
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Приятно познакомится!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 85
+      order: 2
+    - msg:
+        npc: 71
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Майто Гай у нас мастер тайдзюцу, обращайся к нему за тренировками
+              по тайдзюцу.
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Кто следующий?
+        - id: 2
+          message:
+            sender: NPC
+            text: Следующий - Асума Сарутоби, сейчас он находится в BBQ
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 71
+      order: 3
+    - msg:
+        npc: 81
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Я Асума Сарутоби, сын Хокаге, я могу помочь тебе с зачарованиями
+              с помощью твоей Чакры
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Приятно познакомится!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 81
+      order: 4
+    - msg:
+        npc: 71
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Асума ваш сын?
+        - id: 1
+          message:
+            sender: NPC
+            text: Да, он очень хорошо умеет использовать чакру в зачарованиях
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Кто следующий?
+        - id: 3
+          message:
+            sender: NPC
+            text: Последний с кем тебе следует познакомится - это Куренай Юхи, она
+              сейчас у себя дома.
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 71
+      order: 5
+    - msg:
+        npc: 77
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Привет, меня зовут Куренай Юхи, если тебе интересно Гендзюцу обращайся
+              ко мне!
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Приятно познакомится!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 77
+      order: 6
+    - msg:
+        npc: 71
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Ну что? Кто ещё остался?
+        - id: 1
+          message:
+            sender: NPC
+            text: У нас ещё есть много людей, с которыми ты мог бы познакомится.
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Мне кажется, что я уже устал знакомится со всеми подряд.
+        - id: 3
+          message:
+            sender: NPC
+            text: Тогда ты можешь пойти к нашему Учителю в Академии - Ируке, попробуй
+              стать генином!
+        - id: 4
+          message:
+            sender: PLAYER
+            text: Спасибо!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 71
+      order: 7
+    players: {}
+  rewardsList: []
+  startRewardsList: []
+  starterID: 71
+  name: Начало
+  finished:
+  - '3'
+  id: 1
+  scoreboard: true
+  cancellable: false

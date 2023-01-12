@@ -1,0 +1,136 @@
+quest:
+- requirements:
+  - questID: 8
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: В больнице Конохи что-то случилось
+    - id: 2
+      message:
+        sender: NPC
+        text: Сходи туда и помоги главному врачу
+    - id: 3
+      message:
+        sender: PLAYER
+        text: Ок
+  manager:
+    stages:
+    - msg:
+        npc: 35
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Здравствуйте, чем вам помочь?
+        - id: 1
+          message:
+            sender: NPC
+            text: Да вот тут у нас проблема случилась
+        - id: 2
+          message:
+            sender: NPC
+            text: В нашем подвале завелись крысы
+        - id: 3
+          message:
+            sender: NPC
+            text: Пожалуйста избався от них
+        - id: 4
+          message:
+            sender: PLAYER
+            text: А где тут у вас подвал?
+        - id: 5
+          message:
+            sender: PLAYER
+            text: Иди направо, там будет лестница, затем спускайся вниз
+        - id: 6
+          message:
+            sender: PLAYER
+            text: Понял
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 35
+      order: 0
+    - world: world
+      stageType: REGION
+      customText: null
+      text: null
+      region: ratsquest
+      rewards: []
+      order: 1
+    - mobs:
+      - bmob: SILVERFISH
+        amount: 10
+      stageType: MOBS
+      customText: null
+      text: null
+      rewards: []
+      remaining:
+        '0': []
+      order: 2
+    - msg:
+        npc: 35
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я их убрал
+        - id: 1
+          message:
+            sender: NPC
+            text: Вот и отлично!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 35
+      order: 3
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я помог убрать крыс в больнице
+        - id: 1
+          message:
+            sender: NPC
+            text: Отлично, вот твоя награда
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 4
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №5
+  finished: []
+  id: 9
+  scoreboard: true
+  cancellable: false

@@ -1,0 +1,110 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&4&lМеню'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: watch
+    left-click: false
+    right-click: true
+
+ninja:
+  COMMAND: 'ninja'
+  NAME: '&e&l Шиноби &b'
+  LORE:
+  - '&aУлучшение навыков Шиноби'
+  ID: '267'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+
+survival:
+  COMMAND: 'warp survival'
+  NAME: '&3&lВ Мир Выживания'
+  KEEP-OPEN: true
+  LORE:
+  - '&fТелепорт в мир Выживания'
+  ID: 103
+  POSITION-X: 5
+  POSITION-Y: 2
+
+fractions:
+  NAME: '&e&l Групировки &b'
+  LORE:
+  - '&4&l&nВременно не доступно'
+  ID: '303'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+
+donate:
+  COMMAND: 'donate'
+  NAME: '&b&lДонат'
+  LORE:
+  - '&fПожертвования на выживание сервера в этом суровом мире'
+  ID: 388
+  ENCHANTMENT: Infinity
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+spawn:
+  COMMAND: 'spawn'
+  NAME: '&b &3&lВ Коноху'
+  KEEP-OPEN: true
+  LORE:
+  - '&fТелепортирует в Коноху'
+  ID: 123
+  POSITION-X: 5
+  POSITION-Y: 4
+
+settings:
+  COMMAND: 'settings'
+  ENCHANTMENT: 'fire aspect, 1'
+  NAME: '&7&lНастройки'
+  ID: '2266'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 5
+  
+web:
+  COMMAND: 'web'
+  NAME: '&f&lСсылки'
+  ID: 378
+  ENCHANTMENT: Infinity
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+  
+help:
+  COMMAND: 'help'
+  NAME: '&e&lПолезная Информация'
+  LORE:
+  - '&bПомощь по командам, техникам, кланам и тд'
+  ID: 386
+  ENCHANTMENT: Infinity
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+
+
+
+
+
+

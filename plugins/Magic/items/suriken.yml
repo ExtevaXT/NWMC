@@ -1,0 +1,19 @@
+suriken:
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Сюрикен
+      lore:
+      - Нажмите ПКМ для броска
+      enchants:
+        VANISHING_CURSE: 2
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy7hmVGSZcjqUsvCwAkS8klNLC5pvbDijMapdnY2BjbH3PzSvBIHBgjgYOCFm+iXmJvKIJKempdalJmsl1hSkpic7ZKYm5ieyszA6V+QWpRYkpmfB9HFAlYs5FpYmlmQm5pXogBzDgMDACAZWFCoAAAA

@@ -1,0 +1,61 @@
+# ======================================================
+# 
+# ProQuests Version: 2.1.1.13 build: 17757
+# Created by: JC_Plays_MC
+# 
+# ======================================================
+# 
+# Config File
+# 
+# For more information on how to configure the config.yml
+# files be sure to view the wiki. If for some reason you cannot
+# find a solution for your issue/question feel free to open an
+# issue through GitHub, however it MUST follow the guidelines stated
+# or it may be closed without response.
+# 
+# Wiki: https://github.com/JCulley/ProQuests-Documentaion/config.yml
+# 
+# ======================================================
+
+general:
+  server_identifier: server
+  server_port: 9270
+  use_folders: true
+  update_interval: 60
+  use_creator_tips: true
+  use_tab_complete: true
+  use_multipliers: true
+  global_multiplier: 1.0
+  op_global_perms: false
+database:
+  use_mysql: false
+  host: localhost
+  port: '3306'
+  database: database
+  username: username
+  password: password
+  use_ssl: true
+  join_delay: 5
+menu_settings:
+  update_menus: true
+  update_delay: 5
+  default_menu: default
+quest_settings:
+  max_active: 10
+  invite_timeout: 300
+  allow_creative: true
+  allow_op: true
+  obtain_command: qfinish
+progress_bar:
+  bar_start: '&f┃'
+  bar_unfinished: '&7░'
+  bar_finished: '&f░'
+  bar_end: '&f┃'
+confirmation_menus:
+  cancel_creation: true
+  join_quest: true
+  kick_quest: true
+  delete_quest: true
+  delete_menu: true
+  delete_npc: true
+  player_delete: true

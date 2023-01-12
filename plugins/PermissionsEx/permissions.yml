@@ -1,0 +1,1332 @@
+groups:
+  Player:
+    options:
+      default: true
+      prefix: '&f&l[&7&lНовичёк&f&l] &f'
+    permissions:
+    - mycommand.cmd.jutsu
+    - titlemanager.command.scoreboard
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.sinobi.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - pt.use.hey
+    - pt.a.bypass
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+  Uchiha:
+    options:
+      default: false
+      prefix: '&f&l[&c&lУчиха&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - pt.use.hey
+    - pt.a.bypass
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Senju:
+    options:
+      default: false
+      prefix: '&f&l[&a&lСенджу&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Hyuga:
+    options:
+      default: false
+      prefix: '&f&l[&f&lХьюга&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Uzumaki:
+    options:
+      default: false
+      prefix: '&f&l[&c&lУзумаки&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Aburame:
+    options:
+      default: false
+      prefix: '&f&l[&8&lАбураме&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Akimichi:
+    options:
+      default: false
+      prefix: '&f&l[&5&lАкимичи&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Hatake:
+    options:
+      default: false
+      prefix: '&f&l[&7&lХатаке&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Hozuki:
+    options:
+      default: false
+      prefix: '&f&l[&3&lХозуки&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Iburi:
+    options:
+      default: false
+      prefix: '&f&l[&8&lИбури&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Inuzuka:
+    options:
+      default: false
+      prefix: '&f&l[&4&lИнузука&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Jugo:
+    options:
+      default: false
+      prefix: '&f&l[&4&lДжуго&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Kaguya:
+    options:
+      default: false
+      prefix: '&f&l[&f&lКагуя&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Nara:
+    options:
+      default: false
+      prefix: '&f&l[&0&lНара&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Sarutobi:
+    options:
+      default: false
+      prefix: '&f&l[&4&lСарутоби&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Fuma:
+    options:
+      default: false
+      prefix: '&f&l[&8&lФума&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Yuki:
+    options:
+      default: false
+      prefix: '&f&l[&b&lЮки&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Yamanaka:
+    options:
+      default: false
+      prefix: '&f&l[&d&lЯманака&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Lee:
+    options:
+      default: false
+      prefix: '&f&l[&2&lЛи&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - randomcommand.cmd
+    - titlemanager.command.scoreboard
+  Chinoike:
+    options:
+      default: false
+      prefix: '&f&l[&c&lЧиноики&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - randomcommand.cmd
+    - worldedit.wand
+    - titlemanager.command.scoreboard
+  Otsusuki:
+    options:
+      default: false
+      prefix: '&f&l[&c&lОоцуцуки&f&l] &f'
+    permissions:
+    - worldguard.region.info.own
+    - randomcommand.cmd
+    - worldguard.region.info.member
+    - chatguard.globalmute.ignore
+    - chestcommands.open.wand.yml
+    - chestcommands.command.open
+    - chestcommands.command.open.*
+    - chestcommands.item.menu.yml
+    - chestcommands.open.*
+    - -bukkit.command.me
+    - -bukkit.command.plugins
+    - -bukkit.command.kill
+    - automessage.receive.default
+    - essentials.sethome
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.rules
+    - essentials.tpdeny
+    - essentials.build
+    - essentials.motd
+    - essentials.balance
+    - essentials.msg
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.suicide
+    - worldedit.selection.expand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.wand
+    - worldguard.region.hpos1
+    - worldguard.region.hpos2
+    - worldedit.wand
+    - titlemanager.command.scoreboard
+  mudr:
+    options:
+      default: false
+      prefix: '&c[&5&lМудрец шести путей&c] ► &f'
+      suffix: ''
+    permissions:
+    - -essentials.mail
+    - '*'
+    - duoskywars.admin.*
+  op:
+    options:
+      default: false
+    permissions:
+    - '*'
+    - duoskywars.admin.*
+  test1:
+    options:
+      default: false
+    permissions:
+    - '*'
+  Shinobi:
+    options:
+      default: false
+      suffix: ' &f[&7&lШиноби&f]'
+  Genin:
+    options:
+      default: false
+      suffix: ' &f[&a&lГенин&f]'
+  Chunin:
+    options:
+      default: false
+      suffix: ' &f[&b&lЧунин&f]'
+  Jonin:
+    options:
+      default: false
+      suffix: ' &f[&c&lДжоунин&f]'
+schema-version: 1
+users:
+  84c569f7-c780-3ffa-b229-3b13de9872ce:
+    group:
+    - mudr
+    options:
+      name: PapaRimskiy
+    worlds:
+      ut:
+        group:
+        - PapaRimskiy
+      mudr:
+        group:
+        - PapaRimskiy
+      mud:
+        group:
+        - PapaRimskiy
+    permissions:
+    - example.perm.here
+  fd73eef9-d6a5-33be-8df4-7dce59a298ee:
+    group:
+    - op
+    options:
+      name: Exteva
+    permissions:
+    - '''*'''
+  ableiks:
+    group:
+    - ut
+  console:
+    group:
+    - op
+  '@p':
+    group:
+    - Player
+  ~abeliks§r:
+    group:
+    - op
+  faeca1b9-2736-3d81-9251-9cb326e721bf:
+    group:
+    - otsusuki
+    options:
+      name: UMBRELLLA
+  2ac5353c-80c2-3a93-8795-dd274d77959e:
+    group:
+    - Hozuki
+    options:
+      name: Rabotyaga
+  b45518c1-fad9-31a3-9da7-b650d829e5e5:
+    group:
+    - Yuki
+    options:
+      name: lybitel_sosat
+  4ea20c7e-d0d1-3a47-a19a-f92465090a24:
+    group:
+    - mudr
+    options:
+      name: abeliks
+  046d71b8-ea59-3e11-bacc-f72ac2ba341e:
+    group:
+    - Jugo
+    options:
+      name: Evalone
+  e41d6907-1798-3c1d-b4b6-143cca31bf0c:
+    group:
+    - Chinoike
+    options:
+      name: Faithfull
+  bbcca924-a107-39df-8936-f91cd2df3ee4:
+    group:
+    - Uzumaki
+    options:
+      name: Hoversoy

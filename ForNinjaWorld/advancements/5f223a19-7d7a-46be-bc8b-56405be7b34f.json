@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "swampland": "2019-06-26 21:39:06 +0500",
+      "extreme_hills_with_trees": "2019-06-26 21:39:45 +0500",
+      "extreme_hills": "2019-06-26 21:39:42 +0500"
+    },
+    "done": false
+  }
+}

@@ -1,0 +1,20 @@
+kunai:
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: Кунай
+      lore:
+      - Нажмите ПКМ для броска
+      enchants:
+        VANISHING_CURSE: 1
+      repair-cost: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy7JzHC0e7jZvZiFgRMk5JOaWFwya5Pgo7Ss5xvYGNgcc/NL80ocBBjAgIOBF26iX2JuKoNIempealFmsl5iSUlicrZLYm5ieiozA6d/QWpRYklmfh5EFwtYsZBrYWlmQW5qXokCzDkMDAAzo0cUqAAAAA==

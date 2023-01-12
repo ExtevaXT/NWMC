@@ -1,0 +1,267 @@
+--------------------[New debug session]--------------------
+[06.07.2019 20:56:30] DEBUG: Command executing done
+[06.07.2019 21:09:04] DEBUG: There are 0 objectives, 0 tags, 0 points, 5 journal entries and 0 items loaded for player abeliks
+[06.07.2019 21:09:04] DEBUG: Inserting data for abeliks
+[06.07.2019 21:09:37] DEBUG: Executing /betonquest command for user abeliks with arguments: [reload]
+[06.07.2019 21:09:37] DEBUG: Reloading configuration
+[06.07.2019 21:09:37] DEBUG: Loaded pl language
+[06.07.2019 21:09:37] DEBUG: Loaded en language
+[06.07.2019 21:09:37] DEBUG: Loaded de language
+[06.07.2019 21:09:37] DEBUG: Loaded fr language
+[06.07.2019 21:09:37] DEBUG: Loaded cn language
+[06.07.2019 21:09:37] DEBUG: Loaded es language
+[06.07.2019 21:09:37] DEBUG: Loaded nl language
+[06.07.2019 21:09:37] DEBUG: Loaded it language
+[06.07.2019 21:09:37] DEBUG: Loaded hu language
+[06.07.2019 21:09:37] DEBUG: Initializing static events
+[06.07.2019 21:09:37] DEBUG: Searching package default
+[06.07.2019 21:09:37] DEBUG: There are no static events defined, skipping
+[06.07.2019 21:09:37] DEBUG: Static events initialization done
+[06.07.2019 21:09:37] DEBUG: Restarting global locations
+[06.07.2019 21:09:37] DEBUG: Loading stuff in package default
+[06.07.2019 21:09:37] DEBUG:   Event 'default.wood_start' loaded
+[06.07.2019 21:09:37] DEBUG:   Event 'default.tag_wood_started' loaded
+[06.07.2019 21:09:37] DEBUG:   Event 'default.tag_wood_done' loaded
+[06.07.2019 21:09:37] DEBUG:   Event 'default.tag_wood_paid' loaded
+[06.07.2019 21:09:37] DEBUG:   Event 'default.entry_wood_started' loaded
+[06.07.2019 21:09:37] DEBUG:   Event 'default.entry_wood_done' loaded
+[06.07.2019 21:09:37] DEBUG:   Event 'default.entry_wood_paid' loaded
+[06.07.2019 21:09:37] DEBUG:   Event 'default.wood_reward' loaded
+[06.07.2019 21:09:37] DEBUG:   Event 'default.remove_wood' loaded
+[06.07.2019 21:09:37] DEBUG:   Condition 'default.wood_started' loaded
+[06.07.2019 21:09:37] DEBUG:   Condition 'default.wood_done' loaded
+[06.07.2019 21:09:37] DEBUG:   Condition 'default.wood_paid' loaded
+[06.07.2019 21:09:37] DEBUG:   Condition 'default.has_wood' loaded
+[06.07.2019 21:09:37] DEBUG:   Objective 'default.wood' loaded
+[06.07.2019 21:09:37] DEBUG: Loading innkeeper conversation from default package
+[06.07.2019 21:09:37] DEBUG: Variable default-%player% loaded
+[06.07.2019 21:09:37] DEBUG: Conversation loaded: 16 NPC options and 15 player options
+[06.07.2019 21:09:37] DEBUG: Everything in package default loaded
+[06.07.2019 21:09:37] BROAD: There are 4 conditions, 9 events, 1 objectives and 1 conversations loaded from 1 packages.
+[06.07.2019 21:09:37] DEBUG: Updating journal for player Exteva
+[06.07.2019 21:09:37] DEBUG: Updating journal for player abeliks
+--------------------[New debug session]--------------------
+[06.07.2019 21:09:37] DEBUG: Command executing done
+[06.07.2019 21:10:47] DEBUG: Executing /betonquest command for user abeliks with arguments: [reload]
+[06.07.2019 21:10:47] DEBUG: Reloading configuration
+[06.07.2019 21:10:47] DEBUG: Loaded pl language
+[06.07.2019 21:10:47] DEBUG: Loaded en language
+[06.07.2019 21:10:47] DEBUG: Loaded de language
+[06.07.2019 21:10:47] DEBUG: Loaded fr language
+[06.07.2019 21:10:47] DEBUG: Loaded cn language
+[06.07.2019 21:10:47] DEBUG: Loaded es language
+[06.07.2019 21:10:47] DEBUG: Loaded nl language
+[06.07.2019 21:10:47] DEBUG: Loaded it language
+[06.07.2019 21:10:47] DEBUG: Loaded hu language
+[06.07.2019 21:10:47] DEBUG: Initializing static events
+[06.07.2019 21:10:47] DEBUG: Searching package default
+[06.07.2019 21:10:47] DEBUG: There are no static events defined, skipping
+[06.07.2019 21:10:47] DEBUG: Static events initialization done
+[06.07.2019 21:10:47] DEBUG: Restarting global locations
+[06.07.2019 21:10:47] DEBUG: Loading stuff in package default
+[06.07.2019 21:10:47] DEBUG:   Event 'default.wood_start' loaded
+[06.07.2019 21:10:47] DEBUG:   Event 'default.tag_wood_started' loaded
+[06.07.2019 21:10:47] DEBUG:   Event 'default.tag_wood_done' loaded
+[06.07.2019 21:10:47] DEBUG:   Event 'default.tag_wood_paid' loaded
+[06.07.2019 21:10:47] DEBUG:   Event 'default.entry_wood_started' loaded
+[06.07.2019 21:10:47] DEBUG:   Event 'default.entry_wood_done' loaded
+[06.07.2019 21:10:47] DEBUG:   Event 'default.entry_wood_paid' loaded
+[06.07.2019 21:10:47] DEBUG:   Event 'default.wood_reward' loaded
+[06.07.2019 21:10:47] DEBUG:   Event 'default.remove_wood' loaded
+[06.07.2019 21:10:47] DEBUG:   Condition 'default.wood_started' loaded
+[06.07.2019 21:10:47] DEBUG:   Condition 'default.wood_done' loaded
+[06.07.2019 21:10:47] DEBUG:   Condition 'default.wood_paid' loaded
+[06.07.2019 21:10:47] DEBUG:   Condition 'default.has_wood' loaded
+[06.07.2019 21:10:47] DEBUG:   Objective 'default.wood' loaded
+[06.07.2019 21:10:47] DEBUG: Loading innkeeper conversation from default package
+[06.07.2019 21:10:47] DEBUG: Variable default-%player% loaded
+[06.07.2019 21:10:47] DEBUG: Conversation loaded: 16 NPC options and 15 player options
+[06.07.2019 21:10:47] DEBUG: Everything in package default loaded
+[06.07.2019 21:10:47] BROAD: There are 4 conditions, 9 events, 1 objectives and 1 conversations loaded from 1 packages.
+[06.07.2019 21:10:47] DEBUG: Updating journal for player Exteva
+[06.07.2019 21:10:47] DEBUG: Updating journal for player abeliks
+--------------------[New debug session]--------------------
+[06.07.2019 21:10:47] DEBUG: Command executing done
+[06.07.2019 23:01:59] DEBUG: Killing all timers on disable
+[06.07.2019 23:01:59] BROAD: BetonQuest succesfully disabled!
+--------------------[New debug session]--------------------
+[06.07.2019 23:02:07] DEBUG: Loaded pl language
+[06.07.2019 23:02:07] DEBUG: Loaded en language
+[06.07.2019 23:02:07] DEBUG: Loaded de language
+[06.07.2019 23:02:07] DEBUG: Loaded fr language
+[06.07.2019 23:02:07] DEBUG: Loaded cn language
+[06.07.2019 23:02:07] DEBUG: Loaded es language
+[06.07.2019 23:02:07] DEBUG: Loaded nl language
+[06.07.2019 23:02:07] DEBUG: Loaded it language
+[06.07.2019 23:02:07] DEBUG: Loaded hu language
+[06.07.2019 23:02:07] DEBUG: Connecting to MySQL database
+[06.07.2019 23:02:07] DEBUG: MySQL says: Must specify port after ':' in connection string
+[06.07.2019 23:02:07] BROAD: Using SQLite for storing data!
+[06.07.2019 23:02:07] DEBUG: Initializing updater with version v59, destination is v59
+[06.07.2019 23:02:07] BROAD: Configuration up to date!
+[06.07.2019 23:02:08] DEBUG: Initializing static events
+[06.07.2019 23:02:08] DEBUG: Searching package default
+[06.07.2019 23:02:08] DEBUG: There are no static events defined, skipping
+[06.07.2019 23:02:08] DEBUG: Searching package test
+[06.07.2019 23:02:08] DEBUG: There are no static events defined, skipping
+[06.07.2019 23:02:08] DEBUG: Static events initialization done
+[06.07.2019 23:02:08] DEBUG: Registering health condition type
+[06.07.2019 23:02:08] DEBUG: Registering permission condition type
+[06.07.2019 23:02:08] DEBUG: Registering experience condition type
+[06.07.2019 23:02:08] DEBUG: Registering tag condition type
+[06.07.2019 23:02:08] DEBUG: Registering globaltag condition type
+[06.07.2019 23:02:08] DEBUG: Registering point condition type
+[06.07.2019 23:02:08] DEBUG: Registering globalpoint condition type
+[06.07.2019 23:02:08] DEBUG: Registering and condition type
+[06.07.2019 23:02:08] DEBUG: Registering or condition type
+[06.07.2019 23:02:08] DEBUG: Registering time condition type
+[06.07.2019 23:02:08] DEBUG: Registering weather condition type
+[06.07.2019 23:02:08] DEBUG: Registering height condition type
+[06.07.2019 23:02:08] DEBUG: Registering item condition type
+[06.07.2019 23:02:08] DEBUG: Registering hand condition type
+[06.07.2019 23:02:08] DEBUG: Registering location condition type
+[06.07.2019 23:02:08] DEBUG: Registering armor condition type
+[06.07.2019 23:02:08] DEBUG: Registering effect condition type
+[06.07.2019 23:02:08] DEBUG: Registering rating condition type
+[06.07.2019 23:02:08] DEBUG: Registering sneak condition type
+[06.07.2019 23:02:08] DEBUG: Registering random condition type
+[06.07.2019 23:02:08] DEBUG: Registering journal condition type
+[06.07.2019 23:02:08] DEBUG: Registering testforblock condition type
+[06.07.2019 23:02:08] DEBUG: Registering empty condition type
+[06.07.2019 23:02:08] DEBUG: Registering party condition type
+[06.07.2019 23:02:08] DEBUG: Registering monsters condition type
+[06.07.2019 23:02:08] DEBUG: Registering objective condition type
+[06.07.2019 23:02:08] DEBUG: Registering check condition type
+[06.07.2019 23:02:08] DEBUG: Registering chestitem condition type
+[06.07.2019 23:02:08] DEBUG: Registering score condition type
+[06.07.2019 23:02:08] DEBUG: Registering riding condition type
+[06.07.2019 23:02:08] DEBUG: Registering world condition type
+[06.07.2019 23:02:08] DEBUG: Registering gamemode condition type
+[06.07.2019 23:02:08] DEBUG: Registering achievement condition type
+[06.07.2019 23:02:08] DEBUG: Registering variable condition type
+[06.07.2019 23:02:08] DEBUG: Registering fly condition type
+[06.07.2019 23:02:08] DEBUG: Registering biome condition type
+[06.07.2019 23:02:08] DEBUG: Registering dayofweek condition type
+[06.07.2019 23:02:08] DEBUG: Registering partialdate condition type
+[06.07.2019 23:02:08] DEBUG: Registering realtime condition type
+[06.07.2019 23:02:08] DEBUG: Registering looking condition type
+[06.07.2019 23:02:08] DEBUG: Registering facing condition type
+[06.07.2019 23:02:08] DEBUG: Registering message event type
+[06.07.2019 23:02:08] DEBUG: Registering objective event type
+[06.07.2019 23:02:08] DEBUG: Registering command event type
+[06.07.2019 23:02:08] DEBUG: Registering tag event type
+[06.07.2019 23:02:08] DEBUG: Registering globaltag event type
+[06.07.2019 23:02:08] DEBUG: Registering journal event type
+[06.07.2019 23:02:08] DEBUG: Registering teleport event type
+[06.07.2019 23:02:08] DEBUG: Registering explosion event type
+[06.07.2019 23:02:08] DEBUG: Registering lightning event type
+[06.07.2019 23:02:08] DEBUG: Registering point event type
+[06.07.2019 23:02:08] DEBUG: Registering globalpoint event type
+[06.07.2019 23:02:08] DEBUG: Registering give event type
+[06.07.2019 23:02:08] DEBUG: Registering take event type
+[06.07.2019 23:02:08] DEBUG: Registering conversation event type
+[06.07.2019 23:02:08] DEBUG: Registering kill event type
+[06.07.2019 23:02:08] DEBUG: Registering effect event type
+[06.07.2019 23:02:08] DEBUG: Registering deleffect event type
+[06.07.2019 23:02:08] DEBUG: Registering spawn event type
+[06.07.2019 23:02:08] DEBUG: Registering killmob event type
+[06.07.2019 23:02:08] DEBUG: Registering time event type
+[06.07.2019 23:02:08] DEBUG: Registering weather event type
+[06.07.2019 23:02:08] DEBUG: Registering folder event type
+[06.07.2019 23:02:08] DEBUG: Registering setblock event type
+[06.07.2019 23:02:08] DEBUG: Registering damage event type
+[06.07.2019 23:02:08] DEBUG: Registering party event type
+[06.07.2019 23:02:08] DEBUG: Registering clear event type
+[06.07.2019 23:02:08] DEBUG: Registering run event type
+[06.07.2019 23:02:08] DEBUG: Registering givejournal event type
+[06.07.2019 23:02:08] DEBUG: Registering sudo event type
+[06.07.2019 23:02:08] DEBUG: Registering opsudo event type
+[06.07.2019 23:02:08] DEBUG: Registering chestgive event type
+[06.07.2019 23:02:08] DEBUG: Registering chesttake event type
+[06.07.2019 23:02:08] DEBUG: Registering chestclear event type
+[06.07.2019 23:02:08] DEBUG: Registering compass event type
+[06.07.2019 23:02:08] DEBUG: Registering cancel event type
+[06.07.2019 23:02:08] DEBUG: Registering score event type
+[06.07.2019 23:02:08] DEBUG: Registering lever event type
+[06.07.2019 23:02:08] DEBUG: Registering door event type
+[06.07.2019 23:02:08] DEBUG: Registering if event type
+[06.07.2019 23:02:08] DEBUG: Registering variable event type
+[06.07.2019 23:02:08] DEBUG: Registering title event type
+[06.07.2019 23:02:08] DEBUG: Registering language event type
+[06.07.2019 23:02:08] DEBUG: Registering playsound event type
+[06.07.2019 23:02:08] DEBUG: Registering pickrandom event type
+[06.07.2019 23:02:08] DEBUG: Registering xp event type
+[06.07.2019 23:02:08] DEBUG: Registering location objective type
+[06.07.2019 23:02:08] DEBUG: Registering block objective type
+[06.07.2019 23:02:08] DEBUG: Registering mobkill objective type
+[06.07.2019 23:02:08] DEBUG: Registering action objective type
+[06.07.2019 23:02:08] DEBUG: Registering die objective type
+[06.07.2019 23:02:08] DEBUG: Registering craft objective type
+[06.07.2019 23:02:08] DEBUG: Registering smelt objective type
+[06.07.2019 23:02:08] DEBUG: Registering tame objective type
+[06.07.2019 23:02:08] DEBUG: Registering delay objective type
+[06.07.2019 23:02:08] DEBUG: Registering arrow objective type
+[06.07.2019 23:02:08] DEBUG: Registering experience objective type
+[06.07.2019 23:02:08] DEBUG: Registering step objective type
+[06.07.2019 23:02:08] DEBUG: Registering logout objective type
+[06.07.2019 23:02:08] DEBUG: Registering password objective type
+[06.07.2019 23:02:08] DEBUG: Registering fish objective type
+[06.07.2019 23:02:08] DEBUG: Registering enchant objective type
+[06.07.2019 23:02:08] DEBUG: Registering shear objective type
+[06.07.2019 23:02:08] DEBUG: Registering chestput objective type
+[06.07.2019 23:02:08] DEBUG: Registering potion objective type
+[06.07.2019 23:02:08] DEBUG: Registering vehicle objective type
+[06.07.2019 23:02:08] DEBUG: Registering consume objective type
+[06.07.2019 23:02:08] DEBUG: Registering variable objective type
+[06.07.2019 23:02:08] DEBUG: Registering kill objective type
+[06.07.2019 23:02:08] DEBUG: Registering breed objective type
+[06.07.2019 23:02:08] DEBUG: Registering interact objective type
+[06.07.2019 23:02:08] DEBUG: Registering respawn objective type
+[06.07.2019 23:02:08] DEBUG: Registering simple conversation IO type
+[06.07.2019 23:02:08] DEBUG: Registering tellraw conversation IO type
+[06.07.2019 23:02:08] DEBUG: Registering chest conversation IO type
+[06.07.2019 23:02:08] DEBUG: Registering combined conversation IO type
+[06.07.2019 23:02:08] DEBUG: Registering slowtellraw conversation IO type
+[06.07.2019 23:02:08] DEBUG: Registering player variable type
+[06.07.2019 23:02:08] DEBUG: Registering npc variable type
+[06.07.2019 23:02:08] DEBUG: Registering objective variable type
+[06.07.2019 23:02:08] DEBUG: Registering point variable type
+[06.07.2019 23:02:08] DEBUG: Registering globalpoint variable type
+[06.07.2019 23:02:08] DEBUG: Registering item variable type
+[06.07.2019 23:02:08] DEBUG: Registering version variable type
+[06.07.2019 23:02:08] DEBUG: Registering location variable type
+[06.07.2019 23:02:08] DEBUG: Registering math variable type
+[06.07.2019 23:02:08] BROAD: Hooking into ProtocolLib
+[06.07.2019 23:02:08] BROAD: Hooking into Vault
+[06.07.2019 23:02:08] DEBUG: Registering money event type
+[06.07.2019 23:02:08] DEBUG: Registering money condition type
+[06.07.2019 23:02:08] DEBUG: Registering money variable type
+[06.07.2019 23:02:08] DEBUG: Registering permission event type
+[06.07.2019 23:02:08] BROAD: Autoupdater enabled!
+[06.07.2019 23:02:08] BROAD: BetonQuest succesfully enabled!
+[06.07.2019 23:02:08] BROAD: Hooking into PlaceholderAPI
+[06.07.2019 23:02:08] DEBUG: Registering ph variable type
+[06.07.2019 23:02:22] BROAD: Hooking into EffectLib
+[06.07.2019 23:02:22] DEBUG: Registering particle event type
+[06.07.2019 23:02:25] BROAD: Hooking into WorldEdit
+[06.07.2019 23:02:25] DEBUG: Registering paste event type
+[06.07.2019 23:02:27] BROAD: Hooking into HolographicDisplays
+[06.07.2019 23:02:30] BROAD: Hooking into WorldGuard
+[06.07.2019 23:02:30] DEBUG: Registering region condition type
+[06.07.2019 23:02:30] DEBUG: Registering region objective type
+[06.07.2019 23:02:32] BROAD: Hooking into Citizens
+[06.07.2019 23:02:32] DEBUG: Registering updatevisibility event type
+[06.07.2019 23:02:32] DEBUG: Registering npckill objective type
+[06.07.2019 23:02:32] DEBUG: Registering npcinteract objective type
+[06.07.2019 23:02:32] DEBUG: Registering npcrange objective type
+[06.07.2019 23:02:32] DEBUG: Registering movenpc event type
+[06.07.2019 23:02:32] DEBUG: Registering chest conversation IO type
+[06.07.2019 23:02:32] DEBUG: Registering combined conversation IO type
+[06.07.2019 23:02:32] DEBUG: Registering citizen variable type
+[06.07.2019 23:02:32] DEBUG: Registering npcdistance condition type
+[06.07.2019 23:02:32] DEBUG: Registering npclocation condition type
+[06.07.2019 23:02:32] DEBUG: Registering npcregion condition type
+[06.07.2019 23:02:50] BROAD: Hooking into Magic
+[06.07.2019 23:02:50] DEBUG: Registering wand condition type
+[06.07.2019 23:02:55] BROAD: Hooking into Denizen
+[06.07.2019 23:02:55] DEBUG: Registering script event type

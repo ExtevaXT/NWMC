@@ -1,0 +1,16 @@
+# Language, supported en, hu ( send me translations! )
+Locale: en
+Check-update: true
+Decimal-places: 2
+Farming:
+  Disable-spawner-farming: false
+  Disable-egg-farming: false
+Global-settings:
+  Money-multiplier: 1
+  Disable-functions-on-these-worlds:
+  - world_the_end
+  Disable-functions-in-creative-mode: true
+Hook:
+  MobArena:
+    Enabled: false
+    Config-processing-when-players-in-arena: false

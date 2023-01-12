@@ -1,0 +1,255 @@
+quest:
+- requirements:
+  - questID: 7
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: Пришёл заказ от девушки, её зовут Мария, кажется она потеряла мужа
+    - id: 2
+      message:
+        sender: PLAYER
+        text: Как это?
+    - id: 3
+      message:
+        sender: NPC
+        text: Я сам не понял, сходи к ней и спроси подробности
+  manager:
+    stages:
+    - msg:
+        npc: 323
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Здравстуйте, Мария, мне сказали что вам нужно помочь
+        - id: 1
+          message:
+            sender: NPC
+            text: Да это так, недавно мой муж Борис потерялся
+        - id: 2
+          message:
+            sender: NPC
+            text: Я его пыталась найти, но это было безуспешно
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Где вы видели его в последний раз?
+        - id: 4
+          message:
+            sender: NPC
+            text: Мы гуляли вместе возле моста
+        - id: 5
+          message:
+            sender: NPC
+            text: После этого он сказал что ему нужно куда-то отойти
+        - id: 6
+          message:
+            sender: NPC
+            text: После этого я его больше не видела
+        - id: 7
+          message:
+            sender: PLAYER
+            text: Хмм... Я постараюсь его найти!
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 323
+      order: 0
+    - msg:
+        npc: 464
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Чего тебе надо придурок?
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Здравствуйте, это вы Борис?
+        - id: 2
+          message:
+            sender: NPC
+            text: Да это я и что с того?
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Меня послала ваша жена, вернитесь к ней
+        - id: 4
+          message:
+            sender: NPC
+            text: Да пошёл ты, меня она уже задолбала
+        - id: 5
+          message:
+            sender: PLAYER
+            text: Почему?
+        - id: 6
+          message:
+            sender: NPC
+            text: Она постоянно водит меня по всяким бессмысленным местам
+        - id: 7
+          message:
+            sender: NPC
+            text: Я уже заебался ходить с ней, дарить подарки и водить на свидания!
+        - id: 8
+          message:
+            sender: PLAYER
+            text: Может быть как-нибудь можно вас переубедить?
+        - id: 9
+          message:
+            sender: NPC
+            text: Если принёсешь мне балтики 9, то я подумаю
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 464
+      order: 1
+    - msg:
+        npc: 464
+        msgs: []
+      stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: Пиво
+          lore:
+          - Алкогольный напиток содержащий хмель
+          internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYni+VJYBANJf/CscAAAA
+          custom-color:
+            ==: Color
+            RED: 231
+            BLUE: 29
+            GREEN: 165
+          custom-effects:
+          - ==: PotionEffect
+            effect: 5
+            duration: 200
+            amplifier: 1
+            ambient: false
+            has-particles: false
+          - ==: PotionEffect
+            effect: 9
+            duration: 600
+            amplifier: 0
+            ambient: false
+            has-particles: false
+      rewards: []
+      npcID: 464
+      order: 2
+    - msg:
+        npc: 464
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Вот это уже другое дело!
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Ну что вы согласны вернуться?
+        - id: 2
+          message:
+            sender: NPC
+            text: Хорошо, я вернусь к этой шкуре, только если она опять начнёт нести
+              свой бред, я уже не вернусь
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Вот и хорошо
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 464
+      order: 3
+    - msg:
+        npc: 323
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я с ним поговорил, и он сказал, что просто потерялся
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Он скоро прийдёт
+        - id: 2
+          message:
+            sender: NPC
+            text: Слава богу, я так переживала за него!
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Кстати, постарайтесь поменьше доставать его
+        - id: 4
+          message:
+            sender: PLAYER
+            text: На всякий случай
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 323
+      order: 4
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: У меня получилось вернуть её мужа
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Но кажется это не надолго
+        - id: 2
+          message:
+            sender: NPC
+            text: Ладно, главное что выполнил задание
+        - id: 3
+          message:
+            sender: NPC
+            text: Держи награду
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 5
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №4
+  finished: []
+  id: 8
+  scoreboard: true
+  cancellable: false

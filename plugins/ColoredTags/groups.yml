@@ -1,0 +1,37 @@
+#.
+#.    ######################
+#.    #       GROUPS       #
+#.    ######################
+#.
+#. These are the names of the groups defined in you permissions plugin.
+#. If a user has multiple groups, the group with the highest rank will
+#. be chosen, as your chat plugin does.
+#.
+#. Prefixes or suffixes CANNOT be longer than 16 chars, including colors.
+#.
+#. <name> is the separator of prefix and suffix. If you don't include it,
+#. the string will used as prefix.
+#.
+
+Player: '&1[&cНовичёк&1] &f'
+Uchiha: '&1[&cУчиха&1] ► &f'
+Senju: '&7[&aСенджу&7] &f'
+Hyuga: '&7[&fХьюга&7] &f'
+Uzumaki: '&7[&cУзумаки&7] &f'
+Aburame: '&7[&6Абураме&7] &f'
+Akimichi: '&7[&5Акимичи&7] &f'
+Hatake: '&7[&7Хатаке&7] &f'
+Hozuki: '&7[&3Хозуки&7] &f'
+Iburi: '&7[&8Ибури&7] &f'
+Inuzuka: '&7[&4Инузука&7] &f'
+Jugo: '&7[&4Джуго&7] &f'
+Kaguya: '&7[&fКагуя&7] &f'
+Nara: '&7[&0Нара&7] &f'
+Sarutobi: '&7[&4Сарутоби&7] &f'
+Fuma: '&7[&8Фума&7] &f'
+Yuki: '&7[&bЮки&7] &f'
+Yamanaka: '&7[&dЯманака&7] &f'
+Lee: '&7[&2Ли&7] &f'
+Chinoike: '&7[&cЧиноики&7] &f'
+Otsusuki: '&7[&cОоцуцуки&7] &f'
+mudr: '&c[&5&lМудрец&c] ► &f'

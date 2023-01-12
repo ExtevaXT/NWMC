@@ -1,0 +1,35 @@
+Keywords:
+  ClonesName:
+    Response: Yes?
+  EasterEgg:
+    TriggerPhrase: do you like bob ross
+    Response: Of course I like Bob Ross. He is the greatest painter in the universe.
+  Greeting1:
+    TriggerPhrase: hello
+    Response: Hello there, &p.
+  Greeting2:
+    TriggerPhrase: hey
+    Response: Hey, &p! How's it going?
+  WhatDoYouThink:
+    TriggerPhrase: what do you think
+    Response: I'm not really the one to ask...
+  WhatAreYouDoing:
+    TriggerPhrase: what are you doing
+    Response1: I am waiting here, just as you asked me to.
+    Response2: Nothing in particular right now.
+  Follow:
+    TriggerPhrase: follow
+    Response: I will follow them until you need me!
+  GoBack:
+    TriggerPhrase1: go back
+    TriggerPhrase2: go away
+    TriggerPhrase3: leave
+    TriggerPhrase4: bye
+    Response: I'm going back now. Bye!
+  Come:
+    TriggerPhrase: come
+    Response: On my way!
+  Stay:
+    TriggerPhrase: stay
+    Response: I will wait here until you need me.
+  ConfusedResponse: Make up your mind, &p!

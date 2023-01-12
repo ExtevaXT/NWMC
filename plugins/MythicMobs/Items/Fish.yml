@@ -1,0 +1,4 @@
+Fish:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: RAW_FISH

@@ -1,0 +1,1327 @@
+# ======================================================
+# 
+# ProQuests Version: 2.1.1.13 build: 17757
+# Created by: JC_Plays_MC
+# 
+# ======================================================
+# 
+# Locale File
+# 
+# This is the loacle file where all messages found throughout the plugin will be stored.
+# You can change these while the server is running however you must use the reload command
+# for any and all changes to take effect. Leave a message empty to not have it send anything.
+# 
+# ======================================================
+
+messages:
+  help:
+    help_header: '&bProQuests'
+    help_points: '&a/quest points - &fYour total points'
+    help_menu: '&a/quest menu - &fOpens the default quest menu'
+    help_menu_select: '&a/quest menu <id> - &fOpens the specified quest menu'
+    help_menu_create: '&a/quest menu create <id> - &fStarts the creation of a new
+      menu'
+    help_menu_delete: '&a/quest menu delete <id> - &fDeletes the specified menu'
+    help_menu_edit: '&a/quest menu edit <id> - &fOpens the creator menu for the exisitng
+      menu'
+    help_quest_start: '&a/quest start <id> - &fStarts the specified quest'
+    help_quest_join: '&a/quest join <player> <id> - &fJoins the specified quest'
+    help_quest_invite: '&a/quest invite <player> <id> - &fInvites the player to the
+      quest'
+    help_quest_kick: '&a/quest kick <player> <id> - &fKick the player from the quest'
+    help_quest_progress: '&a/quest progress <id> - &fProgress towards the specified
+      quest'
+    help_quest_cancel: '&a/quest cancel <id> - &fCancels the specified quest'
+    help_github: '&a/quest github <error/suggestion> <title> - &fProvides a link to
+      a new issue'
+    help_reload: '&a/quest reload - &fReloads the plugin files'
+    help_quest_create: '&a/quest create <id> - &fStarts the creation of a new quest'
+    help_quest_delete: '&a/quest delete <id> - &fDeletes the specified quest'
+    help_quest_edit: '&a/quest edit <id> - &fOpens the creator menu for the exisitng
+      quest'
+    help_quest_list: '&a/quest list <type> - &fLists the identifiers of the quest
+      type'
+    help_multiplier: '&a/quest multiplier <amount> - &fSets the global multiplier'
+    help_leaderboard: '&a/quest leaderboard - &fLeaderboard for top monthly points'
+    help_leaderboard_weekly: '&a/quest leaderboard <type> - &fDisplays the top players
+      leaderboard'
+    help_update_leaderboard: '&a/quest update leaderboard - &fUpdates the quest leaderboards'
+    help_update_week: '&a/quest update week - &fResets player weekly points'
+    help_update_month: '&a/quest update month - &fResets player monthly points'
+    help_reset_all: '&a/quest reset all - &fDeletes all of the player data'
+    help_npc_create: '&a/quest npc create <id> - &fStarts the creation of a new NPC'
+    help_npc_delete: '&a/quest npc delete <id> - &fDeletes the specified NPC'
+    help_npc_edit: '&a/quest npc edit <id> - &fOpens the creator menu for the existing
+      NPC'
+    help_player_delete: '&a/quest player delete <player> - &fDeletes the quest data
+      for the player'
+    help_player_info: '&a/quest player info <player> - &fReturns information about
+      the player'
+    help_player_multiplier: '&a/quest player multiplier <player> <amount> - &fSets
+      the players multiplier'
+    help_player_points_add: '&a/quest player points <player> add <amount> - &fAdds
+      X points to the player'
+    help_player_points_subtract: '&a/quest player points <player> subtract <amount>
+      - &fTakes X points from the player'
+    help_player_quest_start: '&a/quest player quest <player> start <id> - &fStarts
+      the quest for the player'
+    help_player_quest_cancel: '&a/quest player quest <player> cancel <id> - &fCancels
+      the quest for the player'
+    help_total_quest_add: '&a/quest player totalquest <player> add <id> <amount> -
+      &fAdds the amount to the quest'
+    help_total_quest_subtract: '&a/quest player totalquest <player> set <id> <amount>
+      - &fSets the amount of the quest'
+    help_divider: '&8&m------------------------------'
+    help_next_page: '&eNext page: /quest help %next%'
+    help_packages_start: '&a/quest packages start <id> <value> - &fStarts the quest
+      with the value'
+    help_packages_cancel: '&a/quest packages cancel <id> <value> - &fCancels the quest
+      with the value'
+    help_packages_refresh: '&a/quest packages refresh <id> - &fRefreshes the package
+      order'
+    help_packages_reload: '&a/quest packages reload - &fReloads the add-on data'
+    help_tournaments_join: '&a/quest tournaments join <id> - &fJoins the tournament
+      with the value'
+    help_tournaments_leave: '&a/quest tournaments leave <id> - &fLeaves the tournament
+      with the value'
+  error:
+    action_cancelled: '&cThe action you attempted to perform was cancelled'
+    complete_current_quest: '&cComplete your current quest before coming back!'
+    disabled_menu: '&cThis menu is currently disabled and cannot be opened'
+    disabled_npc: '&cThe npc is currently disabled and cannot be used'
+    disabled_quest: '&cThis quest is currently disabled and cannot be started'
+    invalid_entry: '&cThe value you have entered is invalid'
+    invalid_number: '&cThe number you have entered is not valid'
+    invalid_placeholder: '&cThe placeholder you have entered is not numeric'
+    invalid_statistic: '&cThe statistic you have entered is invalid'
+    invalid_quest: '&cThe quest you have specified does not exist'
+    invalid_tournament: '&cThe tournament you have specified does not exist'
+    invalid_type: '&cThe quest you have specified is not the right type'
+    invalid_player: '&cThe player you have specified does not exist'
+    invalid_menu: '&cThe menu you have specified does not exist'
+    invalid_quest_type: '&cThe quest type you have specified is invalid'
+    invalid_npc_selected: '&cThe entity selected is not a registered NPC. You can
+      create an NPC using &7/proquests npc create <identifier>'
+    invalid_npc_type: '&cThe NPC type you have specified is invalid'
+    invalid_leaderboard_type: '&cThe leaderboard type you have specified is invalid'
+    invalid_time_type: '&cThe time type you have specified is invalid'
+    invalid_progress: '&cYou cannot check your progress for this quest'
+    invalid_citizen: '&cYou have selected an entity which is not a Citizen'
+    menu_already_exists: '&cA menu with that identifier already exists'
+    menu_not_editable: '&cYou cannot edit this menu as the editable value is set to
+      false, and you are not the orginal author'
+    no_permission_command: '&cYou do not have permission to use this command'
+    no_permission_start_quest: '&cYou do not have permission to start this quest'
+    no_permission_join_quest: '&cYou do not have permission to join this quest'
+    no_permission_kick_quest: '&cYou do not have permission to kick players from this
+      quest'
+    no_permission_invite_quest: '&cYou do not have permission to invite players to
+      this quest'
+    no_permission_menu: '&cYou do not have permission to open the quest menu'
+    no_permission_progress: '&cYou do not have permission to view this quests progress'
+    tournament_already_completed: '&cYou cannot join this tournament as it has already
+      ended'
+    player_not_loaded: '&cYou cannot peform this function until your player data finishes
+      loading...'
+    player_not_active: '&cThe player specified currently does not have that quest
+      active'
+    specify_menu_id: '&cYou must specify a menu id. /quest npccreate menu <id> <menu
+      id>'
+    unable_to_start: '&cCouldn''t start the quest for the player specified'
+    unknown_command: '&cThe command you specified is invalid, use /quests help'
+  creator:
+    creator_quest_title: '&8Quest Creator'
+    creator_menu_title: '&8Menu Creator'
+    creator_npc_title: '&8NPC Creator'
+    creator_none_paused: '&cYou currently do not have any creations paused'
+    creator_invalid_pause: '&cThe paused creator you have specified does not exist'
+    creator_loaded_pause: '&aYou have successfully loaded the ''%placeholder%'' creation'
+    creator_not_creating: '&cYou are currently not creating anything'
+    creator_cancelled: '&cThe creation has been cancelled'
+    creator_paused: '&aThe creation has been paused. You can return to it anytime
+      by using &7/creator resume %placeholder%'
+    creator_quest_created: '&aYou have successfully created the quest: &7%placeholder%'
+    creator_menu_created: '&aYou have successfully created the menu: &7%placeholder%'
+    creator_npc_created: '&aYou have successfully created the npc: &7%placeholder%'
+    creator_tip_1: '&f&l* &a&lTIP: &7You can pause creations in the editor GUI &f&l*'
+    creator_tip_2: '&f&l* &a&lTIP: &7Tab complete values in chat with /creator <tab>
+      &f&l*'
+    creator_tip_3: '&f&l* &a&lTIP: &7Find more info on the ProQuests wiki page &f&l*'
+  npc:
+    npc_already_registered: '&cThe specified NPC identifier is already registered'
+    npc_not_registered: '&cThe specified NPC identifier does not exist'
+    npc_not_editable: '&cYou cannot edit this NPC as the editable value is set to
+      false, and you are not the orginal author'
+    npc_remove_error: '&cAn error occured while attempting to remove the NPC'
+    npc_out_of_quests: '&cYou have completed all of my quests, I have no others to
+      offer'
+    npc_registered: '&aThe NPC has been added to the database'
+    npc_deleted: '&aYou have deleted the ''%placeholder%'' npc'
+    npc_return_quest: '&aYou have completed all of the requirements, return to the
+      NPC to claim your rewards!'
+  quest:
+    quest_already_exists: '&cA quest with that identifier already exists'
+    quest_already_active: '&cYou already have this quest active'
+    quest_already_completed: '&cThis quest has already been completed and cannot be
+      joined'
+    quest_missing_items: '&cYou are missing some of the required items'
+    quest_missing_permission: '&cYou cannot complete this quest as you are missing
+      a required permission'
+    quest_missing_required: '&cYou have not completed the required quests'
+    quest_blacklisted_active: '&cYou cannot start this quest as you have the ''%quest_identifier%''
+      quest active'
+    quest_didnt_complete: '&cYou weren''t able to complete this quest, why not try
+      another?'
+    quest_cannot_start_command: '&cYou cannot start this quest via command'
+    quest_cannot_join_command: '&cYou cannot join this quest via command'
+    quest_cannot_repeat: '&cYou have already completed this quest and cannot repeat
+      it'
+    quest_cannot_join_active: '&cYou are not allowed to join this active quest'
+    quest_repeat_delay: '&cYou have already completed this quest and can repeat it
+      in %quest_repeat_delay%'
+    quest_max_active: '&cYou cannot start another quest as you already have %max_active_quests%
+      active'
+    quest_not_editable: '&cYou cannot edit this quest as the editable value is set
+      to false, and you are not the orginal author'
+    quest_not_active: '&cYou do not have that quest active'
+    quest_not_cancelable: '&cYou cannot cancel this quest'
+    quest_not_invited: '&cThis quest requires an invitation to join'
+    quest_not_host: '&cYou are not the host of this quest'
+    quest_no_faction: '&cYou are currently not in a faction'
+    quest_no_gang: '&cYou are currently not in a gang'
+    quest_no_island: '&cYou are not the owner of an island'
+    quest_no_town: '&cYou are currently not a resident of a town'
+    quest_not_town_mayor: '&cYou cannot start this as you are not the town mayor'
+    quest_no_nation: '&cYou are currently not a resident of a nation'
+    quest_not_nation_king: '&cYou cannot start this as you are not the nation king'
+    quest_not_enough_players: '&cYou cannot start this quest as you need %quest_min_players%
+      players to start this quest'
+    quest_too_many_players: '&cYou cannot start this quest as you can only have %quest_max_players%
+      players'
+    quest_faction_under_ranked: '&cYou are not the required faction rank to start
+      this quest'
+    quest_in_creative: '&cYou cannot start this quest as you are in creative'
+    quest_is_op: '&cYou cannot start this quest as you are in operator mode'
+    quest_invited: '&aYou have been invited by %placeholder% to join a quest! &7/quest
+      join %placeholder% %quest_identifier%'
+    quest_invited_player: '&aYou have invited %placeholder% to join the quest!'
+    quest_kicked: '&cYou have been kicked by %placeholder% from the %quest_identifier%
+      quest'
+    quest_kicked_player: '&aYou have kicked %placeholder% from the quest'
+    quest_started: '&aYou have started the quest'
+    quest_cancelled: '&aYou have successfully cancelled the quest'
+    quest_deleted: '&aYou have successfully deleted the %quest_identifier% quest'
+    quest_started_for_player: '&aYou have started the quest for the player specified'
+    quest_cancelled_for_player: '&aYou have canceled the quest for the player specified'
+    quest_completed: '&aYou have successfully completed the ''%quest_identifier%''
+      quest!'
+    quest_total_quest_added: '&aThe amount has been added to the players total'
+    quest_total_quest_set: '&aThe players total has been set to the amount specicifed'
+    quest_team_error: '&c&l%placeholder% &7> '
+  balance:
+    balance_added_points: '&aYou have added &f%points% &apoints to &f%player%''s &atotal
+      points'
+    balance_subtracted_points: '&aYou have subtracted &f%points% &apoints from &f%player%''s
+      &atotal points'
+    balance_total_points: '&aYou have &f%total_points% points &7(%monthly_points%
+      points this month)'
+    balance_ezblocks_broken_too_low: '&cYou need to break &7(&f%amount%&7) &cor more
+      blocks'
+    balance_gangs_bank_too_low: '&cYou do not have &f$&7%amount% &cin your gang bank'
+    balance_gangs_kdr_too_low: '&cYou do not have a KDR of &7%amount% &cor higher'
+    balance_gangs_kills_too_low: '&cYou do not have &7%amount% &cor more kills'
+    balance_gangs_player_assists_too_low: '&cYou do not have &7%amount% &cor more
+      assists'
+    balance_insufficient_funds: '&cYou do not have &f$&7%amount%'
+    balance_insufficient_placeholder: '&cYou do not have &7(&f%amount%&7)'
+    balance_minimum_weekly_points: '&cYou do not have &7(&f%amount%&7) &cweekly points'
+    balance_minimum_monthly_points: '&cYou do not have &7(&f%amount%&7) &cmonthly
+      points'
+    balance_minimum_total_points: '&cYou do not have &7(&f%amount%&7) &ctotal points'
+    balance_minimum_active_quests: '&cYou do not have &7(&f%amount%&7) &cactive quests'
+    balance_minimum_completed_quests: '&cYou do not have &7(&f%amount%&7) &ccompleted
+      quests'
+    balance_player_exp_too_low: '&cYou do not have &7%amount% &cEXP'
+    balance_player_level_too_low: '&cYour level must be &7(&f%amount%&7) &cor higher'
+    balance_player_food_level_too_low: '&cYour food level must be &7(&f%amount%&7)
+      &cor higher'
+    balance_player_health_too_low: '&cYour health must be &7(&f%amount%&7) &cor higher'
+    balance_player_saturation_too_low: '&cYour saturation must be &7(&f%amount%&7)
+      &cor higher'
+    balance_player_points_too_low: '&cYour player points balance must be &7(&f%amount%&7)
+      &cor higher'
+    balance_provotes_weekly_too_low: '&cYou need &7(&f%amount%&7) &cweekly votes or
+      more'
+    balance_provotes_monthly_too_low: '&cYou need &7(&f%amount%&7) &cmonthly votes
+      or more'
+    balance_provotes_total_too_low: '&cYou need &7(&f%amount%&7) &ctotal votes or
+      more'
+    balance_token_enchant_too_low: '&cYour token balance must be &7(&f%amount%&7)
+      &cor higher'
+    balance_token_balance_too_low: '&cYour token balance must be &7(&f%amount%&7)
+      &cor higher'
+    balance_statistic_too_low: '&cYour statistic for %type_lowercase% must be &7(&f%amount%&7)
+      &cor higher'
+    balance_skyblock_level_too_low: '&cYour island level must be &7(&f%amount%&7)
+      &cor higher'
+  leaderboard:
+    leaderboard_updated: '&aYou have updated the quest leaderboards'
+    leaderboard_empty_weekly: '&cThere are no top players'
+    leaderboard_header_weekly: '&8&m-----------&r &bTop Weekly Players &8&m-----------'
+    leaderboard_format_weekly: '&e%place%. &f%name% &7%weekly_points% points'
+    leaderboard_footer_weekly: '&8&m----------------------------------------'
+    leaderboard_empty_monthly: '&cThere are no top players'
+    leaderboard_header_monthly: '&8&m-----------&r &bTop Monthly Players &8&m-----------'
+    leaderboard_format_monthly: '&e%place%. &f%name% &7%monthly_points% points'
+    leaderboard_footer_monthly: '&8&m----------------------------------------'
+    leaderboard_empty_lifetime: '&cThere are no top players'
+    leaderboard_header_lifetime: '&8&m-----------&r &bTop Lifetime Players &8&m-----------'
+    leaderboard_format_lifetime: '&e%place%. &f%name% &7%total_points% points'
+    leaderboard_footer_lifetime: '&8&m----------------------------------------'
+    leaderboard_empty_completed: '&cThere are no top players'
+    leaderboard_header_completed: '&8&m-----------&r &bTop Completed Quests &8&m-----------'
+    leaderboard_format_completed: '&e%place%. &f%name% &7%total_completed_quests%
+      points'
+    leaderboard_footer_completed: '&8&m----------------------------------------'
+  command:
+    command_reset_all: '&aYou have reset all of the player data'
+    command_menu_deleted: '&aYou have deleted the ''%placeholder%'' menu'
+    command_multiplier_set: '&aYou have set the global points multiplier to &f%global_multiplier%'
+    command_player_multiplier_set: '&aYou have set the players points multiplier to
+      &f%player_multiplier%'
+    command_player_deleted: '&aThe player has been removed from the database'
+    command_updated_week: '&aAll weekly stats have been reset'
+    command_updated_month: '&aAll monthly stats have been reset'
+    player_info:
+    - '&8&m----------------------'
+    - '&b&l%player% Info'
+    - '&7Weekly Points: &a%weekly_points%'
+    - '&7Monthly Points: &e%monthly_points%'
+    - '&7Lifetime Points: &3%total_points%'
+    - '&8&m----------------------'
+    - '&aActive Quests:'
+    - '&7%active_quests%'
+    - '&8&m----------------------'
+creator:
+  quest_duration:
+    material: REDSTONE_COMPARATOR
+    data: 0
+    glow: false
+    name: '&bDuration'
+    lore:
+    - '&7The amount of time the'
+    - '&7player will have to complete'
+    - '&7the quest (in seconds)'
+    - '&8&m-----------------'
+    - '&bDuration: &f%creator_data%'
+  quest_repeat_delay:
+    material: WEB
+    data: 0
+    glow: false
+    name: '&bRepeat Delay'
+    lore:
+    - '&7The amount of time the player'
+    - '&7will have to wait before'
+    - '&7repeating the quest (in seconds)'
+    - '&8&m-----------------'
+    - '&bRepeat Delay: &f%creator_data%'
+  quest_complete_balance:
+    material: DIAMOND
+    data: 0
+    glow: false
+    name: '&bComplete Balances'
+    lore:
+    - '&7The balances the player must'
+    - '&7have to complete the quest'
+    - '&8&m-----------------'
+    - '&bComplete Balances: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_complete_cost:
+    material: EMERALD
+    data: 0
+    glow: false
+    name: '&bComplete Costs'
+    lore:
+    - '&7The cost for the player'
+    - '&7to complete the quest'
+    - '&8&m-----------------'
+    - '&bComplete Cost: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_complete_permissions:
+    material: REDSTONE
+    data: 0
+    glow: false
+    name: '&bComplete Permissions'
+    lore:
+    - '&7The permissions the player must'
+    - '&7have to complete the quest'
+    - '&8&m-----------------'
+    - '&bComplete Permissions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_required_quest:
+    material: ANVIL
+    data: 0
+    glow: false
+    name: '&bRequired Quests'
+    lore:
+    - '&7The specific quests the'
+    - '&7player must complete before'
+    - '&7they can start the quest'
+    - '&8&m-----------------'
+    - '&bRequired Quests: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_blacklisted_quest:
+    material: BLAZE_POWDER
+    data: 0
+    glow: false
+    name: '&bBlacklisted Quests'
+    lore:
+    - '&7The quests that cannot be'
+    - '&7active while attempting'
+    - '&7to start the quest'
+    - '&8&m-----------------'
+    - '&bBlacklisted Quests: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_allowed_world:
+    material: GRASS
+    data: 0
+    glow: false
+    name: '&bAllowed Worlds'
+    lore:
+    - '&7The worlds where the quest will'
+    - '&7be tracked (leave empty for any)'
+    - '&8&m-----------------'
+    - '&bAllowed Worlds: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_blacklisted_world:
+    material: BEDROCK
+    data: 0
+    glow: false
+    name: '&bBlacklisted Worlds'
+    lore:
+    - '&7The worlds where progress wont'
+    - '&7be tracked (leave empty for any)'
+    - '&8&m-----------------'
+    - '&bBlacklisted Worlds: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_allowed_region:
+    material: DIRT
+    data: 0
+    glow: false
+    name: '&bAllowed Regions'
+    lore:
+    - '&7The regions where the quest will'
+    - '&7be tracked (leave empty for any)'
+    - '&8&m-----------------'
+    - '&bAllowed Regions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_blacklisted_region:
+    material: COAL_BLOCK
+    data: 0
+    glow: false
+    name: '&bBlacklisted Regions'
+    lore:
+    - '&7The regions where progress wont'
+    - '&7be tracked (leave empty for any)'
+    - '&8&m-----------------'
+    - '&bBlacklisted Regions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_start_balance:
+    material: MINECART
+    data: 0
+    glow: false
+    name: '&bStart Balances'
+    lore:
+    - '&7The balances the player must'
+    - '&7have to start the quest'
+    - '&8&m-----------------'
+    - '&bStart Balances: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_start_cost:
+    material: STORAGE_MINECART
+    data: 0
+    glow: false
+    name: '&bStart Costs'
+    lore:
+    - '&7The cost for the player'
+    - '&7to start the quest'
+    - '&8&m-----------------'
+    - '&bStart Cost: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_in_hand:
+    material: IRON_PICKAXE
+    data: 0
+    glow: false
+    name: '&bIn Hand'
+    lore:
+    - '&7The item that must be in the'
+    - '&7players hand to make progress'
+    - '&7to the quest'
+    - '&8&m-----------------'
+    - '&bIn Hand: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to set null'
+  quest_auto_start:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bAuto Start'
+    lore:
+    - '&7Whether or not players can'
+    - '&7have this quest started automatically'
+    - '&8&m-----------------'
+    - '&bAuto Start: &f%quest_auto_start%'
+  quest_repeatable:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bRepeatable'
+    lore:
+    - '&7Whether or not players can'
+    - '&7repeat the quest after already'
+    - '&7completing it once'
+    - '&8&m-----------------'
+    - '&bRepeatable: &f%quest_repeatable%'
+  quest_cancelable:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bCancelable'
+    lore:
+    - '&7Whether or not players can'
+    - '&7cancel the quest while they'
+    - '&7have it currently active'
+    - '&8&m-----------------'
+    - '&bCancelable: &f%quest_cancelable%'
+  quest_editable:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bEditable'
+    lore:
+    - '&7Whether or not players can'
+    - '&7edit the quest in-game'
+    - '&8&m-----------------'
+    - '&bEditable: &f%quest_editable%'
+  quest_disabled:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bDisabled'
+    lore:
+    - '&7Whether or not players can'
+    - '&7start this quest'
+    - '&8&m-----------------'
+    - '&bDisabled: &f%quest_disabled%'
+  quest_command_start:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bCommand Start'
+    lore:
+    - '&7Whether or not players can'
+    - '&7start the quest via command'
+    - '&8&m-----------------'
+    - '&bCommand Start: &f%quest_command_start%'
+  quest_cancel_after_timer:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bCancel After Timer'
+    lore:
+    - '&7Whether or not to execute'
+    - '&7the cancel actions if the'
+    - '&7duration timer runs out'
+    - '&8&m-----------------'
+    - '&bCancel After Timer: &f%quest_cancel_after_timer%'
+  quest_command_join:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bCommand Join'
+    lore:
+    - '&7Whether or not players can'
+    - '&7join this quest via command'
+    - '&8&m-----------------'
+    - '&bCommand Join: &f%quest_command_join%'
+  quest_join_active:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bJoin Active'
+    lore:
+    - '&7Whether or not players can'
+    - '&7join the quest if it'
+    - '&7has already been started'
+    - '&8&m-----------------'
+    - '&bJoin Active: &f%quest_join_active%'
+  quest_require_invite:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bRequire Invite'
+    lore:
+    - '&7Whether or not you must'
+    - '&7be invited by someone in'
+    - '&7the quest to join it'
+    - '&8&m-----------------'
+    - '&bRequire Invite: &f%quest_require_invite%'
+  quest_check_all:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bCheck All'
+    lore:
+    - '&7Whether or not to execute'
+    - '&7the checks on every player,'
+    - '&7or just the quest host'
+    - '&8&m-----------------'
+    - '&bCheck All: &f%quest_check_all%'
+  quest_team_type:
+    material: FIREBALL
+    data: 0
+    glow: false
+    name: '&bTeam Type'
+    lore:
+    - '&7The team type for how'
+    - '&7the quest will be completed'
+    - '&8&m-----------------'
+    - '&bTeam Type: &f%quest_team_type%'
+  quest_start_npc:
+    material: SKULL_ITEM
+    data: 0
+    glow: false
+    name: '&bStart NPC'
+    lore:
+    - '&7The NPC that must be visited'
+    - '&7to start the quest'
+    - '&8&m-----------------'
+    - '&bStart NPC: &f%quest_start_npc%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to set null'
+  quest_end_npc:
+    material: SKULL_ITEM
+    data: 4
+    glow: false
+    name: '&bEnd NPC'
+    lore:
+    - '&7The NPC that must be visited'
+    - '&7to complete the quest'
+    - '&8&m-----------------'
+    - '&bEnd NPC: &f%quest_end_npc%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to set null'
+  quest_invite_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bInvite Actions'
+    lore:
+    - '&7The actions to be executed for'
+    - '&7the player being invited'
+    - '&7to the quest'
+    - '&8&m-----------------'
+    - '&bInvite Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_kick_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bKick Actions'
+    lore:
+    - '&7The actions to be executed for'
+    - '&7the player being kicked'
+    - '&7from the quest'
+    - '&8&m-----------------'
+    - '&bKick Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_start_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bStart Actions'
+    lore:
+    - '&7The actions to be executed once'
+    - '&7a player starts the quest'
+    - '&8&m-----------------'
+    - '&bStart Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_progress_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bProgress Actions'
+    lore:
+    - '&7The actions to be executed upon'
+    - '&7requesting the quest progress'
+    - '&8&m-----------------'
+    - '&bProgress Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_return_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bReturn Actions'
+    lore:
+    - '&7The actions to be executed upon'
+    - '&7completion before visiting'
+    - '&7the quest end NPC'
+    - '&8&m-----------------'
+    - '&bReturn Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_cancel_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bCancel Actions'
+    lore:
+    - '&7The actions to be executed upon'
+    - '&7cancelation of the quest'
+    - '&8&m-----------------'
+    - '&bCancel Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  quest_complete_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bComplete Actions'
+    lore:
+    - '&7The actions to be executed once'
+    - '&7a player completes the quest'
+    - '&8&m-----------------'
+    - '&bComplete Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  menu_name:
+    material: NAME_TAG
+    data: 0
+    glow: false
+    name: '&bMenu Name'
+    lore:
+    - '&7The name to be used in'
+    - '&7the menu when opened'
+    - '&8&m-----------------'
+    - '&bMenu Name: &f%creator_data%'
+  menu_size:
+    material: CHEST
+    data: 0
+    glow: false
+    name: '&bMenu Size'
+    lore:
+    - '&7The size of the menu'
+    - '&7to be used when opened'
+    - '&7(9, 18, 27, 36, 45, 54)'
+    - '&8&m-----------------'
+    - '&bMenu Size: &f%creator_data%'
+  menu_editable:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bEditable'
+    lore:
+    - '&7Whether or not players can'
+    - '&7edit the menu in-game'
+    - '&8&m-----------------'
+    - '&bEditable: &f%creator_data%'
+  menu_disabled:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bDisabled'
+    lore:
+    - '&7Whether or not players can'
+    - '&7open this menu'
+    - '&8&m-----------------'
+    - '&bDisabled: &f%creator_data%'
+  menu_menu_slots:
+    material: NETHER_STAR
+    data: 0
+    glow: false
+    name: '&bMenu Slots'
+    lore:
+    - '&7The slots for the items'
+    - '&7to be displayed in the menu'
+    - '&8&m-----------------'
+    - '&7[Click] to edit slots'
+  menu_open_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bOpen Actions'
+    lore:
+    - '&7The actions to be executed'
+    - '&7upon opening the menu'
+    - '&8&m-----------------'
+    - '&bOpen Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  menu_close_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bClose Actions'
+    lore:
+    - '&7The actions to be executed'
+    - '&7upon closing the menu'
+    - '&8&m-----------------'
+    - '&bClose Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  menu_unavailable_preview:
+    material: COAL_BLOCK
+    data: 0
+    glow: false
+    name: '&bUnavailable Preview'
+    lore:
+    - '&7Click to view a preview'
+    - '&7of the current menu in'
+    - '&7the unavailble state'
+  menu_available_preview:
+    material: IRON_BLOCK
+    data: 0
+    glow: false
+    name: '&bAvailable Preview'
+    lore:
+    - '&7Click to view a preview'
+    - '&7of the current menu in'
+    - '&7the available state'
+  menu_active_preview:
+    material: GOLD_BLOCK
+    data: 0
+    glow: false
+    name: '&bActive Preview'
+    lore:
+    - '&7Click to view a preview'
+    - '&7of the current menu in'
+    - '&7the active state'
+  menu_completed_preview:
+    material: DIAMOND_BLOCK
+    data: 0
+    glow: false
+    name: '&bCompleted Preview'
+    lore:
+    - '&7Click to view a preview'
+    - '&7of the current menu in'
+    - '&7the completed state'
+  menu_waiting_preview:
+    material: EMERALD_BLOCK
+    data: 0
+    glow: false
+    name: '&bWaiting Preview'
+    lore:
+    - '&7Click to view a preview'
+    - '&7of the current menu in'
+    - '&7the waiting state'
+  menu_player_preview:
+    material: SKULL_ITEM
+    data: 3
+    glow: false
+    name: '&bPlayer Preview'
+    lore:
+    - '&7Click to view a preview'
+    - '&7of the current menu as'
+    - '&7it would appear to you'
+  menu_slot_available:
+    material: STAINED_GLASS_PANE
+    data: 7
+    glow: false
+    name: '&aSlot Available'
+    lore:
+    - '&7Click to add an item'
+    - '&7in this menu slot'
+  menu_slot_taken:
+    material: STAINED_GLASS_PANE
+    data: 14
+    glow: false
+    name: '&cSlot Taken'
+    lore:
+    - '&7An item has already been'
+    - '&7set for this slot'
+    - '&8&m-----------------'
+    - '&bIdentifier: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Click] to add items'
+    - '&7[Shift-Click] to remove item'
+  menu_placeholder_unavailable:
+    material: COAL_BLOCK
+    data: 0
+    glow: false
+    name: '&cQuest Unavailable'
+    lore:
+    - '&7You do not meet the'
+    - '&7requirements to start this quest'
+  menu_placeholder_available:
+    material: STONE
+    data: 0
+    glow: false
+    name: '&aStart Quest'
+    lore:
+    - '&7Click here to start the quest!'
+  menu_placeholder_active:
+    material: STONE
+    data: 0
+    glow: true
+    name: '&aQuest Active'
+    lore:
+    - '&7You are currently working'
+    - '&7on this quest!'
+  menu_placeholder_completed:
+    material: EMERALD
+    data: 0
+    glow: false
+    name: '&aCompleted!'
+    lore:
+    - '&7You did it! You completed'
+    - '&7the quest successfully!'
+  menu_placeholder_waiting:
+    material: EMERALD
+    data: 0
+    glow: true
+    name: '&aCompleted!'
+    lore:
+    - '&7You did it! You can repeat'
+    - '&7the quest in %quest_repeat_delay%'
+  menu_add_unavailable:
+    material: STAINED_GLASS_PANE
+    data: 14
+    glow: false
+    name: '&cUnavailable Item'
+    lore:
+    - '&7The item to be used in'
+    - '&7the quest menu when it'
+    - '&7is unavailable'
+  menu_add_available:
+    material: STAINED_GLASS_PANE
+    data: 5
+    glow: false
+    name: '&aAvailable Item'
+    lore:
+    - '&7The item to be used in'
+    - '&7the quest menu when it'
+    - '&7is available'
+  menu_add_active:
+    material: STAINED_GLASS_PANE
+    data: 3
+    glow: false
+    name: '&bActive Item'
+    lore:
+    - '&7The item to be used in'
+    - '&7the quest menu when it'
+    - '&7is active'
+  menu_add_completed:
+    material: STAINED_GLASS_PANE
+    data: 4
+    glow: false
+    name: '&eCompleted Item'
+    lore:
+    - '&7The item to be used in'
+    - '&7the quest menu when it'
+    - '&7is completed'
+  menu_add_waiting:
+    material: STAINED_GLASS_PANE
+    data: 2
+    glow: false
+    name: '&dWaiting Item'
+    lore:
+    - '&7The item to be used in'
+    - '&7the quest menu when it'
+    - '&7is waiting'
+  menu_add_placeholder:
+    material: STAINED_GLASS_PANE
+    data: 7
+    glow: false
+    name: '&bAdd Item'
+    lore:
+    - '&7Drag any item into the'
+    - '&7menu to add it as an'
+    - '&7item state for this slot'
+  menu_placeholder_item:
+    material: STAINED_GLASS
+    data: 14
+    glow: false
+    name: '&cPlaceholder Item'
+    lore:
+    - '&7Placeholder items can only'
+    - '&7have one item state'
+  npc_type_quest:
+    material: BOW
+    data: 0
+    glow: false
+    name: '&aQuest NPC'
+    lore:
+    - '&7An NPC that is used to'
+    - '&7give out quests. They can'
+    - '&7also be used as a return'
+    - '&7point to complete quests'
+  npc_type_menu:
+    material: CHEST
+    data: 0
+    glow: false
+    name: '&aMenu NPC'
+    lore:
+    - '&7An NPC that when interacted'
+    - '&7with will open up the'
+    - '&7asscoiated quest menu'
+  npc_type_leader:
+    material: DIAMOND
+    data: 0
+    glow: false
+    name: '&aLeader NPC'
+    lore:
+    - '&7An NPC that when interacted'
+    - '&7with will display the'
+    - '&7linked leaderboard menu.'
+    - ''
+    - '&7If used with Citizens it will'
+    - '&7also display the NPC as the'
+    - '&7player in the position specified'
+  npc_entity_type:
+    material: SKULL_ITEM
+    data: 4
+    glow: false
+    name: '&bEntity Type'
+    lore:
+    - '&7The type of the entity'
+    - '&7used as the NPC'
+    - '&8&m-----------------'
+    - '&bEntity Type: &f%creator_data%'
+  npc_location:
+    material: EMPTY_MAP
+    data: 0
+    glow: false
+    name: '&bLocation'
+    lore:
+    - '&7The location of the entity'
+    - '&7used as the NPC'
+    - '&8&m-----------------'
+    - '&bLocation: &f%creator_data%'
+  npc_name:
+    material: NAME_TAG
+    data: 0
+    glow: false
+    name: '&bName'
+    lore:
+    - '&7The name of the entity'
+    - '&7used as the NPC'
+    - '&8&m-----------------'
+    - '&bName: &f%creator_data%'
+  npc_click_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bClick Actions'
+    lore:
+    - '&7The actions to be executed'
+    - '&7upon clicking the NPC'
+    - '&8&m-----------------'
+    - '&bClick Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  npc_hologram_lines:
+    material: ITEM_FRAME
+    data: 0
+    glow: false
+    name: '&bHologram Lines'
+    lore:
+    - '&7The hologram to appear'
+    - '&7above the NPC'
+    - '&8&m-----------------'
+    - '&bHologram Lines: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  npc_citizen:
+    material: MONSTER_EGG
+    data: 0
+    glow: false
+    name: '&bCitizen'
+    lore:
+    - '&7The Citizen to be used'
+    - '&7as the NPC'
+    - '&8&m-----------------'
+    - '&bCitizen: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to set null'
+  npc_editable:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bEditable'
+    lore:
+    - '&7Whether or not players can'
+    - '&7edit the npc in-game'
+    - '&8&m-----------------'
+    - '&bEditable: &f%creator_data%'
+  npc_disabled:
+    material: INK_SACK
+    data: 8
+    glow: false
+    name: '&bDisabled'
+    lore:
+    - '&7Whether or not players can'
+    - '&7use this npc'
+    - '&8&m-----------------'
+    - '&bDisabled: &f%creator_data%'
+  npc_no_quests_actions:
+    material: COMMAND
+    data: 0
+    glow: false
+    name: '&bNo Quests Actions'
+    lore:
+    - '&7The actions to be executed'
+    - '&7upon clicking the NPC and'
+    - '&7there are no quests to give'
+    - '&8&m-----------------'
+    - '&bNo Quests Actions: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  npc_linked_quests:
+    material: ANVIL
+    data: 0
+    glow: false
+    name: '&bLinked Quests'
+    lore:
+    - '&7The quests to be linked'
+    - '&7to the quest NPC'
+    - '&8&m-----------------'
+    - '&bLinked Quests: &f%creator_data%'
+    - '&8&m-----------------'
+    - '&7[Shift-Click] to remove last entry'
+  npc_menu:
+    material: CHEST
+    data: 0
+    glow: false
+    name: '&bMenu'
+    lore:
+    - '&7The menu to be opened upon'
+    - '&7interacting with the NPC'
+    - '&8&m-----------------'
+    - '&bMenu: &f%creator_data%'
+  npc_leaderboard_type:
+    material: BLAZE_POWDER
+    data: 0
+    glow: false
+    name: '&bLeaderboard Type'
+    lore:
+    - '&7The leaderboard type to be'
+    - '&7linked with the NPC'
+    - '&8&m-----------------'
+    - '&bLeaderboard Type: &f%creator_data%'
+  npc_leaderboard_position:
+    material: EMERALD
+    data: 0
+    glow: false
+    name: '&bLeaderboard Position'
+    lore:
+    - '&7The player position to be'
+    - '&7displayed for the NPC entity'
+    - '&8&m-----------------'
+    - '&bLeaderboard Position: &f%creator_data%'
+  creation_confirm:
+    material: WOOL
+    data: 5
+    glow: false
+    name: '&a&lCONFIRM'
+    lore:
+    - '&fClick here &7if you want'
+    - '&7to cancel the creation'
+  creation_cancel:
+    material: WOOL
+    data: 14
+    glow: false
+    name: '&c&lCANCEL'
+    lore:
+    - '&fClick here &7to return'
+    - '&7to the creation'
+  quest_join_confirm:
+    material: WOOL
+    data: 5
+    glow: false
+    name: '&a&lCONFIRM'
+    lore:
+    - '&fClick here &7if you want'
+    - '&7to join the quest'
+  quest_join_cancel:
+    material: WOOL
+    data: 14
+    glow: false
+    name: '&c&lCANCEL'
+    lore:
+    - '&fClick here &7to cancel'
+    - '&7joining the quest'
+  quest_kick_confirm:
+    material: WOOL
+    data: 5
+    glow: false
+    name: '&a&lCONFIRM'
+    lore:
+    - '&fClick here &7if you want'
+    - '&7to kick the player from quest'
+  quest_kick_cancel:
+    material: WOOL
+    data: 14
+    glow: false
+    name: '&c&lCANCEL'
+    lore:
+    - '&fClick here &7to cancel'
+    - '&7kicking the player from quest'
+  quest_edit_save:
+    material: WOOL
+    data: 5
+    glow: false
+    name: '&a&lSAVE'
+    lore:
+    - '&fClick here &7to save only'
+    - '&7the quest file'
+  quest_edit_override:
+    material: WOOL
+    data: 4
+    glow: false
+    name: '&e&lOVERRIDE'
+    lore:
+    - '&fClick here &7to save the'
+    - '&7quest file and also load'
+    - '&7the updated quest'
+  quest_edit_override_all:
+    material: WOOL
+    data: 1
+    glow: false
+    name: '&6&lOVERRIDE ALL'
+    lore:
+    - '&fClick here &7to save the'
+    - '&7quest file and override any'
+    - '&7active instances to reflect'
+    - '&7the changes made'
+  quest_edit_cancel:
+    material: WOOL
+    data: 14
+    glow: false
+    name: '&c&lCANCEL'
+    lore:
+    - '&fClick here &7to return'
+    - '&7to the quest editor'
+  player_delete_confirm:
+    material: WOOL
+    data: 5
+    glow: false
+    name: '&a&lCONFIRM'
+    lore:
+    - '&fClick here &7if you want'
+    - '&7to delete the player data'
+  player_delete_cancel:
+    material: WOOL
+    data: 14
+    glow: false
+    name: '&c&lCANCEL'
+    lore:
+    - '&fClick here &7to cancel'
+    - '&7deleting the player data'
+  npc_delete_confirm:
+    material: WOOL
+    data: 5
+    glow: false
+    name: '&a&lCONFIRM'
+    lore:
+    - '&fClick here &7if you want'
+    - '&7to delete the NPC'
+  npc_delete_cancel:
+    material: WOOL
+    data: 14
+    glow: false
+    name: '&c&lCANCEL'
+    lore:
+    - '&fClick here &7to cancel'
+    - '&7the deletion of the NPC'
+  menu_delete_confirm:
+    material: WOOL
+    data: 5
+    glow: false
+    name: '&a&lCONFIRM'
+    lore:
+    - '&fClick here &7if you want'
+    - '&7to delete the menu'
+  menu_delete_cancel:
+    material: WOOL
+    data: 14
+    glow: false
+    name: '&c&lCANCEL'
+    lore:
+    - '&fClick here &7to cancel'
+    - '&7the deletion of the menu'
+  confirmation_border:
+    material: STAINED_GLASS_PANE
+    data: 7
+    glow: false
+    name: '&fConfirmation'
+    lore:
+    - '&7You must confirm your'
+    - '&7selection for this action'
+  confirmation_border_animated:
+    material: STAINED_GLASS_PANE
+    data: 5
+    glow: false
+    name: '&fConfirmation'
+    lore:
+    - '&7You must confirm your'
+    - '&7selection for this action'
+  previous_page:
+    material: WOOL
+    data: 14
+    glow: false
+    name: '&cPrevious Page'
+    lore:
+    - '&7Click to return to the'
+    - '&7previous creation page'
+  next_page:
+    material: WOOL
+    data: 5
+    glow: false
+    name: '&aNext Page'
+    lore:
+    - '&7Click to move to the'
+    - '&7next creation page'
+  save_creation:
+    material: VINE
+    data: 0
+    glow: true
+    name: '&aSave Creation'
+    lore:
+    - '&7Click to save the creation'
+  pause_creation:
+    material: ARROW
+    data: 0
+    glow: false
+    name: '&bPause Creation'
+    lore:
+    - '&7Click to pause the creation,'
+    - '&7by pausing you can return'
+    - '&7to this same point later'
+    - '&8&m-----------------'
+    - '&7- &f/creator resume %creator_data%'
+  cancel_creation:
+    material: STAINED_GLASS_PANE
+    data: 14
+    glow: false
+    name: '&cCancel Creation'
+    lore:
+    - '&7Click to cancel the creation'
+    - '&8&m-----------------'
+    - '&c&lWARNING!'
+    - '&7By cancelling the creation'
+    - '&7all changes will be lost'

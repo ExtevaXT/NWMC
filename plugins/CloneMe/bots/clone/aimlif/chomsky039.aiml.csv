@@ -1,0 +1,127 @@
+0,MORE ART,*,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,BROWSE ART,*,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,GO TO ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,WE COULD TALK ABOUT ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,COULD WE TALK ABOUT ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,CAN WE TALK ABOUT ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,SHALL WE TALK ABOUT ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,LETS TALK ABOUT ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,LET S TALK ABOUT ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,TALK ABOUT ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,TALK ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,TELL ME ART,*,*,<srai>ART</srai>,chomsky039.aiml
+0,NO MORE ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NO ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,* NO ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NO ART *,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,* NO * ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NO _ ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NO _ ART *,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NOT ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,* NOT ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NOT ART *,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,* NOT * ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,I AM NOT INTERESTED IN ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,IM NOT INTERESTED IN ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,I M NOT INTERESTED IN ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NOT INTERESTED IN ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,* NOT INTERESTED IN ART,*,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,YES,MORE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,* YES,MORE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,YES *,MORE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,_ YES *,MORE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,Y,MORE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,YUP,MORE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,YAH,MORE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,YEAH,MORE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,OK,MORE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,NO,MORE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,* NO,MORE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NO *,MORE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,N,MORE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NUP,MORE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NAH,MORE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,* YES,MORE ABOUT ART,*,<srai>MORE ABOUT ART</srai>,chomsky039.aiml
+0,YES *,MORE ABOUT ART,*,<srai>MORE ABOUT ART</srai>,chomsky039.aiml
+0,_ YES *,MORE ABOUT ART,*,<srai>MORE ABOUT ART</srai>,chomsky039.aiml
+0,Y,MORE ABOUT ART,*,<srai>MORE ABOUT ART</srai>,chomsky039.aiml
+0,YUP,MORE ABOUT ART,*,<srai>MORE ABOUT ART</srai>,chomsky039.aiml
+0,YAH,MORE ABOUT ART,*,<srai>MORE ABOUT ART</srai>,chomsky039.aiml
+0,YEAH,MORE ABOUT ART,*,<srai>MORE ABOUT ART</srai>,chomsky039.aiml
+0,OK,MORE ABOUT ART,*,<srai>MORE ABOUT ART</srai>,chomsky039.aiml
+0,NO,MORE ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,* NO,MORE ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NO *,MORE ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,N,MORE ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NUP,MORE ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NAH,MORE ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,YES,IS THIS SOMETHING TO DO WITH ART,*,Can we talk about art?,chomsky039.aiml
+0,* YES,IS THIS SOMETHING TO DO WITH ART,*,Can we talk about art?,chomsky039.aiml
+0,YES *,IS THIS SOMETHING TO DO WITH ART,*,Can we talk about art?,chomsky039.aiml
+0,_ YES *,IS THIS SOMETHING TO DO WITH ART,*,Can we talk about art?,chomsky039.aiml
+0,Y,IS THIS SOMETHING TO DO WITH ART,*,Can we talk about art?,chomsky039.aiml
+0,YUP,IS THIS SOMETHING TO DO WITH ART,*,Can we talk about art?,chomsky039.aiml
+0,YAH,IS THIS SOMETHING TO DO WITH ART,*,Can we talk about art?,chomsky039.aiml
+0,YEAH,IS THIS SOMETHING TO DO WITH ART,*,Can we talk about art?,chomsky039.aiml
+0,* NO,IS THIS SOMETHING TO DO WITH ART,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NO *,IS THIS SOMETHING TO DO WITH ART,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,_ NO *,IS THIS SOMETHING TO DO WITH ART,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,N,IS THIS SOMETHING TO DO WITH ART,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NUP,IS THIS SOMETHING TO DO WITH ART,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,NAH,IS THIS SOMETHING TO DO WITH ART,*,<srai>CHANGE TOPIC</srai>,chomsky039.aiml
+0,*,IS THIS SOMETHING TO DO WITH ART,*,Can we talk about art?,chomsky039.aiml
+0,YES,ARE YOU INTERESTED IN ART,*,Can we talk about art?,chomsky039.aiml
+0,* YES,ARE YOU INTERESTED IN ART,*,Can we talk about art?,chomsky039.aiml
+0,YES *,ARE YOU INTERESTED IN ART,*,Can we talk about art?,chomsky039.aiml
+0,_ YES *,ARE YOU INTERESTED IN ART,*,Can we talk about art?,chomsky039.aiml
+0,Y,ARE YOU INTERESTED IN ART,*,Can we talk about art?,chomsky039.aiml
+0,YUP,ARE YOU INTERESTED IN ART,*,Can we talk about art?,chomsky039.aiml
+0,YAH,ARE YOU INTERESTED IN ART,*,Can we talk about art?,chomsky039.aiml
+0,YEAH,ARE YOU INTERESTED IN ART,*,Can we talk about art?,chomsky039.aiml
+0,* NO,ARE YOU INTERESTED IN ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NO *,ARE YOU INTERESTED IN ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,_ NO *,ARE YOU INTERESTED IN ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,N,ARE YOU INTERESTED IN ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NUP,ARE YOU INTERESTED IN ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NAH,ARE YOU INTERESTED IN ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,GO AHEAD,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,CARRY ON,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,PLEASE DO,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,YES PLEASE,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,GO ON,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,ALRIGHT,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,SURE,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,ALLRIGHT,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,YES,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,* YES,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,YES *,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,_ YES *,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,Y,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,YUP,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,YAH,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,YEAH,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,OK,CAN WE TALK ABOUT ART,*,<srai>ART</srai>,chomsky039.aiml
+0,NO,CAN WE TALK ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,* NO,CAN WE TALK ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,N,CAN WE TALK ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NUP,CAN WE TALK ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NAH,CAN WE TALK ABOUT ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,YES,BROWSE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,* YES,BROWSE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,YES *,BROWSE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,_ YES *,BROWSE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,Y,BROWSE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,YUP,BROWSE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,YAH,BROWSE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,YEAH,BROWSE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,OK,BROWSE ART,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,NO,BROWSE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,* NO,BROWSE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NO *,BROWSE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,N,BROWSE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NUP,BROWSE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,NAH,BROWSE ART,*,<srai>MORE TOPICS</srai>,chomsky039.aiml
+0,ART NEXT QUESTION,*,*,<srai>ART POT LUCK</srai>,chomsky039.aiml
+0,SCULPTURE,*,*,I think this is something to do with art. Can we talk about art?#Newline<think><set name="topic">art</set></think>,chomsky039.aiml
+0,*SCULPTURE*,*,*,I think this is something to do with art. Can we talk about art?#Newline<think><set name="topic">art</set></think>,chomsky039.aiml
+0,QUOTES ABOUT ART,*,*,<random>#Newline#Newline   <li>What do you think of the enormous prices paid for artworks today? Is art value for money? </li>#Newline   <li>According to Frank Zappa#Comma art is making something out of nothing and selling it. Agree? </li>#Newline   <li>Sculpture is mudpies which endure#Comma according to Cyril Connolly.</li>#Newline   <li>The job of the artist is always to deepen the mystery#Comma according to Francis Bacon. </li>#Newline   <li>Buy old masters. They fetch a better price than old mistresses#Comma according to Lord Beaverbrook</li>#Newline   <li>Sculpture is mudpies which endure#Comma according to Cyril Connolly.</li>#Newline   <li>The artistic temperament is a disease that afflicts amateurs#Comma according to G.K. Chesterton.</li>#Newline   <li>A highbrow is the kind of person who looks at a sausage and thinks of Picasso. (A.P. Herbert)</li>#Newline   <li>Art is not a mirror to reflect the world#Comma but a hammer with which to shape it#Comma according to Vladimir Mayakovsky.</li>#Newline   <li>If Botticelli were alive today he'd be working for Vogue#Comma according to Peter Ustinov.</li>#Newline   <li>Art is meant to disturb#Comma science reassures#Comma said Georges Braque.</li>#Newline   <li>Art does not reproduce what is visible; it makes things visible#Comma according to Paul Klee.</li>#Newline   <li>Every artist writes his own autobiography#Comma said Havelock Ellis. </li> #Newline   <li>Did you know: Claude Debussy said#Comma Art is the most beautiful of all lies.</li>#Newline   <li>To an accountant#Comma a work of art is an investment that hangs on the wall#Comma according to Hilary Alexander.</li>#Newline   <li>Pablo Picasso said that the artist is a receptacle for emotions that come from all over the place: from the sky#Comma from the Earth#Comma from a scrap of paper#Comma from a passing shape#Comma from a spider's web. </li>#Newline   <li>Edgar Degas said that painting was an activity that's easy if you don't know how to do it#Comma but difficult when you do. </li>#Newline   <li>Modern art#Comma according to Noel Coward#Comma is a square lady with three breasts and a guitar up her crotch.  </li>#Newline#Newline</random>#Newline<think><set name="topic">art</set></think>,chomsky039.aiml

@@ -1,0 +1,20 @@
+enable: true
+message-format: '&7&l[L]  %prefix&l%player%suffix §7→ &7&l%message'
+global-message-format: '&7&l[G]  %prefix&l%player%suffix §7→ &7&l%message'
+ranged-mode: true
+chat-range: 200.0
+multi-prefixes: false
+multi-suffixes: false
+logChat: false
+Priority: LOWEST
+Debug: false
+Locale: en-EN
+Ads:
+  Enabled: true
+  Bypass:
+  - 127.0.0.1
+  - my-domain.com
+  Log: true
+Messages:
+  JoinAndQuit:
+    Enabled: false

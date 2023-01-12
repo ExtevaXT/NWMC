@@ -1,0 +1,57 @@
+id: 2ac5353c-80c2-3a93-8795-dd274d77959e
+name: Rabotyaga
+created: 1562015313059
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  jutsu:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Рандомный Клан
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязан к Rabotyaga
+        - §4Not Undoable
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1Pu07DQBBcK46xjWgCokOiSGsENlGSjkhQIEiQiFKjjW9JjsR3h72XiJJ/4Gv4F1p+gQrExTy22hnN7M7EAB7EVhV6RThdkueBvyAyXgz+GpUIIWQqzBKZoPlgubIhNPVaUQnRLU41P+EMnaim7qSAdop5J+tkedI7ztMkw36W9Lr9TiJE2j0VXbf2qQFbKyorqRUABC7BtlUVYzX/jeCgKLUxNYygNWAu5dQyDbWQ99JZY2f0fAgnk8vzoa745eR9nb1effkQbahrwoqfP0Z7+wdvnwEEg0JbxWdtqCcEf7zUDGGBUs3rljv/L0ZYEOzOyPWR+REyY74YGyLRgOjGUIn8E3tzpda2Lh6tNAUpPvyLB/ANXX1gTlgBAAA=
+    wand:
+      template: jutsu
+      owner: Rabotyaga
+      owner_id: 2ac5353c-80c2-3a93-8795-dd274d77959e
+      version: 6
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 0
+properties:
+  version: 6
+classes: {}
+health: 20.0

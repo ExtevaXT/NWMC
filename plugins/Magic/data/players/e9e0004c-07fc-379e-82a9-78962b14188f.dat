@@ -1,0 +1,57 @@
+id: e9e0004c-07fc-379e-82a9-78962b14188f
+name: yapidor
+created: 1561299783418
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  jutsu:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Рандомный Клан
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязана к yapidor
+        - §4Not Undoable
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD1PzU7CQBicxgKlxAu+gAdOJjUFUdqbJBpjInognM3SfsgC3V3bbyE+h1ePvoEvwN0H8WziA1jqz3ebycw3Mz7gwLcq02sS0xU5DtwlkXF8uBuhUg8eU2ZWggm1heXCeqjpjaIcjSdhZKrzUlIR9zJFh2IKw7CfBOFglgQng5iCqCfiYBDFZ71pt9+NotkeGmvKC6kVgHqZ37KqYFHMfwuUMM21MRVsoj1kzuXUMo10KmeytPql0XHhTSbXFyNdMD5OP7fbq5aL5o66IVHwy+v74uvo7bmO+jDTVvF5B9V5cMcrzfAyIdW82rj/H3ErMsLBA5V7ZHIsmEWyHBuidA/NO0O54J/auy+Vtn35aKXJSPHhXz3gGwSUsPdWAQAA
+    wand:
+      template: jutsu
+      owner: yapidor
+      owner_id: e9e0004c-07fc-379e-82a9-78962b14188f
+      version: 6
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 0
+properties:
+  version: 6
+classes: {}
+health: 20.0

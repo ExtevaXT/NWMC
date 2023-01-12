@@ -1,0 +1,165 @@
+quest:
+- requirements:
+  - questID: 18
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое будет следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: Поступила новая информация о тех разбойниках
+    - id: 2
+      message:
+        sender: NPC
+        text: Кажется они больше чем мы думали
+    - id: 3
+      message:
+        sender: NPC
+        text: Они захватили одного нашего жителя в заложники
+    - id: 4
+      message:
+        sender: NPC
+        text: Твоя задача - пробраться в их логово и вывести оттуда заложника
+    - id: 5
+      message:
+        sender: PLAYER
+        text: Так где их логово?
+    - id: 6
+      message:
+        sender: NPC
+        text: Я незнаю точной информации
+    - id: 7
+      message:
+        sender: NPC
+        text: Иди к сторожу, у него есть информация от разведчиков
+  manager:
+    stages:
+    - msg:
+        npc: 476
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Здравствуйте, это снова я
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Мне нужна информация о логове разбойников
+        - id: 2
+          message:
+            sender: NPC
+            text: По нашим данным их логово находится не подалёку от того места где
+              ты их зачищал
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 476
+      order: 0
+    - msg:
+        npc: 477
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Привет, я тебя отсюда вытащу
+        - id: 1
+          message:
+            sender: NPC
+            text: Спасибо тебе
+        - id: 2
+          message:
+            sender: NPC
+            text: Но не в этот раз
+      stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - tp:
+          world: world
+          x: -370.62356035588436
+          y: 52.0
+          z: -559.4634685860552
+          pitch: 3.0894961
+          yaw: -269.3152
+        class: fr.skytasul.quests.rewards.TeleportationReward
+      npcID: 477
+      order: 1
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Ну что спас заложника?
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Как бы не так
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Это была ловушка
+        - id: 3
+          message:
+            sender: NPC
+            text: Надеюсь ты цел?
+        - id: 4
+          message:
+            sender: PLAYER
+            text: Я в порядке
+        - id: 5
+          message:
+            sender: NPC
+            text: Кажется миссии стали для тебя слишком опасными
+        - id: 6
+          message:
+            sender: NPC
+            text: Я думаю сейчас тебе стоит сдать экзамен на Чунина
+        - id: 7
+          message:
+            sender: NPC
+            text: После того как сдашь экзамен приходи ко мне, я тебе дам новых миссий
+        - id: 8
+          message:
+            sender: PLAYER
+            text: А к кому идти?
+        - id: 9
+          message:
+            sender: NPC
+            text: Иди в академию к Ируке он тебе расскажет все подробности экзамена
+      stageType: NPC
+      customText: null
+      text: Похоже это была ловушка
+      rewards: []
+      npcID: 42
+      order: 2
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 100
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-C №3
+  finished:
+  - '0'
+  id: 19
+  scoreboard: true
+  cancellable: false

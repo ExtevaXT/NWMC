@@ -1,0 +1,30 @@
+fire3:
+  drop: toggle
+  alternate_spell: fenixfire
+  swap: toggle
+  icon: gold_sword:10
+  description: Техники Стихии Огня
+  indestructible: true
+  right_click: cast
+  hotbar: 0
+  version: 6
+  spell_inventory:
+    firewind: 3
+    fenixfire: 0
+    fenixflower: 2
+    greatfireball: 1
+  mode: inventory
+  active_spell: greatfireball
+  mana: 180.0
+  name: Стихия Огня
+  left_click: none
+  page: 0
+  spells:
+  - fenixfire
+  - greatfireball
+  - fenixflower
+  - firewind
+  undroppable: true
+  inherit: fire
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva

@@ -1,0 +1,343 @@
+prefix: '&3[Опыт&3] &c'
+currency: '&7&l[XP]'
+
+Entities:
+   PIG:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   SHEEP:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   CHICKEN:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   COW:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} вы потеряли {money} &6опыта'
+
+   HORSE:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   RABBIT:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   WOLF:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   OCELOT:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   BAT:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} You lost {money} &6опыта'
+
+   BLAZE:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   CAVE_SPIDER:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   CREEPER:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   ENDER_DRAGON:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   ENDERMAN:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   ENDERMITE:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   GHAST:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   GIANT:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   GUARDIAN:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   IRON_GOLEM:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   MAGMA_CUBE:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   MUSHROOM_COW:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   PIG_ZOMBIE:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   PLAYER:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   SHULKER:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   SILVERFISH:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} You lost {money} &6опыта'
+
+   SKELETON:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   SLIME:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   SNOWMAN:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   SPIDER:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   SQUID:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   VILLAGER:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   WITCH:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   WITHER:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'
+
+   ZOMBIE:
+      Reward:
+         Random-message: false
+         Messages:
+            - '{prefix} &fВы получили {money} &6опыта'
+      Loss:
+         Random-message: false
+         Messages:
+            - '{prefix} Вы потеряли {money} &6опыта'

@@ -1,0 +1,29 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Configuration:
+#     enabled - Disable to stop plugin from broadcasting (true or false)
+#     interval - The time in between each broadcast in seconds
+#     prefix - The tag shown at the beginning of a broadcast
+#     random - Randomize broadcasted messages (true or false)
+#     logToConsole - Disable to prevent console SPAM (true or false)
+#  Messages:
+#     Add a new message with the format - Message
+#     Add color codes by prefixing with &
+#        Example: &aHello &bWorld!
+#     Messages can be placed on separate lines by using the $n delimiter.
+#        Example: &aHello $n&bWorld!
+#     Add commands to your messages by starting the line with /.
+#        Example: /time set 0
+#  ----------------------------------------------------
+
+settings:
+  random: true
+  prefix: ''
+  logToConsole: true
+  interval: 900
+  enabled: true
+messages:
+- '&3&l[!] &fЧтобы узнать информацию про кланы пропишите &6/clan'
+- '&3&l[!] &fВы можете создавать и вступать в группировки'
+- '&3&l[!] &fЧтобы заприватить территорию используйте //wand'

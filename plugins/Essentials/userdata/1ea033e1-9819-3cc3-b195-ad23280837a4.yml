@@ -1,0 +1,20 @@
+geolocation: Russia
+lastAccountName: umbrella11
+timestamps:
+  login: 1561840881644
+  logout: 1561840911747
+ipAddress: 78.29.121.66
+lastlocation:
+  world: ourservers
+  x: -914.0
+  y: 68.0
+  z: -442.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: ourservers
+  x: -913.5
+  y: 68.0
+  z: -441.5
+  yaw: -105.60974
+  pitch: 22.65

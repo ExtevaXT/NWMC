@@ -1,0 +1,23 @@
+Resourcepack-URL: http://download851.mediafire.com/7ivuw8ucs6hg/20oez9gcmckjz6e/LightNarutoRP.zip
+Global-Resourcepack: true
+Resourcepack-Command: rp
+Command-Case-Sensitive: false
+Use-Join-Bypass-Permission: true
+Send-Resourcepack-On-Join: false
+Accepted-Command:
+  Enabled: false
+  Command: tell %PLAYER% Your uuid is %UUID%
+Declined-Command:
+  Enabled: false
+  Command: tell %PLAYER% Your uuid is %UUID%
+Successfuly-Downloaded-Command:
+  Enabled: false
+  Command: tell %PLAYER% Your uuid is %UUID%
+Failed-Download-Command:
+  Enabled: false
+  Command: tell %PLAYER% Your uuid is %UUID%
+Messages:
+  Enable-Accepted-Message: true
+  Enable-Declined-Message: true
+  Enable-Successfuly-Downloaded-Message: true
+  Enable-Failed-Downloaded-Message: true

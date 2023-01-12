@@ -1,0 +1,22 @@
+geolocation: Russia
+lastAccountName: abeliks
+timestamps:
+  login: 1562756559920
+  lastteleport: 1562752701638
+  logout: 1562756707931
+ipAddress: 88.147.174.45
+lastlocation:
+  world: world
+  x: 6129.300000011921
+  y: 67.0
+  z: -438.61545523171026
+  yaw: -183.69989
+  pitch: 20.245295
+money: '74.879999999999996'
+logoutlocation:
+  world: world
+  x: 6148.158788565515
+  y: 67.0
+  z: -357.8036082125303
+  yaw: -354.69293
+  pitch: -6.6920424

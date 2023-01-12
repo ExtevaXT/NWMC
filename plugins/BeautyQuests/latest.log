@@ -1,0 +1,36 @@
+[00:36:31] ---- BEAUTYQUESTS LOGGER - OPENED Tue Jul 30 00:36:31 MSK 2019 ----
+[00:37:53] [INFO]: Enabling BeautyQuests v0.15.2
+[00:37:53] [INFO]: Placeholders registereds !
+[00:37:53] [INFO]: Loaded valid version v1_12_R1
+[00:37:53] [DEBUG]: Loading data file, last time edited : Tue Jul 30 00:32:58 MSK 2019
+[00:37:53] [INFO]: Loaded language file locales/ru_RU.yml (0.553s)!
+[00:37:53] [DEBUG]: Initlializing default stage types.
+[00:37:53] [DEBUG]: Stage registered (Find, 0)
+[00:37:53] [DEBUG]: Stage registered (Talk, 1)
+[00:37:53] [DEBUG]: Stage registered (Items, 2)
+[00:37:53] [DEBUG]: Stage registered (Mobs, 3)
+[00:37:53] [DEBUG]: Stage registered (Mine, 4)
+[00:37:53] [DEBUG]: Stage registered (Chat, 5)
+[00:37:53] [DEBUG]: Stage registered (Interact, 6)
+[00:37:53] [DEBUG]: Stage registered (Fish, 7)
+[00:37:53] [DEBUG]: Initlializing default requirements.
+[00:37:53] [DEBUG]: Requirement registered (class: QuestRequirement)
+[00:37:53] [DEBUG]: Requirement registered (class: LevelRequirement)
+[00:37:53] [DEBUG]: Requirement registered (class: PermissionsRequirement)
+[00:37:53] [DEBUG]: Requirement registered (class: PlaceholderRequirement)
+[00:37:53] [DEBUG]: Initlializing default rewards.
+[00:37:53] [DEBUG]: Reward registered (class: CommandReward)
+[00:37:53] [DEBUG]: Reward registered (class: ItemReward)
+[00:37:53] [DEBUG]: Reward registered (class: MessageReward)
+[00:37:53] [DEBUG]: Reward registered (class: MoneyReward)
+[00:37:53] [DEBUG]: Reward registered (class: PermissionReward)
+[00:37:53] [DEBUG]: Reward registered (class: TeleportationReward)
+[00:37:53] [DEBUG]: Reward registered (class: XPReward)
+[00:37:54] [INFO]: Loaded start particles: REDSTONE in shape POINT with color "R255 G255 B0"
+[00:37:54] [INFO]: Loaded talk particles: VILLAGER_HAPPY in shape BAR
+[00:37:54] [INFO]: Loaded next particles: SMOKE_NORMAL in shape SPOT
+[00:39:15] [DEBUG]: Registered 4 lines in scoreboard
+[00:39:16] [DEBUG]: 6 accounts loaded for 6 players.
+[00:39:16] [DEBUG]: Player 0 unused for StageMobs
+[00:39:16] [DEBUG]: Player 0 unused for StageMobs
+[00:39:16] [INFO]: 17 quests loaded (0.877s)!

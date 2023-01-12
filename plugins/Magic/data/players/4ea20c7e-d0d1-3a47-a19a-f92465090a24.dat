@@ -1,0 +1,188 @@
+id: 4ea20c7e-d0d1-3a47-a19a-f92465090a24
+name: abeliks
+created: 1562074180661
+last_cast: 1562074987591
+cooldown_expiration: 0
+last_death_location: -899.05898950439,87.0,-448.4202818754154,world,-96.6456,9.834196
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  sharinganselfcrows:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  spellshop:
+    cast_count: 3
+    last_cast: 1562074938773
+    last_earn: 0
+    cooldown_expiration: 0
+  jutsu:
+    cast_count: 1
+    last_cast: 1562074263666
+    last_earn: 0
+    cooldown_expiration: 0
+  spshop:
+    cast_count: 1
+    last_cast: 1562074936622
+    last_earn: 0
+    cooldown_expiration: 0
+  sharingancrows:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  sharinganspikes:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  startsharingan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 377
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Воронье Исчезновение§f (§3Шаринган§f)
+        lore:
+        - §o§aТехники Шарингана
+        - §3§oПривязан к abeliks
+        - 3 техник изучено
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAG2RMU4CQRSGH7IuCyomeAELWgwgSug00cJEtCDW5LH7wMnuzowzD4iNiQ0X8ArGA2hC5Sls7ay9gJ2za9RCJ9PM5H//988/FYACeDGRLlTAm6OMAgiYUp0gE1Qto2F7iUbICcoAVtVckoESjigRsQ1gHUMWMxpaTUkCtR+ppWQcGjW3PngpSjy4hnx5UM2OQxYpOfNUO378+PGSOGzuPRQR1DuE7WbYpUbUjFqNXex0G9jqYWPca3f295q9JrY7ZfBzqAsBUHRRv9E5FjZ/o2gRk/0vWxFKMzJWKOks/IqbyQyHQs5IsjLXxf+GnHTlLy7P8IeZlev22lRGRmmNo4QKZagdMhsxmjL1VSTGwkWoZFIPgouLk6O+snyzuLt9uj9686CcXZ0SWn5e7r2/Lh6WPviHqZpKPqh/dRqAN0gUQ5CikJf5F278IM4wJdiakKtWhDvIjGE80ERREcrnmgzy1/Mzl1xbO76aCp26Bra/4wF8ArlR8RwnAgAA
+    wand:
+      template: startsharingan
+      owner: abeliks
+      active_spell: sharinganselfcrows
+      mana: 400.0
+      mana_timestamp: 1562075845228
+      owner_id: 4ea20c7e-d0d1-3a47-a19a-f92465090a24
+      spells:
+      - sharingancrows
+      - sharinganspikes
+      - sharinganselfcrows
+      version: 6
+      spell_inventory:
+        sharinganselfcrows: 2
+        sharingancrows: 0
+        sharinganspikes: 1
+  startfire:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 361
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Огня
+        lore:
+        - §o§aТехники Стихии Огня
+        - §3§oПривязан к abeliks
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QQU7DQAxFHTWkSRAsygVYlGVQWgJVJRatBEiVKCyqsq3cxIVRMpNh4tAzsOQIHIKzsERcAiRWTFOBd7b+/352COCAmxNpJwR3jSrzwWeSukAmCCpGwythyIedcq3IQBuXVIi88sCVqHAkoCkX9jftgoUka5La5ubvP+mnjWuMC5FBNyHsx+mAoizOetEJJoMIe0OMVsN+cnYaD2PsJy1oP5GpRKlsrGfpdmuVmVJrXBbkBNAZMxuxrJmmZSZWwmpDq3Rc8OfzycW0rHj2PPl4C6/OXQg2o2vCil++vp3u3euRB95YlrXiUXdL7oM7K0oGX6JQD80D9v5X3KAkOLgne4BIj5EZ03ymibIWBLeaDPKWc5PSaDuXj7XQkhQf/uEB/AJ/8fzlZQEAAA==
+    wand:
+      template: startfire
+      owner: abeliks
+      mana: 200.0
+      mana_timestamp: 1562696639457
+      owner_id: 4ea20c7e-d0d1-3a47-a19a-f92465090a24
+      version: 6
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4§7Бумага Чакры
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязан к abeliks
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PwU7CQBCGp6GUUuNBfAEPxJM1BauExIMkmmgieiCczcAOstLu1u4sJF69eTbx7AP4LD6Nd5cKzu2fmX/m+yMADyKrcr0knGTkeeAviAovAn+FSoQQMuVFhkxQf7JsbAh1vVJUQgMnlMmFCcDPUSFsyjmq+YMU0E4Ju8m0R7FIRCc+wbQXY6eP8azfTc9Ok36C3bQGvjVk1t4aNJZUGqmVE4Ej27HKMJr5Bs1JUeqiqGQTWgPmUk4s01ALOZPOGjmj50M4Ht9cDrXh872Pw7fP644PzXXrltDw18vr+/dPdBRAMMi1VXzR3qL7o0wzhDlKNa/S7/6/uMOcYP+RXDQ5PUZmnC5GBZGoQfO+oBL5D3t9pdptXT1bWeSk+GCLB/AL6zx/S3ABAAA=
+    wand:
+      template: jutsu
+      owner: abeliks
+      mana: 0.0
+      owner_id: 4ea20c7e-d0d1-3a47-a19a-f92465090a24
+      uses: 0
+      version: 6
+  startearth:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 365
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Земли
+        lore:
+        - §o§aТехники Стихии Земли
+        - §3§oПривязан к abeliks
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QP07DUAzGHTWkaRAM5QIMXVOlJVB1awUIIdEyVJ2L27j0KXl/SBx6BzauwBHYEVyBiZU7IBYmXlOBJQ+2Pv/82QGAA25KZJwA3DWqxAefSZoMmSAoGHMmmysfdvRaUQ51nFMm0sIDV6LCgYAqXNjflDMWkuyUNBacfvzcfFleNTgTCbRiwm606FGYREknPMK4F2Knj+Gy341PjqN+hN24BvV7yguhlcV61t5uqZJcG4PzjJwGNIfMuZiXTCOdiKWw2sAqHRf86fTybKQLfvkWrw/v49iFxqZ1RVjw4+fF0+lz+80Dbyh1qXjQ2jr3wZ1kmsGXKNSq+sDe/4oxSoKDW7IHiEUbmXGRTgxRUoPGtaEceetzQ6m0zfO7UhhJig//7AH8AkPP2vBmAQAA
+    wand:
+      template: startearth
+      owner: abeliks
+      mana: 200.0
+      mana_timestamp: 1562696638707
+      owner_id: 4ea20c7e-d0d1-3a47-a19a-f92465090a24
+      version: 6
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 10
+properties:
+  version: 6
+classes:
+  caster:
+    mana_timestamp: 1562756707726
+    mana: 50.0
+  mage: {}
+active_class: mage
+health: 20.0

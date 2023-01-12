@@ -1,0 +1,27 @@
+lastAccountName: Exteva
+timestamps:
+  login: 1564436778684
+  logout: 1564418239850
+  lastteleport: 1564341333125
+  kits:
+    '1': 1560450820840
+ipAddress: 77.222.102.112
+afk: true
+logoutlocation:
+  world: world
+  x: -592.3040863383834
+  y: 112.19705634869104
+  z: -432.77370340625197
+  yaw: 242.67326
+  pitch: 30.182877
+lastlocation:
+  world: world
+  x: -927.3000000119209
+  y: 68.8300702366566
+  z: -541.6557119946291
+  yaw: -87.53662
+  pitch: 12.434903
+money: '9975402.07'
+godmode: false
+geolocation: Russia
+homes: {}

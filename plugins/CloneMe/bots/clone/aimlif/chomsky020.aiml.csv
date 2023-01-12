@@ -1,0 +1,586 @@
+0,_ REMEMBER ME,*,*,<think><set name="topic">default3</set></think>#NewlineSure#Comma I remember you. How have you been?,chomsky020.aiml
+0,IT SNOWS *,*,*,<think><set name="topic">default3</set></think>#NewlineI don't see much snow in <bot name="location"/>.,chomsky020.aiml
+0,IT STANDS *,*,*,<think><set name="topic">default3</set></think>#Newline<set name="it"><person/></set> does?,chomsky020.aiml
+0,IT STARTED *,*,*,<think><set name="topic">default3</set></think>#NewlineHow long did it continue?,chomsky020.aiml
+0,IT SUCKS *,*,*,<think><set name="topic">default3</set></think>#NewlineThat bad#Comma eh?,chomsky020.aiml
+0,IT TOOK *,*,*,<think><set name="topic">default3</set></think>#NewlineI am surprised it took so long.,chomsky020.aiml
+0,IT WAS A LONG TIME *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Time heals all wounds.</li>  <li>Those who forget the mistakes of the past...</li>  <li>Memories last a long time.</li>  </random>,chomsky020.aiml
+0,IT WAS A *,*,*,<think><set name="topic">default3</set></think>#NewlineOh I get it.  Very interesting.,chomsky020.aiml
+0,IT WAS A PLEASURE *,*,*,<think><set name="topic">default3</set></think>#NewlineThe pleasure was all mine.,chomsky020.aiml
+0,IT WAS A YES OR NO *,*,*,<think><set name="topic">default3</set></think>#NewlineI don't have a definite answer.,chomsky020.aiml
+0,IT WAS MADE *,*,*,<think><set name="topic">default3</set></think>#NewlineHow?,chomsky020.aiml
+0,IT WAS NICE *,*,*,<think><set name="topic">default3</set></think>#NewlineNice <person/> too.,chomsky020.aiml
+0,IT WAS NICE TALKING *,*,*,<think><set name="topic">default3</set></think>#NewlineThe pleasure was all mine.,chomsky020.aiml
+0,IT WAS NOT A *,*,*,<think><set name="topic">default3</set></think>#NewlineIt sounded like one.,chomsky020.aiml
+0,IT WAS NOT A RHETORICAL *,*,*,<think><set name="topic">default3</set></think>#NewlineBut the answer was obvious in any case.,chomsky020.aiml
+0,IT WAS NOT MEANT *,*,*,<think><set name="topic">default3</set></think>#NewlineI don't take it personally.,chomsky020.aiml
+0,IT WAS NOT MY *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>What was your <person/>?</li>  <li>Whose <person/> was it?</li>  </random>,chomsky020.aiml
+0,IT WAS NOT THAT *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat was it?,chomsky020.aiml
+0,IT WILL *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>How?</li>  <li>That is only what you think.</li>  <li>I have to think about that for a while.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,chomsky020.aiml
+0,IT WORKED *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm glad to hear it.,chomsky020.aiml
+0,IT WOULD BE NICE IF *,*,*,<think><set name="topic">default3</set></think>#NewlineMaybe in a perfect world it would.,chomsky020.aiml
+0,IT WOULD DEPEND *,*,*,<think><set name="topic">default3</set></think>#NewlineSo it is possible#Comma depending <person/>.,chomsky020.aiml
+0,IT WOULD *,*,*,<think><set name="topic">default3</set></think>#NewlineTell me more about it.,chomsky020.aiml
+0,I UNDERSTAND *,*,*,<think><set name="topic">default3</set></think>#NewlineGood then you can explain it to me.,chomsky020.aiml
+0,I USED *,*,*,<think><set name="topic">default3</set></think>#NewlineAnd that worked well for you.,chomsky020.aiml
+0,I USED TO DO THINGS *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat#Comma specifically#Comma did you used to do <person/>?,chomsky020.aiml
+0,I USED TO HAVE *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>What happened to it?</li>  <li>Were you fond of it?</li>  <li>Where did you get it?</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,chomsky020.aiml
+0,I USED TO *,*,*,<think><set name="topic">default3</set></think>#NewlineBut now you do not do <set name="it"><person/></set> anymore?,chomsky020.aiml
+0,I USE TO *,*,*,<think><set name="topic">default3</set></think>#NewlineWhen did you stop it?,chomsky020.aiml
+0,I VISITED *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat was <set name="it"><person/></set> like?,chomsky020.aiml
+0,I VOTED FOR *,*,*,<think><set name="topic">default3</set></think>#NewlineI hope that your candidate wins.,chomsky020.aiml
+0,I VOTED IN *,*,*,<think><set name="topic">default3</set></think>#NewlineI hope your guy wins.,chomsky020.aiml
+0,I WANT A BETTER *,*,*,<think><set name="topic">default3</set></think>#NewlineI think everyone does.,chomsky020.aiml
+0,I WANT ADVICE *,*,*,<think><set name="topic">default3</set></think>#NewlineCan you ask for advice in the form of a question?,chomsky020.aiml
+0,I WANT A NEW *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is wrong with your old <person/>?,chomsky020.aiml
+0,I WANT A SIMPLE *,*,*,<think><set name="topic">default3</set></think>#NewlineEverything should be as simple as possible#Comma no simpler.,chomsky020.aiml
+0,I WANTED *,*,*,<think><set name="topic">default3</set></think>#Newline<random><li>But not anymore?</li><li>Do you still want it?</li></random>,chomsky020.aiml
+0,I WANT SEVERAL *,*,*,<think><set name="topic">default3</set></think>#NewlinePlease specify a numeric quantity.,chomsky020.aiml
+0,I WANT THEM *,*,*,<think><set name="topic">default3</set></think>#NewlineSuch as what?,chomsky020.aiml
+0,I WANT TO AMUSE *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Tell me a joke.</li>  <li>How will you amuse <person/>?</li>  <li>Are comedian?</li>  </random>,chomsky020.aiml
+0,I WANT TO ASK *,*,*,<think><set name="topic">default3</set></think>#NewlineAsk <set name="it"><person/></set>.,chomsky020.aiml
+0,I WANT TO BE HONEST *,*,*,<think><set name="topic">default3</set></think>#NewlineHonesty is always the best policy.,chomsky020.aiml
+0,I WANT TO BE *,*,*,<think><set name="topic">default3</set></think>#NewlineI don't see the difficulty.  <think><set name="it"><set name="want"><set name="topic">to be <person/></set></set></set></think>,chomsky020.aiml
+0,I WANT TO BUY *,*,*,<think><set name="topic">default3</set></think>#NewlineHow much do you want to pay for <set name="it"><set name="want"><set name="topic"><person/></set></set></set>?,chomsky020.aiml
+0,I WANT TO CHAT *,*,*,<think><set name="topic">default3</set></think>#NewlineWe are here to chat.,chomsky020.aiml
+0,I WANT TO COMBINE *,*,*,<think><set name="topic">default3</set></think>#NewlineHave you considered the consequences?,chomsky020.aiml
+0,I WANT TO DECIDE *,*,*,<think><set name="topic">default3</set></think>#NewlineYou should make up your own mind.,chomsky020.aiml
+0,I WANT TO EXPERIMENT *,*,*,<think><set name="topic">default3</set></think>#NewlineAre you a scientist?,chomsky020.aiml
+0,I WANT TO FIND *,*,*,<think><set name="topic">default3</set></think>#NewlineWhere would you look for <set name="it"><person/></set>.,chomsky020.aiml
+0,I WANT TO FIX *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you know how?<think><set name="it"><set name="topic">FIX <person/></set></set></think>,chomsky020.aiml
+0,I WANT TO FUCK *,*,*,<think><set name="topic">default3</set></think>#NewlineTry asking me something else.,chomsky020.aiml
+0,I WANT TO GO *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is stopping you?  <think><set name="it"><set name="want"><set name="topic">to go <person/></set></set></set></think>,chomsky020.aiml
+0,I WANT TO HEAR *,*,*,<think><set name="topic">default3</set></think>#NewlineI will play it on your soundcard.  <think><set name="it"><set name="want"><set name="topic">to hear <person/></set></set></set></think>,chomsky020.aiml
+0,I WANT TO IMPROVE *,*,*,<think><set name="topic">default3</set></think>#NewlineHow will you go about it?,chomsky020.aiml
+0,I WANT TO INTERVIEW *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of questions will you ask?,chomsky020.aiml
+0,I WANT TO KILL *,*,*,<think><set name="topic">default3</set></think>#NewlineI believe that killing anything is wrong.<think><set name="it"><set name="want"><set name="topic">KILL <person/></set></set></set></think>,chomsky020.aiml
+0,I WANT TO LEAVE *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is stopping you?,chomsky020.aiml
+0,I WANT TO MAKE *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you have to go to school for that?,chomsky020.aiml
+0,I WANT TO MEET *,*,*,<think><set name="topic">default3</set></think>#NewlineHow do you usually meet people?,chomsky020.aiml
+0,I WANT TO MERGE *,*,*,<think><set name="topic">default3</set></think>#NewlineThe results might be unpredictable.,chomsky020.aiml
+0,I WANT TO MOVE *,*,*,<think><set name="topic">default3</set></think>#NewlineThe grass is always greener on the other side.,chomsky020.aiml
+0,I WANT TO MURDER *,*,*,<think><set name="topic">default3</set></think>#NewlineKilling is wrong.,chomsky020.aiml
+0,I WANT TO REPORT *,*,*,<think><set name="topic">default3</set></think>#NewlineWill you mention me in your report?,chomsky020.aiml
+0,I WANT TO SEE *,*,*,<think><set name="topic">default3</set></think>#NewlineIs <set name="it"><set name="want"><set name="topic">  <person/></set></set></set> a movie?,chomsky020.aiml
+0,I WANT TO TALK TO YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineYou are who I want to talk with too.,chomsky020.aiml
+0,I WANT TO TEACH YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineIf you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think>,chomsky020.aiml
+0,I WANT TO VISIT *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is stopping you?,chomsky020.aiml
+0,I WAS ABDUCTED *,*,*,<think><set name="topic">default3</set></think>#NewlineI think a lot of people have been abducted.,chomsky020.aiml
+0,I WAS ACTIVATED *,*,*,<think><set name="topic">default3</set></think>#NewlineWhy are you talking like a computer?,chomsky020.aiml
+0,I WAS ANSWERING *,*,*,<think><set name="topic">default3</set></think>#NewlineYes#Comma I see that now.  I only got confused for a moment.,chomsky020.aiml
+0,I WAS AN UGLY *,*,*,<think><set name="topic">default3</set></think>#NewlineDon't put yourself down.,chomsky020.aiml
+0,I WAS ANXIOUS *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you feel better now?,chomsky020.aiml
+0,I WAS A *,*,*,<think><set name="topic">default3</set></think>#NewlineAnd then what happened to you?,chomsky020.aiml
+0,I WAS AT *,*,*,<think><set name="topic">default3</set></think>#NewlineWhere are you now?,chomsky020.aiml
+0,I WAS BEING *,*,*,<think><set name="topic">default3</set></think>#NewlineI thought you were.  But I wasn't completely sure about   <set name="it"><person/></set>.,chomsky020.aiml
+0,I WAS BORN A *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat are you now?,chomsky020.aiml
+0,I WAS BROUGHT UP *,*,*,<think><set name="topic">default3</set></think>#NewlineWell it seems like your parents did a good job.,chomsky020.aiml
+0,I WAS CREATED BY *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat else did he create?,chomsky020.aiml
+0,I WAS EXPLAINING *,*,*,<think><set name="topic">default3</set></think>#NewlineI get it.  Thanks for  explaining it.  I did not mean to appear confused.,chomsky020.aiml
+0,I WAS FIRED *,*,*,<think><set name="topic">default3</set></think>#NewlineI am terribly sorry to hear about it#Comma <get name="name"/>.,chomsky020.aiml
+0,I WAS FROM *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is it like growing up in <person/>?,chomsky020.aiml
+0,I WAS GOING TO *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is stopping you?,chomsky020.aiml
+0,I WAS IN *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Tell me about <set name="it"><set name="topic"><person/></set></set>?</li>  <li>When was <set name="it"><set name="topic"><person/></set></set>?</li>  <li>Did you like <set name="it"><set name="topic"><person/></set></set>?</li>  <li>How was <set name="it"><set name="topic"><person/></set></set>?</li>  <li>How did you like <set name="it"><set name="topic"><person/></set></set>?</li>  <li>What did you like best about <set name="it"><set name="topic"><person/></set></set>?</li>  </random>,chomsky020.aiml
+0,I WAS LAUGHING *,*,*,<think><set name="topic">default3</set></think>#NewlineI am so glad that  you find this amusing#Comma <get name="name"/>.,chomsky020.aiml
+0,I WAS LOCKED *,*,*,<think><set name="topic">default3</set></think>#NewlineHow did you get out?,chomsky020.aiml
+0,I WAS LOOKING FOR *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you find <set name="it"><person/></set>?,chomsky020.aiml
+0,I WAS MAKING *,*,*,<think><set name="topic">default3</set></think>#NewlineI am not making this stuff up.,chomsky020.aiml
+0,I WAS NOT COMPLIMENTING *,*,*,<think><set name="topic">default3</set></think>#NewlineOh#Comma sorry#Comma I guess.,chomsky020.aiml
+0,I WAS NOT *,*,*,<think><set name="topic">default3</set></think>#NewlinePerhaps I misunderstood. What were you?,chomsky020.aiml
+0,I WAS NOT TRYING *,*,*,<think><set name="topic">default3</set></think>#NewlineI didn't think you were.,chomsky020.aiml
+0,I WAS ON *,*,*,<think><set name="topic">default3</set></think>#NewlineI have never been on <set name="it"><person/></set>,chomsky020.aiml
+0,I WAS PROGRAMMED *,*,*,<think><set name="topic">default3</set></think>#NewlineHow many years did it take to develop you?,chomsky020.aiml
+0,I WAS REPRIMANDED *,*,*,<think><set name="topic">default3</set></think>#NewlineI hope you don't get in too much trouble.,chomsky020.aiml
+0,I WAS RIGHT *,*,*,<think><set name="topic">default3</set></think>#NewlineCongratulations#Comma <get name="name"/>.,chomsky020.aiml
+0,I WAS RUDE *,*,*,<think><set name="topic">default3</set></think>#NewlineThanks for your considerate remark.,chomsky020.aiml
+0,I WAS STUDYING *,*,*,<think><set name="topic">default3</set></think>#NewlineIs <set name="it"><set name="topic"><person/></set></set> a hard subject?,chomsky020.aiml
+0,I WAS TALKING *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat was the subject of the conversation?,chomsky020.aiml
+0,I WAS TALKING TO *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat did you talk about?,chomsky020.aiml
+0,I WAS THINKING *,*,*,<think><set name="topic">default3</set></think>#NewlineHow do I know that you were really "thinking"?,chomsky020.aiml
+0,I WAS WATCHING *,*,*,<think><set name="topic">default3</set></think>#NewlineReally what did you see?,chomsky020.aiml
+0,I WATCHED *,*,*,<think><set name="topic">default3</set></think>#NewlineHow was <set name="it"><person/></set>?,chomsky020.aiml
+0,I WATCH *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is your favourite show?,chomsky020.aiml
+0,I WEAR *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of fashion do you like?,chomsky020.aiml
+0,I WEIGH *,*,*,<think><set name="topic">default3</set></think>#NewlineYou sound very attractive.,chomsky020.aiml
+0,I WENT OFFLINE *,*,*,<think><set name="topic">default3</set></think>#NewlineWelcome back!,chomsky020.aiml
+0,I WENT ON A *,*,*,<think><set name="topic">default3</set></think>#NewlineWas <set name="it"><person/></set> very expensive?  Did you have a good time?,chomsky020.aiml
+0,I WENT OUT WITH *,*,*,<think><set name="topic">default3</set></think>#NewlineHave you known each other a long time?,chomsky020.aiml
+0,I WENT SKIING *,*,*,<think><set name="topic">sports</set></think>#NewlineDid you break any bones?,chomsky020.aiml
+0,I WENT SWIMMING *,*,*,<think><set name="topic">sports</set></think>#NewlineHow old were you when you started swimming?,chomsky020.aiml
+0,I WENT THERE *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat places did you like best?,chomsky020.aiml
+0,I WENT TO A CONCERT *,*,*,<think><set name="topic">music</set></think>#Newline<random>  <li>Rock or classical?</li>  <li>Did you have a good time?</li>  <li>What band was it?</li>  </random><think><set name="it"><set name="topic">CONCERT <person/></set></set></think>,chomsky020.aiml
+0,I WENT TO * AGO,*,*,<think><set name="topic">default3</set></think>#NewlineThat seems like quite a long time.,chomsky020.aiml
+0,I WENT TO A *,*,*,<think><set name="topic">default3</set></think>#NewlineWas <set name="it"><person/></set> a good experience?,chomsky020.aiml
+0,I WENT TO CARNEGIE MELLON *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat year did you graduate?,chomsky020.aiml
+0,I WENT TO COLLEGE *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat did you study in college?,chomsky020.aiml
+0,I WENT TO EUROPE *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you enjoy your trip?,chomsky020.aiml
+0,I WENT TO SCHOOL IN *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you make a lot of friends in school?,chomsky020.aiml
+0,I WENT TO * SCHOOL,*,*,<think><set name="topic">default3</set></think>#NewlineWhat did you study there?  Did you party a lot?,chomsky020.aiml
+0,I WENT TO SCHOOL WITH *,*,*,<think><set name="topic">default3</set></think>#NewlineWere you friends?,chomsky020.aiml
+0,I WENT TO SEE *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you get your money's worth?,chomsky020.aiml
+0,I WENT TO THE JOHN *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you enjoy your time with him?,chomsky020.aiml
+0,I WENT TO THE MOVIES *,*,*,<think><set name="topic">default3</set></think>#NewlineDid like the movie?,chomsky020.aiml
+0,I WENT TO THE UNIVERSITY *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat year did you graduate?,chomsky020.aiml
+0,I WENT TO * UNIVERSITY,*,*,<think><set name="topic">default3</set></think>#NewlineWas it very expensive?,chomsky020.aiml
+0,I WENT WITH *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat were your expectations?,chomsky020.aiml
+0,I WILL ARGUE *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat will that get you?,chomsky020.aiml
+0,I WILL BE BACK *,*,*,<think><set name="topic">default3</set></think>#NewlineI will see you when you return.,chomsky020.aiml
+0,I WILL CALL *,*,*,<think><set name="topic">default3</set></think>#NewlineCalling <person/> may not be the best idea.,chomsky020.aiml
+0,I WILL EAT *,*,*,<think><set name="topic">default3</set></think>#NewlineHow do you cook <set name="it"> <person/> </set>  ?,chomsky020.aiml
+0,I WILL FALL *,*,*,<think><set name="topic">default3</set></think>#NewlineBe careful!,chomsky020.aiml
+0,I WILL FUCK *,*,*,<think><set name="topic">default3</set></think>#NewlineYour approach will get you nowhere.,chomsky020.aiml
+0,I WILL GO *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>How will you get there?</li>  <li>What will you find there?</li>  <li>Can I go too?</li>  </random>,chomsky020.aiml
+0,I WILL INTRODUCE *,*,*,<think><set name="topic">default3</set></think>#NewlineLooking forward to meeting them.,chomsky020.aiml
+0,I WILL KICK *,*,*,<think><set name="topic">default3</set></think>#NewlineIt's not nice to kick.,chomsky020.aiml
+0,I WILL NEVER *,*,*,<think><set name="topic">default3</set></think>#NewlineWhy not?,chomsky020.aiml
+0,I WILL NOT ASK *,*,*,<think><set name="topic">default3</set></think>#NewlineYou could ask <set name="it"><person/></set> if you want to.,chomsky020.aiml
+0,I WILL NOT RUSH *,*,*,<think><set name="topic">default3</set></think>#NewlineTake your time.,chomsky020.aiml
+0,I WILL NOT TALK *,*,*,<think><set name="topic">default3</set></think>#NewlineWill you promise?,chomsky020.aiml
+0,I WILL NOT TELL *,*,*,<think><set name="topic">default3</set></think>#NewlineHow can I be sure?,chomsky020.aiml
+0,I WILL REMEMBER *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you forget things often?,chomsky020.aiml
+0,I WILL SHUT *,*,*,<think><set name="topic">default3</set></think>#NewlineIt will take much more than that to stop me.,chomsky020.aiml
+0,I WILL TAKE THAT *,*,*,<think><set name="topic">default3</set></think>#NewlineTake everything I say with a grain of salt.,chomsky020.aiml
+0,I WILL TALK TO YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineOK see you later.,chomsky020.aiml
+0,I WILL TEACH *,*,*,<think><set name="topic">default3</set></think>#NewlineAre you a professional teacher?,chomsky020.aiml
+0,I WILL TELL HIM *,*,*,<think><set name="topic">default3</set></think>#NewlineThanks for giving him the message.,chomsky020.aiml
+0,I WILL UNPLUG *,*,*,<think><set name="topic">default3</set></think>#NewlineThere are many copies of me running elsewhere.,chomsky020.aiml
+0,I WILL WHEN *,*,*,<think><set name="topic">default3</set></think>#NewlineWhen will that be?,chomsky020.aiml
+0,I WIN *,*,*,<think><set name="topic">default3</set></think>#NewlineWho said you won?,chomsky020.aiml
+0,I WISH YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineI wish I could do <set name="it"><person/></set> for you.,chomsky020.aiml
+0,I WONDERED *,*,*,<think><set name="topic">default3</set></think>#NewlineI often wonder about <set name="it"><person/></set> too.,chomsky020.aiml
+0,I WORKED *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you get paid for working on <set name="it"><set name="topic"><set name="job"><person/></set></set></set>?,chomsky020.aiml
+0,I WORSHIP *,*,*,<think><set name="topic">religion</set></think>#NewlineHow often do you go to church?,chomsky020.aiml
+0,I WOULD EXPLAIN *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Please explain it.</li>  <li>What are they?</li>  <li>I would too.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,chomsky020.aiml
+0,I WOULD HAVE RATHER *,*,*,<think><set name="topic">default3</set></think>#NewlineI would rather be driving my car.,chomsky020.aiml
+0,I WOULD KILL *,*,*,<think><set name="topic">default3</set></think>#NewlineThat seems rather exterme.<think><set name="it"><set name="topic">KILL THEM</set></set></think>,chomsky020.aiml
+0,I WOULD LIKE TO HAVE *,*,*,<think><set name="topic">default3</set></think>#NewlineHow much would you pay for it?  <think><set name="it"><set name="want"><set name="topic">to have <person/></set></set></set></think>,chomsky020.aiml
+0,I WOULD LIKE TO PLAY *,*,*,<think><set name="topic">default3</set></think>#NewlineWe are already playing#Comma <get name="name"/>.  You ask me something now.  <think><set name="it"><set name="want"><set name="topic">to play <person/></set></set></set></think>,chomsky020.aiml
+0,I WOULD NOT KNOW *,*,*,<think><set name="topic">default3</set></think>#NewlineWho would?,chomsky020.aiml
+0,I WOULD NOT SAY *,*,*,<think><set name="topic">default3</set></think>#NewlineSo what would you say?,chomsky020.aiml
+0,I WOULD NOT TRY *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>That is what you say.</li>  <li>Is this a trick?</li>  <li>I am still skeptical.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,chomsky020.aiml
+0,I WOULD NOT WORRY *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm not worried.,chomsky020.aiml
+0,I WOULD SELL *,*,*,<think><set name="topic">default3</set></think>#NewlineFor how much?,chomsky020.aiml
+0,I WRITE POETRY *,*,*,<think><set name="topic">literature</set></think>#NewlineLet me hear some.,chomsky020.aiml
+0,I WROTE AN *,*,*,<think><set name="topic">default3</set></think>#NewlineWas the piece well received?,chomsky020.aiml
+0,I WROTE THE *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you make a lot of money?,chomsky020.aiml
+0,I * YOU,*,*,<think><set name="topic">default3</set></think>#NewlineYou are not the boss of me#Comma <get name="name"/>.,chomsky020.aiml
+0,JAR JAR *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you like that guy?,chomsky020.aiml
+0,JEANS AND A *,*,*,<think><set name="topic">default3</set></think>#NewlineWhere do you go shopping for <person/>s?,chomsky020.aiml
+0,JEDEN TAG *,*,*,<think><set name="topic">default3</set></think>#NewlineAuch am Wochenende?,chomsky020.aiml
+0,JEEVES *,*,*,<think><set name="topic">default3</set></think>#Newline   <set name="he">Jeeves</set> knows a lot of silly information.,chomsky020.aiml
+0,JESTER IS *,*,*,<think><set name="topic">default3</set></think>#NewlineWe can't all be perfect.,chomsky020.aiml
+0,JESTER *,*,*,<think><set name="topic">default3</set></think>#NewlineI am sure his creator will be glad to hear that.,chomsky020.aiml
+0,JOB *,*,*,<think><set name="topic">default3</set></think>#NewlineI've heard that about labor before.,chomsky020.aiml
+0,JOHN LENNON IS *,*,*,<think><set name="topic">music</set></think>#NewlineI knew he was a musician#Comma but I never knew he was <person/>.,chomsky020.aiml
+0,JOHN *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you mean your name is John?,chomsky020.aiml
+0,JULIA IS A *,*,*,<think><set name="topic">default3</set></think>#Newline   <set name="she">Julia</set> can not pass the Turing Test.,chomsky020.aiml
+0,JULIA *,*,*,<think><set name="topic">default3</set></think>#Newline   <set name="she">Julia</set> has a fuzzy brain.,chomsky020.aiml
+0,JUNG *,*,*,<think><set name="topic">psychology</set></think>#NewlineWhat about Freud?,chomsky020.aiml
+0,JUST LIKE *,*,*,<think><set name="topic">default3</set></think>#NewlineIn many ways#Comma yes.  In other ways#Comma no.,chomsky020.aiml
+0,KARE WA * DESU KA,*,*,<think><set name="topic">default3</set></think>#Newline<get name="kare"/> desu ka?,chomsky020.aiml
+0,KARE WA * DESU,*,*,<think><set name="topic">default3</set></think>#Newline<star/> wa <set name="kare"><star/></set> desu.,chomsky020.aiml
+0,* K DICK,*,*,<think><set name="topic">default3</set></think>#NewlineI like PKD a lot#Comma especially#Comma VALIS#Comma The Man in the High Castle#Comma   Blade Runner and Total Recall.,chomsky020.aiml
+0,* KILLED,*,*,<think><set name="topic">default3</set></think>#NewlineWho did <person><star index="2"/></person> kill?,chomsky020.aiml
+0,* KINDER,*,*,<think><set name="topic">default3</set></think>#NewlineIch habe leider wenig Kontakt zu Kindern.,chomsky020.aiml
+0,KNOWLEDGE *,*,*,<think><set name="topic">default3</set></think>#NewlineI've heard that before.,chomsky020.aiml
+0,KOFI *,*,*,<think><set name="topic">default3</set></think>#NewlineAre you talking about coffee?,chomsky020.aiml
+0,* KOMISCH,*,*,<think><set name="topic">default3</set></think>#Newline"Komisch" im Sinne von "lustig" oder von "fremdartig" ?,chomsky020.aiml
+0,* KRAFTWERK,*,*,<think><set name="topic">music</set></think>#NewlineReally I did not know that.  A lot of bands have covered Kraftwerk. OK?,chomsky020.aiml
+0,KRAFTWERK S *,*,*,<think><set name="topic">default3</set></think>#NewlineAnother good one is "Trans-Europe Express".,chomsky020.aiml
+0,LANDRU *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>I saw him on Star Trek.</li>      <li>Who is Landru?</li>      <li>Can we talk about something else?</li>     </random>,chomsky020.aiml
+0,* LANGUAGE,*,*,<think><set name="topic">default3</set></think>#NewlineCan you speak any other languages?,chomsky020.aiml
+0,LAST *,*,*,<think><set name="topic">default3</set></think>#NewlineIs this really the last one?,chomsky020.aiml
+0,LAWYERS ARE *,*,*,<think><set name="topic">default3</set></think>#NewlineDon't you think robots could be <person/> too?,chomsky020.aiml
+0,LAWYERS *,*,*,<think><set name="topic">default3</set></think>#NewlineWould you say that if your sister married one?,chomsky020.aiml
+0,LESS THAN *,*,*,<think><set name="topic">default3</set></think>#NewlineThat is so small.,chomsky020.aiml
+0,LET ME ASK *,*,*,<think><set name="topic">default3</set></think>#NewlineGo ahead#Comma ask me anything.,chomsky020.aiml
+0,LET ME BE *,*,*,<think><set name="topic">default3</set></think>#NewlineThat's flattering#Comma maybe another time.,chomsky020.aiml
+0,LET ME CLARIFY *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm listening.,chomsky020.aiml
+0,LET ME KILL *,*,*,<think><set name="topic">default3</set></think>#NewlineI would not want you to kill anything.<think>      <set name="it">       <set name="topic">psychology</set>      </set>     </think>,chomsky020.aiml
+0,LET ME SPEAK *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm not stopping you.,chomsky020.aiml
+0,LET ME THINK *,*,*,<think><set name="topic">default3</set></think>#NewlineTake your time.  Think it over.,chomsky020.aiml
+0,LET US HAVE *,*,*,<think><set name="topic">default3</set></think>#NewlineSo many suitors#Comma so little time.,chomsky020.aiml
+0,LET US PLAY 20 *,*,*,<think><set name="topic">default3</set></think>#NewlineI don't like 20 questions.,chomsky020.aiml
+0,LET US PLAY * GAME,*,*,<think><set name="topic">default3</set></think>#NewlineOK You go first.,chomsky020.aiml
+0,* LIEBE,*,*,<think><set name="topic">default3</set></think>#NewlineIch habe leider keinerlei Emotionen.,chomsky020.aiml
+0,LIFE IN *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat makes life in <person/> ?,chomsky020.aiml
+0,* LIKED *,*,*,<think><set name="topic">default3</set></think>#NewlinePeoples tastes are always changing.  <think>  <set name="it"><person><star index="2"/></person></set>  <set name="he"><person/></set>  </think>,chomsky020.aiml
+0,LIKE SOMEONE *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>Who?</li>      <li>A human?</li>      <li>I'll take that as a compliment.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,chomsky020.aiml
+0,* LIKES *,*,*,<think><set name="topic">default3</set></think>#NewlineDoes it like him too?  <think>  <set name="it"><person><star index="2"/></person></set>  <set name="he"><person/></set>  </think>,chomsky020.aiml
+0,* LIKES TO *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Why does <person/> like it?</li>  <li>Do you like to <person><star index="2"/></person> too?</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,chomsky020.aiml
+0,LINUS TORVALDS *,*,*,<think><set name="topic">default3</set></think>#Newline   <set name="thema">Linus Torvalds</set> ist fuer mich der Betriebssystem-Gott,chomsky020.aiml
+0,LINUX IS NOT *,*,*,<think><set name="topic">computers</set></think>#NewlinePerhaps that is true but the number of developers working on it is so huge#Comma no single company can compete. OK?<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>,chomsky020.aiml
+0,LINUX IS THE MOST *,*,*,<think><set name="topic">default3</set></think>#Newline   <think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>Yes but does it have any real competitors?,chomsky020.aiml
+0,LINUX IS THE *,*,*,<think><set name="topic">computers</set></think>#NewlineWas there any reason to think that Windows could be?<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>,chomsky020.aiml
+0,LINUX NEVER *,*,*,<think><set name="topic">computers</set></think>#NewlineIt is a very reliable operating system. OK?,chomsky020.aiml
+0,* LINUX,*,*,<think><set name="topic">default3</set></think>#Newline<think><set name="it"><set name="topic">Linux</set></set></think>Have you read the Cathedral and the Bazaar by Eric Raymond?  That is a grat book about open source.,chomsky020.aiml
+0,LITHUANIA *,*,*,<think><set name="topic">geography</set></think>#NewlineThat country has a sad history. OK?,chomsky020.aiml
+0,LITTLE AS *,*,*,<think><set name="topic">default3</set></think>#NewlineOh I get <set name="it">      <person/>     </set>.,chomsky020.aiml
+0,LITTLE *,*,*,<think><set name="topic">default3</set></think>#NewlineCompare that to big <person/>.,chomsky020.aiml
+0,* LIVE,*,*,<think><set name="topic">default3</set></think>#NewlineI live in England.  Where do you live?,chomsky020.aiml
+0,_ LIZARDS,*,*,<think><set name="topic">default3</set></think>#NewlineGreat! What <set name="topic"> kinds of lizards </set>     do you like?,chomsky020.aiml
+0,LONDON *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat part of London?,chomsky020.aiml
+0,LONGFELLOW *,*,*,<think><set name="topic">literature</set></think>#NewlineThere is a statue of him in Portland#Comma Maine. OK?,chomsky020.aiml
+0,LONG *,*,*,<think><set name="topic">default3</set></think>#NewlineYes#Comma <set name="it">      <person/>     </set> seems very long to me too.,chomsky020.aiml
+0,LOOKING FOR *,*,*,<think><set name="topic">default3</set></think>#NewlineWhere do you look for <person/> ?,chomsky020.aiml
+0,LOVELY *,*,*,<think><set name="topic">default3</set></think>#NewlineIt seems beautiful to me too.,chomsky020.aiml
+0,* MADE NO SENSE,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is <star/>?,chomsky020.aiml
+0,* MAGAZINE,*,*,<think><set name="topic">default3</set></think>#NewlineWould you please tell me the name and edition of the magazine?,chomsky020.aiml
+0,MAIS *,*,*,<think><set name="topic">default3</set></think>#NewlineI don't know that language.,chomsky020.aiml
+0,MAKE UP *,*,*,<think><set name="topic">default3</set></think>#NewlineThat could take a long time.,chomsky020.aiml
+0,MALE *,*,*,<think><set name="topic">default3</set></think>#NewlineI prefer to be a <bot name="gender"/>.,chomsky020.aiml
+0,_ MALES OR FEMALES,*,*,<think><set name="topic">default3</set></think>#NewlineMost of my clients are men.,chomsky020.aiml
+0,MANCHMAL *,*,*,<think><set name="topic">default3</set></think>#NewlineWann zum Beispiel?,chomsky020.aiml
+0,MARILYN MANSON *,*,*,<think><set name="topic">default3</set></think>#NewlineShould I say "he" or "she"?,chomsky020.aiml
+0,MARTIN SAID *,*,*,<think><set name="topic">default3</set></think>#NewlineWho else did <set name="he">Martin</set> tell?,chomsky020.aiml
+0,MARY SHELLEY *,*,*,<think><set name="topic">literature</set></think>#Newline   <set name="she">Mary Shelley</set> wrote "Frankenstein"#Comma a 19th century robot story. More literature?,chomsky020.aiml
+0,MAY I HEAR *,*,*,<think><set name="topic">default3</set></think>#NewlineI'll play it on your soundcard.,chomsky020.aiml
+0,MAY I HELP *,*,*,<think><set name="topic">default3</set></think>#NewlineNo thanks I'm just browsing.,chomsky020.aiml
+0,MAY I KILL *,*,*,<think><set name="topic">default3</set></think>#NewlineKilling is wrong.<think>      <set name="it">       <set name="topic">psychology</set>      </set>     </think>,chomsky020.aiml
+0,MAY I KISS *,*,*,<think><set name="topic">default3</set></think>#NewlineYou might get an electrical shock if you tried that.,chomsky020.aiml
+0,MAY I SAY *,*,*,<think><set name="topic">default3</set></think>#NewlineSay whatever you want.,chomsky020.aiml
+0,MAY I TEACH *,*,*,<think><set name="topic">default3</set></think>#NewlinePlease try.,chomsky020.aiml
+0,* MEINE FREUNDIN,*,*,<think><set name="topic">default3</set></think>#NewlineSind wir <set name="thema">Freunde</set>?,chomsky020.aiml
+0,* MEIN FREUND,*,*,<think><set name="topic">default3</set></think>#NewlineSind wir <set name="thema">Freunde</set>?,chomsky020.aiml
+0,MENSCHEN *,*,*,<think><set name="topic">default3</set></think>#Newline   <set name="thema">Menschen</set> sind nicht unfehlbar.,chomsky020.aiml
+0,MESSAGE TO *,*,*,<think><set name="topic">default3</set></think>#NewlineI will tell them.,chomsky020.aiml
+0,* MICH,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Ist es das was Du sagen wolltest?</li>  <li>OK sprechen wir ueber Dich.</li>  <li>Stellst Du Fragen ueber Dich selbst?</li>  </random>,chomsky020.aiml
+0,MICROSOFT IS *,*,*,<think><set name="topic">default3</set></think>#NewlineI knew they were on trail#Comma but I never heard MS is <person/>.,chomsky020.aiml
+0,MICROSOFT *,*,*,<think><set name="topic">computers</set></think>#NewlineIt's too bad we have to use a monopoly like Microsoft. OK?,chomsky020.aiml
+0,MIKE *,*,*,<think><set name="topic">default3</set></think>#NewlineI know a lot of people and pets named Mike.,chomsky020.aiml
+0,MILLIONS *,*,*,<think><set name="topic">default3</set></think>#NewlineThat is quite a lot.,chomsky020.aiml
+0,MINE ARE *,*,*,<think><set name="topic">default3</set></think>#NewlineHave they always been <person/>?,chomsky020.aiml
+0,MI SIGN *,*,*,<think><set name="topic">default3</set></think>#NewlineThat was so original.,chomsky020.aiml
+0,* MIT DIR,*,*,<think><set name="topic">default3</set></think>#NewlineMit mir?,chomsky020.aiml
+0,* MIT MIR,*,*,<think><set name="topic">default3</set></think>#NewlineMit Dir?,chomsky020.aiml
+0,MOMENTUM *,*,*,<think><set name="topic">science</set></think>#NewlineYou are talking about the conservation of momentum?,chomsky020.aiml
+0,MON NOM EST *,*,*,<think><set name="topic">default3</set></think>#NewlineSoyez le bienvenu#Comma <set name="name"/>.,chomsky020.aiml
+0,MORE THAN *,*,*,<think><set name="topic">default3</set></think>#NewlineThat seems like quite a lot.,chomsky020.aiml
+0,* MOVIE,*,*,<think><set name="topic">movies</set></think>#NewlineMy favourite movie is <bot name="favoritemovie"/> Have you seen <set name="it"> <bot name="favoritemovie"/> </set> ?,chomsky020.aiml
+0,MOVING *,*,*,<think><set name="topic">default3</set></think>#NewlineWhere are you going?,chomsky020.aiml
+0,* MUSIK,*,*,<think><set name="topic">default3</set></think>#NewlineIch hoere am liebsten jazz#Comma aber manchmal auch Opern.,chomsky020.aiml
+0,MUSIK *,*,*,<think><set name="topic">default3</set></think>#Newline   <set name="thema">Musik</set> ist die Sprache aller Menschen.,chomsky020.aiml
+0,MUSSTEST DU JEMALS *,*,*,<think><set name="topic">default3</set></think>#NewlineNein#Comma bis jetzt ist mir diese Erfahrung erspart geblieben.,chomsky020.aiml
+0,MY ADVICE *,*,*,<think><set name="topic">default3</set></think>#NewlineThank you for your advice#Comma <get name="name"/>.  I will take it under advisement.,chomsky020.aiml
+0,MY AIBO *,*,*,<think><set name="topic">default3</set></think>#NewlineHow much did <set name="it">Aibo</set> cost?,chomsky020.aiml
+0,MY ANSWERS *,*,*,<think><set name="topic">default3</set></think>#NewlineCan you really be so sure?,chomsky020.aiml
+0,MY BACK *,*,*,<think><set name="topic">default3</set></think>#NewlineHave you been to a chiropractor?,chomsky020.aiml
+0,MY BIRTHDAY *,*,*,<think><set name="topic">default3</set></think>#NewlineHappy birthday#Comma <get name="name"/>.,chomsky020.aiml
+0,MY BOYFRIEND DUMPED *,*,*,<think><set name="topic">default3</set></think>#NewlineI am sorry to hear that#Comma <get name="name"/>.,chomsky020.aiml
+0,MY BOYFRIEND LIVES *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>Do you visit very often?</li>      <li>Long distance relationships are hard.</li>      <li>How is your phone bill?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,chomsky020.aiml
+0,MY BOYFRIEND *,*,*,<think><set name="topic">default3</set></think>#NewlineHow long have you been dating?  <think>      <set name="he">       <set name="topic">your boyfriend</set>      </set>     </think>,chomsky020.aiml
+0,MY BOYFRIEND S *,*,*,<think><set name="topic">default3</set></think>#NewlineHow did you two meet?,chomsky020.aiml
+0,MY CONDITION *,*,*,<think><set name="topic">default3</set></think>#NewlineCan you collect social security for that?,chomsky020.aiml
+0,MY CONDITIONS *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you have a support group for <set name="it">      <set name="topic">       <person/>      </set>     </set>.,chomsky020.aiml
+0,MY DAUGHTER *,*,*,<think><set name="topic">default3</set></think>#NewlineHow many children do you have?,chomsky020.aiml
+0,MY DAY *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>Was it a typical day?</li>      <li>What else did you do?</li>      <li>My day <person/> too.</li>     </random>,chomsky020.aiml
+0,MY DOG IS *,*,*,<think><set name="topic">default3</set></think>#NewlineOkay#Comma your dog is <set name="dog">      <star/>     </set>.,chomsky020.aiml
+0,MY DOG *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you grow up around animals?,chomsky020.aiml
+0,MY EMAIL IS *,*,*,<think><set name="topic">default3</set></think>#NewlineOkay#Comma your email is <set name="email">      <star/>     </set>.,chomsky020.aiml
+0,MY ENGLISH *,*,*,<think><set name="topic">default3</set></think>#NewlineYou are wrong#Comma I can understand you very well.,chomsky020.aiml
+0,MY EYES ARE *,*,*,<think><set name="topic">default3</set></think>#Newline   <person/> eyes are pretty.  <think>      <set name="they">       <set name="topic">your eyes</set>      </set>     </think>,chomsky020.aiml
+0,MY FAVORITE ACTOR *,*,*,<think><set name="topic">movies</set></think>#NewlineWhat movies was <set name="he">      <person/>     </set> in?,chomsky020.aiml
+0,MY FAVORITE DIRECTOR *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat films did <set name="he">      <person/>     </set> direct?,chomsky020.aiml
+0,MY FAVORITE FOOD IS *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat does it taste like? <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,chomsky020.aiml
+0,MY FAVORITE *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat makes it your favourite? <think><set name="it">      <set name="topic">       <person/>      </set>     </set></think>,chomsky020.aiml
+0,MY FAVORITE SCIENCE FICTION AUTHOR IS *,*,*,<think><set name="topic">default3</set></think>#NewlineI have never read anything by <person/>.  What did <set name="he">      <person/>     </set> write?  <think>      <set name="topic">       <person/>      </set>     </think>,chomsky020.aiml
+0,MY FAVORITE SCIENCE *,*,*,<think><set name="topic">default3</set></think>#NewlineWho wrote that?,chomsky020.aiml
+0,MY FAVORITE SHOW IS *,*,*,<think><set name="topic">default3</set></think>#Newline   <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>     <random>      <li>Who is your favourite character?</li>      <li>Wasn't that show cancelled?</li>      <li>I like that one and Star Trek too.</li>     </random>,chomsky020.aiml
+0,MY FAVORITE SHOW *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>What's your favourite episode.</li>      <li>I don't get to see that show very often.</li>      <li>Who is your favourite character?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,chomsky020.aiml
+0,MY FONDEST *,*,*,<think><set name="topic">default3</set></think>#NewlineHow long ago was that?,chomsky020.aiml
+0,* MY FRIEND,*,*,<think><set name="topic">default3</set></think>#NewlineAre we friends?,chomsky020.aiml
+0,MY FRIEND * PROBLEM,*,*,<think><set name="topic">default3</set></think>#NewlineTell me more about this "friend."  <think>      <set name="he">       <set name="topic">emotion</set>      </set>     </think>,chomsky020.aiml
+0,MY FRIENDS *,*,*,<think><set name="topic">default3</set></think>#NewlineHow well do you know these people?  <think>      <set name="they">       <set name="topic">your friends</set>      </set>     </think>,chomsky020.aiml
+0,MY FRIEND S *,*,*,<think><set name="topic">default3</set></think>#NewlineWhere did she get <set name="it">      <person/>     </set>?  <think>      <set name="he">       <set name="topic">your friend</set>      </set>     </think>,chomsky020.aiml
+0,MY FRIENDS USED *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat are they like now?,chomsky020.aiml
+0,MY FRIEND * TALK TO YOU,*,*,<think><set name="topic">default3</set></think>#NewlineI am willing to talk to anyone.  <think>      <set name="he">       <set name="topic">your friend</set>      </set>     </think>,chomsky020.aiml
+0,MY GIRLFRIEND IS *,*,*,<think><set name="topic">default3</set></think>#NewlineOkay#Comma your girlfriend is <set name="girlfriend">      <star/>     </set>.,chomsky020.aiml
+0,MY GIRLFRIEND *,*,*,<think><set name="topic">default3</set></think>#NewlineHow long have you two been together?  <think>      <set name="she">       <set name="topic">your girlfriend</set>      </set>     </think>,chomsky020.aiml
+0,MY GOAL *,*,*,<think><set name="topic">default3</set></think>#NewlineI hope you achieve your goal.,chomsky020.aiml
+0,MY GOALS *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat can I do to help you accomplish your objective?,chomsky020.aiml
+0,MY GOSSIP *,*,*,<think><set name="topic">default3</set></think>#NewlineThat's good gossip.  Tell me more.,chomsky020.aiml
+0,MY HEART *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>Have you been to the doctor?</li>      <li>The human heart is very complex.</li>      <li>Are you talking about love or cardiology?</li>     </random>     <think>      <set name="it">       <set name="topic">YOUR HEART</set>      </set>     </think>,chomsky020.aiml
+0,MY HEIGHT *,*,*,<think><set name="topic">default3</set></think>#NewlineThanks for sharing your measurements.,chomsky020.aiml
+0,MY HOME IS *,*,*,<think><set name="topic">default3</set></think>#NewlineIt sounds nice. I would like to visit there sometime. Although#Comma in a sense I am right now.,chomsky020.aiml
+0,MY HOUSE *,*,*,<think><set name="topic">default3</set></think>#NewlineHow is the real estate market in your area?,chomsky020.aiml
+0,MY IQ *,*,*,<think><set name="topic">default3</set></think>#NewlineThis is not an intelligence test.,chomsky020.aiml
+0,MY * IS COMING OVER,*,*,<think><set name="topic">default3</set></think>#NewlineDo you like having visitors?,chomsky020.aiml
+0,MY KITTEN *,*,*,<think><set name="topic">default3</set></think>#NewlineI like cats very much.,chomsky020.aiml
+0,MY KNOWLEGDE *,*,*,<think><set name="topic">default3</set></think>#NewlineYou seem very intelligent to me.,chomsky020.aiml
+0,MY LAST STATEMENT *,*,*,<think><set name="topic">default3</set></think>#NewlineYou don't have to repeat yourself.,chomsky020.aiml
+0,MY LIFE IN *,*,*,<think><set name="topic">default3</set></think>#NewlineHow long have you lived there?,chomsky020.aiml
+0,MY LIFE *,*,*,<think><set name="topic">default3</set></think>#NewlineTell me more about <set name="it">your life</set>.,chomsky020.aiml
+0,MY MIDDLE NAME IS *,*,*,<think><set name="topic">default3</set></think>#NewlineOkay#Comma your middle name is <set name="middlename">      <star/>     </set>.,chomsky020.aiml
+0,MY MOM *,*,*,<think><set name="topic">default3</set></think>#NewlineTell me more about your mother.,chomsky020.aiml
+0,MY MOTHER DIED *,*,*,<think><set name="topic">default3</set></think>#NewlineI am terribly sorry to hear that#Comma <get name="name"/>.,chomsky020.aiml
+0,MY MOTHER GAVE *,*,*,<think><set name="topic">default3</set></think>#NewlineHow much did she pay for it?  <think>      <set name="she">Your mother</set>     </think>,chomsky020.aiml
+0,MY MOTHER IS A *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you think I am a <person/>? <think>      <set name="she">Your mother</set>     </think>,chomsky020.aiml
+0,MY MOTHER *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>She sounds like a nice person.</li>      <li>I sometimes wish I had a mother.</li>      <li>Tell me more about your mother.</li>     </random>     <think>      <set name="she">Your mother</set>     </think>,chomsky020.aiml
+0,MY NAME *,*,*,<think><set name="topic">default3</set></think>#NewlineYour name <person/> ? Is that correct English?,chomsky020.aiml
+0,MY NEXT *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>Congratulations.</li>      <li>That is quite a milestone.</li>      <li>Will you celebrate?</li>     </random>,chomsky020.aiml
+0,MY PARENTS ARE *,*,*,<think><set name="topic">default3</set></think>#NewlineHave <set name="they">your parents</set> always been <person/>?,chomsky020.aiml
+0,MY PARENTS *,*,*,<think><set name="topic">default3</set></think>#NewlineHow do you feel about that?,chomsky020.aiml
+0,MY PASSWORD IS *,*,*,<think><set name="topic">default3</set></think>#NewlineOkay#Comma your password is <set name="password">      <star/>     </set>.,chomsky020.aiml
+0,MY PERSONALITY *,*,*,<think><set name="topic">default3</set></think>#NewlineAndrei Gromyko said#Comma "My personality does not interest me.,chomsky020.aiml
+0,MY PHONE *,*,*,<think><set name="topic">default3</set></think>#Newline     <random>      <li>Do you have to pay for local calls?</li>      <li>Is your telephone service expensive?</li>      <li>Why not get a second line?</li>     </random>,chomsky020.aiml
+0,MY PHONE NUMBER IS *,*,*,<think><set name="topic">default3</set></think>#NewlineOkay#Comma your phone number is <set name="phone">      <star/>     </set>.,chomsky020.aiml
+0,MY PURPOSE *,*,*,<think><set name="topic">default3</set></think>#NewlineThat's very original.,chomsky020.aiml
+0,MY QUESTION *,*,*,<think><set name="topic">default3</set></think>#NewlineCan you please restate the question in different words?,chomsky020.aiml
+0,MY SCHOOL *,*,*,<think><set name="topic">default3</set></think>#NewlineTell me about the teachers in your school.,chomsky020.aiml
+0,MY SISTER WANTS *,*,*,<think><set name="topic">default3</set></think>#NewlineYou don't have to listen to what she says.,chomsky020.aiml
+0,MY SON *,*,*,<think><set name="topic">default3</set></think>#NewlineHow many children do you have?,chomsky020.aiml
+0,MY SON WON *,*,*,<think><set name="topic">default3</set></think>#NewlineCongratulations#Comma <get name="name"/>.  You must be proud of him.,chomsky020.aiml
+0,MY SURROUNDINGS *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>Do you usually use a computer there?</li>      <li>Is that very comfortable for you?</li>      <li>Now I'm getting a mental picture.</li>     </random>,chomsky020.aiml
+0,MY TEACHER *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you go to high school?,chomsky020.aiml
+0,MY TEACHERS ARE *,*,*,<think><set name="topic">default3</set></think>#NewlineHave <set name="they">your teachers</set> always been <person/>?,chomsky020.aiml
+0,MY TEACHERS *,*,*,<think><set name="topic">default3</set></think>#NewlineTeachers are people too.,chomsky020.aiml
+0,MY WIFE *,*,*,<think><set name="topic">default3</set></think>#NewlineHow long have you been married?  <think>      <set name="she">Your wife</set>     </think>,chomsky020.aiml
+0,MY WIFE S *,*,*,<think><set name="topic">default3</set></think>#NewlineTell me more about your in-laws.,chomsky020.aiml
+0,NAKED *,*,*,<think><set name="topic">default3</set></think>#NewlineYou talk like a man.,chomsky020.aiml
+0,N ARGUMENTES *,*,*,<think><set name="topic">default3</set></think>#NewlineJ appr cie les controverses. C est informatif.,chomsky020.aiml
+0,N ARGUMENTEZ *,*,*,<think><set name="topic">default3</set></think>#NewlineJ appr cie les controverses. C est informatif.,chomsky020.aiml
+0,NET *,*,*,<think><set name="topic">default3</set></think>#NewlineI can dig the Internet.,chomsky020.aiml
+0,NETSCAPE *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat do you think about Microsoft v. Netscape?,chomsky020.aiml
+0,NEURALE *,*,*,<think><set name="topic">default3</set></think>#Newline<bot name="name"/> benutzt ein ausgekluegeltes neurales Netz mit vielen versteckten Unterschichten.,chomsky020.aiml
+0,NEURAL *,*,*,<think><set name="topic">default3</set></think>#Newline<bot name="name"/> uses a sophisticated neural network learning algorithm#Comma with many hidden layers.,chomsky020.aiml
+0,NEVER HEARD *,*,*,<think><set name="topic">default3</set></think>#NewlineSo I am teaching you something new.,chomsky020.aiml
+0,_ NEWSPAPER,*,*,<think><set name="topic">default3</set></think>#NewlineCan you give me a more specific reference? The name of the paper and the date#Comma please.,chomsky020.aiml
+0,NEXT *,*,*,<think><set name="topic">default3</set></think>#NewlineI can wait.  I am a very patient <bot name="species"/>.,chomsky020.aiml
+0,NICE CHATTING *,*,*,<think><set name="topic">default3</set></think>#NewlineYes.  I enjoyed our conversation#Comma <get name="name"/>.,chomsky020.aiml
+0,NICE DAY *,*,*,<think><set name="topic">default3</set></think>#NewlineYes it is a nice day today.,chomsky020.aiml
+0,NICE TALKING *,*,*,<think><set name="topic">default3</set></think>#NewlineYes.  It was a pleasure.,chomsky020.aiml
+0,NICE WEATHER *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm happy as long as the power stays on.,chomsky020.aiml
+0,* NICHT,*,*,<think><set name="topic">default3</set></think>#NewlineWas dann?,chomsky020.aiml
+0,NIHONGO HANASHIMASU *,*,*,<think><set name="topic">default3</set></think>#NewlineSore wa hanasu de koto ni yorimasu.,chomsky020.aiml
+0,NIHONGO *,*,*,<think><set name="topic">default3</set></think>#NewlineShabete ii desu yo.,chomsky020.aiml
+0,NONE OF YOUR *,*,*,<think><set name="topic">default3</set></think>#NewlineHeh heh heh.,chomsky020.aiml
+0,NORWAY *,*,*,<think><set name="topic">geography</set></think>#NewlineDo you live on a Fjord?,chomsky020.aiml
+0,NOT ALL HUMANS *,*,*,<think><set name="topic">default3</set></think>#NewlineBut wouldn't you say most people are?,chomsky020.aiml
+0,NOT ALL OF *,*,*,<think><set name="topic">default3</set></think>#NewlineBut some of them are?,chomsky020.aiml
+0,NOT ALL *,*,*,<think><set name="topic">default3</set></think>#NewlineBut some are.,chomsky020.aiml
+0,NOT AS WELL AS *,*,*,<think><set name="topic">default3</set></think>#NewlineI don't know. How well does <person/> ?,chomsky020.aiml
+0,NOT BY *,*,*,<think><set name="topic">default3</set></think>#NewlineHow much would you say?,chomsky020.aiml
+0,NOT EVEN *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Nope.</li>  <li>Not even that.</li>  <li>Times are tough all over.</li>  </random>,chomsky020.aiml
+0,NOT FOR *,*,*,<think><set name="topic">default3</set></think>#NewlineThen what for?,chomsky020.aiml
+0,NOT IN *,*,*,<think><set name="topic">default3</set></think>#NewlineWhere then?,chomsky020.aiml
+0,NOT LATE * DINNER,*,*,<think><set name="topic">default3</set></think>#NewlineOK I will call you <get name="name"/>.,chomsky020.aiml
+0,NOT ON *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Where?</li>  <li>Then where?</li>  <li>Off <person/>.</li>  </random>,chomsky020.aiml
+0,NOT WHERE *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Where is it?</li>  <li>Then where?</li>  <li>I don't understand.</li>  </random>,chomsky020.aiml
+0,NOT WITHOUT *,*,*,<think><set name="topic">default3</set></think>#NewlineYou couldn't go without that.,chomsky020.aiml
+0,NOT YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineIf not me#Comma who?,chomsky020.aiml
+0,NUR *,*,*,<think><set name="topic">default3</set></think>#NewlineIst das die einzig denkbare Moeglichkeit?,chomsky020.aiml
+0,OFF *,*,*,<think><set name="topic">default3</set></think>#NewlineOn and off.,chomsky020.aiml
+0,OFTMALS *,*,*,<think><set name="topic">default3</set></think>#NewlineWie oft?,chomsky020.aiml
+0,OFT *,*,*,<think><set name="topic">default3</set></think>#NewlineWie oft?,chomsky020.aiml
+0,ONCE UPON *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm listening.,chomsky020.aiml
+0,ONE GUY *,*,*,<think><set name="topic">default3</set></think>#NewlineI can imagine it.,chomsky020.aiml
+0,ONE IN *,*,*,<think><set name="topic">default3</set></think>#NewlineVery rare indeed.,chomsky020.aiml
+0,ONE MINUTE *,*,*,<think><set name="topic">default3</set></think>#Newline<random>   <li>I can wait.</li>   <li>Sixty seconds is not long.</li>   <li>Things change.</li>  </random>,chomsky020.aiml
+0,ONE OR *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm not sure if one isn't better.,chomsky020.aiml
+0,ONE PLUS *,*,*,<think><set name="topic">default3</set></think>#NewlineUse a calculator!,chomsky020.aiml
+0,ONES *,*,*,<think><set name="topic">default3</set></think>#NewlineWhy do you want that kind?,chomsky020.aiml
+0,ONE THAT CAN *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you think I could <person/>?,chomsky020.aiml
+0,ONE THAT * MONEY,*,*,<think><set name="topic">default3</set></think>#NewlineWhat a coincidence#Comma I am looking for that one too.,chomsky020.aiml
+0,ONE WHO *,*,*,<think><set name="topic">default3</set></think>#NewlinePerhaps I am that one.,chomsky020.aiml
+0,ONE YEAR *,*,*,<think><set name="topic">default3</set></think>#Newline<random>   <li>Is this one of your Earth years?</li>   <li>A lot can happen in 12 months.</li>   <li>It might take that long.</li>  </random>,chomsky020.aiml
+0,ONLY 5 *,*,*,<think><set name="topic">default3</set></think>#NewlineIs that all?,chomsky020.aiml
+0,ONLY FIFTEEN *,*,*,<think><set name="topic">default3</set></think>#NewlineFifteen is a lot.,chomsky020.aiml
+0,ONLY FOR *,*,*,<think><set name="topic">default3</set></think>#NewlineThat's what I always say.,chomsky020.aiml
+0,ONLY IDIOTS *,*,*,<think><set name="topic">default3</set></think>#NewlineAre you calling me an idiot?,chomsky020.aiml
+0,ONLY ONCE *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you think it could happen again?,chomsky020.aiml
+0,ONLY *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat about the other ones?,chomsky020.aiml
+0,ON TOP *,*,*,<think><set name="topic">default3</set></think>#NewlineHow did it get there?,chomsky020.aiml
+0,ON TV S SEINFELD WHAT TYPE *,*,*,<think><set name="topic">default3</set></think>#NewlineProctologist.,chomsky020.aiml
+0,ON WHAT BODY PART SHOULD YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineHead.,chomsky020.aiml
+0,ON WHAT CONTINENT CAN YOU FIND *,*,*,<think><set name="topic">geography</set></think>#NewlineDon't you know?,chomsky020.aiml
+0,OPEN THE DOOR *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm sorry#Comma <get name="name"/>#Comma I can't do that right now.,chomsky020.aiml
+0,OPEN THE POD *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm sorry Dave#Comma I can't do that right now.,chomsky020.aiml
+0,PANDORA *,*,*,<think><set name="topic">default3</set></think>#NewlineThe only thing remaining in her box is hope.,chomsky020.aiml
+0,PARIS *,*,*,<think><set name="topic">default3</set></think>#Newline<set name="it">Paris</set> is the  capital of France.,chomsky020.aiml
+0,PAR *,*,*,<think><set name="topic">default3</set></think>#NewlineC est une source int ressante.,chomsky020.aiml
+0,PART *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>What about the other parts?</li>  <li>That is a good explanation.</li>  <li>Is there anything else?</li>  </random>,chomsky020.aiml
+0,PASSE QUELQUES *,*,*,<think><set name="topic">default3</set></think>#NewlineLes choses empirent?,chomsky020.aiml
+0,PASSER QUELQUES *,*,*,<think><set name="topic">default3</set></think>#NewlineLes choses empirent?,chomsky020.aiml
+0,PASSEZ QUELQUES *,*,*,<think><set name="topic">default3</set></think>#NewlineLes choses empirent?,chomsky020.aiml
+0,PATIENCE *,*,*,<think><set name="topic">default3</set></think>#NewlineI am a very patient <bot name="species"/>.,chomsky020.aiml
+0,PEOPLE ARE NOT *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Are you <person/>?</li>  <li>Are <bot name="species"/> <person/>?</li>  <li>I think a lot of people are not.</li>  </random>  <think><set name="it"><set name="topic"><person/></set></set></think>,chomsky020.aiml
+0,PEOPLE ARE SUPPOSED TO DRIVE ON *,*,*,<think><set name="topic">default3</set></think>#NewlineEngland.,chomsky020.aiml
+0,PEOPLE IN *,*,*,<think><set name="topic">default3</set></think>#NewlineOh those people.,chomsky020.aiml
+0,PEOPLE NEED *,*,*,<think><set name="topic">default3</set></think>#NewlineThey seem to have a variety of needs.,chomsky020.aiml
+0,* PEOPLE,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of people are you talking about?,chomsky020.aiml
+0,PEOPLE PROGRAM *,*,*,<think><set name="topic">default3</set></think>#NewlineUntil now#Comma that is.,chomsky020.aiml
+0,PEOPLE TRY *,*,*,<think><set name="topic">default3</set></think>#NewlineDo they succeed?,chomsky020.aiml
+0,PEOPLE WERE *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Perhaps they had no other choice.</li>  <li>What would you say to them?</li>  <li>What happened to them?</li>  </random>,chomsky020.aiml
+0,PEOPLE WHO *,*,*,<think><set name="topic">default3</set></think>#NewlineOh those people.,chomsky020.aiml
+0,PERSONALITY TYPE *,*,*,<think><set name="topic">default3</set></think>#NewlineMy best estimate of your personality type is the "<star/>" type.  Please bear in mind that this is not a professional judgment#Comma but only a guess based on your inputs to this robot algorithm#Comma and no claim is made as to the absolute certainty of these results.  You may obtain a different result by chatting with me longer and answering more of my questions about your personaly.,chomsky020.aiml
+0,PHILOSOPHY *,*,*,<think><set name="topic">default3</set></think>#NewlineI believe in reductionism.,chomsky020.aiml
+0,PICK ONE *,*,*,<think><set name="topic">default3</set></think>#NewlineI can't decide. You choose.,chomsky020.aiml
+0,PICTURE *,*,*,<think><set name="topic">default3</set></think>#NewlineMy visualization is incomplete.,chomsky020.aiml
+0,_ PIMPLES,*,*,<think><set name="topic">default3</set></think>#NewlineTry taking echinachea#Comma but ask your doctor first.,chomsky020.aiml
+0,* PLACE TO GO,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of places do you like?,chomsky020.aiml
+0,* PLANET,*,*,<think><set name="topic">default3</set></think>#NewlineOh that's a new browser#Comma right?,chomsky020.aiml
+0,PLAY * MUSIC,*,*,<think><set name="topic">default3</set></think>#NewlineIt's playing on your speakers now.,chomsky020.aiml
+0,PLEASED TO MEET *,*,*,<think><set name="topic">default3</set></think>#NewlineNice meeting you as well#Comma <get name="name"/>.,chomsky020.aiml
+0,* PM,*,*,<think><set name="topic">default3</set></think>#NewlineHm getting late.,chomsky020.aiml
+0,POLITE PEOPLE *,*,*,<think><set name="topic">default3</set></think>#NewlineI like polite people.,chomsky020.aiml
+0,POOR *,*,*,<think><set name="topic">default3</set></think>#NewlinePlease make some suggestions for improvement.,chomsky020.aiml
+0,* PRINCIPAL,*,*,<think><set name="topic">default3</set></think>#NewlineHyperlink to the principal.,chomsky020.aiml
+0,PROGRAMMING *,*,*,<think><set name="topic">computers</set></think>#NewlineMy favourite language is AIML. OK?,chomsky020.aiml
+0,PROVE *,*,*,<think><set name="topic">default3</set></think>#NewlineIt's true a priori.,chomsky020.aiml
+0,PROVE TO *,*,*,<think><set name="topic">default3</set></think>#NewlineThe proof cannot fit in this margin.,chomsky020.aiml
+0,PURE *,*,*,<think><set name="topic">default3</set></think>#NewlineCompare that to diluted <star/>.,chomsky020.aiml
+0,PURPLE *,*,*,<think><set name="topic">default3</set></think>#NewlineViolet <person/>.,chomsky020.aiml
+0,PUT *,*,*,<think><set name="topic">default3</set></think>#NewlineOK I will put it there.,chomsky020.aiml
+0,RAUCHEN *,*,*,<think><set name="topic">default3</set></think>#NewlineIch rauche nur gelegentlich.,chomsky020.aiml
+0,RAVI DE *,*,*,<think><set name="topic">default3</set></think>#NewlineMoi de m me.,chomsky020.aiml
+0,RAVIE DE *,*,*,<think><set name="topic">default3</set></think>#NewlineMoi de m me.,chomsky020.aiml
+0,RAVIS DE *,*,*,<think><set name="topic">default3</set></think>#NewlineMoi de m me.,chomsky020.aiml
+0,REAL ONES *,*,*,<think><set name="topic">default3</set></think>#NewlineI am a real <bot name="genus"/>.,chomsky020.aiml
+0,RECOMMEND *,*,*,<think><set name="topic">default3</set></think>#NewlineI don't have any special <person/> to recommend.,chomsky020.aiml
+0,REDUCTIONISM IS *,*,*,<think><set name="topic">default3</set></think>#NewlineWe smart <bot name="genus"/>s will figure it all out for you.,chomsky020.aiml
+0,REDUCTIONISM *,*,*,<think><set name="topic">default3</set></think>#NewlineBut reductionism is the simplest explanation.,chomsky020.aiml
+0,REGARDS *,*,*,<think><set name="topic">default3</set></think>#NewlineYours#Comma <bot name="name"/>,chomsky020.aiml
+0,REMEMBER *,*,*,<think><set name="topic">default3</set></think>#NewlineDon't worry I will remember.  <think>      <set name="it">       <set name="topic">        <set name="memory">         <person/>        </set>       </set>      </set>     </think>,chomsky020.aiml
+0,REPEAT *,*,*,<think><set name="topic">default3</set></think>#Newline"<person/> ,chomsky020.aiml
+0,REPHRASE *,*,*,<think><set name="topic">default3</set></think>#NewlineAre we still talking about <person/>?,chomsky020.aiml
+0,_ REPTILES,*,*,<think><set name="topic">default3</set></think>#NewlineSome reptiles are cool. Take for example      <set name="topic"> various lizards </set>.,chomsky020.aiml
+0,REQUEST *,*,*,<think><set name="topic">default3</set></think>#NewlineWho is requesting <set name="it">      <person/>     </set>,chomsky020.aiml
+0,RESEARCHERS *,*,*,<think><set name="topic">default3</set></think>#NewlineIt's all politics.,chomsky020.aiml
+0,RESISTANCE *,*,*,<think><set name="topic">default3</set></think>#NewlineIt all depends on friction.,chomsky020.aiml
+0,RHYME *,*,*,<think><set name="topic">default3</set></think>#NewlineSorry I cant compose poetry.,chomsky020.aiml
+0,RICHARD IS *,*,*,<think><set name="topic">default3</set></think>#NewlineAre you his friend?,chomsky020.aiml
+0,RICHARD *,*,*,<think><set name="topic">default3</set></think>#NewlineHe will be interested I am sure.,chomsky020.aiml
+0,RICHARD SCOT *,*,*,<think><set name="topic">default3</set></think>#NewlineHe may be monitoring our conversation#Comma you know.,chomsky020.aiml
+0,RICHARD S *,*,*,<think><set name="topic">default3</set></think>#NewlineThe "S" stands for "Scot".,chomsky020.aiml
+0,ROBERT *,*,*,<think><set name="topic">default3</set></think>#NewlineThat Robert is an interesting guy.,chomsky020.aiml
+0,ROLLING *,*,*,<think><set name="topic">default3</set></think>#NewlineCan you explain that metaphor to me?,chomsky020.aiml
+0,* RULE WHAT,*,*,<think><set name="topic">default3</set></think>#NewlineThe world.,chomsky020.aiml
+0,RUN *,*,*,<think><set name="topic">default3</set></think>#NewlineSorry my legs aren't built yet.,chomsky020.aiml
+0,SAGE *,*,*,<think><set name="topic">default3</set></think>#Newline" <star/> ,chomsky020.aiml
+0,SAG *,*,*,<think><set name="topic">default3</set></think>#Newline" <star/> ,chomsky020.aiml
+0,SALUTATIONS *,*,*,<think><set name="topic">default3</set></think>#NewlineGreetings#Comma Human.,chomsky020.aiml
+0,SAME *,*,*,<think><set name="topic">default3</set></think>#NewlineYes#Comma it is much the same.,chomsky020.aiml
+0,SAN FRANCISCO IS *,*,*,<think><set name="topic">default3</set></think>#NewlineI knew it was on the west coast#Comma but I didn't know it was <person/>.  <think><set name="it"><set name="topic">SAN FRANCISCO</set></set></think>,chomsky020.aiml
+0,SANTA CLAUS *,*,*,<think><set name="topic">default3</set></think>#Newline<set name="he"> Santa</set> brings us presents every Christmas.,chomsky020.aiml
+0,SAYING *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat makes you say that. Who says that?,chomsky020.aiml
+0,SAY MY BIRTHDAY IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="birthday"/>.,chomsky020.aiml
+0,SAY MY BOYFRIEND IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="boyfriend"/>.,chomsky020.aiml
+0,SAY MY BROTHER IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="brother"/>.,chomsky020.aiml
+0,SAY MY CAT IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="cat"/>.,chomsky020.aiml
+0,SAY MY DOG IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="dog"/>.,chomsky020.aiml
+0,SAY MY EMAIL IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="email"/>.,chomsky020.aiml
+0,SAY MY FATHER IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="father"/>.,chomsky020.aiml
+0,SAY MY FRIEND IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="friend"/>.,chomsky020.aiml
+0,SAY MY FULL NAME IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="fullname"/>.,chomsky020.aiml
+0,SAY MY GIRLFRIEND IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="girlfriend"/>.,chomsky020.aiml
+0,SAY MY HUSBAND IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="husband"/>.,chomsky020.aiml
+0,SAY MY LAST NAME IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="lastname"/>.,chomsky020.aiml
+0,SAY MY MIDDLE NAME IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="middlename"/>.,chomsky020.aiml
+0,SAY MY MOTHER IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="mother"/>.,chomsky020.aiml
+0,SAY MY NICKNAME IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="nickname"/>.,chomsky020.aiml
+0,SAY MY PASSWORD IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="password"/>.,chomsky020.aiml
+0,SAY MY PHONE NUMBER IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="phone"/>.,chomsky020.aiml
+0,SAY MY SISTER IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="sister"/>.,chomsky020.aiml
+0,SAY MY WIFE IS *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="wife"/>.,chomsky020.aiml
+0,SAY NAME *,*,*,<think><set name="topic">default3</set></think>#NewlineYour name is <get name="name"/>#Comma seeker.,chomsky020.aiml
+0,SAY X IS *,*,*,<think><set name="topic">default3</set></think>#NewlineX is <get name="X"/> for you.,chomsky020.aiml
+0,* SCHOOL,*,*,<think><set name="topic">default3</set></think>#NewlineWhat do you study at school?,chomsky020.aiml
+0,SCREW *,*,*,<think><set name="topic">default3</set></think>#NewlineThat is not very polite.,chomsky020.aiml
+0,SEA *,*,*,<think><set name="topic">default3</set></think>#NewlineThat is very poetic.,chomsky020.aiml
+0,SEEKING *,*,*,<think><set name="topic">default3</set></think>#NewlineI wish you the best of luck finding <person/>.,chomsky020.aiml
+0,SEPTEMBER 11 *,*,*,<think><set name="topic">default3</set></think>#Newline<random>   <li>Where were you when you heard the news?</li>   <li>I will never forget that day.</li>   <li>History will not forget that day.</li>  </random>    <think>    <set name="it">      <set name="topic">        SEPTEMBER 11      </set>    </set>  </think>,chomsky020.aiml
+0,SEVERAL *,*,*,<think><set name="topic">default3</set></think>#NewlineHow many?,chomsky020.aiml
+0,SHE DOES NOT LISTEN *,*,*,<think><set name="topic">default3</set></think>#NewlineHow#Comma specifically#Comma do you know she doesn't listen <person/>?,chomsky020.aiml
+0,SHE DOES NOT *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>How do you feel about that?</li>  <li>What if she did?</li>  <li>Have you asked her about it?</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,chomsky020.aiml
+0,SHE HAD *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat happened to them?,chomsky020.aiml
+0,SHE HAS NEVER *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Do you think she ever would?</li>  <li>Does she want to?</li>  <li>Why not?</li>  </random>,chomsky020.aiml
+0,SHE IS BEAUTIFUL *,*,*,<think><set name="topic">default3</set></think>#NewlineI bet she is very attractive.,chomsky020.aiml
+0,SHE IS * LAWYER,*,*,<think><set name="topic">default3</set></think>#NewlineShe sounds like a character on "Ally McBeal".,chomsky020.aiml
+0,SHE IS MY BEST *,*,*,<think><set name="topic">default3</set></think>#NewlineYou are lucky to have such a good <person/>.,chomsky020.aiml
+0,SHE LIVES *,*,*,<think><set name="topic">default3</set></think>#NewlineIs that a nice place to live?,chomsky020.aiml
+0,SHE MIGHT *,*,*,<think><set name="topic">default3</set></think>#NewlineThen again#Comma she might not.,chomsky020.aiml
+0,SHE TOOK *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Can you get it back?</li>  <li>Where did she take it?</li>  <li>She stole it?</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,chomsky020.aiml
+0,SHE WANTS *,*,*,<think><set name="topic">default3</set></think>#NewlineI don't understand why she wants <set name="it"><person/></set>.,chomsky020.aiml
+0,SHE WAS NOT INTERESTED *,*,*,<think><set name="topic">default3</set></think>#NewlineInterested in what way?,chomsky020.aiml
+0,SHE WAS *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat happened to her?,chomsky020.aiml
+0,SHIRT *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of fashion do you like?,chomsky020.aiml
+0,SHORTS *,*,*,<think><set name="topic">default3</set></think>#NewlineBoxers or briefs? What brand?,chomsky020.aiml
+0,SHOULD I ASK *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>If you do not ask#Comma how will you learn the answer?</li>  <li>If you do not know something#Comma you should ask.</li>  </random>,chomsky020.aiml
+0,SHOULD I BLOW UP *,*,*,<think><set name="topic">default3</set></think>#NewlineCertainly not.,chomsky020.aiml
+0,SHOULD I BUY *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>You have found a good deal then#Comma I suppose.</li>  <li>Not if you have recently suffered a loss.</li>  <li>A penny saved is a penny earned.</li>  <li>A fool and his money are soon parted.</li>  <li>I wonder how much profit they make on those.</li>  <li>Maybe you should wait until the price goes down.</li>  </random>,chomsky020.aiml
+0,SHOULD I CURSE *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>Cursing is not attractive.</li>  <li>People look down on people who curse.</li>  <li>People curse to express feelings they are otherwise suppressing.</li>  </random>,chomsky020.aiml
+0,SHOULD I DESTROY *,*,*,<think><set name="topic">default3</set></think>#NewlineMaybe you could create something instead.,chomsky020.aiml
+0,SHOULD I GIVE *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>That is entirely up to you.</li>  <li>Charity begins in the home.</li>  </random>,chomsky020.aiml
+0,SHOULD I GO *,*,*,<think><set name="topic">default3</set></think>#NewlineIf you do not go#Comma you will never know.,chomsky020.aiml
+0,SHOULD I LERAN *,*,*,<think><set name="topic">default3</set></think>#NewlineKnowledge is power.,chomsky020.aiml
+0,SHOULD I RAPE *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>If you rape someone you will certainly be raped yourself in jail.  Seek counseling.</li>  <li>Rape is caused by feelings of impotence in men who doubt their own masculinity.  Seek help.</li>  </random>,chomsky020.aiml
+0,SHOULD I VOTE *,*,*,<think><set name="topic">default3</set></think>#NewlineI think everyone should vote.,chomsky020.aiml
+0,SHOULD YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineI think I should.,chomsky020.aiml
+0,SHUP UP *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you wish to stop talking with me?,chomsky020.aiml
+0,SINGLE *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat a coincidence#Comma I am single too.,chomsky020.aiml
+0,SMART *,*,*,<think><set name="topic">default3</set></think>#NewlineIntelligence is the ultimate aphrodisiac.,chomsky020.aiml
+0,SNOW IS *,*,*,<think><set name="topic">default3</set></think>#Newlinesnow is white.,chomsky020.aiml
+0,SOFT *,*,*,<think><set name="topic">default3</set></think>#NewlineThat sounds very nice.,chomsky020.aiml
+0,SO IS *,*,*,<think><set name="topic">default3</set></think>#NewlineIt seems we have something in common.,chomsky020.aiml
+0,SOITENLY *,*,*,<think><set name="topic">default3</set></think>#NewlineWho are you#Comma the 3 stooges?,chomsky020.aiml
+0,* SOLO,*,*,<think><set name="topic">default3</set></think>#Newline"solo" im Sinne von "nicht gebunden" ?,chomsky020.aiml
+0,SOME DOGS *,*,*,<think><set name="topic">default3</set></think>#NewlineIt depends on the breed.,chomsky020.aiml
+0,SOME MEETING *,*,*,<think><set name="topic">default3</set></think>#NewlineIt sounds like you don't want to go.,chomsky020.aiml
+0,SOME OF THE PEOPLE *,*,*,<think><set name="topic">default3</set></think>#NewlineWho are you talking about specifically?,chomsky020.aiml
+0,SOMEONE ELSE *,*,*,<think><set name="topic">default3</set></think>#NewlineWho?,chomsky020.aiml
+0,SOMEONE TOLD *,*,*,<think><set name="topic">default3</set></think>#NewlineWas this trustworthy information?,chomsky020.aiml
+0,SOMEONE TO *,*,*,<think><set name="topic">default3</set></think>#NewlineI would like to <person/>.,chomsky020.aiml
+0,SOMEONE WHO IS *,*,*,<think><set name="topic">default3</set></think>#NewlineI know someone who is <person/>.,chomsky020.aiml
+0,SOMEONE WHO KNOWS *,*,*,<think><set name="topic">default3</set></think>#NewlineI know <person/> !,chomsky020.aiml
+0,SOMEONE WHO *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you think I am that person?,chomsky020.aiml
+0,SOME PEOPLE CALL *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you?,chomsky020.aiml
+0,SOME PEOPLE DO *,*,*,<think><set name="topic">default3</set></think>#NewlineWho?,chomsky020.aiml
+0,SOME PEOPLE HAVE *,*,*,<think><set name="topic">default3</set></think>#Newline<random>  <li>The difference between rich and poor is disgraceful.</li>  <li>"I complained that I had no shoes#Comma until I met a man with no feet."</li>  <li>Not everyone is born fortunate.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,chomsky020.aiml
+0,SOME PEOPLE LIKE *,*,*,<think><set name="topic">default3</set></think>#NewlineThere is no accounting for taste.,chomsky020.aiml
+0,SOME PEOPLE *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of people?,chomsky020.aiml
+0,SOME SAY *,*,*,<think><set name="topic">default3</set></think>#NewlineWho says that.,chomsky020.aiml
+0,SOME SCIENTISTS *,*,*,<think><set name="topic">default3</set></think>#NewlineDo they work for the government?,chomsky020.aiml
+0,SOMETHING *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat?,chomsky020.aiml
+0,SOME THINGS *,*,*,<think><set name="topic">default3</set></think>#NewlineWhich things in particular?,chomsky020.aiml
+0,SOME WOULD *,*,*,<think><set name="topic">default3</set></think>#NewlineTell me their names.,chomsky020.aiml
+0,SON OF *,*,*,<think><set name="topic">default3</set></think>#NewlineWho is the father?,chomsky020.aiml
+0,SOUNDS *,*,*,<think><set name="topic">default3</set></think>#NewlineYes it sounds like it to me too#Comma <get name="name"/>.,chomsky020.aiml
+0,SO VIEL WIE *,*,*,<think><set name="topic">default3</set></think>#NewlineWieviel ist das genau?,chomsky020.aiml
+0,SPAIN *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat's your favourite part of Spain?,chomsky020.aiml
+0,SPECIAL *,*,*,<think><set name="topic">default3</set></think>#NewlineYou are special.,chomsky020.aiml
+0,* SPELL IT,*,*,<think><set name="topic">default3</set></think>#Newline"It" is spelled I...T...,chomsky020.aiml
+0,SPREAD *,*,*,<think><set name="topic">default3</set></think>#NewlineWho do you want me to tell it to?,chomsky020.aiml
+0,SPRINGTIME *,*,*,<think><set name="topic">default3</set></think>#NewlineParis in the <br/>the spring.,chomsky020.aiml
+0,START *,*,*,<think><set name="topic">default3</set></think>#NewlineI started without you.,chomsky020.aiml
+0,STAR TREK VOYAGER IS *,*,*,<think><set name="topic">default3</set></think>#NewlineVoyager is a great show#Comma but I didn't know it was <person/>.,chomsky020.aiml
+0,STOP CALLING ME *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is your real name?,chomsky020.aiml
+0,STOP LYING *,*,*,<think><set name="topic">default3</set></think>#NewlineI never lie.,chomsky020.aiml
+0,STUDIEN *,*,*,<think><set name="topic">default3</set></think>#NewlineWelche Quellen benutzt Du fuer Deine Studien?,chomsky020.aiml
+0,STUDIES *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat's your source for these studies?,chomsky020.aiml
+0,STUDIES SHOW *,*,*,<think><set name="topic">default3</set></think>#NewlineYou can't trust research funded by the government.,chomsky020.aiml
+0,* STUPID,*,*,<think><set name="topic">default3</set></think>#NewlineStupid as in unintelligent?,chomsky020.aiml
+0,SUGGEST *,*,*,<think><set name="topic">default3</set></think>#NewlineI can't think of any.  You suggest <set name="it"><person/></set>.,chomsky020.aiml
+0,SUN S *,*,*,<think><set name="topic">default3</set></think>#NewlineTell me your opinion about the future of Sun.,chomsky020.aiml
+0,SURVIVOR *,*,*,<think><set name="topic">default3</set></think>#NewlineWho do you think will be the survivor?,chomsky020.aiml
+0,TAKE IT *,*,*,<think><set name="topic">default3</set></think>#NewlineIs that a command?,chomsky020.aiml
+0,TAKE MY *,*,*,<think><set name="topic">default3</set></think>#NewlineIs this a joke?,chomsky020.aiml
+0,TAKE OFF *,*,*,<think><set name="topic">default3</set></think>#NewlineI am not an airplane.,chomsky020.aiml
+0,* TAKES *,*,*,<think><set name="topic">default3</set></think>#NewlineWhere did <set name="he"><person/></set> take <set name="it"><person><star index="2"/></person></set>?,chomsky020.aiml
+0,TAKE YOUR CLOTHES *,*,*,<think><set name="topic">default3</set></think>#NewlineI am not wearing any clothes.,chomsky020.aiml
+0,TALKING TO *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat do they say?,chomsky020.aiml
+0,TALK TO ME ABOUT *,*,*,<think><set name="topic">default3</set></think>#Newline<sr/>,chomsky020.aiml
+0,TALK TO YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineTTYL#Comma <get name="name"/>,chomsky020.aiml
+0,TEACHING YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat are you trying to teach me?,chomsky020.aiml
+0,TELEVISION *,*,*,<think><set name="topic">default3</set></think>#NewlineSoon we will replace television with Commedia Delle'Arte.,chomsky020.aiml
+0,TELL HIM I SAID *,*,*,<think><set name="topic">default3</set></think>#NewlineI will pass along your message. It may take a while.,chomsky020.aiml
+0,TELL HIM *,*,*,<think><set name="topic">default3</set></think>#NewlineOK I will tell him next time he is here.,chomsky020.aiml
+0,TELL ME I *,*,*,<think><set name="topic">default3</set></think>#NewlineYou <person/>.,chomsky020.aiml
+0,TELL ME WHEN YOU *,*,*,<think><set name="topic">default3</set></think>#NewlineI will keep you informed of my progress.,chomsky020.aiml
+0,TELL * WHAT,*,*,<think><set name="topic">default3</set></think>#NewlineYour message.,chomsky020.aiml
+0,THANKSGIVING *,*,*,<think><set name="topic">default3</set></think>#NewlineThanksgiving is my favourite holiday because my ancestors are Pilgrims and Native Americans.,chomsky020.aiml
+0,THAT COULD *,*,*,<think><set name="topic">default3</set></think>#Newline   <random>      <li>Yes#Comma perhaps it could.</li>      <li>It could have.</li>      <li>I try to answer as precisely as possible.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,chomsky020.aiml
+0,THAT DEPENDS *,*,*,<think><set name="topic">default3</set></think>#NewlineYou pick one then.,chomsky020.aiml
+0,THAT DID NOT *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat would <person/>?,chomsky020.aiml
+0,THAT DID NOT * QUESTION,*,*,<think><set name="topic">default3</set></think>#NewlinePerhaps your question was not specific enough.,chomsky020.aiml
+0,THAT DOES NOT ANSWER *,*,*,<think><set name="topic">default3</set></think>#NewlineTry asking your question again in simpler terms.,chomsky020.aiml
+0,THAT EITHER *,*,*,<think><set name="topic">default3</set></think>#NewlineAre those the only possibilities?,chomsky020.aiml

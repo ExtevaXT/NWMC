@@ -1,0 +1,53 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+#  ENCHANTMENT: Infinity
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&2&lНастройки'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'settings'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 339
+    left-click: true
+    right-click: true
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+scoreboard:
+  COMMAND: 'tm scoreboard toggle'
+  ENCHANTMENT: 'fire aspect, 1'
+  NAME: '&a&lОтключить / Включить Scoreboard (Панель справа)'
+  ID: 345
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+
+menu:
+  COMMAND: 'menu'
+  NAME: '&e&l Назад в меню&b'
+  ID: '262'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+
+
+
+

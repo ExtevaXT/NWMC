@@ -1,0 +1,17 @@
+Options:
+  CloneCreateMessage: §c[§bCloneMe§c]§a A new clone has been dispatched to your location!
+  CloneDestroyMessage: §c[§bCloneMe§c]§a Your clone disintigrated!
+  CloneChatFormat: '§e[L]§8[§cClone§8]§b&n§8: §7&m'
+  CloneInteractEnabled: true
+  PetChatFormat: '§e[L]§8[§aPet§8]§e&n§8: §7&m'
+  UncreditAuthor: false
+  PageOneName: Companions Category A
+  PageOneHead: Frunze
+  PageOneCompanions: Ghoti_Mayo,Bob_Ross,Shrek
+  PageTwoName: Companions Category B
+  PageTwoHead: xC0
+  PageTwoCompanions: Notch,Herobrine,Yoshi
+  PageThreeName: Companions Category C
+  PageThreeHead: TheCrasher8
+  PageThreeCompanions: Bob,Mario,PeeweeHerman
+  ConversationsEnabled: true

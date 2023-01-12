@@ -1,0 +1,7 @@
+variables:
+  block: LOG
+npcs:
+  'test2': test2
+  '119': test2
+
+

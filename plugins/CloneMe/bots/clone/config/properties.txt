@@ -1,0 +1,8 @@
+url:
+name:clone
+email:callmom-info@pandorabots.com
+gender:male
+botmaster:Ghoti_Mayo
+organization:CloneMe
+version:0.0.4
+

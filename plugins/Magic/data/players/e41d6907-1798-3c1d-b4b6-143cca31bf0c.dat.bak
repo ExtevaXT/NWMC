@@ -1,0 +1,226 @@
+id: e41d6907-1798-3c1d-b4b6-143cca31bf0c
+name: Faithfull
+created: 1563983902756
+last_cast: 1564004367914
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  fireannihilation:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fenixflower:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  jutsu:
+    cast_count: 1
+    last_cast: 1563983934979
+    last_earn: 0
+    cooldown_expiration: 0
+  wear:
+    cast_count: 2
+    last_cast: 1564004367914
+    last_earn: 0
+    cooldown_expiration: 0
+  firewind:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  ketsuryuganactivate:
+    cast_count: 8
+    last_cast: 1563987134286
+    last_earn: 0
+    cooldown_expiration: 0
+  greatfireball:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  spshop:
+    cast_count: 0
+    last_cast: 1563984957385
+    last_earn: 0
+    cooldown_expiration: 0
+  deactivate:
+    cast_count: 7
+    last_cast: 1563987135318
+    last_earn: 0
+    cooldown_expiration: 0
+  gravimeteor:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  spellshop:
+    cast_count: 0
+    last_cast: 1563985953394
+    last_earn: 0
+    cooldown_expiration: 0
+  fenixfire:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fireblast:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  miniblackhole:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  amaterasu:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  startwater:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 363
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Воды
+        lore:
+        - §o§aТехники Стихии Воды
+        - §3§oПривязан к Faithfull
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qv07DQAzGHfUISRAM5QUYujAENWrV0q1FgITUwlB1ri45tz0194fEoc/Ao7AgMSDxBGw8ADPiNRDXVODJtj7//NkRgAdsjWi9CNiGaxFAQKhszgkhKokXtHFpEcCe2WgsILzmklaLKs99YIprPpRQB4OjbTknqdDNKevQeev748UR69G5FNDCbiJ6g3Y/TvqD87iTJSJOu2kvTrqdLOOdJF20swbsP2BRSqMd1ncGDyotCmMtT3P0QmiOiAqZVoQTI+RCOm3klB6DYDa7uZyYkgavX4+fPxdDBuG2NUZe0vPyrXwan7774I+UqTQNWzvnAbBpbggCxaVe1T84/F9xyxXC8RLdATI740Q8W08tomhAeGex4LTzuaXU2ubVfSWtQk0nf/YAfgHJKPDJaAEAAA==
+    wand:
+      template: startwater
+      owner: Faithfull
+      mana: 200.0
+      mana_timestamp: 1563987135921
+      owner_id: e41d6907-1798-3c1d-b4b6-143cca31bf0c
+      version: 6
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4§7Бумага Чакры
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязан к Faithfull
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PzU7CUBCFp6HUtsYNrk1csK2hgYDsJFESI2gMYWnMbe8gV3p/7J0Lz+DGh/ABfAafw8QncWOp4OzO5JyZ78QAHsROSb1GlhXoeeCvEI0Xg79hiocQEkpTMEJoPjuyLoSm3igsIRozQcuFK4oAfMkUg91UmdrxKDi0sZfy/rAzSNLB8Dzp5ilPsl7WT9JeN89ZN80WnbwBvrNot9kGHKyxtEKrSgQV26FTlphd7uAqyUttTC0jaI2ISpE5wqnmYiGqaFwFPR/C+fz6cqotff/cvLbupx8+RNvVBJml90/vYfL2dRJAMJLaKbpo79H9WaEJQsmEWtb9j/5f3DKJcPyEVTWRnzEilq9mBpE3ILozWDL6w95eqb2tqxcnjERFp3s8gF+AVJhlcgEAAA==
+    wand:
+      template: jutsu
+      owner: Faithfull
+      mana: 0.0
+      owner_id: e41d6907-1798-3c1d-b4b6-143cca31bf0c
+      uses: 0
+      version: 6
+  startwind:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 364
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Ветра
+        lore:
+        - §o§aТехники Стихии Ветра
+        - §3§oПривязан к Faithfull
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QzU7CUBCFp+FaWowu8AVc1GUNDQRkB4mQmIguCGty2w5yQ++P7dQ+CG9g4sKXcakPYNy5de9tic5uTs58c2Y6AA6wHaJxOsAqrlIPPEJpMk4IfkE8p0rU6pGuFObgz7mg7abMMheY5IpPBDTF4LRu1yQk2jFpLDkLvt5mFtiMrkUKAQ6idDjujcJoNL4K+0mUhvEgHobRoJ8kvB/Fm17SgvYT5oXQymJdm++4VGmujeFxho4P3SlRLuKScKFTsRHW27FOh4G3Wt1cL3RBL58XVftj/sPAr6Vb5AXte++vz6vvwAV3KnWpaBIcknvAlpkm8CQXatu84OR/xR2XCGcPaA8QySUn4sluaRDTFvj3BnNOh5w1pfF2Z4+lMBIVnf/FA/gF1wILv2cBAAA=
+    wand:
+      template: startwind
+      owner: Faithfull
+      mana: 200.0
+      mana_timestamp: 1563987136069
+      owner_id: e41d6907-1798-3c1d-b4b6-143cca31bf0c
+      version: 6
+  startketsuryugan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 381
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Активация Кецурьюгана§f (§3Кецурьюган§f)
+        lore:
+        - §o§aТехники Кецурьюгана
+        - §3§oПривязан к Faithfull
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 1/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE1QvU7CUBQ+TWtta/wJvIADaw0NBGSDBEyMogPBlZy2B7ihvb22pxAewcdw9CV0cXVxdmVy8wlsazSe7Tv5zvdzHAANjBWR0hwwNihDCyymWEXIBCcZY8or4ixPt/kCpQV7yUZSCvYFCl7O8ygywYhRYn8L1RhwVMIZi5iK61gVBlFj93ZV6FanMxFCg9pe2Ok1u67X7Z27rcALXb/td1yv3QoCbHn+vBnoYChcUCmqw/6a0kwksgCmA8eZoiiaCbkmyUm61aH+LyQGLNZl/Go0OMhlmCZKoR+RZkNtwJwKP2caJ6GYi0LYKXkGWNPp5XCcZPze+fx63Q0fDLDL1TVhxk8fo7vm48uzCeYgTnLJ/caPgQXGJEoYrBiFXFYfPPyzuMGYoL6gorgIzpAZg9VEEYU62LeKUuSfUqVKxa2N7nOh4qLX6W88gG8UJq1tpgEAAA==
+    wand:
+      template: startketsuryugan
+      owner: Faithfull
+      mana: 400.0
+      mana_timestamp: 1563987135819
+      owner_id: e41d6907-1798-3c1d-b4b6-143cca31bf0c
+      page: 0
+      version: 6
+      spell_inventory:
+        ketsuryuganactivate: 0
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 0
+properties:
+  version: 6
+classes:
+  caster:
+    mana_timestamp: 1564007255159
+    mana: 50.0
+  mage: {}
+active_class: mage
+health: 20.0

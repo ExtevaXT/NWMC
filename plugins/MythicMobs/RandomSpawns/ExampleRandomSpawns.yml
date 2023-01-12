@@ -1,0 +1,125 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+RandomSkeletonKing:
+  MobType: SkeletonKing
+  Worlds: world
+  Chance: 0.001
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - outside true
+RandomWhiteZetsu:
+  MobType: WhiteZetsu
+  Worlds: survival
+  Chance: 0.025
+  Priority: 1
+  Action: REPLACE
+RandomShrek:
+  MobType: Shrek
+  Worlds: survival
+  Chance: 0.0001
+  Priority: 1
+  Action: REPLACE
+  Biomes: SWAMPLAND
+RandomToad:
+  MobType: StandartToad
+  Worlds: survival
+  Chance: 0.1
+  Priority: 1
+  Action: REPLACE
+  Biomes: SWAMPLAND
+RandomBigToad:
+  MobType: BigToad
+  Worlds: survival
+  Chance: 0.025
+  Priority: 1
+  Action: REPLACE
+  Biomes: SWAMPLAND
+RandomHellDemon:
+  MobType: HellDemon
+  Worlds: world_hell
+  Chance: 0.1
+  Priority: 1
+  Action: REPLACE
+  Biomes: HELL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

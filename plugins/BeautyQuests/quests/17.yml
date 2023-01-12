@@ -1,0 +1,266 @@
+quest:
+- requirements:
+  - questID: 16
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое будет следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: Сейчас я тебе дам миссию Ранга-C
+    - id: 2
+      message:
+        sender: NPC
+        text: Она будет труднее чем твои прошлые миссии
+    - id: 3
+      message:
+        sender: NPC
+        text: Недавно из казны Конохи кто-то украл много золота
+    - id: 4
+      message:
+        sender: NPC
+        text: Твоя задача найти вора и вернуть украденное золото
+  manager:
+    stages:
+    - msg:
+        npc: 475
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Здравствуйте, что вы тут делаете?
+        - id: 1
+          message:
+            sender: NPC
+            text: Ты кто такой? Свали пока не убил
+        - id: 2
+          message:
+            sender: NOSENDER
+            text: <Вы пытаетесь отвлечь грабителя>
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Чудесный день, вы не находите?
+        - id: 4
+          message:
+            sender: NPC
+            text: Что?
+        - id: 5
+          message:
+            sender: PLAYER
+            text: Я хотел бы пообщаться с вами, давайте поговорим?
+        - id: 6
+          message:
+            sender: NPC
+            text: Ну ок
+        - id: 7
+          message:
+            sender: PLAYER
+            text: А вы знали что по статистике во время грозы молния чаще всего попадает
+              в дубы, чем в другие виды деревьев?
+        - id: 8
+          message:
+            sender: NPC
+            text: И что?
+        - id: 9
+          message:
+            sender: PLAYER
+            text: Вы сейчас находитесь в дубовом лесу
+        - id: 10
+          message:
+            sender: NPC
+            text: Ну грозы то сейчас нету
+        - id: 11
+          message:
+            sender: PLAYER
+            text: Посмотрите! Кажется начинается дождь
+        - id: 12
+          message:
+            sender: NPC
+            text: Где??
+        - id: 13
+          message:
+            sender: NOSENDER
+            text: <Пока ваш собеседник проверяет погоду, вы незаметно берёте золото
+              возле него>
+      stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: MAGMA_CREAM
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: Сундук с золотом
+            lore:
+            - §eКвестовый Предмет
+            enchants:
+              VANISHING_CURSE: 8
+            ItemFlags:
+            - HIDE_ENCHANTS
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 475
+      order: 0
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я нашёл золото
+        - id: 1
+          message:
+            sender: NPC
+            text: Отлично...
+        - id: 2
+          message:
+            sender: NPC
+            text: Это же не всё золото
+        - id: 3
+          message:
+            sender: PLAYER
+            text: Я нашёл у грабителя только это
+        - id: 4
+          message:
+            sender: NPC
+            text: А где он сам то?
+        - id: 5
+          message:
+            sender: PLAYER
+            text: Сейчас он недалеко от нас за тропой
+        - id: 6
+          message:
+            sender: NPC
+            text: Хорошо мы его допросим
+        - id: 7
+          message:
+            sender: NPC
+            text: Сейчас иди к Хокаге и спроси куда относить золото
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 1
+    - msg:
+        npc: 71
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я нашёл украденное золото
+        - id: 1
+          message:
+            sender: NPC
+            text: Иди в наш склад и отдай золото Складчику
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 71
+      order: 2
+    - msg:
+        npc: 466
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Вот ваше золото!
+        - id: 1
+          message:
+            sender: NPC
+            text: Вы его уже нашли?
+        - id: 2
+          message:
+            sender: PLAYER
+            text: Да...
+      stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: MAGMA_CREAM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Сундук с золотом
+          lore:
+          - §eКвестовый Предмет
+          enchants:
+            VANISHING_CURSE: 8
+          ItemFlags:
+          - HIDE_ENCHANTS
+      rewards: []
+      npcID: 466
+      order: 3
+    - msg:
+        npc: 71
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я отнёс золото на склад
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Будут ещё поручения?
+        - id: 2
+          message:
+            sender: NPC
+            text: Пока что нет, возвращайся к Какаши за наградой
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 71
+      order: 4
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Ну всё
+        - id: 1
+          message:
+            sender: PLAYER
+            text: Я выполнил миссию
+        - id: 2
+          message:
+            sender: NPC
+            text: Так как это была Миссия Ранга-C награда за них больше
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 5
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 7
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 100
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-C №1
+  finished: []
+  id: 17
+  scoreboard: true
+  cancellable: false

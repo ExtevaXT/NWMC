@@ -1,0 +1,58 @@
+#----------------------------------------------------------------------------#
+#|																			|#
+#|				RANDOM COMMAND BY Gimmy -wwww.deepcube.it-					|#
+#|																			|#
+#----------------------------------------------------------------------------#
+#don't touch!!!
+Version: 1.05
+#
+#
+#Set Cooldown command in second
+Cooldown: 5
+
+#add list
+#example
+#
+#do not add anything to default list
+#Don't delete default list generate exception!!! I'll Fix soon 
+#you can add list below default
+Liste:
+    default: {}
+
+    list2:
+      - say messagge2
+      - say message 3
+    randomrelease:
+      - wand startfire
+      - wand startwind
+      - wand startwater
+      - wand startearth
+      - wand startlightning
+    randomclan:
+      - pex user {player} group set Hyuga
+      - pex user {player} group set Uchiha
+      - pex user {player} group set Senju
+      - pex user {player} group set Uzumaki
+      - pex user {player} group set Aburame
+      - pex user {player} group set Akimichi
+      - pex user {player} group set Hatake
+      - pex user {player} group set Hozuki
+      - pex user {player} group set Iburi
+      - pex user {player} group set Inuzuka
+      - pex user {player} group set Jugo
+      - pex user {player} group set Kaguya
+      - pex user {player} group set Nara
+      - pex user {player} group set Sarutobi
+      - pex user {player} group set Yuki
+      - pex user {player} group set Yamanaka
+      - pex user {player} group set Lee
+      - pex user {player} group set Chinoike
+      - pex user {player} group set Otsusuki
+
+
+
+
+
+
+
+

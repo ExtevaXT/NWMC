@@ -1,0 +1,136 @@
+quester: 
+  en: 'Innkeeper'
+first: 'start,start_wood_started,start_wood_completed'
+stop: 'false'
+NPC_options:
+  'start':
+    text:
+      en: 'Welcome to my inn %player%! What can I do for you?'
+    conditions: '!wood_started'
+    pointer: 'questions,quests,bye'
+  'back':
+    text:
+      en: 'Да?'
+    pointer: 'questions,quests,wood_questions,wood_done,more_quests,bye'
+  'start_wood_started':
+    text:
+      en: 'С возвращением! Как это происходит с этим деревом?'
+    conditions: 'wood_started,!wood_paid'
+    pointer: 'questions,wood_questions,wood_done,bye'
+  'start_wood_completed':
+    text:
+      en: 'Ах, мой любимый клиент! Чем могу помочь?'
+    conditions: 'wood_paid'
+    pointer: 'questions,more_quests,bye'
+  'quest_wood':
+    text:
+      en: 'Я делал новые кружки для пива, но у меня кончились дрова. Можешь принести мне немного из соседнего леса?'
+    pointer: 'wood_yes,wood_no'
+  'questions':
+    text:
+      en: 'Я отвечу, как смогу.'
+    pointer: 'wood_where,wood_how,wood_with_what,no_questions'
+  'wood_reward':
+    text:
+      en: 'Превосходно! Вот 5 изумрудов для вас!'
+    conditions: 'has_wood'
+    events: 'wood_reward,remove_wood,tag_wood_paid,entry_wood_paid'
+    pointer: 'questions,more_quests,bye'
+  'wood_doesnt_have':
+    text:
+      en: 'Где? Я не вижу ничего в вашем инвентаре...'
+    conditions: '!has_wood'
+    pointer: 'now,wood_go,questions'
+  'no_quests':
+    text:
+      en: 'К сожалению, у меня нет ничего другого. Вернуться позже.'
+    pointer: 'questions,bye'
+  'wood_yes':
+    text:
+      en: 'Отлично. Иди в лес и принеси мне дров..'
+    pointer: 'wood_go,wood_questions,back'
+  'wood_no':
+    text:
+      en: 'Это позор..'
+  'wood_where':
+    text:
+      en: 'Выйдите из деревни через Южные ворота и поверните налево. Есть лес.'
+    pointer: 'wood_how,wood_with_what,no_questions'
+  'wood_how':
+    text:
+      en: 'Встаньте перед деревом и начинайте пробивать его, пока не выскочит кусок дерева.'
+    pointer: 'wood_where,wood_with_what,no_questions'
+  'wood_with_what':
+    text:
+      en: 'Вы можете искать в хижине люберджека. Я уверен, что вы найдете там несколько топоров.'
+  'no_questions':
+    text:
+      en: 'Надеюсь, я помог.'
+    pointer: 'wood_go,back'
+  'wood_go':
+    text:
+      en: 'Удачи!'
+player_options:
+  'questions':
+    text:
+      en: 'У меня есть вопросы.'
+  'back':
+    text:
+      en: 'Вернемся к теме...'
+    pointer: 'back'
+  'quests':
+    text:
+      en: 'У вас есть квесты? Мне нужны деньги.'
+    conditions: '!wood_started'
+    pointer: 'quest_wood'
+  'wood_questions':
+    text:
+      en: 'У меня есть некоторые вопросы об этом дереворежущий.'
+    conditions: 'wood_started,!wood_paid'
+    pointer: 'questions'
+  'wood_done':
+    text:
+      en: 'Я собрал все дрова.'
+    conditions: 'wood_done,has_wood,!wood_paid'
+    pointer: 'wood_reward,wood_doesnt_have'
+  'more_quests':
+    text:
+      en: 'Есть ли у вас другие квесты?'
+    conditions: 'wood_paid'
+    pointer: 'no_quests'
+  'wood_yes':
+    text:
+      en: 'Звучит нормально.'
+    events: 'wood_start,tag_wood_started,entry_wood_started'
+    pointer: 'wood_yes'
+  'wood_no':
+    text:
+      en: 'С другой стороны, мне не нужны эти деньги..'
+    pointer: 'wood_no'
+  'wood_where':
+    text:
+      en: 'Где находится лес?'
+    pointer: 'wood_where'
+  'wood_how':
+    text:
+      en: 'Как я могу рубить дрова?'
+    pointer: 'wood_how'
+  'wood_with_what':
+    text:
+      en: 'С чего я должен колоть дрова?'
+    pointer: 'wood_with_what'
+  'no_questions':
+    text:
+      en: 'У меня нет вопросов.'
+    pointer: 'no_questions'
+  'wood_go':
+    text:
+      en: 'Хорошо, я собираюсь спилить несколько деревьев.'
+    pointer: 'wood_go'
+  'now':
+    text:
+      en: 'А что сейчас?'
+    pointer: 'wood_reward,wood_doesnt_have'
+  'bye':
+    text:
+      en: 'Пока.'

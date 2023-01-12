@@ -1,0 +1,98 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+#  ENCHANTMENT: Infinity
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&2&lДонат'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'donate'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 442
+    left-click: true
+    right-click: true
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+menu:
+  COMMAND: 'menu'
+  NAME: '&e&l Назад в меню&b'
+  ID: '262'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+dio:
+  NAME: '&e&lТы думал тут будет донат, но это был я Дио! '
+  ID: '264'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+
+
+
+
+
+#vip:
+#  NAME: '&e&lPlayer+'
+#  LORE:
+#    - '&f<link>'
+#  ID: '2256'
+#  KEEP-OPEN: true
+#  POSITION-X: 1
+#  POSITION-Y: 1
+#
+#rerollclan:
+#  NAME: '&4&lРеролл Клана'
+#  LORE:
+#    - '&f<link>'
+#  ID: '2259'
+#  KEEP-OPEN: true
+#  POSITION-X: 2
+#  POSITION-Y: 1
+#
+#randomrelease:
+#  NAME: '&5&lВживление ДНК'
+#  LORE:
+#    - '&f<link>'
+#  ID: '2261'
+#  KEEP-OPEN: true
+#  POSITION-X: 3
+#  POSITION-Y: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

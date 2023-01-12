@@ -1,0 +1,57 @@
+id: 1ea033e1-9819-3cc3-b195-ad23280837a4
+name: umbrella11
+created: 1561840809091
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  jutsu:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Рандомный Клан
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязан к umbrella11
+        - §4Not Undoable
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PzU7CUBCFp6FgqXGDD6ALtjWUaoSdJJhoFI0hrM20d5QrvT+2c+EB3PIKvoJP5gsYN17rz+zO5JyZ78QAAcROK7MmzEsKAghXRDaIIdygFhFETMqWyATtJ8e1i6BtNpoqn1J5RWWJaepdze5eCuinhIMsozQZj9JxkhVFluTp+CRBMcyGo8EoO8XjFuysqaql0QDQ8Qi7TteM9fKXwUtRGWsb2YXehLmSuWOaGSEfpI/GPhiEEC0Wl9OZqfnjZfv6fnBxF0L3e3VNWPOb+Jxurxx2oDNRxmk+60MzEYTz0jBECqVeNjX3/l/coCLYfyTfRxZHyIzFam6JRAu6t5Yq5B/s7yuNt3f+7KRVpPnwDw/gC+VQ+r9ZAQAA
+    wand:
+      template: jutsu
+      owner: umbrella11
+      owner_id: 1ea033e1-9819-3cc3-b195-ad23280837a4
+      version: 6
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 0
+properties:
+  version: 6
+classes: {}
+health: 20.0

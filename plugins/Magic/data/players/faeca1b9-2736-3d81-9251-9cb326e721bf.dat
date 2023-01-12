@@ -1,0 +1,255 @@
+id: faeca1b9-2736-3d81-9251-9cb326e721bf
+name: UMBRELLLA
+created: 1561841977909
+last_cast: 1562100425389
+cooldown_expiration: 0
+last_death_location: 4018.195135849079,97.0,1759.375410612489,PeonyPlanet,79.59649,26.250023
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  gravipush:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  explosionmountbase:
+    cast_count: 6
+    last_cast: 1562100405268
+    last_earn: 0
+    cooldown_expiration: 1562100420268
+  explosionbird:
+    cast_count: 1
+    last_cast: 1561842567974
+    last_earn: 0
+    cooldown_expiration: 0
+  jutsu:
+    cast_count: 1
+    last_cast: 1561842051236
+    last_earn: 0
+    cooldown_expiration: 0
+  wear:
+    cast_count: 1
+    last_cast: 1562098819942
+    last_earn: 0
+    cooldown_expiration: 0
+  explosionclaybomb:
+    cast_count: 53
+    last_cast: 1562100425389
+    last_earn: 0
+    cooldown_expiration: 1562100426389
+  gravipull:
+    cast_count: 0
+    last_cast: 1562100363425
+    last_earn: 0
+    cooldown_expiration: 1562100365425
+  blackhole:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  explosionblast:
+    cast_count: 7
+    last_cast: 1561929042767
+    last_earn: 0
+    cooldown_expiration: 0
+  explosionspider:
+    cast_count: 2
+    last_cast: 1561843559344
+    last_earn: 0
+    cooldown_expiration: 0
+  explosionsuicide:
+    cast_count: 2
+    last_cast: 1561843008785
+    last_earn: 0
+    cooldown_expiration: 0
+  mvrandomtravel:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  superfly:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  startsharingan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 377
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Шаринган
+        lore:
+        - §o§aТехники Шарингана
+        - §3§oПривязан к UMBRELLLA
+        - '§eЧакра: 400'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2QQU7CUBCGp6FgwcgCd7pxwRYTSgSJG0EJIWk1SliTaTvAS3mvj3YqF3Cja+NJPIRLr+ENTNz4qNFZTCaTf/75ZmoAFtgxkbZqYG9RRQ44TFKvkQnqGWPK2QpToZaoHCgnW0UpVGf+8H7ked6gDLZEhVfvADbUd+WchSQzJ7Wxjt82x8/GsRibiwiaC6QQ20G/5fY63VYnOm+3+u6ZSWHQcbvUc9vBogR7D5RmIlEAUDGA+7mK0kRrDNZkVaExYE5FkDP5SSQWwmhrRmnZ4Mxmk2s/yfjx7uNz/OJPbMNqWh5hxq9fT98X46O4ApWBTHLFl00owgF7uk4YHIlCrYofHPyvuEFJcLgkc4AIT5EZw3iqiaISVG81pci/nDuXQtsYbXKhJSk++cMD+AGiZCVlaAEAAA==
+    wand:
+      template: startsharingan
+      owner: UMBRELLLA
+      mana: 400.0
+      mana_timestamp: 1562100439946
+      owner_id: faeca1b9-2736-3d81-9251-9cb326e721bf
+      version: 6
+  startlightning:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 362
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Стихия Молнии
+        lore:
+        - §o§aТехники Стихии Молнии
+        - §3§oПривязан к UMBRELLLA
+        - '§eЧакра: 200'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qz07CQBDGp6FgwcgBj148cMWEEkFuIpJo0qqRcMZtO8CG7h+2U3kHvXj0QXwHz16MiQ9hTLyauNToHCaTyTff/GZqAA64S0Tt1MBdM5l44BEKnTJCqGfEDKV8viDJ5dyDslpLNFCdhCfXoyAIBmVwBZNseAbgQn1TTokLtHNCW+vl02rvwzoWY1OeQHPGMGbtqN/ye51uq5MctVt9/9CmOOr4Xez57WhWgq1bNBlXEgAqFnA7l4lRWrMoRacKjQGR4VFOGKqEz7jV1qzSccGbTM5PQ5XR2/fV5/1NaFzLalsBsoweXl/unr8e3ytQGQiVSzpuQhEeuONUEXiCcbkofrDzv+KCCYTdOdoDeHzAiFi8HGvEpATVS42G0S/nxqXQNkarnGuBkvb/8AB+AEyBqw9oAQAA
+    wand:
+      template: startlightning
+      owner: UMBRELLLA
+      mana: 200.0
+      mana_timestamp: 1562100440047
+      owner_id: faeca1b9-2736-3d81-9251-9cb326e721bf
+      version: 6
+  fullexplosion:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 369
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6C1§f (§3Стихия Взрыва§f)
+        lore:
+        - §o§aТехники Стихии Взрыва
+        - §3§oПривязан к UMBRELLLA
+        - 5 техник изучено
+        - '§eЧакра: 2000'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAG1Ru04CQRS9uCsuq4iPwsTKwhYTQEFCAwYKE8BEpbHZzO5edMK82J0FLP0DEzsbWwtj5Tf5A/6As2vExikmc09Ozjn3jAuQA3uCqHIu2HMiQgccjVwxohGK44QxXCgmYyqFA6tyLjCCwmhwdtnr9/sdBzZIoOkMvVghY7C9JAeM3PuS+6tgcyJI9+vp04bN9OlpyjHWhCvjPfmY7j8ay0zYoyEcjgkGpOI3y9VGrV6uhaeVcrN6Yq7Ar1Xr2KhW/HEenEyJk0X7pQ3psWBthlHqbIa8C6UskEfFDIWW0b0Fm8tsPiOxNrQVC4p/II3CVMeC0hKLFQ3NvianBVt/aEIDgxvYtv7ZOItjWl1PRBhJpYjPMFeAnY7WEfUTjQMZ0jE1Yd2UZ4MzGp13BzLWr9fvvH48bNmmYQP10cR8OH7bu2k9D/OQ73CZCN0+/DFwwL5iUqdNUHGXfVxxaTEkHGH3Fk2pNDgiWpNgcqUQQwsKFwojon+KSlUy7k5vmlDFTVcHv/EAvgGROnw1HQIAAA==
+    wand:
+      template: fullexplosion
+      owner: UMBRELLLA
+      active_spell: explosionclaybomb
+      mana: 1948.6218
+      mana_timestamp: 1562100439696
+      owner_id: faeca1b9-2736-3d81-9251-9cb326e721bf
+      mana_max: 2000.0
+      version: 6
+      spell_inventory:
+        explosionblast: 2
+        explosionbird: 3
+        explosionspider: 1
+        explosionsuicide: 4
+        explosionclaybomb: 0
+  jutsu:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Рандомный Клан
+        lore:
+        - §o§aПКМ - Использовать
+        - §3§oПривязан к UMBRELLLA
+        - §4Not Undoable
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2PwU7CQBCGp2GpbY0XvHrwgEdIKBHkBiIHk6KJhLPZtoOssLu1Owuv4Ut4MfHlvGjixaWCc5jkn/z/zDcRgAeRVVJvkKdr9DxgK8TCi4BtucoDCAhlseaEUH+2ZGwAdb1VWEI4n14/TJIkGfnAJFcc9uUyleNR5NBccMx4Jx204n631+rmV53WIL50LUu7cQ/7cSdd1IBZg2aXrcHRBksjtHLCd2zHVhniZrmHczIvdVFUMoTGiKgUqSWc6lwshItGLugxCObz25upNvTZ/vp+Pxu/MgfsRglyQx8X4U+v+Tb0wR9JbRUNmwd0NltrgkByoZbV/yf/J+64RDh9QveayNqciGerWYGY1yC8L7Dk9Ie921J5G5MXKwqJis4PeAC/Uwf783IBAAA=
+    wand:
+      template: jutsu
+      owner: UMBRELLLA
+      mana: 0.0
+      owner_id: faeca1b9-2736-3d81-9251-9cb326e721bf
+      uses: 0
+      version: 6
+  fullrinnegan:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      damage: 380
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Баншоо Теннин§f (§3Риннеган§f)
+        lore:
+        - §o§aТехники Риннегана
+        - §3§oПривязан к UMBRELLLA
+        - 5 техник изучено
+        - '§eЧакра: 1000'
+        - '§eВосстановление чакры: 2/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAD2Qy07CUBCGp1Kw4GWBL2AMW0xaAshODCw0RY2ENU7bKZ7Qc7GdSuJb+Apu3RoT9z6Qj+ChRmcxmUz++eebaQE44K6JjNMCd4Mq8cBjkiZDJthPyyzLhVK0QuVBXW8U5dBczC7upmEYjuvgSlQ4eQZw4XBbLllIKhilscbr98eTe+tXjS1FAp0UKUY/GnWDYW/Q7SVnfncU9G2Ko14woGHgR2kNdp8oL4RWANCweHulSnJtDEYZOU1oj5lzEZVMM52IVFhtyyodF7zF4nIy0wX7r/pt52XSdy2rbYWEBX+Cuf2++vhqQGMsdan4vANVeODOM83gSRTqofrAwf+Ka5QERyuyB4j4FJkxXs8NUVKD5o2hHPmXc+tSadvTx1IYSYqP//AAfgDLthIZZgEAAA==
+    wand:
+      template: fullrinnegan
+      owner: UMBRELLLA
+      mana: 1000.0
+      mana_timestamp: 1562100441696
+      owner_id: faeca1b9-2736-3d81-9251-9cb326e721bf
+      version: 6
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 0
+properties:
+  version: 6
+classes:
+  caster:
+    mana_timestamp: 1561930141443
+    mana: 50.0
+  mage: {}
+  broomrider: {}
+active_class: broomrider
+health: 20.0

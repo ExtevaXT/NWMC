@@ -1,0 +1,33 @@
+debug: false
+enableResourcepackAdvertisements: false
+stations: 250
+auto-update: true
+initSetupCompleteV2:
+  '0': true
+UsersWithPacks:
+  Exteva: '2.0'
+Loop:
+  '0':
+    s:
+    - FLEXdancin
+    p: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+    r: 1
+Jukeboxes:
+  ourservers--907-68--450:
+    owner: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+    station: 0
+    volume: 5
+    active: false
+  world--569-68--422:
+    location:
+      ==: org.bukkit.Location
+      world: world
+      x: -569.0
+      y: 68.0
+      z: -422.0
+      pitch: 0.0
+      yaw: 0.0
+    owner: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+    station: -1
+    volume: 5
+    active: false

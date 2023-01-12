@@ -1,0 +1,158 @@
+quest:
+- requirements:
+  - questID: 14
+    class: fr.skytasul.quests.requirements.QuestRequirement
+  startDialog:
+    npc: 42
+    msgs:
+    - id: 0
+      message:
+        sender: PLAYER
+        text: Какое будет следующее задание?
+    - id: 1
+      message:
+        sender: NPC
+        text: Сейчас тебе нужно будет сходить к Куренай
+    - id: 2
+      message:
+        sender: NPC
+        text: Кажется она что-то потеряла
+    - id: 3
+      message:
+        sender: PLAYER
+        text: Понял
+  manager:
+    stages:
+    - msg:
+        npc: 77
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Привет Куренай, чем тебе помочь?
+        - id: 1
+          message:
+            sender: NPC
+            text: Я потеряла дома 3 книги
+        - id: 2
+          message:
+            sender: NPC
+            text: Нигде не могу их найти
+        - id: 3
+          message:
+            sender: NPC
+            text: Помоги их отыскать, когда найдёшь принеси их мне
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 77
+      order: 0
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: Книга
+            lore:
+            - §eКвестовый Предмет
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 472
+      order: 1
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: Книга
+            lore:
+            - §eКвестовый Предмет
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 471
+      order: 2
+    - stageType: NPC
+      customText: null
+      text: null
+      rewards:
+      - items:
+        - type: BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: Книга
+            lore:
+            - §eКвестовый Предмет
+        class: fr.skytasul.quests.rewards.ItemReward
+      npcID: 473
+      order: 3
+    - msg:
+        npc: 77
+        msgs:
+        - id: 0
+          message:
+            sender: NPC
+            text: Огромное тебе спасибо!
+      stageType: ITEMS
+      customText: null
+      text: null
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Книга
+          lore:
+          - §eКвестовый Предмет
+      rewards: []
+      npcID: 77
+      order: 4
+    - msg:
+        npc: 42
+        msgs:
+        - id: 0
+          message:
+            sender: PLAYER
+            text: Я выполнил задание
+        - id: 1
+          message:
+            sender: NPC
+            text: Отлично, вот твоя награда
+      stageType: NPC
+      customText: null
+      text: null
+      rewards: []
+      npcID: 42
+      order: 5
+    players: {}
+  rewardsList:
+  - items:
+    - type: MAGMA_CREAM
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Рьё
+        enchants:
+          VANISHING_CURSE: 5
+        ItemFlags:
+        - HIDE_ENCHANTS
+    class: fr.skytasul.quests.rewards.ItemReward
+  - money: 50
+    class: fr.skytasul.quests.rewards.MoneyReward
+  startRewardsList: []
+  starterID: 42
+  name: Миссия Ранга-D №11
+  finished: []
+  id: 15
+  scoreboard: true
+  cancellable: false

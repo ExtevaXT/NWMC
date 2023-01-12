@@ -1,0 +1,15 @@
+menu:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WATCH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §l§fМеню
+      lore:
+      - §7§lНажмите ПКМ чтобы открыть
+      - §7§lТакже вы можете написать команду /menu
+      enchants:
+        ARROW_INFINITE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS

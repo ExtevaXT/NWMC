@@ -1,0 +1,830 @@
+data:
+  properties:
+    type: 0
+    size: 0
+    gui: false
+  inventory:
+    slots:
+    - 1
+    - 4
+    - 7
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 27
+    - 28
+    - 31
+    - 40
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    items:
+    - ? type: LAVA_BUCKET
+      : meta-type: UNSPECIFIC
+        display-name: §c§lАлкогольные Напитки
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: MILK_BUCKET
+      : meta-type: UNSPECIFIC
+        display-name: §a§lБезалкогольные Напитки
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: POTION
+      : meta-type: POTION
+        display-name: Водка
+        lore:
+        - Алкогольный напиток изготовленный из спирта
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYrjz7zcDAEm1G2QcAAAA
+        custom-color:
+          ==: Color
+          RED: 220
+          BLUE: 251
+          GREEN: 254
+        custom-effects:
+        - ==: PotionEffect
+          effect: 5
+          duration: 300
+          amplifier: 0
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 9
+          duration: 600
+          amplifier: 0
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 12
+          duration: 400
+          amplifier: 0
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 17
+          duration: 200
+          amplifier: 2
+          ambient: false
+          has-particles: false
+    - ? type: POTION
+      : meta-type: POTION
+        display-name: Пиво
+        lore:
+        - Алкогольный напиток содержащий хмель
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYni+VJYBANJf/CscAAAA
+        custom-color:
+          ==: Color
+          RED: 231
+          BLUE: 29
+          GREEN: 165
+        custom-effects:
+        - ==: PotionEffect
+          effect: 5
+          duration: 200
+          amplifier: 1
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 9
+          duration: 600
+          amplifier: 0
+          ambient: false
+          has-particles: false
+    - ? type: POTION
+      : meta-type: POTION
+        display-name: Саке
+        lore:
+        - Алкогольный напиток изготовленный из риса
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYvj1/T0DAHGpPcAcAAAA
+        custom-color:
+          ==: Color
+          RED: 250
+          BLUE: 239
+          GREEN: 247
+        custom-effects:
+        - ==: PotionEffect
+          effect: 3
+          duration: 300
+          amplifier: 1
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 9
+          duration: 600
+          amplifier: 0
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 23
+          duration: 0
+          amplifier: 1
+          ambient: false
+          has-particles: false
+    - ? type: POTION
+      : meta-type: POTION
+        display-name: Сидр
+        lore:
+        - Алкогольный напиток изготовленный из яблок
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYvh1MZsBAGzOEqMcAAAA
+        custom-color:
+          ==: Color
+          RED: 250
+          BLUE: 107
+          GREEN: 209
+        custom-effects:
+        - ==: PotionEffect
+          effect: 9
+          duration: 600
+          amplifier: 0
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 22
+          duration: 400
+          amplifier: 1
+          ambient: false
+          has-particles: false
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: POTION
+      : meta-type: POTION
+        display-name: Coca-Cola
+        lore:
+        - Популярный освежающий напиток
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYmgKF2cAANcXq2scAAAA
+        custom-color:
+          ==: Color
+          RED: 130
+          BLUE: 23
+          GREEN: 87
+        custom-effects:
+        - ==: PotionEffect
+          effect: 4
+          duration: 400
+          amplifier: 0
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 11
+          duration: 200
+          amplifier: 0
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 17
+          duration: 400
+          amplifier: 0
+          ambient: false
+          has-particles: false
+    - ? type: POTION
+      : meta-type: POTION
+        display-name: Вино
+        lore:
+        - Алкогольный напиток изготовленный из винограда
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYvhsmcYAALN+RcwcAAAA
+        custom-color:
+          ==: Color
+          RED: 243
+          BLUE: 102
+          GREEN: 57
+        custom-effects:
+        - ==: PotionEffect
+          effect: 9
+          duration: 600
+          amplifier: 0
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 10
+          duration: 300
+          amplifier: 0
+          ambient: false
+          has-particles: false
+    - ? type: POTION
+      : meta-type: POTION
+        display-name: Абсент
+        lore:
+        - Алкогольный напиток с добавлением экстракта горькой полыни
+        internal: H4sIAAAAAAAAAONiYGBmEHQuLS7Jzw3IL8nMz3POz8kvYuh9G8UAAA9N1r4cAAAA
+        custom-color:
+          ==: Color
+          RED: 141
+          BLUE: 90
+          GREEN: 237
+        custom-effects:
+        - ==: PotionEffect
+          effect: 9
+          duration: 600
+          amplifier: 0
+          ambient: false
+          has-particles: false
+        - ==: PotionEffect
+          effect: 16
+          duration: 400
+          amplifier: 0
+          ambient: false
+          has-particles: false
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    - ? type: STAINED_GLASS_PANE
+        damage: 15
+      : meta-type: UNSPECIFIC
+        display-name: §r
+    slotdata:
+      '0':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '1':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '2':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '3':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '4':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '5':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '6':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '7':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '8':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '9':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '10':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '11':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '12':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '13':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '14':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: MAGMA_CREAM
+            amount: 5
+          : meta-type: UNSPECIFIC
+            display-name: Рьё
+            enchants:
+              VANISHING_CURSE: 5
+            ItemFlags:
+            - HIDE_ENCHANTS
+      '15':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '16':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '17':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '18':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: MAGMA_CREAM
+            amount: 10
+          : meta-type: UNSPECIFIC
+            display-name: Рьё
+            enchants:
+              VANISHING_CURSE: 5
+            ItemFlags:
+            - HIDE_ENCHANTS
+      '19':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: MAGMA_CREAM
+            amount: 10
+          : meta-type: UNSPECIFIC
+            display-name: Рьё
+            enchants:
+              VANISHING_CURSE: 5
+            ItemFlags:
+            - HIDE_ENCHANTS
+      '20':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: MAGMA_CREAM
+            amount: 10
+          : meta-type: UNSPECIFIC
+            display-name: Рьё
+            enchants:
+              VANISHING_CURSE: 5
+            ItemFlags:
+            - HIDE_ENCHANTS
+      '21':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: MAGMA_CREAM
+            amount: 10
+          : meta-type: UNSPECIFIC
+            display-name: Рьё
+            enchants:
+              VANISHING_CURSE: 5
+            ItemFlags:
+            - HIDE_ENCHANTS
+      '22':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '23':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: MAGMA_CREAM
+            amount: 5
+          : meta-type: UNSPECIFIC
+            display-name: Рьё
+            enchants:
+              VANISHING_CURSE: 5
+            ItemFlags:
+            - HIDE_ENCHANTS
+      '24':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '25':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '26':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '27':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: MAGMA_CREAM
+            amount: 10
+          : meta-type: UNSPECIFIC
+            display-name: Рьё
+            enchants:
+              VANISHING_CURSE: 5
+            ItemFlags:
+            - HIDE_ENCHANTS
+      '28':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Trade
+        guifunction: None
+        items:
+        - ? type: MAGMA_CREAM
+            amount: 10
+          : meta-type: UNSPECIFIC
+            display-name: Рьё
+            enchants:
+              VANISHING_CURSE: 5
+            ItemFlags:
+            - HIDE_ENCHANTS
+      '29':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '30':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '31':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '32':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '33':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '34':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '35':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '36':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '37':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '38':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '39':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '40':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '41':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '42':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '43':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '44':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '45':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '46':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '47':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '48':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '49':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '50':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '51':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '52':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '53':
+        page: BAR
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None

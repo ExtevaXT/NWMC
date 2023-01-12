@@ -1,0 +1,9 @@
+block: LOG
+effect:
+  type: HUNGER
+  level: 2
+  duration: 3
+upSpeed: 0.2
+downSpeed: -0.1
+messages:
+  nopermission: '&cYou don''t have permission!'

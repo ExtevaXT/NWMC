@@ -1,0 +1,1736 @@
+main:
+  # Menu title
+  title: '&fAdvanced Abilities - Page {page}'
+  # Amount of pages
+  numberOfPages: 3
+statusItems:
+  # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+  purchase: '95:4:1'
+  # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+  available: '95:5:1'
+  # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+  unavailable: '95:14:1'
+  # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+  disabled: '95:8:1'
+  # Item is displayed in menu <ID>:<DATA>:<AMOUNT> | If this is 0, the block will hide
+  exceeds-maxLevel: 0:0:1
+hotBar:
+  fillBlankSlots:
+    # Replace empty slot by item
+    enable: false
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: '160:7:1'
+  movePages:
+    nextPage:
+      # Name of the next page item
+      name: '&6Next page'
+      # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+      material: '338:0:1'
+      # Description of the next page
+      description: []
+    previousPage:
+      # Name of the item
+      name: '&6Previous page'
+      # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+      material: '338:0:1'
+      # Description of the previus page
+      description: []
+  centerItems:
+    middle:
+      # In this name you can use variables like {money_vault} or with another economy variable (Example: {money_playerpoints})
+      name: '&9Close menu'
+      # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+      material: '340:0:1'
+      # Description of the item
+      description:
+      - '&7Close the abilities menu.'
+      # You can add custom command when player click this item
+      command: CLOSE_MENU
+    onLeft:
+      # In this name you can use variables like {money_vault} or with another economy variable (Example: {money_playerpoints})
+      name: '&6Total points: &a{money_vault}'
+      # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+      material: '395:0:1'
+      # Description of the item
+      description:
+      - '&5Earn points from'
+      - '&5playing games'
+      command: NONE
+    onRight:
+      # In this name you can use variables like {money_vault} or with another economy variable (Example: {money_playerpoints})
+      name: '&9Abilities'
+      # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+      material: '264:0:1'
+      # Description of the item
+      description:
+      - '&eBuy some abilities to'
+      - '&ebe a better player.'
+      command: NONE
+abilityWasDisabled:
+  isByPlayer:
+    inLogo:
+      # Name of the item
+      name: '&c{same_ability_name}'
+      # Description of the item
+      description:
+      - '{same_ability_description}'
+      - ' '
+      - '&6Click to enable'
+    inLevel:
+      # Name of the item
+      name: '&c{same_ability_name}'
+      # Description of the item
+      description:
+      - '{same_ability_description}'
+      - ' '
+      - '&8&lDISABLED'
+  isByServer:
+    inLogo:
+      # Name of the item
+      name: '&c{same_ability_name}'
+      # Description of the item
+      description:
+      - '{same_ability_description}'
+      - ' '
+      - '&8&lDISABLED'
+    inLevel:
+      # Name of the item
+      name: '&c{same_ability_name}'
+      # Description of the item
+      description:
+      - '{same_ability_description}'
+      - ' '
+      - '&8&lDISABLED'
+  exceedsMaxLevel:
+    # Name of the item
+    name: '{same_ability_name}'
+    # Description of the item
+    description:
+    - '{same_ability_description}'
+    - ' '
+    - '&8&lDISABLED'
+statusInDescription:
+  autoImplement:
+    # This add custom description in logo and level items
+    enable: true
+    # Description of the item
+    description:
+    - ' '
+    - '{status}'
+  # This description will replace {status} variable
+  alreadyPurchased: '&cAlready purchased!'
+  # This description will replace {status} variable
+  availablePurchase: '&6Click to purchase this ability upgrade!'
+  # This description will replace {status} variable
+  cannotPurchase: '&cYou cannot purchase this ability yet!'
+  # This description will replace {status} variable
+  isDisabled: '&6Click the icon to the left to enable'
+  # This description will replace {status} variable
+  playerPermission: '&cYou don''t have permission to buy this ability!'
+  # This description will replace {status} variable
+  exceedsMaxLevel: '&cThis level is not allowed'
+  # This description will replace {status} variable
+  price: '&6Price: {price} points'
+  # This description will replace {status} variable, Extra variables: [{req_exp},  {player_abiltiy_exp}]
+  rpgRequirement: '&6You need +{ability_exp_needed} exp to get this level.'
+  # This description will replace {status} variable
+  rpgLvlAlready: '&aYou already have this level!'
+status:
+  inLogo:
+    # Name of the item
+    isAvailable: '&a{ability_name}'
+    # Name of the item
+    isUnavailable: '&c{ability_name}'
+  inLevel:
+    # Name of the item
+    isAvailable: '&a{ability_name} level {level}'
+    # Name of the item
+    isUnavailable: '&c{ability_name} level {level}'
+abilities:
+  triple_arrow_shot:
+    # This is the position 'Y' in the menu
+    slot-line: 1
+    # Page of the menu
+    page: 1
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 262:0:3:false
+    # Description of the item
+    description:
+    - '&7Shoot 3 arrows at the same time'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of shooting 3 arrows at the'
+      - '&7same time and 1% chance to shooting fire arrows'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of shooting 3 arrows at the'
+      - '&7same time and 3% chance to shooting fire arrows'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of shooting 3 arrows at the'
+      - '&7same time and 5% chance to shooting fire arrows'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of shooting 3 arrows at the'
+      - '&7same time and 9% chance to shooting fire arrows'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of shooting 3 arrows at the'
+      - '&7same time and 12% chance to shooting fire arrows'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of shooting 3 arrows at the'
+      - '&7same time and 15% chance to shooting fire arrows'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of shooting 3 arrows at the'
+      - '&7same time and 23% chance to shooting fire arrows'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of shooting 3 arrows at the'
+      - '&7same time and 30% chance to shooting fire arrows'
+  adrenaline_boost:
+    # This is the position 'Y' in the menu
+    slot-line: 2
+    # Page of the menu
+    page: 1
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 373:2:1:false
+    # Description of the item
+    description:
+    - '&7When you get hurt by arrow have'
+    - '&7the chance to get a speed boost'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting a speed'
+      - '&7boost when you get hurt by arrow'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting a speed'
+      - '&7boost when you get hurt by arrow'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting a speed'
+      - '&7boost when you get hurt by arrow'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting a speed'
+      - '&7boost when you get hurt by arrow'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting a speed'
+      - '&7boost when you get hurt by arrow'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting a speed'
+      - '&7boost when you get hurt by arrow'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting a speed'
+      - '&7boost when you get hurt by arrow'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting a speed'
+      - '&7boost when you get hurt by arrow'
+  feather_weight:
+    # This is the position 'Y' in the menu
+    slot-line: 3
+    # Page of the menu
+    page: 1
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 288:0:1:false
+    # Description of the item
+    description:
+    - '&7Take less fall damage'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fall damage {chance}%'
+      - '&7of the time'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fall damage {chance}%'
+      - '&7of the time'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fall damage {chance}%'
+      - '&7of the time'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fall damage {chance}%'
+      - '&7of the time'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fall damage {chance}%'
+      - '&7of the time'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fall damage {chance}%'
+      - '&7of the time'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fall damage {chance}%'
+      - '&7of the time'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fall damage {chance}%'
+      - '&7of the time'
+  aggressive_mode:
+    # This is the position 'Y' in the menu
+    slot-line: 4
+    # Page of the menu
+    page: 1
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 267:0:1:false
+    # Description of the item
+    description:
+    - '&7Do more damage when you have less'
+    - '&7than 5 hearts'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7When you have less than 5 hearts you'
+      - '&7inflict 50% more damage {chance}% of the time and'
+      - '&75% chance to burn the the entity'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7When you have less than 5 hearts you'
+      - '&7inflict 50% more damage {chance}% of the time and'
+      - '&77% chance to burn the the entity'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7When you have less than 5 hearts you'
+      - '&7inflict 50% more damage {chance}% of the time and'
+      - '&79% chance to burn the the entity'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7When you have less than 5 hearts you'
+      - '&7inflict 50% more damage {chance}% of the time and'
+      - '&712% chance to burn the the entity'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7When you have less than 5 hearts you'
+      - '&7inflict 50% more damage {chance}% of the time and'
+      - '&716% chance to burn the the entity'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7When you have less than 5 hearts you'
+      - '&7inflict 50% more damage {chance}% of the time and'
+      - '&718% chance to burn the the entity'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7When you have less than 5 hearts you'
+      - '&7inflict 50% more damage {chance}% of the time and'
+      - '&720% chance to burn the the entity'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7When you have less than 5 hearts you'
+      - '&7inflict 50% more damage {chance}% of the time and'
+      - '&723% chance to burn the the entity'
+  arrow_tank_skin:
+    # This is the position 'Y' in the menu
+    slot-line: 5
+    # Page of the menu
+    page: 1
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 307:0:1:false
+    # Description of the item
+    description:
+    - '&7Take less damage from arrows'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of taking 50%'
+      - '&7less projectile damage'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of taking 50%'
+      - '&7less projectile damage'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of taking 50%'
+      - '&7less projectile damage'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of taking 50%'
+      - '&7less projectile damage'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of taking 50%'
+      - '&7less projectile damage'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of taking 50%'
+      - '&7less projectile damage'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of taking 50%'
+      - '&7less projectile damage'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of taking 50%'
+      - '&7less projectile damage'
+  antidote:
+    # This is the position 'Y' in the menu
+    slot-line: 1
+    # Page of the menu
+    page: 2
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 379:0:1:false
+    # Description of the item
+    description:
+    - '&7Reduces damage caused by potion'
+    - ''
+    - '&7spells or poison'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Reduces {chance}% of damage caused by'
+      - '&7spells or poison'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Reduces {chance}% of damage caused by'
+      - '&7spells or poison'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Reduces {chance}% of damage caused by'
+      - '&7spells or poison'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Reduces {chance}% of damage caused by'
+      - '&7spells or poison'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Reduces {chance}% of damage caused by'
+      - '&7spells or poison'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Reduces {chance}% of damage caused by'
+      - '&7spells or poison'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Reduces {chance}% of damage caused by'
+      - '&7spells or poison'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Reduces {chance}% of damage caused by'
+      - '&7spells or poison'
+  legendary_protection:
+    # This is the position 'Y' in the menu
+    slot-line: 2
+    # Page of the menu
+    page: 2
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 334:0:1:false
+    # Description of the item
+    description:
+    - '&7Have a possibility to reduce damage'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance to reduce 3% of damage'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance to reduce 5% of damage'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance to reduce 7% of damage'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance to reduce 9% of damage'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance to reduce 12% of damage'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance to reduce 16% of damage'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance to reduce 18% of damage'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance to reduce 22% of damage'
+  vampire_mode:
+    # This is the position 'Y' in the menu
+    slot-line: 3
+    # Page of the menu
+    page: 2
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 377:0:1:false
+    # Description of the item
+    description:
+    - '&7Regain some health when you kill a'
+    - '&7player'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Regenerate 0.5 hearts and have {chance}% to'
+      - '&7get a extra heart when you kill a player'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Regenerate 1.0 hearts and have {chance}% to'
+      - '&7get a extra heart when you kill a player'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Regenerate 1.5 hearts and have {chance}% to'
+      - '&7get a extra heart when you kill a player'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Regenerate 2.2 hearts and have {chance}% to'
+      - '&7get a extra heart when you kill a player'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Regenerate 3.5 hearts and have {chance}% to'
+      - '&7get a extra heart when you kill a player'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Regenerate 4.5 hearts and have {chance}% to'
+      - '&7get a extra heart when you kill a player'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Regenerate 5.5 hearts and have {chance}% to'
+      - '&7get a extra heart when you kill a player'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Regenerate 6.0 hearts and have {chance}% to'
+      - '&7get a extra heart when you kill a player'
+  mining_luck:
+    # This is the position 'Y' in the menu
+    slot-line: 4
+    # Page of the menu
+    page: 2
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 257:0:1:false
+    # Description of the item
+    description:
+    - '&7Mining skill is increased so you can get'
+    - '&7more from each ore'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting 2 of an'
+      - '&7resource when you mine and ore'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting 2 of an'
+      - '&7resource when you mine and ore'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting 2 of an'
+      - '&7resource when you mine and ore'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting 2 of an'
+      - '&7resource when you mine and ore'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting 2 of an'
+      - '&7resource when you mine and ore'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting 2 of an'
+      - '&7resource when you mine and ore'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting 2 of an'
+      - '&7resource when you mine and ore'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% chance of getting 2 of an'
+      - '&7resource when you mine and ore'
+  woodchopping_luck:
+    # This is the position 'Y' in the menu
+    slot-line: 5
+    # Page of the menu
+    page: 2
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 258:0:1:false
+    # Description of the item
+    description:
+    - '&7Woodchopping skill is increased so you can get'
+    - '&7more from logs from a single piece'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% of getting 2 logs'
+      - '&7when you break a log'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% of getting 2 logs'
+      - '&7when you break a log'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% of getting 2 logs'
+      - '&7when you break a log'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% of getting 2 logs'
+      - '&7when you break a log'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% of getting 2 logs'
+      - '&7when you break a log'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% of getting 2 logs'
+      - '&7when you break a log'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% of getting 2 logs'
+      - '&7when you break a log'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have a {chance}% of getting 2 logs'
+      - '&7when you break a log'
+  pirate:
+    # This is the position 'Y' in the menu
+    slot-line: 1
+    # Page of the menu
+    page: 3
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 3:0:1:false
+    # Description of the item
+    description:
+    - '&7Find hidden treasures in dirt'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Find tresure in {chance}% of dirt'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Find tresure in {chance}% of dirt'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Find tresure in {chance}% of dirt'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Find tresure in {chance}% of dirt'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Find tresure in {chance}% of dirt'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Find tresure in {chance}% of dirt'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Find tresure in {chance}% of dirt'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Find tresure in {chance}% of dirt'
+  fire_resistance:
+    # This is the position 'Y' in the menu
+    slot-line: 2
+    # Page of the menu
+    page: 3
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 259:0:1:false
+    # Description of the item
+    description:
+    - '&7Take less fire damage'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fire and lava damage'
+      - '&7{chance}% of the time'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fire and lava damage'
+      - '&7{chance}% of the time'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fire and lava damage'
+      - '&7{chance}% of the time'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fire and lava damage'
+      - '&7{chance}% of the time'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fire and lava damage'
+      - '&7{chance}% of the time'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fire and lava damage'
+      - '&7{chance}% of the time'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fire and lava damage'
+      - '&7{chance}% of the time'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Take 50% less fire and lava damage'
+      - '&7{chance}% of the time'
+  explosive_arrow:
+    # This is the position 'Y' in the menu
+    slot-line: 3
+    # Page of the menu
+    page: 3
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 261:0:1:false
+    # Description of the item
+    description:
+    - '&7Shoot explosive arrows'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to shoot explosive arrow'
+      - '&7with small explosion and small push'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to shoot explosive arrow'
+      - '&7with small explosion and small push'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to shoot explosive arrow'
+      - '&7with normal explosion and small push'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to shoot explosive arrow'
+      - '&7with normal explosion and small push'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to shoot explosive arrow'
+      - '&7with normal explosion and normal push'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to shoot explosive arrow'
+      - '&7with normal explosion and normal push'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to shoot explosive arrow'
+      - '&7with big explosion and normal push'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to shoot explosive arrow'
+      - '&7with big explosion and big push'
+  sword_push:
+    # This is the position 'Y' in the menu
+    slot-line: 4
+    # Page of the menu
+    page: 3
+    # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+    material: 283:0:1:false
+    # Description of the item
+    description:
+    - '&7Chance to push the close entities'
+    level 1:
+      # This price depends of currency type
+      price: 25
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to push the close entities'
+    level 2:
+      # This price depends of currency type
+      price: 50
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to pushs the close entities'
+    level 3:
+      # This price depends of currency type
+      price: 100
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to push the close entities'
+    level 4:
+      # This price depends of currency type
+      price: 500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to push the close entities'
+    level 5:
+      # This price depends of currency type
+      price: 1000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to push the close entities'
+    level 6:
+      # This price depends of currency type
+      price: 2500
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to push the close entities'
+    level 7:
+      # This price depends of currency type
+      price: 5000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to push the close entities'
+    level 8:
+      # This price depends of currency type
+      price: 10000
+      # You can change Vault to your custom currency, example: PlayerPoints
+      currency-type: Vault
+      # Add custom items in list way, for example: 5:0:1 (<ID>:<DATA>:<AMOUNT>)
+      buyByItems: []
+      # Player needs permission to buy, if is "NONE", Player can buy without permission
+      permissionToBuy: NONE
+      # Description of the item
+      description:
+      - '&7Have {chance}% of chance to push the close entities'

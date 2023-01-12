@@ -1,0 +1,5 @@
+Fish3:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: RAW_FISH
+    damage: 3

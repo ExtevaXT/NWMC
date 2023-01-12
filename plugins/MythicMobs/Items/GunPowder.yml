@@ -1,0 +1,4 @@
+GunPowder:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SULPHUR

@@ -1,0 +1,2051 @@
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/ ***
+*** Server will start in 15 seconds ***
+Loading libraries, please wait...
+>[2K
+[00:36:13 INFO]: Starting minecraft server version 1.12
+>[2K
+[00:36:13 INFO]: Loading properties
+>[2K
+[00:36:13 WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+>[2K
+[00:36:13 INFO]: Default game type: SURVIVAL
+>[2K
+[00:36:13 INFO]: This server is running CraftBukkit version git-Spigot-7228328-11323bf (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+>[2K
+[00:36:15 INFO]: Server Ping Player Sample Count: 12
+>[2K
+[00:36:15 INFO]: Using 4 threads for Netty based IO
+>[2K
+[00:36:15 INFO]: Debug logging is disabled
+>[2K
+[00:36:15 INFO]: Generating keypair
+>[2K
+[00:36:16 INFO]: Starting Minecraft server on 178.33.4.198:25605
+>[2K
+[00:36:16 INFO]: Using epoll channel type
+>[2K
+[00:36:18 INFO]: Set PluginClassLoader as parallel capable
+>[2K
+[00:36:23 INFO]: [AAC v3.6.4] Cracked by 0nion [December 2018]    
+>[2K
+[00:36:27 INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.51
+>[2K
+[00:36:27 INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.2
+>[2K
+[00:36:27 INFO]: [ForceResourcePack] Loading ForceResourcePack v4.0.0-SNAPSHOT
+>[2K
+[00:36:27 INFO]: [PlugMan] Loading PlugMan v2.1.5
+>[2K
+[00:36:27 INFO]: [CustomRecipes] Loading CustomRecipes v2.2.0-SNAPSHOT
+>[2K
+[00:36:29 INFO]: [JH_AntiBot] Loading JH_AntiBot v2.0.0
+>[2K
+[00:36:29 INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.1
+>[2K
+[00:36:29 INFO]: [MOTD] Loading MOTD v2.3.6
+>[2K
+[00:36:29 INFO]: [Global_Powertool] Loading Global_Powertool v1.4.3
+>[2K
+[00:36:29 INFO]: [FirstJoinPlus] Loading FirstJoinPlus v2.4.1
+>[2K
+[00:36:29 INFO]: [ResourcePackDownloader] Loading ResourcePackDownloader v7.3
+>[2K
+[00:36:29 INFO]: [ProtocolLib] Loading ProtocolLib v4.4.0
+>[2K
+[00:36:30 INFO]: [Clans] Loading Clans v0.3.7
+>[2K
+[00:36:30 INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+>[2K
+[00:36:30 INFO]: [NoCheatPlus] Loading NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+>[2K
+[00:36:30 INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+>[2K
+[00:36:31 INFO]: [NoCheatPlus] Logging system initialized.
+>[2K
+[00:36:31 INFO]: [NoCheatPlus] Detected Minecraft version: 1.12
+>[2K
+[00:36:31 INFO]: [LibsDisguises] Loading LibsDisguises v9.5.2
+>[2K
+[00:36:31 INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.06.12-f71043b-1275-22.2.1
+>[2K
+[00:36:31 INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+>[2K
+[00:36:31 WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+>[2K
+[00:36:31 INFO]: [Effect Library] Loading EffectLib v2.4-SNAPSHOT
+>[2K
+[00:36:31 INFO]: [Music] Loading Music v2.7.33
+>[2K
+[00:36:31 INFO]: [Vault] Loading Vault v1.5.6-b49
+>[2K
+[00:36:31 INFO]: [KillerMoney] Loading KillerMoney v3.14
+>[2K
+[00:36:31 INFO]: [HolographicDisplays] Loading HolographicDisplays v2.3.2
+>[2K
+[00:36:31 INFO]: [AAC] Loading AAC v3.6.4
+>[2K
+[00:36:31 INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+>[2K
+[00:36:31 INFO]: [MyCommand] Loading MyCommand v5.5.0
+>[2K
+[00:36:31 INFO]: [ChatManager] Loading ChatManager v1.19.1
+>[2K
+[00:36:31 INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
+>[2K
+[00:36:31 INFO]: [Essentials] Loading Essentials v2.16.1.0
+>[2K
+[00:36:31 INFO]: [AACAdditionPro] Loading AACAdditionPro v4.5.0
+>[2K
+[00:36:31 INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1479)
+>[2K
+[00:36:31 INFO]: [ColoredTags] Loading ColoredTags v2.1.1
+>[2K
+[00:36:31 INFO]: [NPC_Destinations] Loading NPC_Destinations v2.3.45
+>[2K
+[00:36:31 INFO]: [BlockRegen] Loading BlockRegen v3.4.0
+>[2K
+[00:36:31 INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
+>[2K
+[00:36:31 INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.16.1.0
+>[2K
+[00:36:31 INFO]: [MythicMobs] Loading MythicMobs v4.5.9-2586
+>[2K
+[00:36:31 INFO]: [EssentialsProtect] Loading EssentialsProtect v2.16.1.0
+>[2K
+[00:36:31 INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.16.1.0
+>[2K
+[00:36:31 INFO]: [Duels] Loading Duels v3.2.3
+>[2K
+[00:36:31 INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.16.1.0
+>[2K
+[00:36:31 INFO]: [Shop] Loading Shop v2.1.0
+>[2K
+[00:36:31 INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+>[2K
+[00:36:31 INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.16.1.0
+>[2K
+[00:36:31 INFO]: [TitleManager] Loading TitleManager v2.1.4
+>[2K
+[00:36:31 INFO]: [NPCDestinations_Animator] Loading NPCDestinations_Animator v2.3.9
+>[2K
+[00:36:31 INFO]: [BeautyQuests] Loading BeautyQuests v0.15.2
+>[2K
+[00:36:31 INFO]: New logger inserted: fr.skytasul.quests.QuestsLogger
+>[2K
+[00:36:31 INFO]: [Magic] Loading Magic v7.7.1-d306672
+>[2K
+[00:36:32 INFO]: [Magic] Found WorldGuard <7
+>[2K
+[00:36:32 INFO]: [Magic] Pre-check for WorldGuard custom flag registration
+>[2K
+[00:36:32 INFO]: [Magic] Registered custom WorldGuard flags: allowed-spells, blocked-spells, allowed-spell-categories, blocked-spell-categories, allowed-wands, blocked-wands, spell-overrides, destructible, reflective, spawn-tags
+>[2K
+[00:36:32 INFO]: [AuthMe] Loading AuthMe v5.3.2-b1726
+>[2K
+[00:36:32 INFO]: [ProtocolLib] Enabling ProtocolLib v4.4.0
+>[2K
+[00:36:32 INFO]: [ProtocolLib] Started structure compiler thread.
+>[2K
+[00:36:32 INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.06.12-f71043b-1275-22.2.1
+>[2K
+[00:36:34 INFO]: ====== USE PAPER ======[m
+>[2K
+[00:36:34 INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/[m
+>[2K
+[00:36:34 INFO]: GUIDE: https://www.spigotmc.org/threads/21726/[m
+>[2K
+[00:36:34 INFO]:  - This is only a recommendation[m
+>[2K
+[00:36:34 INFO]: ==============================[m
+>[2K
+[00:36:34 INFO]: [Vault] Enabling Vault v1.5.6-b49
+>[2K
+[00:36:34 INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+>[2K
+[00:36:35 INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+>[2K
+[00:36:35 INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+>[2K
+[00:36:35 INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+>[2K
+[00:36:35 INFO]: [Vault] Enabled Version 1.5.6-b49
+>[2K
+[00:36:35 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+>[2K
+[00:36:35 WARN]: The server will make no attempt to authenticate usernames. Beware.
+>[2K
+[00:36:35 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+>[2K
+[00:36:35 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+>[2K
+[00:36:35 INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+>[2K
+[00:36:35 INFO]: Preparing level "world"
+>[2K
+[00:36:35 INFO]: -------- World Settings For [world] --------
+>[2K
+[00:36:35 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+>[2K
+[00:36:35 INFO]: Max TNT Explosions: 100
+>[2K
+[00:36:35 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K
+[00:36:35 INFO]: Cactus Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: Cane Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: Melon Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: Mushroom Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: Pumpkin Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: Sapling Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: Wheat Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: NetherWart Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: Vine Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: Cocoa Growth Modifier: 100%
+>[2K
+[00:36:35 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+>[2K
+[00:36:35 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K
+[00:36:35 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K
+[00:36:35 INFO]: Random Lighting Updates: false
+>[2K
+[00:36:35 INFO]: Structure Info Saving: true
+>[2K
+[00:36:35 INFO]: Mob Spawn Range: 4
+>[2K
+[00:36:35 INFO]: Experience Merge Radius: 3.0
+>[2K
+[00:36:35 INFO]: Item Despawn Rate: 6000
+>[2K
+[00:36:35 INFO]: Item Merge Radius: 2.5
+>[2K
+[00:36:35 INFO]: Arrow Despawn Rate: 1200
+>[2K
+[00:36:35 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K
+[00:36:35 INFO]: View Distance: 6
+>[2K
+[00:36:35 INFO]: Zombie Aggressive Towards Villager: true
+>[2K
+[00:36:35 INFO]: Nerfing mobs spawned from spawners: false
+>[2K
+[00:36:37 INFO]: -------- World Settings For [world_nether] --------
+>[2K
+[00:36:37 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+>[2K
+[00:36:37 INFO]: Max TNT Explosions: 100
+>[2K
+[00:36:37 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K
+[00:36:37 INFO]: Cactus Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Cane Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Melon Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Mushroom Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Pumpkin Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Sapling Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Wheat Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: NetherWart Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Vine Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Cocoa Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+>[2K
+[00:36:37 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K
+[00:36:37 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K
+[00:36:37 INFO]: Random Lighting Updates: false
+>[2K
+[00:36:37 INFO]: Structure Info Saving: true
+>[2K
+[00:36:37 INFO]: Mob Spawn Range: 4
+>[2K
+[00:36:37 INFO]: Experience Merge Radius: 3.0
+>[2K
+[00:36:37 INFO]: Item Despawn Rate: 6000
+>[2K
+[00:36:37 INFO]: Item Merge Radius: 2.5
+>[2K
+[00:36:37 INFO]: Arrow Despawn Rate: 1200
+>[2K
+[00:36:37 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K
+[00:36:37 INFO]: View Distance: 6
+>[2K
+[00:36:37 INFO]: Zombie Aggressive Towards Villager: true
+>[2K
+[00:36:37 INFO]: Nerfing mobs spawned from spawners: false
+>[2K
+[00:36:37 INFO]: -------- World Settings For [world_the_end] --------
+>[2K
+[00:36:37 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+>[2K
+[00:36:37 INFO]: Max TNT Explosions: 100
+>[2K
+[00:36:37 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K
+[00:36:37 INFO]: Cactus Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Cane Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Melon Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Mushroom Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Pumpkin Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Sapling Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Wheat Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: NetherWart Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Vine Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Cocoa Growth Modifier: 100%
+>[2K
+[00:36:37 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+>[2K
+[00:36:37 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K
+[00:36:37 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K
+[00:36:37 INFO]: Random Lighting Updates: false
+>[2K
+[00:36:37 INFO]: Structure Info Saving: true
+>[2K
+[00:36:37 INFO]: Mob Spawn Range: 4
+>[2K
+[00:36:37 INFO]: Experience Merge Radius: 3.0
+>[2K
+[00:36:37 INFO]: Item Despawn Rate: 6000
+>[2K
+[00:36:37 INFO]: Item Merge Radius: 2.5
+>[2K
+[00:36:37 INFO]: Arrow Despawn Rate: 1200
+>[2K
+[00:36:37 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K
+[00:36:37 INFO]: View Distance: 6
+>[2K
+[00:36:37 INFO]: Zombie Aggressive Towards Villager: true
+>[2K
+[00:36:37 INFO]: Nerfing mobs spawned from spawners: false
+>[2K
+[00:36:38 INFO]: Preparing start region for level 0 (Seed: -2412930808332106199)
+>[2K
+[00:36:40 INFO]: Preparing spawn area: 0%
+>[2K
+[00:36:41 INFO]: Preparing spawn area: 9%
+>[2K
+[00:36:42 INFO]: Preparing spawn area: 22%
+>[2K
+[00:36:44 INFO]: Preparing spawn area: 39%
+>[2K
+[00:36:45 INFO]: Preparing spawn area: 55%
+>[2K
+[00:36:46 INFO]: Preparing spawn area: 75%
+>[2K
+[00:36:47 INFO]: Preparing start region for level 1 (Seed: -2470984374398421998)
+>[2K
+[00:36:48 INFO]: Preparing spawn area: 49%
+>[2K
+[00:36:49 INFO]: Preparing start region for level 2 (Seed: -2470984374398421998)
+>[2K
+[00:36:50 INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.51
+>[2K
+[00:36:50 INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.2
+>[2K
+[00:36:50 INFO]: [PlaceholderAPI] Fetching available expansion information...
+>[2K
+[00:36:50 INFO]: [ForceResourcePack] Enabling ForceResourcePack v4.0.0-SNAPSHOT
+>[2K
+[00:36:50 INFO]: [ForceResourcePack] The plugin work only on a 1.8 or newer version.
+>[2K
+[00:36:50 INFO]: [ForceResourcePack] Disabling ForceResourcePack v4.0.0-SNAPSHOT
+>[2K
+[00:36:50 INFO]: [PlugMan] Enabling PlugMan v2.1.5
+>[2K
+[00:36:50 INFO]: [CustomRecipes] Enabling CustomRecipes v2.2.0-SNAPSHOT
+>[2K
+[00:36:52 INFO]: [JH_AntiBot] Enabling JH_AntiBot v2.0.0
+>[2K
+[00:36:52 WARN]: java.net.ConnectException: В соединении отказано (Connection refused)
+>[2K
+[00:36:52 WARN]:        at java.net.PlainSocketImpl.socketConnect(Native Method)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+>[2K
+[00:36:52 WARN]:        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+>[2K
+[00:36:52 WARN]:        at java.net.Socket.connect(Socket.java:589)
+>[2K
+[00:36:52 WARN]:        at java.net.Socket.connect(Socket.java:538)
+>[2K
+[00:36:52 WARN]:        at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+>[2K
+[00:36:52 WARN]:        at JH_AntiBot.bukkit.getURLList(bukkit.java:222)
+>[2K
+[00:36:52 WARN]:        at JH_AntiBot.bukkit.onEnable(bukkit.java:67)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:377)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:327)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:421)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:382)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:337)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:544)
+>[2K
+[00:36:52 WARN]:        at java.lang.Thread.run(Thread.java:748)
+>[2K
+[00:36:52 WARN]: java.net.ConnectException: В соединении отказано (Connection refused)
+>[2K
+[00:36:52 WARN]:        at java.net.PlainSocketImpl.socketConnect(Native Method)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+>[2K
+[00:36:52 WARN]:        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+>[2K
+[00:36:52 WARN]:        at java.net.Socket.connect(Socket.java:589)
+>[2K
+[00:36:52 WARN]:        at java.net.Socket.connect(Socket.java:538)
+>[2K
+[00:36:52 WARN]:        at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+>[2K
+[00:36:52 WARN]:        at JH_AntiBot.bukkit.getURLList(bukkit.java:222)
+>[2K
+[00:36:52 WARN]:        at JH_AntiBot.bukkit.onEnable(bukkit.java:68)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:377)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:327)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:421)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:382)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:337)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:544)
+>[2K
+[00:36:52 WARN]:        at java.lang.Thread.run(Thread.java:748)
+>[2K
+[00:36:52 WARN]: java.net.ConnectException: В соединении отказано (Connection refused)
+>[2K
+[00:36:52 WARN]:        at java.net.PlainSocketImpl.socketConnect(Native Method)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+>[2K
+[00:36:52 WARN]:        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+>[2K
+[00:36:52 WARN]:        at java.net.Socket.connect(Socket.java:589)
+>[2K
+[00:36:52 WARN]:        at java.net.Socket.connect(Socket.java:538)
+>[2K
+[00:36:52 WARN]:        at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+>[2K
+[00:36:52 WARN]:        at JH_AntiBot.bukkit.getURLList(bukkit.java:222)
+>[2K
+[00:36:52 WARN]:        at JH_AntiBot.bukkit.onEnable(bukkit.java:69)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:377)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:327)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:421)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:382)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:337)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:544)
+>[2K
+[00:36:52 WARN]:        at java.lang.Thread.run(Thread.java:748)
+>[2K
+[00:36:52 WARN]: java.net.ConnectException: В соединении отказано (Connection refused)
+>[2K
+[00:36:52 WARN]:        at java.net.PlainSocketImpl.socketConnect(Native Method)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+>[2K
+[00:36:52 WARN]:        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+>[2K
+[00:36:52 WARN]:        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+>[2K
+[00:36:52 WARN]:        at java.net.Socket.connect(Socket.java:589)
+>[2K
+[00:36:52 WARN]:        at java.net.Socket.connect(Socket.java:538)
+>[2K
+[00:36:52 WARN]:        at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+>[2K
+[00:36:52 WARN]:        at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+>[2K
+[00:36:52 WARN]:        at JH_AntiBot.bukkit.getURLList(bukkit.java:222)
+>[2K
+[00:36:52 WARN]:        at JH_AntiBot.bukkit.onEnable(bukkit.java:70)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:377)
+>[2K
+[00:36:52 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:327)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:421)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:382)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:337)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+>[2K
+[00:36:52 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:544)
+>[2K
+[00:36:52 WARN]:        at java.lang.Thread.run(Thread.java:748)
+>[2K
+[00:36:52 INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.1
+>[2K
+[00:36:52 INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_12_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+>[2K
+[00:36:53 INFO]: [MOTD] Enabling MOTD v2.3.6
+>[2K
+[00:36:53 INFO]: [MOTD] [Placeholder] PlaceholderAPI hooked.
+>[2K
+[00:36:53 INFO]: [Global_Powertool] Enabling Global_Powertool v1.4.3
+>[2K
+[00:36:53 INFO]: [FirstJoinPlus] Enabling FirstJoinPlus v2.4.1
+>[2K
+[00:36:53 INFO]: [ResourcePackDownloader] Enabling ResourcePackDownloader v7.3
+>[2K
+[00:36:54 INFO]: [0;33;1m------------------------------[m
+>[2K
+[00:36:54 INFO]: [0;32;1mResource Pack Downloader[m
+>[2K
+[00:36:54 INFO]:  [m
+>[2K
+[00:36:54 INFO]: [0;33;1mRunning version: [0;32;1m7.3[m
+>[2K
+[00:36:54 INFO]: [0;33;1mAuthor: [0;32;1mJoshb_[m
+>[2K
+[00:36:54 INFO]:  [m
+>[2K
+[00:36:54 INFO]: [0;33;1m------------------------------[m
+>[2K
+[00:36:54 INFO]: [Clans] Enabling Clans v0.3.7
+>[2K
+[00:36:55 INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
+>[2K
+[00:36:56 WARN]: [Multiverse-Core] Exception while loading value for environment
+>[2K
+[00:36:56 WARN]: [Multiverse-Core] Exception while loading value for environment
+>[2K
+[00:36:57 INFO]: -------- World Settings For [PeonyPlanet] --------
+>[2K
+[00:36:57 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+>[2K
+[00:36:57 INFO]: Max TNT Explosions: 100
+>[2K
+[00:36:57 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K
+[00:36:57 INFO]: Cactus Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: Cane Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: Melon Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: Mushroom Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: Pumpkin Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: Sapling Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: Wheat Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: NetherWart Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: Vine Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: Cocoa Growth Modifier: 100%
+>[2K
+[00:36:57 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+>[2K
+[00:36:57 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K
+[00:36:57 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K
+[00:36:57 INFO]: Random Lighting Updates: false
+>[2K
+[00:36:57 INFO]: Structure Info Saving: true
+>[2K
+[00:36:57 INFO]: Mob Spawn Range: 4
+>[2K
+[00:36:57 INFO]: Experience Merge Radius: 3.0
+>[2K
+[00:36:57 INFO]: Item Despawn Rate: 6000
+>[2K
+[00:36:57 INFO]: Item Merge Radius: 2.5
+>[2K
+[00:36:57 INFO]: Arrow Despawn Rate: 1200
+>[2K
+[00:36:57 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K
+[00:36:57 INFO]: View Distance: 6
+>[2K
+[00:36:57 INFO]: Zombie Aggressive Towards Villager: true
+>[2K
+[00:36:57 INFO]: Nerfing mobs spawned from spawners: false
+>[2K
+[00:36:58 INFO]: Preparing start region for level 3 (Seed: 27594263)
+>[2K
+[00:37:00 INFO]: Preparing spawn area for PeonyPlanet, 12%
+>[2K
+[00:37:01 INFO]: Preparing spawn area for PeonyPlanet, 65%
+>[2K
+[00:37:02 INFO]: -------- World Settings For [DesertWorld] --------
+>[2K
+[00:37:02 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+>[2K
+[00:37:02 INFO]: Max TNT Explosions: 100
+>[2K
+[00:37:02 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K
+[00:37:02 INFO]: Cactus Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: Cane Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: Melon Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: Mushroom Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: Pumpkin Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: Sapling Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: Wheat Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: NetherWart Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: Vine Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: Cocoa Growth Modifier: 100%
+>[2K
+[00:37:02 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+>[2K
+[00:37:02 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K
+[00:37:02 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K
+[00:37:02 INFO]: Random Lighting Updates: false
+>[2K
+[00:37:02 INFO]: Structure Info Saving: true
+>[2K
+[00:37:02 INFO]: Mob Spawn Range: 4
+>[2K
+[00:37:02 INFO]: Experience Merge Radius: 3.0
+>[2K
+[00:37:02 INFO]: Item Despawn Rate: 6000
+>[2K
+[00:37:02 INFO]: Item Merge Radius: 2.5
+>[2K
+[00:37:02 INFO]: Arrow Despawn Rate: 1200
+>[2K
+[00:37:02 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K
+[00:37:02 INFO]: View Distance: 6
+>[2K
+[00:37:02 INFO]: Zombie Aggressive Towards Villager: true
+>[2K
+[00:37:02 INFO]: Nerfing mobs spawned from spawners: false
+>[2K
+[00:37:03 INFO]: Preparing start region for level 4 (Seed: 27594263)
+>[2K
+[00:37:04 INFO]: Preparing spawn area for DesertWorld, 0%
+>[2K
+[00:37:05 INFO]: Preparing spawn area for DesertWorld, 52%
+>[2K
+[00:37:06 WARN]: java.lang.NullPointerException
+>[2K
+[00:37:06 WARN]:        at net.minecraft.server.v1_12_R1.WorldServer.<init>(WorldServer.java:58)
+>[2K
+[00:37:06 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.createWorld(CraftServer.java:901)
+>[2K
+[00:37:06 WARN]:        at org.bukkit.Bukkit.createWorld(Bukkit.java:454)
+>[2K
+[00:37:06 WARN]:        at org.bukkit.WorldCreator.createWorld(WorldCreator.java:261)
+>[2K
+[00:37:06 WARN]:        at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:466)
+>[2K
+[00:37:06 WARN]:        at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:447)
+>[2K
+[00:37:06 WARN]:        at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:422)
+>[2K
+[00:37:06 WARN]:        at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:725)
+>[2K
+[00:37:06 WARN]:        at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:309)
+>[2K
+[00:37:06 WARN]:        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+>[2K
+[00:37:06 WARN]:        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+>[2K
+[00:37:06 WARN]:        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
+>[2K
+[00:37:06 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:377)
+>[2K
+[00:37:06 WARN]:        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:327)
+>[2K
+[00:37:06 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:421)
+>[2K
+[00:37:06 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:382)
+>[2K
+[00:37:06 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:337)
+>[2K
+[00:37:06 WARN]:        at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+>[2K
+[00:37:06 WARN]:        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:544)
+>[2K
+[00:37:06 WARN]:        at java.lang.Thread.run(Thread.java:748)
+>[2K
+[00:37:06 ERROR]: [Multiverse-Core] The world 'firstjoin' could NOT be loaded because it contains errors and is probably corrupt!
+>[2K
+[00:37:06 ERROR]: [Multiverse-Core] Try using Minecraft Region Fixer to repair your world! 'firstjoin'
+>[2K
+[00:37:06 ERROR]: [Multiverse-Core] https://github.com/Fenixin/Minecraft-Region-Fixer
+>[2K
+[00:37:06 INFO]: -------- World Settings For [Survival] --------
+>[2K
+[00:37:06 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+>[2K
+[00:37:06 INFO]: Max TNT Explosions: 100
+>[2K
+[00:37:06 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K
+[00:37:06 INFO]: Cactus Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: Cane Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: Melon Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: Mushroom Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: Pumpkin Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: Sapling Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: Wheat Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: NetherWart Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: Vine Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: Cocoa Growth Modifier: 100%
+>[2K
+[00:37:06 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+>[2K
+[00:37:06 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K
+[00:37:06 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K
+[00:37:06 INFO]: Random Lighting Updates: false
+>[2K
+[00:37:06 INFO]: Structure Info Saving: true
+>[2K
+[00:37:06 INFO]: Mob Spawn Range: 4
+>[2K
+[00:37:06 INFO]: Experience Merge Radius: 3.0
+>[2K
+[00:37:06 INFO]: Item Despawn Rate: 6000
+>[2K
+[00:37:06 INFO]: Item Merge Radius: 2.5
+>[2K
+[00:37:06 INFO]: Arrow Despawn Rate: 1200
+>[2K
+[00:37:06 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K
+[00:37:06 INFO]: View Distance: 6
+>[2K
+[00:37:06 INFO]: Zombie Aggressive Towards Villager: true
+>[2K
+[00:37:06 INFO]: Nerfing mobs spawned from spawners: false
+>[2K
+[00:37:07 INFO]: Preparing start region for level 5 (Seed: 226832029846623746)
+>[2K
+[00:37:08 INFO]: Preparing spawn area for Survival, 0%
+>[2K
+[00:37:09 INFO]: Preparing spawn area for Survival, 20%
+>[2K
+[00:37:10 INFO]: Preparing spawn area for Survival, 69%
+>[2K
+[00:37:11 INFO]: Preparing spawn area for Survival, 93%
+>[2K
+[00:37:11 INFO]: -------- World Settings For [world_other] --------
+>[2K
+[00:37:11 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+>[2K
+[00:37:11 INFO]: Max TNT Explosions: 100
+>[2K
+[00:37:11 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+>[2K
+[00:37:11 INFO]: Cactus Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: Cane Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: Melon Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: Mushroom Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: Pumpkin Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: Sapling Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: Wheat Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: NetherWart Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: Vine Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: Cocoa Growth Modifier: 100%
+>[2K
+[00:37:11 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+>[2K
+[00:37:11 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K
+[00:37:11 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K
+[00:37:11 INFO]: Random Lighting Updates: false
+>[2K
+[00:37:11 INFO]: Structure Info Saving: true
+>[2K
+[00:37:11 INFO]: Mob Spawn Range: 4
+>[2K
+[00:37:11 INFO]: Experience Merge Radius: 3.0
+>[2K
+[00:37:11 INFO]: Item Despawn Rate: 6000
+>[2K
+[00:37:11 INFO]: Item Merge Radius: 2.5
+>[2K
+[00:37:11 INFO]: Arrow Despawn Rate: 1200
+>[2K
+[00:37:11 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K
+[00:37:11 INFO]: View Distance: 6
+>[2K
+[00:37:11 INFO]: Zombie Aggressive Towards Villager: true
+>[2KExteva
+[00:37:11 INFO]: NerfinExtevaawned from spawners: false
+>[2K
+[00:37:12 INFO]: Preparing start region for level 6 (Seed: -2412930808332106199)
+>[2K
+[00:37:13 INFO]: Preparing spawn area for world_other, 36%
+>[2K
+[00:37:14 INFO]: Preparing spawn area for world_other, 81%
+>[2K
+[00:37:15 INFO]: -------- World Settings For [ForNinjaWorld] --------
+>[2K
+[00:37:15 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+>[2K
+[00:37:15 INFO]: Max TNT Explosions: 100
+>[2KExteva
+[00:37:15 INFO]: Tile MExtevaime: 50ms Entity max Tick Time: 50ms
+>[2K
+[00:37:15 INFO]: Cactus Growth Modifier: 100%
+>[2K
+[00:37:15 INFO]: Cane Growth Modifier: 100%
+>[2K
+[00:37:15 INFO]: Melon Growth Modifier: 100%
+>[2K
+[00:37:15 INFO]: Mushroom Growth Modifier: 100%
+>[2K
+[00:37:15 INFO]: Pumpkin Growth Modifier: 100%
+>[2KExteva
+[00:37:15 INFO]: Sapling Growth Modifier: 100%
+>[2K
+[00:37:15 INFO]: Wheat Growth Modifier: 100%
+>[2K
+[00:37:15 INFO]: NetherWart Growth Modifier: 100%
+>[2K
+[00:37:15 INFO]: Vine Growth Modifier: 100%
+>[2K
+[00:37:15 INFO]: Cocoa Growth Modifier: 100%
+>[2K
+[00:37:15 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+>[2K
+[00:37:15 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>[2K
+[00:37:15 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>[2K
+[00:37:15 INFO]: Random Lighting Updates: false
+>[2K
+[00:37:15 INFO]: Structure Info Saving: true
+>[2K
+[00:37:15 INFO]: Mob Spawn Range: 4
+>[2K
+[00:37:15 INFO]: Experience Merge Radius: 3.0
+>[2K
+[00:37:15 INFO]: Item Despawn Rate: 6000
+>[2K
+[00:37:15 INFO]: Item Merge Radius: 2.5
+>[2K
+[00:37:15 INFO]: Arrow Despawn Rate: 1200
+>[2K
+[00:37:15 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>[2K
+[00:37:15 INFO]: View Distance: 6
+>[2K
+[00:37:15 INFO]: Zombie Aggressive Towards Villager: true
+>[2K
+[00:37:15 INFO]: Nerfing mobs spawned from spawners: false
+>[2K
+[00:37:15 INFO]: Preparing start region for level 7 (Seed: 934135607130865711)
+>[2K
+[00:37:16 INFO]: Preparing spawn area for ForNinjaWorld, 12%
+>[2K
+[00:37:17 INFO]: Preparing spawn area for ForNinjaWorld, 53%
+>[2K
+[00:37:19 INFO]: Preparing spawn area for ForNinjaWorld, 93%
+>[2K
+[00:37:19 INFO]: [Multiverse-Core] 8 - World(s) loaded.
+>[2K
+[00:37:19 INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Added block-info for Minecraft 1.12 blocks.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Adding packet level hooks for ProtocolLib (MC 1.12.0)...
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Confirm teleport packet available (via name): TELEPORT_ACCEPT[class=PacketPlayInTeleportAccept, id=0]
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Force disable FastHeal on Minecraft 1.9 and later.
+>[2K
+[00:37:21 INFO]: [NoCheatPlus] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+>[2K
+[00:37:22 INFO]: [LibsDisguises] Enabling LibsDisguises v9.5.2
+>[2K
+[00:37:22 INFO]: [LibsDisguises] Discovered nms version: v1_12_R1
+>[2K
+[00:37:23 WARN]: [LibsDisguises] Error while loading custom disguise 'libraryaddict': §cExpected §aFour ItemStacks (id:damage,id:damage..), damage optional§c, received §aGOLDEN_BOOTS,GOLDEN_LEGGINGS,GOLDEN_CHESTPLATE,GOLDEN_HELMET§c instead for §asetArmor
+>[2K
+[00:37:23 INFO]: [LibsDisguises] Loaded 0 custom disguises
+>[2K
+[00:37:23 INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+>[2K
+[00:37:23 INFO]: [PermissionsEx] Initializing file backend
+>[2K
+[00:37:23 INFO]: [PermissionsEx] Permissions file successfully reloaded
+>[2K
+[00:37:24 INFO]: [Vault][Permission] PermissionsEx hooked.
+>[2K
+[00:37:24 INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+>[2K
+[00:37:24 INFO]: [Effect Library] Enabling EffectLib v2.4-SNAPSHOT
+>[2K
+[00:37:24 INFO]: [Music] Enabling Music v2.7.33
+>[2K
+[00:37:26 INFO]: [KillerMoney] Enabling KillerMoney v3.14
+>[2K
+[00:37:26 INFO]: [KillerMoney] Locale: "en" | Locale file: en_locale.yml
+>[2K
+[00:37:26 INFO]: [KillerMoney] Metrics initialized
+>[2K
+[00:37:26 INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.3.2
+>[2K
+[00:37:26 INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+>[2K
+[00:37:28 INFO]: [AAC] Enabling AAC v3.6.4
+>[2K
+[00:37:30 INFO]: [AAC] No internet connection.
+>[2K
+[00:37:30 INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+>[2K
+[00:37:31 INFO]: [MyCommand] Enabling MyCommand v5.5.0
+>[2K
+[00:37:31 INFO]: *-=-=-=-=-=-=-=-=-=-* MyCommand *-=-=-=-=-=-=-=-=-=-=-*
+>[2K
+[00:37:31 INFO]: | You are using an not fully supported server version. (v1_12_R1)
+>[2K
+[00:37:31 INFO]: | Vault  : Ok. Hooked on Vault 1.5.6-b49
+>[2K
+[00:37:31 INFO]: | Command file(s) found : 1
+>[2K
+[00:37:31 INFO]: | Config : Ready.
+>[2K
+[00:37:31 INFO]: [MyCmd] RIGHT_CLICK_INTERACTION Block set item is null, check config.yml
+>[2K
+[00:37:31 INFO]: [MyCmd] RIGHT_CLICK_INTERACTION Block set item is null, check config.yml
+>[2K
+[00:37:31 INFO]: [MyCmd] PHYSICAL_INTERACTION Block set item is null, check config.yml
+>[2K
+[00:37:31 INFO]: [MyCmd] PHYSICAL_INTERACTION Block set item is null, check config.yml
+>[2K
+[00:37:31 INFO]: | PlaceholderAPI: Hooked, Ok.
+>[2K
+[00:37:31 INFO]: | Custom commands loaded : 107
+>[2K
+[00:37:31 INFO]: | Version: 5.5.0
+>[2K
+[00:37:31 INFO]: | Author : emmerrei a.k.a Ivanpro
+>[2K
+[00:37:32 INFO]: | New update available : MyCommand v5.5.1
+>[2K
+[00:37:32 INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+>[2K
+[00:37:32 INFO]: [ChatManager] Enabling ChatManager v1.19.1
+>[2K
+[00:37:32 INFO]: [ChatManager] ChatManager enabled!
+>[2K
+[00:37:32 INFO]: [ChatManager] Multiverse 2 integration enabled!
+>[2K
+[00:37:32 INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
+>[2K
+[00:37:32 INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+>[2K
+[00:37:32 INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R1 as the Bukkit adapter
+>[2K
+[00:37:33 INFO]: [Essentials] Enabling Essentials v2.16.1.0
+>[2K
+[00:37:33 ERROR]: [Essentials] You are running an unsupported server version!
+>[2K
+[00:37:33 INFO]: Attempting to convert old kits in config.yml to new kits.yml
+>[2K
+[00:37:33 INFO]: No kits found to migrate.
+>[2K
+[00:37:33 INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+>[2K
+[00:37:33 INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+>[2K
+[00:37:33 INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+>[2K
+[00:37:34 INFO]: Loaded 852 items from items.csv.
+>[2K
+[00:37:34 INFO]: Using locale ru_RU
+>[2K
+[00:37:34 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+>[2K
+[00:37:35 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+>[2K
+[00:37:35 INFO]: [Vault][Economy] Essentials Economy hooked.
+>[2K
+[00:37:35 INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Enabling AACAdditionPro v4.5.0
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Enabling plugin...
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] LogBot was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.BetterSprinting was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.DamageIndicator was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.5zig was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.Forge was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.LabyMod was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.LiteLoader was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.OldLabyMod was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.BetterSprinting was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.Schematica was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.Vape was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.VersionControl was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ClientControl.WorldDownloader was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] AutoFish has been enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] AutoPotion has been enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Esp has been enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Fastswitch has been enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] ImpossibleChat was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Inventory has been enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] InventoryHeuristics was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] KillauraEntity was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] PacketAnalysis has been enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Pingspoof was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Scaffold has been enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Skinblinker has been enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Teaming was chosen not to be enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] Tower has been enabled.
+>[2K
+[00:37:37 INFO]: [AACAdditionPro] AACAdditionPro Version 4.5.0 enabled
+>[2K
+[00:37:37 INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1479)
+>[2K
+[00:37:38 ERROR]: [Citizens] Missing preferred location bundle.
+>[2K
+[00:37:40 INFO]: [ColoredTags] Enabling ColoredTags v2.1.1
+>[2K
+[00:37:40 ERROR]: Error occurred while enabling ColoredTags v2.1.1 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.ColoredTags.onEnable(ColoredTags.java:80) ~[?:?]
+        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:377) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:327) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:421) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:382) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:337) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:544) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:37:40 INFO]: [NPC_Destinations] Enabling NPC_Destinations v2.3.45
+>[2K
+[00:37:40 INFO]: [NPC_Destinations] MC Version found (MC: 1.12)
+>[2K
+[00:37:40 INFO]: [NPC_Destinations] Citizens (2.0.22-SNAPSHOT (build 1479)) found, NPC trait enabled.
+>[2K
+[00:37:40 INFO]: [NPC_Destinations] BetonQuest not found, quest support disabled
+>[2K
+[00:37:40 INFO]: [NPC_Destinations] LightAPI was not found, there will be no support for NPC torch lighting.
+>[2K
+[00:37:40 INFO]: [NPC_Destinations] JobsReborn was not found, there will be no support for Jobs in locations.
+>[2K
+[00:37:40 INFO]: [NPC_Destinations] Sentinel was not found, there will be no sentinel support in locations.
+>[2K
+[00:37:40 INFO]: [NPC_Destinations] PlotSquared not found, plot compliance disabled
+>[2K
+[00:37:40 INFO]: [NPC_Destinations] Worldguard found V(6.2.1;84bc322), regions supported
+>[2K
+[00:37:40 INFO]: [BlockRegen] Enabling BlockRegen v3.4.0
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;32;1mLoaded Settings.yml[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;32;1mLoaded Messages.yml[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;32;1mLoaded Blocklist.yml[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;32;1mLoaded Regions.yml[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;32;1mThere are 2 events found. Added all to the system.[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;33;1mVault & economy plugin found! [0;32;1mEnabling economy functions.[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;33;1mWorldEdit found! [0;32;1mEnabling region fuctions.[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;36;1mYou are using version 3.4.0[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;36;1mReport bugs or suggestions to discord only please.[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;36;1mAlways backup if you are not sure about things.[m
+>[2K
+[00:37:40 INFO]: [0;33;22m[[0;36;22mBlockRegen[0;33;22m] [0;30;1mMetricsLite enabled[m
+>[2K
+[00:37:40 INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world) Lava fire is blocked.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] Loaded configuration for world 'world'
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+>[2K
+[00:37:41 INFO]: [WorldGuard] (PeonyPlanet) TNT ignition is PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (PeonyPlanet) Lighters are PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (PeonyPlanet) Lava fire is blocked.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (PeonyPlanet) Fire spread is UNRESTRICTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] Loaded configuration for world 'PeonyPlanet'
+>[2K
+[00:37:41 INFO]: [WorldGuard] (DesertWorld) TNT ignition is PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (DesertWorld) Lighters are PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (DesertWorld) Lava fire is blocked.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (DesertWorld) Fire spread is UNRESTRICTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] Loaded configuration for world 'DesertWorld'
+>[2K
+[00:37:41 INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (Survival) Lava fire is blocked.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_other) TNT ignition is PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_other) Lighters are PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_other) Lava fire is blocked.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (world_other) Fire spread is UNRESTRICTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] Loaded configuration for world 'world_other'
+>[2K
+[00:37:41 INFO]: [WorldGuard] (ForNinjaWorld) TNT ignition is PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (ForNinjaWorld) Lighters are PERMITTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (ForNinjaWorld) Lava fire is blocked.
+>[2K
+[00:37:41 INFO]: [WorldGuard] (ForNinjaWorld) Fire spread is UNRESTRICTED.
+>[2K
+[00:37:41 INFO]: [WorldGuard] Loaded configuration for world 'ForNinjaWorld'
+>[2K
+[00:37:41 INFO]: [WorldGuard] Loading region data...
+>[2K
+[00:37:42 INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.16.1.0
+>[2K
+[00:37:42 WARN]: config broken for xmpp
+>[2K
+[00:37:42 INFO]: [MythicMobs] Enabling MythicMobs v4.5.9-2586
+>[2K
+[00:37:42 INFO]: [MythicMobs] Loading MythicMobs for Bukkit v1_12_R1 (Minecraft 1.12)...
+>[2K
+[00:37:42 INFO]: [MythicMobs] MythicMobs EffectLib Support has been enabled!
+>[2K
+[00:37:42 INFO]: [MythicMobs] MythicMobs LibsDisguises Support has been enabled!
+>[2K
+[00:37:42 INFO]: [MythicMobs] MythicMobs Vault Support has been enabled!
+>[2K
+[00:37:42 INFO]: [MythicMobs] MythicMobs WorldGuard Support has been enabled!
+>[2K
+[00:37:43 INFO]: [LumineUtils] (io.lumine.utils.) is bound to plugin MythicMobs - io.lumine.xikage.mythicmobs.MythicMobs
+>[2K
+[00:37:43 WARN]: [MythicMobs] ✗[33m Config Error for Item '[4mKingsCrown[0m[33m' in 'ExampleItems.yml': [37mMaterial type 'GOLDEN_HELMET' not found[0m[0m
+>[2K
+[00:37:44 INFO]: [MythicMobs] Loaded 39 mobs.
+>[2K
+[00:37:44 INFO]: [MythicMobs] Loaded 31 vanilla mob overrides.
+>[2K
+[00:37:44 INFO]: [MythicMobs] Loaded 0 mob stacks.
+>[2K
+[00:37:44 INFO]: [MythicMobs] Loaded 3 skills.
+>[2K
+[00:37:44 INFO]: [MythicMobs] Loaded 6 random spawns.
+>[2K
+[00:37:44 INFO]: [MythicMobs] Loaded 18 mythic items.
+>[2K
+[00:37:44 INFO]: [MythicMobs] Loaded 10 drop tables.
+>[2K
+[00:37:44 INFO]: [MythicMobs] Loaded 4 mob spawners.
+>[2K
+[00:37:44 INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+>[2K
+[00:37:45 INFO]: [MythicMobs] Started up bStats Metrics
+>[2K
+[00:37:45 INFO]: [MythicMobs] [32m✓ MythicMobs v4.5.9 (build 2586) has been successfully loaded![0m
+>[2K
+[00:37:45 INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.16.1.0
+>[2K
+[00:37:45 INFO]: [EssentialsProtect] Continuing to enable Protect.
+>[2K
+[00:37:45 INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.16.1.0
+>[2K
+[00:37:45 WARN]: Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+>[2K
+[00:37:47 INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+>[2K
+[00:37:47 INFO]: [Duels] Enabling Duels v3.2.3
+>[2K
+[00:37:47 INFO]: [Duels] Successfully hooked into 'Essentials'!
+>[2K
+[00:37:47 INFO]: [Duels] Successfully hooked into 'PlaceholderAPI'!
+>[2K
+[00:37:47 INFO]: [Duels] Successfully hooked into 'Vault'!
+>[2K
+[00:37:47 INFO]: [Duels] Successfully hooked into 'WorldGuard'!
+>[2K
+[00:37:47 INFO]: [Duels] ArenaManager: Loaded 5 arena(s).
+>[2K
+[00:37:47 INFO]: [Duels] KitManager: Loaded 0 kit(s).
+>[2K
+[00:37:47 INFO]: [Duels] PlayerInfoManager: Lobby location was not set, using world's spawn location as default. Use the command /duels setlobby in-game to set the lobby location.
+>[2K
+[00:37:47 INFO]: [Duels] QueueManager: Loaded 0 queue(s).
+>[2K
+[00:37:47 INFO]: [Duels] QueueSignManager: Loaded 0 queue sign(s).
+>[2K
+[00:37:47 INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.16.1.0
+>[2K
+[00:37:48 INFO]: [Shop] Enabling Shop v2.1.0
+>[2K
+[00:37:48 INFO]: Failed to check for an update on Spigot.
+>[2K
+[00:37:48 INFO]: Failed to check for an update on Spigot.
+>[2K
+[00:37:48 INFO]: [Shop] Successfully hooked into PlaceholderAPI.
+>[2K
+[00:37:48 INFO]: [Shop] Successfully hooked into Citizens.
+>[2K
+[00:37:48 INFO]: [CommandNPC] Enabling CommandNPC v1.9.1
+>[2K
+[00:37:48 INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mVault compatible economy found! Economy support for CommandNPC has been enabled.[m
+>[2K
+[00:37:48 INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInitiating Database[m
+>[2K
+[00:37:48 INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInjecting command info into Citizens.[m
+>[2K
+[00:37:48 INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mLoading commands complete![m
+>[2K
+[00:37:48 INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mCommandNPC successfully loaded![m
+>[2K
+[00:37:48 INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.16.1.0
+>[2K
+[00:37:48 INFO]: [TitleManager] Enabling TitleManager v2.1.4
+>[2K
+[00:37:52 INFO]: [NPCDestinations_Animator] Enabling NPCDestinations_Animator v2.3.9
+>[2K
+[00:37:53 INFO]: [BeautyQuests] Enabling BeautyQuests v0.15.2
+>[2K
+[00:37:53 INFO]: [BeautyQuests] Placeholders registereds !
+>[2K
+[00:37:53 INFO]: [BeautyQuests] Loaded valid version v1_12_R1
+>[2K
+[00:37:53 INFO]: [BeautyQuests] Loaded language file locales/ru_RU.yml (0.553s)!
+>[2K
+[00:37:54 INFO]: [BeautyQuests] Loaded start particles: REDSTONE in shape POINT with color "R255 G255 B0"
+>[2K
+[00:37:54 INFO]: [BeautyQuests] Loaded talk particles: VILLAGER_HAPPY in shape BAR
+>[2K
+[00:37:54 INFO]: [BeautyQuests] Loaded next particles: SMOKE_NORMAL in shape SPOT
+>[2K
+[00:38:02 INFO]: [Magic] Enabling Magic v7.7.1-d306672
+>[2K
+[00:38:02 INFO]: [Magic] EffectLib initialized
+>[2K
+[00:38:02 INFO]: [Magic]  Using compatibility configs: examples/1.12/config.yml
+>[2K
+[00:38:02 INFO]: [Magic]  Using compatibility configs: examples/1.12/config.yml
+>[2K
+[00:38:02 INFO]: [Magic]  Using compatibility configs: examples/1.12/materials.yml
+>[2K
+[00:38:04 INFO]: [Magic]  Using compatibility configs: examples/1.12/spells.yml
+>[2K
+[00:38:06 INFO]: [Magic]  Using compatibility configs: examples/1.12/items.yml
+>[2K
+[00:38:07 INFO]: [Magic] Skin-based spell icons disabled
+>[2K
+[00:38:07 INFO]: [Magic] Vault found, 'currency' cost types available
+>[2K
+[00:38:08 INFO]: [Magic] Loaded 0 attributes
+>[2K
+[00:38:08 INFO]: [Magic] Registered attributes: [bowpull]
+>[2K
+[00:38:08 INFO]: [Magic] Registered currencies: item,mana,xp,health,currency,sp,levels,hunger
+>[2K
+[00:38:08 INFO]: [Magic] Loaded 6 effect lists
+>[2K
+[00:38:08 INFO]: [Magic] Loaded 417 items
+>[2K
+[00:38:14 WARN]: [Magic] [33m Invalid cost type: level[0m
+>[2K
+[00:38:15 INFO]: [Magic] Loaded 741 spells
+>[2K
+[00:38:15 INFO]: [Magic] Loaded 6 classes
+>[2K
+[00:38:15 INFO]: [Magic] Loaded 5 automata templates
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite explasionsuicide in path explosion, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite chakrasteal in path dark, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite otherrelease in path dark, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite goldwings in path magnetgold, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite scorchheat in path scorch, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite lightsword in path yan, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite lightmultisword in path yan, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite lightflash in path yan, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite lightdome in path yan, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite darksword in path in, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite darkmultisword in path in, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite darkflash in path in, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite darkdome in path in, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite sandshield in path inyan, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite sandfall in path inyan, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite susano in path mangekyou, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite byakugannet in path byakugan, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite bonereverse in path shikotsumyaku, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite akimichipills in path akimichi, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite inuzukaclone in path inuzuka, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite insectsphere in path aburame, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite demonprint in path uzumaki, ignoring[0m
+>[2K
+[00:38:15 WARN]: [Magic] [33m Unknown or disabled spell prerequisite hozukibubbles in path hozuki, ignoring[0m
+>[2K
+[00:38:15 INFO]: [Magic] Loaded 53 progression paths
+>[2K
+[00:38:15 INFO]: [Magic] Loaded 248 wands
+>[2K
+[00:38:15 INFO]: [Magic] Loaded 36 mob templates
+>[2K
+[00:38:15 INFO]: [Magic] Loaded 0 crafting recipes
+>[2K
+[00:38:15 INFO]: [Magic] LibsDisguises found, mob disguises and disguise_restricted features enabled
+>[2K
+[00:38:15 INFO]: [Magic] MobArena not found
+>[2K
+[00:38:15 INFO]: [Magic] LogBlock not found
+>[2K
+[00:38:15 INFO]: [Magic] Integrating with Essentials for Recall warps
+>[2K
+[00:38:15 INFO]: [Magic] Factions not found
+>[2K
+[00:38:15 INFO]: [Magic] WorldGuard found, will respect build permissions for construction spells
+>[2K
+[00:38:15 INFO]: [Magic] Multiverse-Core found, will respect PVP settings
+>[2K
+[00:38:15 INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
+>[2K
+[00:38:15 INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
+>[2K
+[00:38:15 INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
+>[2K
+[00:38:15 INFO]: [Magic] NoCheatPlus found, adding exemption handlers.
+>[2K
+[00:38:15 INFO]: [Magic] dynmap not found, not integrating.
+>[2K
+[00:38:15 INFO]: [Magic] PlaceholderAPI integration enabled. Available placeholders:
+>[2K
+[00:38:15 INFO]: [Magic] magic_path, magic_class, magic_wand, magic_spell
+>[2K
+[00:38:15 INFO]: [Magic] LightAPI not found, Light action will not work
+>[2K
+[00:38:15 INFO]: [Magic] Activated BStats
+>[2K
+[00:38:15 INFO]: Resource pack configured in server.properties, Magic not using RP from config.yml[m
+>[2K
+[00:38:19 INFO]: [AuthMe] Enabling AuthMe v5.3.2-b1726
+>[2K
+[00:38:20 INFO]: [AuthMe] SQLite driver loaded
+>[2K
+[00:38:20 INFO]: [AuthMe] SQLite Setup finished
+>[2K
+[00:38:20 INFO]: [AuthMe] Hooked into PermissionsEx!
+>[2K
+[00:38:20 WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+>[2K
+[00:38:20 INFO]: [AuthMe] Hooked successfully into Essentials
+>[2K
+[00:38:20 INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+>[2K
+[00:38:21 INFO]: [AuthMe] Development builds are available on our jenkins, thanks to f14stelt.
+>[2K
+[00:38:21 INFO]: [AuthMe] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+>[2K
+[00:38:21 INFO]: [AuthMe] AuthMe 5.3.2 build n.1726 correctly enabled!
+>[2K
+[00:38:21 INFO]: Server permissions file permissions.yml is empty, ignoring it
+>[2K
+[00:38:23 INFO]: Done (107,926s)! For help, type "help" or "?"
+>[2K
+[00:38:23 INFO]: Starting GS4 status listener
+>[2K
+[00:38:23 INFO]: Query running on 178.33.4.198:25605
+>[2K
+[00:38:25 INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Plugin 'WorldGuard' found. Using it now.[m
+>[2K
+[00:38:25 INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
+>[2K
+[00:38:26 INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+>[2K
+[00:38:26 INFO]: [NoCheatPlus] Post-enable running...
+>[2K
+[00:38:26 INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+>[2K
+[00:38:26 INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+>[2K
+[00:38:26 INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+>[2K
+[00:38:26 INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+>[2K
+[00:38:26 INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+>[2K
+[00:38:26 INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.1[m
+>[2K
+[00:38:26 INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+>[2K
+[00:38:26 INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+>[2K
+[00:38:27 INFO]: [PlaceholderAPI] 150 placeholder expansions are available on the cloud.
+>[2K
+[00:38:37 INFO]: [NoCheatPlus] Post-enable finished.
+>[2K
+[00:38:37 INFO]: [0;32;22m[[0;32;1mChestCommands[0;32;22m] [0;32;1mFound a new version: v3.2.0[0;37;1m (yours: v3.1.4)[m
+>[2K
+[00:38:37 INFO]: [0;32;22m[[0;32;1mChestCommands[0;32;22m] [0;32;1m[0;37;1mDownload it on Bukkit Dev:[m
+>[2K
+[00:38:37 INFO]: [0;32;22m[[0;32;1mChestCommands[0;32;22m] [0;32;1m[0;37;1mdev.bukkit.org/bukkit-plugins/chest-commands[m
+>[2K
+[00:38:38 INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+>[2K
+[00:38:38 INFO]: [Duels] ===============================================
+>[2K
+[00:38:38 INFO]: [Duels] An update for Duels is available!
+>[2K
+[00:38:38 INFO]: [Duels] Download Duels v3.3.0 here:
+>[2K
+[00:38:38 INFO]: [Duels] https://spigotmc.org/resources/duels.20171/download?version=286374
+>[2K
+[00:38:38 INFO]: [Duels] ===============================================
+>[2K
+[00:38:52 INFO]: [Citizens] Loaded 338 NPCs.
+>[2K
+[00:38:52 INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.10.3) is available at:
+>[2K
+[00:38:52 INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+>[2K
+[00:38:52 INFO]: [Vault] Checking for Updates ... 
+>[2K
+[00:38:54 WARN]: [Vault] Stable Version: 1.7.2 is out! You are still running version: 1.5.6
+>[2K
+[00:38:54 WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+>[2K
+[00:38:57 WARN]: [Magic] [33m Essentials found, but is not up to date. Magic item integration will not work with this version of Magic. Please upgrade EssentialsX or downgrade Magic to 7.6.19[0m
+>[2K
+[00:39:01 INFO]: [AAC] Beginning Enable...
+>[2K
+[00:39:01 INFO]: [AAC] Checking config file...
+>[2K
+[00:39:01 INFO]: [AAC] (CheckManager) Enabling check chat.Spam
+>[2K
+[00:39:01 INFO]: [AAC] (CheckManager) Enabling check combat.Hitbox
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check combat.Fastbow
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check combat.FightSpeed
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Check combat.Knockback is disabled
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check combat.Regen
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check combat.FastUse
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check combat.Killaura
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check movement.Speed
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check movement.Phase
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check movement.Fly
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check movement.Vehicles
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check movement.Elytra
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check movement.NoFall
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check movement.Jesus
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check movement.Derp
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check combat.Criticals
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check world.FastBreak
+>[2K
+[00:39:02 INFO]: [AAC] (CheckManager) Enabling check world.FastPlace
+>[2K
+[00:39:03 INFO]: [AAC] (CheckManager) Enabling check world.Nuker
+>[2K
+[00:39:03 INFO]: [AAC] (CheckManager) Enabling check world.NoSwing
+>[2K
+[00:39:03 INFO]: [AAC] (CheckManager) Enabling check world.Interact
+>[2K
+[00:39:03 INFO]: [AAC] (CheckManager) Enabling check world.Velocity
+>[2K
+[00:39:03 INFO]: [AAC] (CheckManager) Enabling check MovementManager
+>[2K
+[00:39:03 INFO]: [AAC] Starting API...
+>[2K
+[00:39:03 INFO]: [AAC] AAC has been enabled.
+>[2K
+[00:39:03 INFO]: [Magic] Loading image map data from imagemaps.yml
+>[2K
+[00:39:03 INFO]: [Magic] Loaded 10 image maps
+>[2K
+[00:39:03 INFO]: [Magic] Finished loading data.
+>[2K
+[00:39:09 INFO]: Update check failed. Please try again later.
+>[2K
+[00:39:16 INFO]: [BeautyQuests] 17 quests loaded (0.877s)!
+>[2K
+[00:39:23 WARN]: [Essentials] Permissions lag notice with (PermissionsExHandler). Response took 788,081499ms. Summary: Getting group for Житель
+>[2K
+[00:39:57 INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+>[2K
+[00:40:03 WARN]: [Essentials] Permissions lag notice with (PermissionsExHandler). Response took 855,220293ms. Summary: Getting group for Ирука
+>[2K
+[00:40:29 WARN]: [Essentials] Permissions lag notice with (PermissionsExHandler). Response took 2856,887038ms. Summary: Getting group for Ирука
+>[2K
+[00:40:57 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:40:57 INFO]: [NPC_Destinations] A citizens save.yml has been backed up. See the {plugin}/CitizensBackups/ for the file.
+>[2K
+[00:41:57 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:42:57 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:43:57 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:44:57 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:45:57 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:46:15 INFO]: Erro ao verificar 77.222.102.112
+>[2K
+[00:46:15 INFO]: UUID of player extrizzze is fd73eef9-d6a5-33be-8df4-7dce59a298ee
+>[2K
+[00:46:18 INFO]: extrizzze[/77.222.102.112:8059] logged in with entity id 1915 at ([world]-711.9582839392716, 86.79099223829343, -551.294217735268)
+>[2K
+[00:46:18 WARN]: [Essentials] Task #12378 for Essentials v2.16.1.0 generated an exception
+java.lang.NullPointerException: null
+        at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+        at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:46:25 INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Updated FAWE to 19.07.25-58243b6-1278-22.3.1 @ /home/srv94098/plugins/update-confirm/FastAsyncWorldEdit-bukkit-19.06.12-f71043b-1275-22.2.1.jar[m
+>[2K
+[00:46:26 INFO]: [AuthMe] extrizzze logged in!
+>[2K
+[00:46:34 INFO]: extrizzze issued server command: /plugins
+>[2K
+[00:47:24 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:47:44 INFO]: extrizzze issued server command: /wand fullfire
+>[2K
+[00:48:24 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:49:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:50:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:51:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:52:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:53:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:54:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:55:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:56:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:57:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:58:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[00:59:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[01:00:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>[2K
+[01:01:25 WARN]: [ColoredTags] Task #73 for ColoredTags v2.1.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+        at com.gmail.filoghost.coloredtags.AutomaticTask$1.run(AutomaticTask.java:20) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [craftbukkit-spigot-1.12.jar:git-Spigot-7228328-11323bf]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+>

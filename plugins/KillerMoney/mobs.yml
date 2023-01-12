@@ -1,0 +1,176 @@
+# Setup instruction: http://dev.bukkit.org/bukkit-plugins/killermoney/pages/mobs-yml/
+# If you do not want use anything, just remove it.
+
+PIG:
+   Permission: 'killermoney.vip'
+   Disabled-on-these-worlds:
+   - 'world_nether'
+   Money:
+      Chance: '100%'
+      Value: '0 ? 1'
+
+SHEEP:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+CHICKEN:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+COW:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+HORSE:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+RABBIT:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+WOLF:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+OCELOT:
+   Money:
+      Chance: 100%
+      Value: 1 ? 3
+
+BAT:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+BLAZE:
+   Money:
+      Chance: 100%
+      Value: 2 ? 3
+
+CAVE_SPIDER:
+   Money:
+      Chance: 100%
+      Value: 2 ? 3
+
+CREEPER:
+   Money:
+      Chance: 100%
+      Value: 2 ? 3
+
+ENDER_DRAGON:
+   Money:
+      Chance: 100%
+      Value: 1000
+
+ENDERMAN:
+   Money:
+      Chance: 100%
+      Value: 2 ? 4
+
+ENDERMITE:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+GHAST:
+   Money:
+      Chance: 100%
+      Value: 2 ? 5
+
+GIANT:
+   Money:
+      Chance: 100%
+      Value: 1000 ? 10000
+
+GUARDIAN:
+   Money:
+      Chance: 100%
+      Value: 2 ? 3
+
+IRON_GOLEM:
+   Money:
+      Chance: 100%
+      Value: 2 ? 5
+
+MAGMA_CUBE:
+   Money:
+      Chance: 100%
+      Value: 1 ? 2
+
+MUSHROOM_COW:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+PIG_ZOMBIE:
+   Money:
+      Chance: 100%
+      Value: 2 ? 3
+
+PLAYER:
+   Cash-transfer:
+      Percent: 10%
+      Limit: 1000
+      Chance: 100%
+
+SHULKER:
+   Money:
+      Chance: 100%
+      Value: 2 ? 4
+
+SILVERFISH:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+SKELETON:
+   Money:
+      Chance: 100%
+      Value: 2 ? 3
+
+SLIME:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+SNOWMAN:
+   Money:
+      Chance: 100%
+      Value: 0
+
+SPIDER:
+   Money:
+      Chance: 100%
+      Value: 2 ? 3
+
+SQUID:
+   Money:
+      Chance: 100%
+      Value: 0 ? 1
+
+VILLAGER:
+   Money:
+      Chance: 100%
+      Value: 1 ? 2
+
+WITCH:
+   Money:
+      Chance: 100%
+      Value: 1 ? 3
+
+WITHER:
+   Money:
+      Chance: 100%
+      Value: 100 ? 500
+
+ZOMBIE:
+   Money:
+      Chance: 100%
+      Value: 2 ? 3

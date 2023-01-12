@@ -1,0 +1,17 @@
+NPCS:
+  '87':
+    Commands:
+    - 1~~~spawn~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '167':
+    Commands:
+    - 1~~~wand woodkatana~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~86400~~~false~~~false
+  '168':
+    Commands:
+    - 1~~~wand stonekatana~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~5~~~false~~~false
+    - 2~~~wand stonekatana~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~864000~~~false~~~false
+    - 3~~~wand stonekatana~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~100~~~false~~~false
+    - 4~~~wand stonekatana~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~864000~~~false~~~false
+  '478':
+    Commands:
+    - 1~~~spawn~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~mgive %name menu~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

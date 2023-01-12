@@ -1,0 +1,32 @@
+    ## Example on how it works. ##
+    #test: (Name Of the command you would like)
+    #isplayercommand: (true/false)
+    #playersubcommands: [] (Commands that are ran  by the player.)
+    #- bal
+    #- baltop
+    #consolesubcommands: (Commands that are ran by Console.)
+    #- say Test
+    #description: List all plugins.
+    #aliases: [] (Ex. you could make /test also work with /te
+    #usage: /test 
+    #permission: "perm.perm" (Personal Permissions to use this command)
+    
+    #To make a player say something in chat use c 
+commands:
+  food:
+    isplayercommand: true
+    #if that is a player command set that to true 
+    playersubcommands: 
+    - feed
+    - heal
+    - c I just got healed and fed!   
+    consolesubcommands:
+    description: List all plugins.
+    aliases: 
+    - feedme
+    usage: /food
+    permission: "perm.perm"
+
+    # If you need help leave a response on the spigot page!
+     
+ 

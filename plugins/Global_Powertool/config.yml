@@ -1,0 +1,43 @@
+#TERMS AND CONDITIONS:
+#By purchasing, downloading or using this plugin, you agree that you are purchasing a license to use the plugin. The license may
+#be revoked at the copyright holder�s discretion. You may use the plugin on any servers you own. You may not disassemble, 
+#decompile, modify, reverse-engineer or reverse compile the plugin. The copyright holder reserves the right to change, update, or 
+#modify these terms and conditions at anytime. Use of the plugin after the terms and conditions are modified, changed or 
+#updated means that you abide by them. You may not redistribute the plugin. Doing so will result in your license revoked and 
+#copies distributed disabled. You are also breaking international copyright treaties. You agree that no refunds are available and by 
+#opening up a dispute or charge back; your access to the plugin will be revoked and the money may be kept.
+#IF YOU DO NOT AGREE TO THE ABOVE TERMS, REMOVE THE PLUGIN FROM YOUR SERVER IMMIDEATELY
+
+#If using force_player as a command executor please specify permission addition format here
+add_node_command: pex user %PLAYER add %PERMISSION         
+
+#If using force_player as a command executor please specify permission removal format here
+remove_node_command: pex user %PLAYER remove %PERMISSION 
+
+powertools:
+   example:
+        actual_name: fireball        #(Name of block/ item to use as a powertool can be found with /getname)
+        display_name: fire_charge  #(name of item as it appears in tooltips)
+        meta: 0                      #(META value of block/ item to use or enter 999 to use any meta value)
+        block_rule: both             #(both, air, or block. Only activates powertool when clicking relevant thing)
+        on_hand: both                #(both, left, right. Controls hand or hands powertool activates on)
+        permission: pt.use.hey       #(permission node needed to use this powertool (make it up)
+        command: msg %PLAYER Hi      #(command ran by the powertool. Use %PLAYER to input player who used powertools name)
+        command_executor: console    #(console, player, force_player. When set to console it runs through console, when set to force_player it runs through a player even if they don't have permission for the command else runs through player who used powertool)
+        command_permission: lol      #(If using force_player as command_executor specify permisison node of needed command here)
+        cooldown: 60                 #(sets the cooldown in seconds between usage of this powertool set to 0 to disable)
+        cooldown_bypass: pt.a.bypass #(permission node needed to bypass powertool cooldown (make it up)
+        one_time: true               #(true, false. When set to true. The item (or 1 of them) will disappear from inventory after use)
+   kunai:
+        actual_name: tripwire_hook        #(Name of block/ item to use as a powertool can be found with /getname)
+        display_name: tripwire_hook  #(name of item as it appears in tooltips)
+        meta: 0                      #(META value of block/ item to use or enter 999 to use any meta value)
+        block_rule: air             #(both, air, or block. Only activates powertool when clicking relevant thing)
+        on_hand: right                #(both, left, right. Controls hand or hands powertool activates on)
+        permission: pt.use.hey       #(permission node needed to use this powertool (make it up)
+        command: castp %PLAYER kunai      #(command ran by the powertool. Use %PLAYER to input player who used powertools name)
+        command_executor: console    #(console, player, force_player. When set to console it runs through console, when set to force_player it runs through a player even if they don't have permission for the command else runs through player who used powertool)
+        command_permission: lol      #(If using force_player as command_executor specify permisison node of needed command here)
+        cooldown: 0                 #(sets the cooldown in seconds between usage of this powertool set to 0 to disable)
+        cooldown_bypass: pt.a.bypass #(permission node needed to bypass powertool cooldown (make it up)
+        one_time: true               #(true, false. When set to true. The item (or 1 of them) will disappear from inventory after use)

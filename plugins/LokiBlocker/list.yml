@@ -1,0 +1,64 @@
+test:
+  type:
+    place: true
+    break: true
+    craft: true
+    pickup: true
+    drop: true
+    block-burn: true
+    block-explode: true
+  inventory:
+    content: true
+    delete: false
+  interact:
+    left-item: true
+    right-item: true
+    left-block: false
+    right-block: true
+    left-entity: true
+    right-entity: true
+  piston:
+    push: false
+    drag: true
+  info: false
+  list:
+    '1':
+      id: 35
+      data: 7
+      damage: -1
+    test:
+      id: 35
+      data: 8
+      damage: -1
+perfecto:
+  type:
+    place: false
+    break: false
+    craft: false
+    pickup: false
+    drop: false
+    block-burn: false
+    block-explode: false
+  inventory:
+    content: false
+    delete: false
+  interact:
+    left-item: false
+    right-item: false
+    left-block: false
+    right-block: false
+    left-entity: false
+    right-entity: false
+  piston:
+    push: true
+    drag: false
+  info: true
+  list:
+    new:
+      id: 101
+      data: -1
+      damage: -1
+    biology:
+      id: 106
+      data: -1
+      damage: -1

@@ -1,0 +1,18 @@
+bonesword:
+  creator_id: fd73eef9-d6a5-33be-8df4-7dce59a298ee
+  creator: Exteva
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §lКостяной меч
+      lore:
+      - §fМеч сделанный из плечевой кости
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      Unbreakable: true
+      internal: H4sIAAAAAAAAAD2OTQ4BURCES0xkZkQi4gBOIGFtgZAgfhZYSw+NDu893vQcwMIdnEGcwsmEoJZVX6oqBvIoZjbxTAdKjgwgF6HSUfWSZMoTt5GtsE/jdxIgXC6HvYlLtXuVZqsxWgWI3taYKdXb4HGR++JZQKFjXGa1XcZHIYL50SlCQ2L3ZDchSv+JKRlGdceWvazrpErrQ48M7TiPaHZiTyrOfms+cKV/zuRk2Grt9w94ASIulT7LAAAA

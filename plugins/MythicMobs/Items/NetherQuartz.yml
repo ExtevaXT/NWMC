@@ -1,0 +1,4 @@
+NetherQuartz:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: QUARTZ

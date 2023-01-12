@@ -1,0 +1,22 @@
+lastAccountName: Faithfull
+timestamps:
+  login: 1564000407129
+  lastteleport: 1563987586329
+  logout: 1563993658968
+ipAddress: 77.222.102.112
+lastlocation:
+  world: world
+  x: -928.046614692315
+  y: 68.0
+  z: -585.4574481046604
+  yaw: -251.66821
+  pitch: 18.98353
+geolocation: Russia
+logoutlocation:
+  world: world
+  x: -928.6574623999077
+  y: 68.0
+  z: -522.4831035642312
+  yaw: -189.6936
+  pitch: 1.2158736
+money: '200.0'

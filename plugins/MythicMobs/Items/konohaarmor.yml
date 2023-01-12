@@ -1,0 +1,17 @@
+konohaarmor:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: §2Бронежилет
+      lore:
+      - Укреплённая куртка, которую носят Чунины и Джоунины
+      Unbreakable: true
+      internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy4RDzjBqT7f+QULAydIyCc1sbikYc2j+Xvn1JezMbA55uaX5pU4yDCAAQcDS3BOfgkDa3JGanEJBwMv3Hy/xNxUBt701LzUosxkvcSi3PwiZgZO/4LUosSSzPw8qGawKiHXwtLMgtzUvBIFmKsYGAAKIuzJrwAAAA==
+      color:
+        ==: org.bukkit.Color
+        RED: 49
+        BLUE: 38
+        GREEN: 115
