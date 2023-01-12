@@ -3,12 +3,12 @@
 <h3>You can use it by starting bat file I think. It should work.</h3>
 <h3>There are a lot of jutsus and other epic naruto stuff.</h3>
 <p float="left">
-    <img width="500" src="./docs/ExplosionMount.gif">
-    <img width="500" src="./docs/SummoningFrog.gif">
-    <img width="500" src="./docs/Rasengan.gif">
-    <img width="500" src="./docs/Rasensuriken.gif">
-    <img width="500" src="./docs/ByakuganActive.png">
-    <img width="500" src="./docs/Ketsuryugan.png">
-    <img width="500" src="./docs/Rinnegan.png">
-    <img width="500" src="./docs/MangekyouItachi.png">
+    <img width="400" src="./docs/ExplosionMount.gif">
+    <img width="400" src="./docs/SummoningFrog.gif">
+    <img width="400" src="./docs/Rasengan.gif">
+    <img width="400" src="./docs/Rasensuriken.gif">
+    <img width="400" src="./docs/ByakuganActive.png">
+    <img width="400" src="./docs/Ketsuryugan.png">
+    <img width="400" src="./docs/Rinnegan.png">
+    <img width="400" src="./docs/MangekyouItachi.png">
 </p>
