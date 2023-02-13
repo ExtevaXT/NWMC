@@ -5,10 +5,4 @@
 <p float="left">
     <img width="400" src="./docs/ExplosionMount.gif">
     <img width="400" src="./docs/SummoningFrog.gif">
-    <img width="400" src="./docs/Rasengan.gif">
-    <img width="400" src="./docs/Rasensuriken.gif">
-    <img width="400" src="./docs/ByakuganActive.png">
-    <img width="400" src="./docs/Ketsuryugan.png">
-    <img width="400" src="./docs/Rinnegan.png">
-    <img width="400" src="./docs/MangekyouItachi.png">
 </p>
